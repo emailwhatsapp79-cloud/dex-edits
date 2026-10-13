@@ -177,6 +177,29 @@ def put(a, text, k, font=ANTON, size=150, cy=CY + CH // 2, dy=0):
 
 
 # ---------------------------------------------------------------- render
+def _gray(a):
+    return np.repeat((a @ np.array([0.299, 0.587, 0.114], np.float32))[..., None], 3, 2)
+
+
+def radial(a, k):
+    """Radial zoom blur (k 0..1): average of progressively zoomed copies."""
+    if k < 0.03: return a
+    acc = a.copy(); n = 6
+    for j in range(1, n): acc += zoom(a, 1 + 0.12 * k * j / n)
+    return acc / n
+
+
+def shot_fx(a, fx, lf):
+    """Per-shot effects from the F1-edit style: 'bw' black & white, 'strobe' colour/B&W every 4 frames,
+    'xerox' 3 photocopy (threshold) frames on the hit, 'radial' zoom blur decaying from the hit."""
+    if 'bw' in fx: a = np.clip((_gray(a) - 0.05) * 1.15, 0, 1)
+    if 'strobe' in fx and (lf // 4) % 2 == 1: a = np.clip((_gray(a) - 0.05) * 1.2, 0, 1)
+    if 'xerox' in fx and lf < 3:
+        g = _gray(a); a = np.where(g > 0.42, 1.0, 0.0).astype(np.float32) * 0.92 + g * 0.08
+    if 'radial' in fx: a = radial(a, math.exp(-lf / 6))
+    return a
+
+
 def make_shots(cfg):
     P = cfg['plan']; END = cfg['end']; shots = []
     for i, p in enumerate(P):
@@ -212,6 +235,7 @@ def render_frame(cfg, f, seqs, paths):
         z = 1.0 + 0.035 * lf / max(1, end_f - start_f)
         if i in cfg.get('punch', ()) or i in cfg.get('swing', ()): z += 0.08 * dec(lt, 0.09)
         fr = zoom(fr, z)
+        fr = shot_fx(fr, cfg.get('fx', {}).get(i, ()), lf)
         if i in cfg.get('punch', ()) and lf < 6:
             fr = np.roll(fr, int(14 * dec(lt, 0.04) * (1 if f % 2 else -1)), 1); fr = chroma(fr, 8 * dec(lt, 0.06))
         if cfg['layout'] == 'card':

@@ -52,3 +52,19 @@ An edit is a short story about ONE subject, not random clips put together.
 
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
+
+## 7. Styles learned from reference edits
+- **"Aura" F1 edit (Formula Max sound):** one long, calm slow-motion intro (no cuts) until the drop, then a cut on
+  every snare. On the hits: a white flash, 1-3 photocopy (black/white threshold) frames, colour <-> black-and-white
+  strobe every 4 frames, radial zoom blur on the big poses. The strongest hit gets the hero moment (celebration).
+- **Cinematic lyric edit (Tokyo Drift "We just pray for cars"):** 2.4:1 letterbox look, very few cuts (one every
+  ~2 s, on the downbeat), the song's lyrics as small white subtitles word by word, the key words big and red in
+  the centre ("DON'T ... LOVE / PRAY ... CARS"). Every shot matches its lyric (NOS bottle on "centerpiece",
+  wheel on "skinny pieces", RX-7 on "I take any lane"). The calm pace is the style - the song carries it.
+
+## 8. Where the original clips come from
+- Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
+- F1: formula1.com videos (Brightcove player, account 6057949432001) - race highlights and "crosses the line".
+- Cars: brand newsrooms (Porsche newstv, Bugatti newsroom) - press films, often 4K.
+- Football: official club / league TikTok accounts (single videos download fine).
+- Skip any moment with burned-in subtitles or a channel's big caption; check every chosen span.

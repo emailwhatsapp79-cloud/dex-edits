@@ -24,6 +24,8 @@
 | 20 | 20_mbappe_malvini_sound | "original sound – malvini7" – Mbappe vs Man City football edit | 99 | 28.8s | biggest energy jump (drop) ≈ 10.3s · ref video: 96 cuts in 28.8s |
 | 21 | 21_cars3_pitstop_dialogue | "original sound – ClipToonia" – Cars 3 scene audio (movie dialogue, not music) | 129 | 177.9s | biggest energy jump (drop) ≈ 141.7s · ref video: 4 cuts in 177.9s |
 | 22 | 22_just_keep_watching_f1 | "Just Keep Watching" F1 edit sound (TikTok f1 edits) | 130 | 22.9s | intro 0–7.0 (busy hits, gap 7.08–7.5) · DROP 7.514 · dip 14.0 → hit 14.90 · dip 20.5 · final burst 21.0–22.4 · used in edit J |
+| 23 | 23_formula_max_f1edits | "eredeti hang – F1 EDITS" – "Formula 1 ❌ Formula Max ✅" Verstappen aura edit (@f1edits.ae) | 98 | 19.4s | calm build 0–9.7 (one slow shot) · DROP 9.770 · snares 10.232 10.687 11.300 11.615 12.226 12.700 13.154 13.754 14.063 · BIGGEST 14.669 · 15.133 15.597 16.199 16.516 17.124 17.591 18.032 18.655 · used in edit N |
+| 24 | 24_we_just_pray_for_cars | "son original – RvD" – Tokyo Drift lyric edit "We just pray for cars" (@r.d_017) | 124 | 26.0s | rap with clear lyrics ("don't pray for love… pray for cars… house so empty need a centerpiece… I take any lane"); cut every ~1.9 s on downbeats; lyric-subtitle style |
 
 ## Lyrics with timestamps (seconds)
 
