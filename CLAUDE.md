@@ -9,7 +9,11 @@ Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every e
 ## Layout
 - `EDITING_RULES.md` – the rules learned from Desmond's feedback (direction, hook, beat sync, no repeated takes, branding).
 - `engine/` – the editing code. `beatsync.py` (drum-hit detection + cut measurement), `velocity.py` (speed ramps,
-  source-take detection, clean spans), `brand.py` (DEX EDITS watermark pass), `edit_*.py` (one script per edit).
+  source-take detection, clean spans), `brand.py` (DEX EDITS watermark pass), `cardedit.py` (shared engine for
+  card/full-frame beat edits with take checks + cut measurement), `takesheet.py` (one thumbnail per source take),
+  `edit_*.py` (one script per edit).
+- Footage sources that work: IMDb GraphQL (official trailers, 1080p), Bugatti/Porsche newsrooms (press films),
+  formula1.com via Brightcove, single TikTok videos via yt-dlp. YouTube downloads are blocked here.
 - `songs/LIBRARY.md` – the sound library (titles, BPM, drops, lyric timings). Audio files are NOT stored here
   (copyrighted); keep them locally.
 - `videos/` – finished, watermarked edits (`YYYY-MM-DD-slug.mp4`). Public URLs of these files are what
