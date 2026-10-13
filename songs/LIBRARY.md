@@ -23,6 +23,7 @@
 | 19 | 19_destroy_it_all_yuji_slowed | "Destroy it All / YUJI! (Slowed)" – Ryutqc, NORWXXD REAPER, SMAIL – Aventador SVJ edit | 92 | 60.0s | biggest energy jump (drop) ≈ 5.0s · ref video: 43 cuts in 24.0s |
 | 20 | 20_mbappe_malvini_sound | "original sound – malvini7" – Mbappe vs Man City football edit | 99 | 28.8s | biggest energy jump (drop) ≈ 10.3s · ref video: 96 cuts in 28.8s |
 | 21 | 21_cars3_pitstop_dialogue | "original sound – ClipToonia" – Cars 3 scene audio (movie dialogue, not music) | 129 | 177.9s | biggest energy jump (drop) ≈ 141.7s · ref video: 4 cuts in 177.9s |
+| 22 | 22_just_keep_watching_f1 | "Just Keep Watching" F1 edit sound (TikTok f1 edits) | 130 | 22.9s | intro 0–7.0 (busy hits, gap 7.08–7.5) · DROP 7.514 · dip 14.0 → hit 14.90 · dip 20.5 · final burst 21.0–22.4 · used in edit J |
 
 ## Lyrics with timestamps (seconds)
 
