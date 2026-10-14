@@ -21,6 +21,13 @@ Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every e
   Metricool uses when scheduling posts.
 - `fonts/` – Anton, Orbitron, Archivo (SIL Open Font License).
 
+## Every link or video Desmond sends
+1. Save its sound: `python3 engine/add_sound.py <link or file[::Title]>` – downloads, analyses (tempo, drop,
+   strongest hits, lyrics with word timings) and adds it to `songs/LIBRARY.md` (+ a stub in `REFERENCES.md`).
+2. Study the edit (cuts vs hits, effects, text, story) and write what it teaches into `REFERENCES.md` /
+   `EDITING_RULES.md`. Keep the link, not the video.
+3. If the sound has speech or lyrics, the picture must show what is being said (EDITING_RULES §3).
+
 ## Posting
 Scheduling goes through the Metricool connector (brand with TikTok "Dex Edits", timezone Africa/Lagos).
 Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-edits/main/videos/<file>.mp4`

@@ -64,3 +64,7 @@ Goal: learn the techniques, never copy an edit.
 | v21 | @layzen.template.gm | #CapCut Try This Template🔥 #templatecapcut #fyp #capcutpioneer #pioneertemplate  @lennart. | original sound - jamks.music – JAMKS MUSIC 🇯🇵 | 19s |
 | v22 | @f1edits.ae | JUST KEEP WATCHING X F1😜 // #f1 #formula1 #f1edit #fyp  | original sound - f1edits.ae – 𝐅𝟏 𝐄𝐃𝐈𝐓𝐒 | 22s |
 | v23 | @pure_physique1 | Part 7 / "McQueen's Selfless Move 🏁 " / #Cars3 #CruzRamirez #LightningMcQueen #JacksonStor | original sound - pure_physique1 – ClipToonia | 153s |
+
+| auto | /tmp/claude-0/-home-user-scamdecoded-media/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad/refs4/wa0.mp4 | @: Mario All-Stars edit sound (@ryusaque) | sound saved as library #25 (172 BPM, drop ≈ 21.0s) |
+| auto | /tmp/claude-0/-home-user-scamdecoded-media/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad/refs4/wa1.mp4 | @: BMW M4 Need For Speed configurator edit sound | sound saved as library #26 (161 BPM, drop ≈ 43.5s) |
+| auto | https://www.instagram.com/reel/Dea11gDtgs7/ | @shakil: This is Rally!  rude- slowed by versa #caredit #supercar #hypercars #rallycar #subaru | sound saved as library #27 (116 BPM, drop ≈ 3.0s) |

@@ -17,6 +17,10 @@ An edit is a short story about ONE subject, not random clips put together.
 - Find the tempo, the beat grid, the drop and every word with its timing before choosing clips.
 - Calm section before the drop = fewer cuts, clean shots. After the drop = cut on beats/words.
 - Lyrics should match what is on screen when they make sense ("on the floor" = pedal to the floor).
+- If the sound has SPEECH (commentary, dialogue) or clear lyrics, transcribe every word with its timing first.
+  The picture must show what is being said at that moment, and no on-screen text may say something different
+  while a voice is talking (lesson from the "Formula Max" edit: the commentator says "handshake between the two
+  teammates" - so show the handshake, not unrelated text).
 
 ## 3b. Transitions must land exactly on the beat
 - Cut on the real drum hits, not on beat-tracker estimates. Detect kick and snare onsets from the

@@ -63,8 +63,11 @@ def _cut(cfg, path, src, need, cx, out_w, out_h, tag):
     return out
 
 
+SQ_Y = 300                                       # top of the 1080x1080 'showroom' square
+
+
 def size_for(cfg):
-    return (CW, CH) if cfg['layout'] == 'card' else (W, H)
+    return {'card': (CW, CH), 'square': (W, W)}.get(cfg['layout'], (W, H))
 
 
 def prep(cfg):
@@ -238,7 +241,10 @@ def render_frame(cfg, f, seqs, paths):
         fr = shot_fx(fr, cfg.get('fx', {}).get(i, ()), lf)
         if i in cfg.get('punch', ()) and lf < 6:
             fr = np.roll(fr, int(14 * dec(lt, 0.04) * (1 if f % 2 else -1)), 1); fr = chroma(fr, 8 * dec(lt, 0.06))
-        if cfg['layout'] == 'card':
+        if cfg.get('pre_fx'): fr = cfg['pre_fx'](fr, i, t, lt)
+        if cfg['layout'] == 'square':
+            a = np.zeros((H, W, 3), np.float32); a[SQ_Y:SQ_Y + W] = fr
+        elif cfg['layout'] == 'card':
             fr = fr * CARD_VIG; bg = background(fr)
             if i in cfg.get('swing', ()) and lt < 0.3:
                 k = 1 - ease(lt / 0.3); a = place(bg, fr, ang=-38 * k, scale=1 - 0.12 * k)
@@ -254,6 +260,7 @@ def render_frame(cfg, f, seqs, paths):
         if s0 <= t < s1:
             k = ease((t - s0) / 0.07) * (1 - ease((t - (s1 - 0.06)) / 0.06)); dy = 40 * (1 - ease((t - s0) / 0.12))
             a = put(a, txt, k, size=170 if '|' not in txt else 150, cy=tcy, dy=dy)
+    if cfg.get('overlay'): a = cfg['overlay'](a, f, t, i, lt)
     if s.get('label'):
         a = put(a, s['label'], ease(lt / 0.06), font=ORB, size=cfg.get('label_size', 60), cy=cfg.get('label_cy', CY - 70))
     if t > END - 0.5: a = a * (1 - ease((t - (END - 0.5)) / 0.5))
