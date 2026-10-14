@@ -44,6 +44,11 @@
 | 40 | 40_jamks_music | "オリジナル楽曲 - JAMKS MUSIC 🇯🇵 – JAMKS MUSIC 🇯🇵" (from @zayybrynz_: #CapCut Bow X BARNEY🎶 / Try this templates🔥 #capcutpioneer #pioneertemplate #capcutedit #t) | 131 | 12.6s | biggest energy jump (drop) ≈ 8.0s · strongest hits 1.15 1.38 2.98 6.86 9.45 11.29 · added automatically |
 | 41 | 41_sound | "เสียงต้นฉบับ - 小朋友 – 小朋友" (from @hkt3670: MCLAREN 720S#fyppppppppppppppppppppppp #luxury #beautiful #supercar #mclaren ) | 101 | 20.9s | biggest energy jump (drop) ≈ 15.0s · strongest hits 0.66 1.10 1.71 14.39 15.57 19.11 · added automatically |
 | 42 | 42_original_sound_gforced | "original sound – gforced" (from @gf0rced: this is peak life #viral #porsche ) | 108 | 11.6s | biggest energy jump (drop) ≈ 7.5s · strongest hits 0.03 6.83 7.28 9.32 9.68 11.02 · added automatically |
+| 43 | 43_originalton_caraph_caraph | "Originalton - caraph – caraph" (from @caraphspots: cc850 #koenigsegg #koenigseggcc850 #hypercar #monterey #sony #cartok) | 140 | 16.9s | biggest energy jump (drop) ≈ 12.0s · strongest hits 0.09 1.90 4.77 8.27 8.68 9.55 · added automatically |
+| 44 | 44_sonido_original_911 | "sonido original – 911" (from @srhuayra: my little baby 🥹 #911 #porsche #porsche911 ) | 117 | 11.7s | biggest energy jump (drop) ≈ 5.0s · strongest hits 0.88 2.21 4.07 9.39 9.63 10.80 · added automatically |
+| 45 | 45_original_sound_mw_motors | "original sound – MW Motors" (from @mw_motors: #ASMR AMG SL55 🎧🦻 #mw_motors #mercedes #dubai #reel) | 103 | 42.6s | biggest energy jump (drop) ≈ 34.5s · strongest hits 5.65 7.06 20.22 20.63 21.80 31.60 · added automatically |
+| 46 | 46_original_sound_kamz | "original sound – Kamz" (from @kamxecom: #porsche #gt3rs ) | 133 | 18.9s | biggest energy jump (drop) ≈ 2.0s · strongest hits 3.64 4.09 4.55 11.20 11.30 14.20 · added automatically |
+| 47 | 47_parking_lot | "Parking Lot – Rochester" (from @porsche: Beginner′s guide: how to impress us. 💜 📼IG @pol__media @jkelner / 911 GT3 RS (WLTP): Fuel ) | 131 | 11.3s | biggest energy jump (drop) ≈ 5.0s · strongest hits 3.75 5.61 6.89 7.35 7.92 10.32 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -94,3 +99,13 @@
 **41_sound:** `11.26` Outro `12.66` Music
 
 **42_original_sound_gforced:** `0.00` I `0.86` hope `1.66` to `1.96` die `2.46` through `2.94` my `3.20` lover `3.74` I'd `4.16` never `4.46` lie `5.24` I `5.74` swear `6.32` I'll `7.36` try `7.76` in `8.50` the `8.72` end `9.28` I `9.68` said `9.78` midnight
+
+**43_originalton_caraph_caraph:** `0.00` My `0.40` last `3.48` made `3.80` me `4.02` feel `4.30` like `4.60` I `4.96` would `5.18` never `5.60` try `6.04` again `6.42` but `6.64` when `6.96` I `7.20` saw `7.48` you `7.72` I `8.06` felt `8.24` something `8.88` I `9.18` never `9.52` felt `9.84` Come `10.34` closer, `11.20` I'll `11.44` give `11.54` you `11.98` all `12.24` my `12.64` love `13.12` if `13.34` you `13.48` treat `13.76` me `14.10` right `14.48` baby `14.88` I'll `15.50` give `15.70` you `16.14` everything
+
+**44_sonido_original_911:** `0.00` Mon `0.34` p't `0.52` 'est `0.66` ce `0.82` que `0.98` je `1.14` pense `1.36` pour `1.62` ton `1.62` peau `2.14` Ça `2.38` va `2.52` te `2.60` plaister `4.52` Baby, `5.06` son `5.60` fire `6.24` Je `6.76` suis `6.96` comme `7.18` ma `7.46` enfant `8.42` Complaiser `8.96` sous `9.20` ce `9.50` magnaïen `10.72` Au `11.08` vieil
+
+**45_original_sound_mw_motors:** `27.18` 이 `28.58` 영상은
+
+**46_original_sound_kamz:** `4.42` 구독과 `5.82` 좋아요 `5.82` 부탁드려요!
+
+**47_parking_lot:** `4.62` Which `5.70` way? `7.88` This `8.00` way? `9.42` Damn `10.50` way?

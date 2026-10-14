@@ -103,6 +103,11 @@ An edit is a short story about ONE subject, not random clips put together.
 - **FULL SCREEN by default (Desmond, Oct 14):** the picture fills the whole 9:16 frame. Window/card/black-frame layouts
   only when the source is too low-res to crop (720p broadcast) - and then prefer finding a better source.
 
+- **LIGHT EDITS (Desmond, Oct 14, batch H):** many of the best edits have NO on-screen text, no effects, 5-20 cuts and
+  just beautiful sharp full-screen footage (14M views with 5 cuts). Alternate: story edits (text) and light edits
+  (no text). Footage quality decides: 4K sources cropped to 9:16 (a downscale) or native vertical 1080p.
+- **CAPTIONS SHORT:** one line, max 2-3 hashtags, sometimes none ("my little baby", "this is peak life").
+
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
 - F1: formula1.com videos (Brightcove player, account 6057949432001) - race highlights and "crosses the line".

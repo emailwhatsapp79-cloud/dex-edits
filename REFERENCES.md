@@ -131,3 +131,22 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@gf0rced/video/7690019110817680670?_r=1&_t=ZN-9AYkCFum4es | @gf0rced: this is peak life #viral #porsche  | sound saved as library #42 (108 BPM, drop ≈ 7.5s) |
 | G9 | https://vm.tiktok.com/ZN8SFCsVe/ | @gf0rced, 11 s, 363k views / 93k likes (25 % like rate!) - "this is peak life", Porsche 911 Turbo at sunset (sound #42) | **One continuous phone shot, full screen**, walking around the car under a violent orange sunset, doors open, no cuts, no text, a sad lyric song. Authentic + light beats effects. Desmond: full-screen edits get more attention than framed ones - default to FULL vertical frame. |
 
+
+| auto | https://www.tiktok.com/@caraphspots/video/7684578679229386006?_r=1&_t=ZN-9AYkq962OQw | @caraphspots: cc850 #koenigsegg #koenigseggcc850 #hypercar #monterey #sony #cartok | sound saved as library #43 (140 BPM, drop ≈ 12.0s) |
+| auto | https://www.tiktok.com/@srhuayra/video/7691123248515517703?_r=1&_t=ZN-9AYlAPzFmbe | @srhuayra: my little baby 🥹 #911 #porsche #porsche911  | sound saved as library #44 (117 BPM, drop ≈ 5.0s) |
+| auto | https://www.tiktok.com/@mw_motors/video/7687983537617751317?_r=1&_t=ZN-9AYlLdhF08E | @mw_motors: #ASMR AMG SL55 🎧🦻 #mw_motors #mercedes #dubai #reel | sound saved as library #45 (103 BPM, drop ≈ 34.5s) |
+| auto | https://www.tiktok.com/@kamxecom/video/7676934806650785055?_r=1&_t=ZN-9AYlVKImymc | @kamxecom: #porsche #gt3rs  | sound saved as library #46 (133 BPM, drop ≈ 2.0s) |
+| auto | https://www.tiktok.com/@porsche/video/7689041443088010498?_r=1&_t=ZN-9AYlkwMH0Mg | @porsche: Beginner′s guide: how to impress us. 💜 📼IG @pol__media @jkelner / 911 GT3 RS (WLTP): Fuel  | sound saved as library #47 (131 BPM, drop ≈ 5.0s) |
+
+### Batch H - "quality over effects" (Oct 14) - sounds #43-#47
+| ref | link | what it is | what it teaches |
+|---|---|---|---|
+| H1 | https://vm.tiktok.com/ZN8SFAwke/ | @f1edits.ae, 22 s, 1.5M views - "Just keep watching" (sound #22) | Crisp full-screen footage, a Rolex clock as the opener, only a tiny side title. Quality first. |
+| H2 | https://vm.tiktok.com/ZN8SF9UQm/ | @caraphspots, 16 s, 450k / 113k likes - Koenigsegg CC850 spotted (sound #43) | Real camera (Sony), full screen, one location: wide -> details (badge, wheel, carbon, interior) -> wide. 21 cuts, no text, no effects. |
+| H3 | https://vm.tiktok.com/ZN8SFUjE3/ | @srhuayra, 11 s, 2M / 482k likes - "my little baby" 911 GT3 RS (sound #44) | Canyon drive then night rooftop parking, the car only. No text. 3-word caption. |
+| H4 | https://vm.tiktok.com/ZN8SFPAq2/ | @mw_motors, 42 s, 1.1M - AMG SL55 ASMR (sound #45) | Handheld POV in a showroom, the real sounds (key, doors, engine) ARE the edit. |
+| H5 | https://vm.tiktok.com/ZN8SFXo1R/ | @kamxecom, 18 s, **14M views / 1.8M likes** - GT3 RS (sound #46) | **5 cuts.** Cockpit POV launch, blur, then the car parked at the beach. Almost raw. Caption: two hashtags. |
+| H6 | https://vm.tiktok.com/ZN8SFDMN7/ | @porsche (official), 11 s, 1.4M / 299k likes - "Beginner's guide: how to impress us" (sound #47 "Parking Lot") | One canyon road, the car drives in and parks. 5 cuts, no text, a short witty caption. |
+
+**Lesson (Desmond):** not every edit needs text, effects or hashtags. Light edits with beautiful, sharp footage win.
+
