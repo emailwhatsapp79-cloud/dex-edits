@@ -6,13 +6,15 @@ For each input: download (yt-dlp), extract the audio to <ASSETS>/songs/named/NN_
 length, biggest energy jump = the drop, strongest drum hits, lyrics with word timings) and append a row to
 songs/LIBRARY.md plus a lyric line, and a stub to REFERENCES.md (link, creator, caption). Sounds already in the
 library (same TikTok music id or same title) are not added twice.
-ASSETS defaults to the session working folder; the audio itself is never committed here (copyright)."""
+The audio goes to the PRIVATE repo dex-edits-assets (DEX_ASSETS) and is committed + pushed there; it is never
+committed to this public repo (copyright)."""
 import os, re, sys, json, glob, subprocess
 import numpy as np
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ASSETS = os.environ.get('DEX_ASSETS', '/tmp/claude-0/-home-user-scamdecoded-media/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad')
-NAMED = os.path.join(ASSETS, 'songs', 'named')
+ASSETS = os.environ.get('DEX_ASSETS', '/home/user/dex-edits-assets')       # PRIVATE repo with the audio
+NAMED = os.path.join(ASSETS, 'songs')
+WORK = os.environ.get('DEX_WORK', '/tmp/claude-0/-home-user-scamdecoded-media/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad')
 LIB = os.path.join(REPO, 'songs', 'LIBRARY.md')
 REFS = os.path.join(REPO, 'REFERENCES.md')
 sys.path.insert(0, os.path.dirname(__file__))
@@ -67,7 +69,7 @@ def next_number():
 def add(src):
     title = None
     if '::' in src: src, title = src.split('::', 1)                       # local file::Title of the sound
-    vid, info = fetch(src, os.path.join(ASSETS, 'refs_auto'))
+    vid, info = fetch(src, os.path.join(WORK, 'refs_auto'))
     if title: info['title'] = info['track'] = title
     track = info.get('track') or info.get('title') or 'sound'
     artist = info.get('artist') or info.get('uploader') or ''
@@ -100,7 +102,19 @@ def add(src):
     return name
 
 
+def push_assets(names):
+    if not names or not os.path.isdir(os.path.join(ASSETS, '.git')): return
+    subprocess.run(['git', '-C', ASSETS, 'add', 'songs'], check=True)
+    subprocess.run(['git', '-C', ASSETS, 'commit', '-q', '-m', 'Add sounds: ' + ', '.join(names)], check=True)
+    r = subprocess.run(['git', '-C', ASSETS, 'push', '-q', 'origin', 'HEAD'], capture_output=True, text=True)
+    print('assets pushed' if r.returncode == 0 else 'assets push FAILED: ' + r.stderr[-300:])
+
+
 if __name__ == '__main__':
+    added = []
     for s in sys.argv[1:]:
-        try: add(s)
+        try:
+            n = add(s)
+            if n: added.append(n)
         except Exception as e: print('FAILED', s, e)
+    push_assets(added)

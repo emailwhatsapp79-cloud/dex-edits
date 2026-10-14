@@ -15,8 +15,8 @@ Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every e
   `edit_*.py` (one script per edit).
 - Footage sources that work: IMDb GraphQL (official trailers, 1080p), Bugatti/Porsche newsrooms (press films),
   formula1.com via Brightcove, single TikTok videos via yt-dlp. YouTube downloads are blocked here.
-- `songs/LIBRARY.md` – the sound library (titles, BPM, drops, lyric timings). Audio files are NOT stored here
-  (copyrighted); keep them locally.
+- `songs/LIBRARY.md` – the sound library (titles, BPM, drops, lyric timings). The audio files live in the PRIVATE
+  repo `dex-edits-assets` (`songs/`, same numbers/names) – never commit audio to this public repo.
 - `videos/` – finished, watermarked edits (`YYYY-MM-DD-slug.mp4`). Public URLs of these files are what
   Metricool uses when scheduling posts.
 - `fonts/` – Anton, Orbitron, Archivo (SIL Open Font License).
