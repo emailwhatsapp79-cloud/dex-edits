@@ -150,3 +150,13 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 
 **Lesson (Desmond):** not every edit needs text, effects or hashtags. Light edits with beautiful, sharp footage win.
 
+
+| auto | https://www.tiktok.com/@fonzicaars.edits/video/7690605549116755232?_r=1&_t=ZN-9AYm8CWCqD0 | @fonzicaars.edits: Saved the best for last🤭 #gt3rs #porsche #porschegt3rs #cartok  | sound saved as library #48 (145 BPM, drop ≈ 1.0s) |
+| auto | https://www.tiktok.com/@cctemplatessz/video/7695836081324969236?_r=1&_t=ZN-9AYmCbab5ZG | @cctemplatessz: #CapCut #capcutpioneer #pioneertemplate #trend #fy  | sound saved as library #49 (153 BPM, drop ≈ 12.5s) |
+| auto | https://www.tiktok.com/@allformybestcar/video/7693560382304161037?_r=1&_t=ZN-9AYmDvNuoUw | @allformybestcar: A three-year relationship doesn't guarantee a happy ending, but a three-year installment p | sound saved as library #50 (111 BPM, drop ≈ 8.5s) |
+| auto | https://www.tiktok.com/@jesse.gibby/video/7682816610129710366?_r=1&_t=ZN-9AYlxkWYr7W | @jesse.gibby: Happy Monday! Have a great and positive week!😁🕺 | sound saved as library #51 (88 BPM, drop ≈ 6.0s) |
+| H7 | https://vm.tiktok.com/ZN8SFG7X7/ | @jesse.gibby, 10 s, 1.5M - guy dancing around cars (sound #51, usable: clear beat) | One take, pure fun, the cuts/poses land on the beat. |
+| H8 | https://vm.tiktok.com/ZN8SFHda6/ | @fonzicaars.edits, 14 s, 959k / 254k likes - GT3 RS "saved the best for last" (sound #48) | **"Soft"**: low-angle details against golden backlight, gentle grade, few cuts, no text. |
+| H9 | https://vm.tiktok.com/ZN8SF5kVq/ | @cctemplatessz, 24 s, 1.3M - CapCut "Photo 1-7" beat template (sound #49) | Pure beat template: a colour flash + one photo per hit. |
+| H10 | https://vm.tiktok.com/ZN8SFbPoR/ | @allformybestcar, 14 s, 1.4M - Cadillac CT5 lot, moody overcast grade (sound #50) | Posted **3:4 (1080x1440)**, not 9:16 - the cars are not over-cropped. Joke caption. -> Desmond: 9:16 crops of 16:9 films are "too zoomed"; use layout `tall` (3:4 over its own blur). |
+

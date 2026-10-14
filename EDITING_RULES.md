@@ -100,6 +100,9 @@ An edit is a short story about ONE subject, not random clips put together.
   layout `window` (the 16:9 picture at 1080x608 = a downscale, over its own blur or black). Dark cinema grades need a
   shadow lift for phones (edit W: gamma 0.68).
 
+- **NOT TOO ZOOMED (Desmond, Oct 14):** a 9:16 crop of a 16:9 film shows only 32 % of the width - cars get cut and it
+  looks zoomed. For landscape sources use layout `tall` (3:4 picture, 75 % more width, over its own blur); 9:16 full
+  only for vertical sources or close-ups.
 - **FULL SCREEN by default (Desmond, Oct 14):** the picture fills the whole 9:16 frame. Window/card/black-frame layouts
   only when the source is too low-res to crop (720p broadcast) - and then prefer finding a better source.
 

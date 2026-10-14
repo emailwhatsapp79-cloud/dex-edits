@@ -75,10 +75,11 @@ def add(src):
     artist = info.get('artist') or info.get('uploader') or ''
     lib = open(LIB).read()
     key = f"{track} – {artist}".strip(' –')
-    norm = lambda x: re.sub(r'[^a-z0-9]', '', x.lower())
+    import unicodedata
+    norm = lambda x: re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKC', x).lower())   # NFKC: styled letters -> plain
     generic = track.lower().startswith(('original sound', 'son original', 'som original', 'eredeti hang', 'sonido original', 'originalton', 'suono originale', 'son d.origine'))
     probe = norm(track + artist) if generic else norm(track)[:18]
-    if track != 'sound' and probe and probe in norm(lib):
+    if track != 'sound' and len(probe) > 12 and probe in norm(lib):
         print(f'already in library: {key}'); return None
     n = next_number(); name = f'{n:02d}_{slugify(track + "_" + artist if generic else track)}'
     os.makedirs(NAMED, exist_ok=True)

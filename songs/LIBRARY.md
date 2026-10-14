@@ -49,6 +49,10 @@
 | 45 | 45_original_sound_mw_motors | "original sound – MW Motors" (from @mw_motors: #ASMR AMG SL55 🎧🦻 #mw_motors #mercedes #dubai #reel) | 103 | 42.6s | biggest energy jump (drop) ≈ 34.5s · strongest hits 5.65 7.06 20.22 20.63 21.80 31.60 · added automatically |
 | 46 | 46_original_sound_kamz | "original sound – Kamz" (from @kamxecom: #porsche #gt3rs ) | 133 | 18.9s | biggest energy jump (drop) ≈ 2.0s · strongest hits 3.64 4.09 4.55 11.20 11.30 14.20 · added automatically |
 | 47 | 47_parking_lot | "Parking Lot – Rochester" (from @porsche: Beginner′s guide: how to impress us. 💜 📼IG @pol__media @jkelner / 911 GT3 RS (WLTP): Fuel ) | 131 | 11.3s | biggest energy jump (drop) ≈ 5.0s · strongest hits 3.75 5.61 6.89 7.35 7.92 10.32 · added automatically |
+| 48 | 48_som_original_clovmsc | "som original – clovmsc" (from @fonzicaars.edits: Saved the best for last🤭 #gt3rs #porsche #porschegt3rs #cartok ) | 145 | 14.5s | biggest energy jump (drop) ≈ 1.0s · strongest hits 0.07 1.20 4.17 5.81 8.29 14.08 · added automatically |
+| 49 | 49_sonido_original_plantillas_edits | "sonido original – ⚡plantillas edits⚡" (from @cctemplatessz: #CapCut #capcutpioneer #pioneertemplate #trend #fy ) | 153 | 24.4s | biggest energy jump (drop) ≈ 12.5s · strongest hits 7.71 9.93 12.27 16.37 17.16 19.67 · added automatically |
+| 50 | 50_suara_asli_dictt | "suara asli - Dictt – Dictt" (from @allformybestcar: A three-year relationship doesn't guarantee a happy ending, but a three-year installment p) | 111 | 14.7s | biggest energy jump (drop) ≈ 8.5s · strongest hits 0.14 1.03 9.62 11.39 11.80 13.97 · added automatically |
+| 51 | 51_son_original | "son original – 𝘮𝘦𝘥𝘸𝘢𝘹𝘹" (from @jesse.gibby: Happy Monday! Have a great and positive week!😁🕺) | 88 | 10.7s | biggest energy jump (drop) ≈ 6.0s · strongest hits 0.06 1.16 1.70 8.34 8.67 9.01 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -109,3 +113,11 @@
 **46_original_sound_kamz:** `4.42` 구독과 `5.82` 좋아요 `5.82` 부탁드려요!
 
 **47_parking_lot:** `4.62` Which `5.70` way? `7.88` This `8.00` way? `9.42` Damn `10.50` way?
+
+**48_som_original_clovmsc:** `0.00` And `0.86` let `1.62` me `1.62` show `1.80` you `1.96` how `2.30` proud `2.88` I `3.00` am `3.44` to `3.58` be `4.08` yours `4.78` Just, `6.26` in `6.44` my `6.70` summer `7.04` fall `7.82` And `8.22` feel `8.56` your `8.92` grace, `9.62` grace, `11.46` grace, `11.68` grace
+
+**49_sonido_original_plantillas_edits:** `7.96` This `9.02` is `9.26` to `9.70` the `9.86` sound `10.28` of `10.90` destruction.
+
+**50_suara_asli_dictt:** `0.00` Music
+
+**51_son_original:** `1.76` THANKS `2.68` FOR `2.90` WATCHING

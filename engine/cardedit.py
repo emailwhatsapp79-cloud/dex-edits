@@ -69,7 +69,7 @@ SQ_Y = 300                                       # top of the 1080x1080 'showroo
 
 
 def size_for(cfg):
-    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608), 'window': (W, 608)}.get(cfg['layout'], (W, H))
+    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608), 'window': (W, 608), 'tall': (W, 1440)}.get(cfg['layout'], (W, H))
 
 
 def prep(cfg):
@@ -249,6 +249,11 @@ def render_frame(cfg, f, seqs, paths):
             a = np.zeros((H, W, 3), np.float32); a[SQ_Y:SQ_Y + W] = fr
         elif cfg['layout'] == 'broadcast':                      # 16:9 'TV window' on a designed background
             a = cfg['bg'].copy(); y = cfg.get('win_y', 560); a[y:y + 608] = fr
+        elif cfg['layout'] == 'tall':                           # 3:4 picture (much less crop than 9:16) over its own blur
+            y = (H - 1440) // 2
+            sm = Image.fromarray((np.clip(fr, 0, 1) * 255).astype(np.uint8)).resize((45, 80), Image.BILINEAR)
+            sm = sm.filter(ImageFilter.GaussianBlur(3)).resize((W, H), Image.BILINEAR)
+            a = np.asarray(sm).astype(np.float32) / 255 * 0.5; a[y:y + 1440] = fr
         elif cfg['layout'] == 'window':                         # sharp 16:9 window (no upscale) over its own blur
             y = cfg.get('win_y', (H - 608) // 2)
             sm = Image.fromarray((np.clip(fr[:, 351:729], 0, 1) * 255).astype(np.uint8)).resize((54, 96), Image.BILINEAR)
