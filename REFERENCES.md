@@ -118,3 +118,8 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | G4 | https://vm.tiktok.com/ZN8SLSpuG/ | @evoxcartoons, 25 s - Moana (song TAKA VEIKA slowed) | Animation edit: purple/pink glow grade, slow push-ins on faces, colour pulses on the beat. |
 | G5 | https://vm.tiktok.com/ZN8SLrKyK/ | @buschx, 24 s, 1.6M - Spider-Man (Andrew Garfield) with "On My Mind" (same sound as #15) | **Lyric words big in the centre, one word/phrase per beat** ("ON MY", "PUT", "LOVING ON YOU SINCE", "2025"), white serif-less caps over the shot that matches the line. |
 
+
+| auto | https://www.tiktok.com/@zayybrynz_/video/7695808631035464980?_r=1&_t=ZN-9AYOtF70jP4 | @zayybrynz_: #CapCut Bow X BARNEY🎶 / Try this templates🔥 #capcutpioneer #pioneertemplate #capcutedit #t | sound saved as library #40 (131 BPM, drop ≈ 8.0s) |
+| G6 | https://vm.tiktok.com/ZN8SLLESf/ | @chielmeester, 11 s, 560k views / 85k likes - "Duck edit" (same creator and sound as G2) | **Ordinary subject cut like a hype edit**: ground-level camera at the ducks' eye height, 19 cuts in 11 s, whip pans and speed ramps between them, a cut-out of the duck popping over black bars, a sunglasses meme sticker. The joke is the treatment - works for anything (a kart, a ball boy, a mascot). |
+| G7 | https://vm.tiktok.com/ZN8SL2RdE/ | @zayybrynz_, 12 s, 124k - CapCut template "Bow X BARNEY" on a black Porsche 911 (sound #40) | **Kinetic lyric typography**: every sung word is one big white word on the beat ("BARNEY", "IS", "DINOSAUR"), some inside white shapes used as masks (star, circle, car silhouette); long words build up by syllable ("IMA-" -> "IMAGI-" -> "IMAGINATION"). Funny lyric + serious car = contrast. Landscape 16:9. |
+

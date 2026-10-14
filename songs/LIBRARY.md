@@ -41,6 +41,7 @@
 | 37 | 37_montagem_rune_slowed | "MONTAGEM RUNE (Slowed) – WUYS, KIT" (from @f1edits.ae: Redbull under microscope👀 // #maxverstappen #redbull #f1 #f1edit #fyp ) | 97 | 19.7s | biggest energy jump (drop) ≈ 7.5s · strongest hits 0.04 9.12 9.98 12.37 17.32 17.95 · added automatically |
 | 38 | 38_taka_veika_slowed | "TAKA VEIKA - SLOWED – TheBlvcks, DJ RAYO MUSIC, dandelion." (from @evoxcartoons: Moana 😍🔥  / Song Name : TAKA VEIKA // #moana #moanaedit #moana2 #moana2edit #edit​) | 160 | 25.8s | biggest energy jump (drop) ≈ 23.5s · strongest hits 14.12 15.62 16.74 17.49 22.74 23.47 · added automatically |
 | 39 | 39_original_sound_shushy | "original sound – Shushy🇸🇧🇵🇬" (from @buschx: I liked how they made him a skater // Song: on my mind - fat papi // #edit #spiderman #and) | 120 | 24.7s | biggest energy jump (drop) ≈ 9.5s · strongest hits 0.75 1.07 13.85 14.38 20.42 23.27 · added automatically |
+| 40 | 40_jamks_music | "オリジナル楽曲 - JAMKS MUSIC 🇯🇵 – JAMKS MUSIC 🇯🇵" (from @zayybrynz_: #CapCut Bow X BARNEY🎶 / Try this templates🔥 #capcutpioneer #pioneertemplate #capcutedit #t) | 131 | 12.6s | biggest energy jump (drop) ≈ 8.0s · strongest hits 1.15 1.38 2.98 6.86 9.45 11.29 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -85,3 +86,5 @@
 **38_taka_veika_slowed:** `0.00` Inscreva `1.76` -se, `1.76` doнет `1.76` Neve, `1.76` escolha `1.76` o `1.76` que `1.76` Gedanken `1.76` Vem `1.76` cá, `2.16` vem `2.32` cá! `4.04` Deixes `4.60` a `4.82` aproveite.. `5.88` Na `6.08` gotta, `6.24` gewoon `7.24` baixa `7.24` Vê `7.58` -me `14.50` lá `14.84` a `18.50` Makes `19.32` Of
 
 **39_original_sound_shushy:** `1.00` Parker? `2.42` Yes, `2.80` sir. `3.04` Keep `3.28` that `3.48` skateboard? `4.56` Yeah. `5.36` Keep `5.48` it `5.60` off `5.68` the `5.82` ground. `6.36` Wheels `6.94` up. `7.92` Like `7.94` that. `8.92` Okay. `9.58` Okay.
+
+**40_jamks_music:** `0.00` That's `0.36` on `0.46` the `0.54` floor, `1.14` that's `1.30` on `1.40` the `1.50` couch, `1.90` that's `2.22` on `2.30` the `2.38` stage, `2.72` and `2.92` that's `3.12` in `3.24` the `3.32` crowd, `3.72` let `3.74` me `3.84` see `3.98` you `4.08` go `4.28` Dirty `4.74` kids `5.04` with `5.24` dinosaur `5.62` from `6.20` power `6.48` imagination `7.62` And `8.02` when `8.28` we `8.46` say `8.70` he's `8.98` what `9.16` we `9.40` call `9.70` it, `9.90` by `10.10` his `10.34` fascination `10.88` Let `11.12` me `11.26` see `11.34` you `11.48` go
