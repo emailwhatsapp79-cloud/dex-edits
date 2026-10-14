@@ -253,8 +253,8 @@ def render_frame(cfg, f, seqs, paths):
         else:
             a = fr
         if i in cfg.get('drop', ()): a = flash(a, 1.0 * dec(lt, 0.07))
-        elif lf == 0 and i: a = flash(a, 0.22)
-        elif lf == 1 and i: a = flash(a, 0.08)
+        elif lf == 0 and i and cfg.get('cut_flash', True): a = flash(a, 0.22)
+        elif lf == 1 and i and cfg.get('cut_flash', True): a = flash(a, 0.08)
     tcy = cfg.get('text_cy', CY + CH // 2)
     for s0, s1, txt in cfg['text']:
         if s0 <= t < s1:
@@ -264,7 +264,7 @@ def render_frame(cfg, f, seqs, paths):
     if s.get('label'):
         a = put(a, s['label'], ease(lt / 0.06), font=ORB, size=cfg.get('label_size', 60), cy=cfg.get('label_cy', CY - 70))
     if t > END - 0.5: a = a * (1 - ease((t - (END - 0.5)) / 0.5))
-    a = a * VIG + GRAIN[f % 4] * 0.3
+    v = cfg.get('vig', 1.0); a = a * (1 - (1 - VIG) * v) + GRAIN[f % 4] * cfg.get('grain', 0.3)
     return np.clip(a, 0, 1)
 
 

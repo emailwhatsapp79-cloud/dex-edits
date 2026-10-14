@@ -74,16 +74,18 @@ def add(src):
     lib = open(LIB).read()
     key = f"{track} – {artist}".strip(' –')
     norm = lambda x: re.sub(r'[^a-z0-9]', '', x.lower())
-    if track != 'sound' and norm(track)[:18] and norm(track)[:18] in norm(lib):
+    generic = track.lower().startswith(('original sound', 'son original', 'som original', 'eredeti hang', 'sonido original'))
+    probe = norm(track + artist) if generic else norm(track)[:18]
+    if track != 'sound' and probe and probe in norm(lib):
         print(f'already in library: {key}'); return None
-    n = next_number(); name = f'{n:02d}_{slugify(track)}'
+    n = next_number(); name = f'{n:02d}_{slugify(track + "_" + artist if generic else track)}'
     os.makedirs(NAMED, exist_ok=True)
     mp3 = os.path.join(NAMED, name + '.mp3')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vid, '-vn', '-c:a', 'libmp3lame', '-b:a', '256k', mp3], check=True)
     a = analyse(mp3)
     creator = info.get('uploader') or info.get('channel') or ''
     caption = (info.get('description') or info.get('title') or '').replace('|', '/').replace('\n', ' ')[:90]
-    row = (f"| {n} | {name} | \"{track}\" – {artist} (from @{creator}: {caption}) | {a['tempo']:.0f} | {a['dur']:.1f}s | "
+    row = (f"| {n} | {name} | \"{track} – {artist}\" (from @{creator}: {caption}) | {a['tempo']:.0f} | {a['dur']:.1f}s | "
            f"biggest energy jump (drop) ≈ {a['drop']:.1f}s · strongest hits {' '.join(f'{x:.2f}' for x in a['strong'])} · added automatically |")
     lines = lib.split('\n')
     last = max(i for i, l in enumerate(lines) if re.match(r'^\| \d+ \|', l))

@@ -24,6 +24,16 @@ Goal: learn the techniques, never copy an edit.
 - **Cinematic lyric edit** (ref A2): 2.4:1 letterbox, a cut every ~2 s on the downbeat, lyrics as small
   word-by-word subtitles with key words big and red, every shot matching its lyric.
 
+## Batch C – 2026-10-14 (nature / travel aesthetic – what "nature edit" means)
+| ref | source | what it does |
+|---|---|---|
+| C1 | TikTok @fisheditx "Flowers – Natural Beauty" (6 s) | ONE shot: slow push through foreground leaves that reveals a tulip garden; hyper-saturated greens/oranges; no cuts, no text. Sound #30. |
+| C2 | TikTok @andreaseholst "Wait for the waterfall" (9 s) | ONE top-down drone shot; the camera tilts to reveal a huge waterfall exactly on the swell of an epic score (Trevor Morris – Reflections on a Hero, #28). The caption is the hook ("wait for…"). |
+| C3 | TikTok @swissaround "Beautiful Switzerland" (19 s) | ~15 postcard scenes (valleys, cows, alpine lakes, trains, trails), one per soft beat (~1.2 s), every shot moving gently, saturated, no text; soft song "I saw a piece of heaven…" (#29). |
+Lessons: nature edits are CALM – no flashes, no shake, no punch zooms. Saturated, sunny colour. Every shot
+moves slowly (drone, push, pan). Either one perfect reveal timed to the music, or a postcard montage on the soft
+beat. The hook is the view itself (or "wait for it…"), not big text.
+
 ## Batch B – 2026-10-14 (training set, "not to replicate, just better results")
 | ref | source | what it does |
 |---|---|---|
@@ -68,3 +78,6 @@ Goal: learn the techniques, never copy an edit.
 | auto | /tmp/claude-0/-home-user-scamdecoded-media/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad/refs4/wa0.mp4 | @: Mario All-Stars edit sound (@ryusaque) | sound saved as library #25 (172 BPM, drop ≈ 21.0s) |
 | auto | /tmp/claude-0/-home-user-scamdecoded-media/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad/refs4/wa1.mp4 | @: BMW M4 Need For Speed configurator edit sound | sound saved as library #26 (161 BPM, drop ≈ 43.5s) |
 | auto | https://www.instagram.com/reel/Dea11gDtgs7/ | @shakil: This is Rally!  rude- slowed by versa #caredit #supercar #hypercars #rallycar #subaru | sound saved as library #27 (116 BPM, drop ≈ 3.0s) |
+| auto | https://www.tiktok.com/@andreaseholst/video/7419608439900409121?_r=1&_t=ZN-9AXeJtlV2HO | @andreaseholst: Wait for the waterfall🤯🤯 #drone #waterfall #nature #norway #travel  | sound saved as library #28 (128 BPM, drop ≈ 4.0s) |
+| auto | https://www.tiktok.com/@swissaround/video/7541042027295739158?_r=1&_t=ZN-9AXeJawICN4 | @swissaround: Beautiful Switzerland ✨ #switzerland #swissaround #tiktoktravel #nature #landscape  | sound saved as library #29 (128 BPM, drop ≈ 10.5s) |
+| auto | https://www.tiktok.com/@fisheditx/video/7340691545693097259?_r=1&_t=ZN-9AXeJCTesII | @fisheditx: Flowers 🌺🌹 Natural Beauty 🌿🏔️ #fyp #switzerland #natural #swissaround #viral #naturevibes  | sound saved as library #30 (130 BPM, drop ≈ 2.5s) |
