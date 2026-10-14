@@ -61,7 +61,12 @@ def anton(size):
     return _fc[k]
 
 
+LEAD = 0.35            # lyrics lead the voice: a word starts appearing 0.35 s early and is fully on screen ~0.2 s
+                       # before it is sung (Desmond: "it should show some ms before the music")
+
+
 def overlay(a, f, t, i, lt):
+    t = t + LEAD
     for s0, s1, words, key in LYRICS:
         if not (s0 <= t < s1): continue
         out = 1 - ease((t - (s1 - 0.25)) / 0.25)                                   # whole line fades out

@@ -21,6 +21,8 @@ An edit is a short story about ONE subject, not random clips put together.
   The picture must show what is being said at that moment, and no on-screen text may say something different
   while a voice is talking (lesson from the "Formula Max" edit: the commentator says "handshake between the two
   teammates" - so show the handshake, not unrelated text).
+- On-screen lyrics LEAD the voice: each word starts appearing ~0.35 s early and is fully visible ~0.2 s before it
+  is sung (Desmond: "it should show some ms before the music"). Never show a word after it has been sung.
 
 ## 3b. Transitions must land exactly on the beat
 - Cut on the real drum hits, not on beat-tracker estimates. Detect kick and snare onsets from the
