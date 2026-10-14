@@ -76,7 +76,7 @@ def add(src):
     lib = open(LIB).read()
     key = f"{track} – {artist}".strip(' –')
     norm = lambda x: re.sub(r'[^a-z0-9]', '', x.lower())
-    generic = track.lower().startswith(('original sound', 'son original', 'som original', 'eredeti hang', 'sonido original'))
+    generic = track.lower().startswith(('original sound', 'son original', 'som original', 'eredeti hang', 'sonido original', 'originalton', 'suono originale', 'son d.origine'))
     probe = norm(track + artist) if generic else norm(track)[:18]
     if track != 'sound' and probe and probe in norm(lib):
         print(f'already in library: {key}'); return None

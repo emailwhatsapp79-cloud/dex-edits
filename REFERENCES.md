@@ -24,6 +24,11 @@ Goal: learn the techniques, never copy an edit.
 - **Cinematic lyric edit** (ref A2): 2.4:1 letterbox, a cut every ~2 s on the downbeat, lyrics as small
   word-by-word subtitles with key words big and red, every shot matching its lyric.
 
+## Batch E – 2026-10-14
+| ref | source | what it does |
+|---|---|---|
+| E1 | TikTok @roehrle_mobility "Now Available: Porsche 992 GT3 RS" (16 s, dealer) | Showroom detail edit of ONE car. 0–4.2 s: one still wide shot (car in an autumn forest) while the title types itself letter by letter on the intro beats – P, PO, POR… PORSCHE, then GT3, then RS – and settles centre. 4.2 s drop: a cut on EVERY beat (~0.44 s at 138 BPM, a few 0.2 s double-cuts at the start): headlight, rear wing, PORSCHE lettering, bronze wheels, carbon, the Pepita-tartan seats, exhaust, then back to the front for the ending. Colour story: beige car + orange autumn forest, one warm grade throughout. Sound #33 (instrumental). Lessons: typewriter title reveal is a strong 4-second hook; strict one-cut-per-beat detail run; pick a location whose colours match the car. |
+
 ## Batch D – 2026-10-14
 | ref | source | what it does |
 |---|---|---|
@@ -89,3 +94,4 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@fisheditx/video/7340691545693097259?_r=1&_t=ZN-9AXeJCTesII | @fisheditx: Flowers 🌺🌹 Natural Beauty 🌿🏔️ #fyp #switzerland #natural #swissaround #viral #naturevibes  | sound saved as library #30 (130 BPM, drop ≈ 2.5s) |
 | auto | https://www.tiktok.com/@lamine.yamal/video/7665840615183224086?_r=1&_t=ZN-9AXmS3YRgla | @lamine.yamal: TikTok video #7665840615183224086 | sound saved as library #31 (130 BPM, drop ≈ 6.0s) |
 | auto | https://www.tiktok.com/@max788935/video/7691296196123430166?_r=1&_t=ZN-9AXmlv5jcOc | @max788935: i love this game / #f1 #f1content #f126 #f126game  | sound saved as library #32 (110 BPM, drop ≈ 13.5s) |
+| auto | https://www.tiktok.com/@roehrle_mobility/video/7685799870443031840?_r=1&_t=ZN-9AXpjIkryA2 | @roehrle_mobility: Now Available: Porsche 992 GT3 RS  Sportwagen, Klassiker oder Luxusfahrzeug kaufen oder ve | sound saved as library #33 (138 BPM, drop ≈ 4.0s) |
