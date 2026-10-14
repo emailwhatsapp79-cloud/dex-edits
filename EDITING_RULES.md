@@ -81,6 +81,12 @@ An edit is a short story about ONE subject, not random clips put together.
 - **Lesson from the first numbers (Oct 14):** story edits beat "nice car" edits (Antonelli 16 % likes/view, Spa 8 %,
   Taycan 3 %) and views stall at ~250 when the hook is slow. Something must happen in the first second - never a
   6 s calm intro on its own (that is why the Race Control Max edit was dropped before posting).
+- **Channel focus (Desmond, Oct 14):** Dex Edits = football + F1 (+ cars). No nature on this account (nature lyric
+  edits would go to a separate account). Football and F1 rotate the star every day (Messi, then Ronaldo, then the
+  next...; Verstappen, then Hamilton, then Leclerc...) - never the same person two days running. Group edits
+  (free-kick specialists, the whole grid) are fine in between.
+- **Burned-in names/captions in source clips:** blur or avoid them when they name one person in a group edit or
+  carry another account's caption (edit S blurs the caption band of shot 0).
 
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
