@@ -95,3 +95,10 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@lamine.yamal/video/7665840615183224086?_r=1&_t=ZN-9AXmS3YRgla | @lamine.yamal: TikTok video #7665840615183224086 | sound saved as library #31 (130 BPM, drop ≈ 6.0s) |
 | auto | https://www.tiktok.com/@max788935/video/7691296196123430166?_r=1&_t=ZN-9AXmlv5jcOc | @max788935: i love this game / #f1 #f1content #f126 #f126game  | sound saved as library #32 (110 BPM, drop ≈ 13.5s) |
 | auto | https://www.tiktok.com/@roehrle_mobility/video/7685799870443031840?_r=1&_t=ZN-9AXpjIkryA2 | @roehrle_mobility: Now Available: Porsche 992 GT3 RS  Sportwagen, Klassiker oder Luxusfahrzeug kaufen oder ve | sound saved as library #33 (138 BPM, drop ≈ 4.0s) |
+| auto | https://www.tiktok.com/@minoohbk5wj/video/7695946708433276182 | @minoohbk5wj: top 5 best classe goal #foot #ronaldo #messi #challenge #debruyne #mbappe #leao | sound saved as library #34 (123 BPM, drop ≈ 26.5s) |
+
+### Batch F - "Top 5 classy goals" countdown (Oct 14)
+| ref | link | what it is | what it teaches |
+|---|---|---|---|
+| F1 | https://www.tiktok.com/@minoohbk5wj/video/7695946708433276182 | @minoohbk5wj, 74 s, 242k views / 45k likes: "top 5 best classe goal" - Leão, De Bruyne, Mbappé, Ronaldo, Messi | **Countdown/challenge format**: a strip of the 5 players' faces stays at the top the whole video (the viewer waits for "their" player = watch time). Each goal plays whole with its **real commentary** (sound #34 is the commentary itself, so picture = what is said). A small **name tag** follows the scorer. Every goal ends on the celebration in slow motion, then a hard cut to the next. The last one (Messi) gets black & white + a meme sticker. |
+

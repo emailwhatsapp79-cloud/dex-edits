@@ -87,6 +87,10 @@ An edit is a short story about ONE subject, not random clips put together.
   (free-kick specialists, the whole grid) are fine in between.
 - **Burned-in names/captions in source clips:** blur or avoid them when they name one person in a group edit or
   carry another account's caption (edit S blurs the caption band of shot 0).
+- **Types of edits to rotate (Desmond, Oct 14) - not only goals / not only wins:**
+  football: goals, tackles & last-ditch blocks, skills & nutmegs, saves, free-kicks, "Top 5" countdowns (face strip
+  on top, real commentary, name tag on the player); F1: overtakes, starts, wheel-to-wheel fights, saves & near
+  misses, pit stops, rain, onboards, "Top 5" countdowns. One star per day for player edits (rotate).
 
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
