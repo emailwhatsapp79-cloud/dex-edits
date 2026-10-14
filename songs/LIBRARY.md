@@ -32,6 +32,8 @@
 | 28 | 28_reflections_on_a_hero | "Reflections on a Hero" – Trevor Morris (from @andreaseholst: Wait for the waterfall🤯🤯 #drone #waterfall #nature #norway #travel ) | 128 | 10.0s | biggest energy jump (drop) ≈ 4.0s · strongest hits 0.02 0.95 1.12 7.56 8.43 9.94 · added automatically |
 | 29 | 29_swiss_song_lyrics | "original sound – Song Lyrics" (from @swissaround: Beautiful Switzerland ✨ #switzerland #swissaround #tiktoktravel #nature #landscape ) | 128 | 18.8s | biggest energy jump (drop) ≈ 10.5s · strongest hits 1.21 2.53 5.87 7.03 13.98 18.76 · added automatically |
 | 30 | 30_natural_beauty_swiss | "original sound – Natural Beauty🇨🇭" (from @fisheditx: Flowers 🌺🌹 Natural Beauty 🌿🏔️ #fyp #switzerland #natural #swissaround #viral #naturevibes ) | 130 | 6.3s | biggest energy jump (drop) ≈ 2.5s · strongest hits 0.42 0.59 3.60 3.90 5.00 6.12 · added automatically |
+| 31 | 31_party_funk | "Party Funk – Young Madz, MC Zudo Boladão" (from @lamine.yamal: TikTok video #7665840615183224086) | 130 | 15.0s | biggest energy jump (drop) ≈ 6.0s · strongest hits 0.06 5.92 9.61 9.97 10.30 14.01 · added automatically |
+| 32 | 32_dm_songs_over_the_top | "som original - DM Songs – DM" (from @max788935: i love this game / #f1 #f1content #f126 #f126game ) | 110 | 26.1s | biggest energy jump (drop) ≈ 13.5s · strongest hits 10.59 13.52 20.33 22.72 25.30 25.66 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -58,3 +60,7 @@
 **28_reflections_on_a_hero:** `5.74` If `7.14` you `8.54` liked `8.66` this `8.66` video, `8.66` please `8.66` like `8.66` and `8.66` subscribe!
 
 **29_swiss_song_lyrics:** `0.00` I `0.56` saw `0.92` peace `1.44` of `1.88` heaven, `3.04` waiting `4.02` impatient `5.10` for `5.90` me. `7.08` And `7.86` I `10.76` was `11.02` running `11.46` far `12.04` away, `12.66` would `12.86` I `13.16` run `13.44` off `13.78` the `13.94` wall `14.26` someday? `15.46` Nobody `15.92` knows, `17.20` nobody `17.84` knows.
+
+**31_party_funk:** `0.00` Música
+
+**32_dm_songs_over_the_top:** `1.50` I'm `2.12` over `2.40` the `2.62` top `2.86` of `3.16` a `3.44` concentrating `3.80` trust `4.36` me `4.80` trust `5.18` me `5.58` I'll `5.80` give `5.96` it `6.14` a `6.26` chance `7.04` Now `7.48` my `7.86` hands `8.32` stop `8.76` the `9.06` ground `9.30` I'm `9.46` in `9.60` a `9.86` dandy `10.28` bath `10.54` Listen `10.96` to `11.14` me `11.36` start `11.80` to `12.18` dance `12.54` and `12.78` I'll `13.00` sing `13.30` it `13.46` like `13.70` a `14.00` girl `14.18` in `14.42` a `14.56` world `15.12` of `15.42` control `16.56` Love `17.18` will `17.48` turn `17.70` me `18.10` for `18.48` somebody `19.26` like `19.68` me `20.24` Come `20.66` on `20.84` now `21.10` pull `21.42` on `21.56` my `21.84` knee `22.30` Oh `22.84` baby `23.20` crazy `23.84` don't `24.52` mind `24.72` me `25.06` say `25.42` what

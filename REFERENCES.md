@@ -24,6 +24,12 @@ Goal: learn the techniques, never copy an edit.
 - **Cinematic lyric edit** (ref A2): 2.4:1 letterbox, a cut every ~2 s on the downbeat, lyrics as small
   word-by-word subtitles with key words big and red, every shot matching its lyric.
 
+## Batch D – 2026-10-14
+| ref | source | what it does |
+|---|---|---|
+| D1 | TikTok @lamine.yamal (15 s) | Not an edit – Yamal and friends dancing to "Party Funk" (Young Madz, MC Zudo Boladão). Desmond wants this SONG in the next edit: library #31 (130 BPM, energy jump ≈ 6.0 s, hits 5.92 / 9.61 / 9.97 / 10.30 / 14.01). |
+| D2 | TikTok @max788935 "i love this game" (26 s) | F1 26 video-game onboard, ONE continuous take, letterboxed inside the vertical frame, one meme caption on top: "the art of battery saving" (a joke on the 2026 battery/energy rules). Zero editing – the joke + a relatable F1 topic carries it. Sound: DM Songs rap (#32). Lesson: low-effort, high-relatability meme format works for F1; the caption IS the content. |
+
 ## Batch C – 2026-10-14 (nature / travel aesthetic – what "nature edit" means)
 | ref | source | what it does |
 |---|---|---|
@@ -81,3 +87,5 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@andreaseholst/video/7419608439900409121?_r=1&_t=ZN-9AXeJtlV2HO | @andreaseholst: Wait for the waterfall🤯🤯 #drone #waterfall #nature #norway #travel  | sound saved as library #28 (128 BPM, drop ≈ 4.0s) |
 | auto | https://www.tiktok.com/@swissaround/video/7541042027295739158?_r=1&_t=ZN-9AXeJawICN4 | @swissaround: Beautiful Switzerland ✨ #switzerland #swissaround #tiktoktravel #nature #landscape  | sound saved as library #29 (128 BPM, drop ≈ 10.5s) |
 | auto | https://www.tiktok.com/@fisheditx/video/7340691545693097259?_r=1&_t=ZN-9AXeJCTesII | @fisheditx: Flowers 🌺🌹 Natural Beauty 🌿🏔️ #fyp #switzerland #natural #swissaround #viral #naturevibes  | sound saved as library #30 (130 BPM, drop ≈ 2.5s) |
+| auto | https://www.tiktok.com/@lamine.yamal/video/7665840615183224086?_r=1&_t=ZN-9AXmS3YRgla | @lamine.yamal: TikTok video #7665840615183224086 | sound saved as library #31 (130 BPM, drop ≈ 6.0s) |
+| auto | https://www.tiktok.com/@max788935/video/7691296196123430166?_r=1&_t=ZN-9AXmlv5jcOc | @max788935: i love this game / #f1 #f1content #f126 #f126game  | sound saved as library #32 (110 BPM, drop ≈ 13.5s) |
