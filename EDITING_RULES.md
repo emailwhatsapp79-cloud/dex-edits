@@ -68,6 +68,12 @@ An edit is a short story about ONE subject, not random clips put together.
   ~2 s, on the downbeat), the song's lyrics as small white subtitles word by word, the key words big and red in
   the centre ("DON'T ... LOVE / PRAY ... CARS"). Every shot matches its lyric (NOS bottle on "centerpiece",
   wheel on "skinny pieces", RX-7 on "I take any lane"). The calm pace is the style - the song carries it.
+- **DEX template "BROADCAST / RACE CONTROL" (our own, first used on Max, Oct 16):** a sharp 16:9 TV window
+  (no upscaling - the 720p F1 footage stays crisp) on a team-colour background. Above it the driver's name types
+  itself one letter per beat during the quiet intro; below it an F1-TV RACE CONTROL box types the story on the
+  beats (the text IS the story - no voice in the sound, so nothing to contradict), and a stat counter
+  (e.g. 2026 WINS 0 -> 1 -> 2) pops on the drops. One big word over the window for the climax (BACK TO BACK.).
+  Engine: `cardedit` layout `broadcast` (`bg`, `win_y`), script `engine/edit_q_max_racecontrol.py`.
 
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.

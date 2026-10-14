@@ -67,7 +67,7 @@ SQ_Y = 300                                       # top of the 1080x1080 'showroo
 
 
 def size_for(cfg):
-    return {'card': (CW, CH), 'square': (W, W)}.get(cfg['layout'], (W, H))
+    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608)}.get(cfg['layout'], (W, H))
 
 
 def prep(cfg):
@@ -244,6 +244,8 @@ def render_frame(cfg, f, seqs, paths):
         if cfg.get('pre_fx'): fr = cfg['pre_fx'](fr, i, t, lt)
         if cfg['layout'] == 'square':
             a = np.zeros((H, W, 3), np.float32); a[SQ_Y:SQ_Y + W] = fr
+        elif cfg['layout'] == 'broadcast':                      # 16:9 'TV window' on a designed background
+            a = cfg['bg'].copy(); y = cfg.get('win_y', 560); a[y:y + 608] = fr
         elif cfg['layout'] == 'card':
             fr = fr * CARD_VIG; bg = background(fr)
             if i in cfg.get('swing', ()) and lt < 0.3:
