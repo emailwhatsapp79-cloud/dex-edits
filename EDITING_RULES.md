@@ -74,6 +74,13 @@ An edit is a short story about ONE subject, not random clips put together.
   beats (the text IS the story - no voice in the sound, so nothing to contradict), and a stat counter
   (e.g. 2026 WINS 0 -> 1 -> 2) pops on the drops. One big word over the window for the climax (BACK TO BACK.).
   Engine: `cardedit` layout `broadcast` (`bg`, `win_y`), script `engine/edit_q_max_racecontrol.py`.
+- **DEX template "TERRAIN SELECTOR" (911 Dakar, Oct 16):** a history hook in the quiet intro (sepia archive + one
+  stamped fact per soft hit: 1984. / PORSCHE WINS THE DAKAR. / 38 YEARS LATER...), the drop slams into the new car
+  (THEY BUILT IT AGAIN.), then full-bleed footage grouped by terrain: the terrain word stamps in on its first hit
+  (SAND. / GRAVEL. / SNOW.) and a 3-step selector at the bottom moves on. Script `engine/edit_r_dakar.py`.
+- **Lesson from the first numbers (Oct 14):** story edits beat "nice car" edits (Antonelli 16 % likes/view, Spa 8 %,
+  Taycan 3 %) and views stall at ~250 when the hook is slow. Something must happen in the first second - never a
+  6 s calm intro on its own (that is why the Race Control Max edit was dropped before posting).
 
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
