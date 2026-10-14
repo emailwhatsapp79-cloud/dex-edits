@@ -102,3 +102,19 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 |---|---|---|---|
 | F1 | https://www.tiktok.com/@minoohbk5wj/video/7695946708433276182 | @minoohbk5wj, 74 s, 242k views / 45k likes: "top 5 best classe goal" - Leão, De Bruyne, Mbappé, Ronaldo, Messi | **Countdown/challenge format**: a strip of the 5 players' faces stays at the top the whole video (the viewer waits for "their" player = watch time). Each goal plays whole with its **real commentary** (sound #34 is the commentary itself, so picture = what is said). A small **name tag** follows the scorer. Every goal ends on the celebration in slow motion, then a hard cut to the next. The last one (Messi) gets black & white + a meme sticker. |
 
+
+| auto | https://www.tiktok.com/@fwb0905/video/7689520436819938578?_r=1&_t=ZN-9AYOia7EV0Q | @fwb0905: #f1tiktok #đuaxe #sieuxe #us #douyin  | sound saved as library #35 (101 BPM, drop ≈ 12.5s) |
+| auto | https://www.tiktok.com/@chielmeester/video/7696082246008098080?_r=1&_t=ZN-9AYOkx81oVq | @chielmeester: Farming helicopter edit🚁 #helicopter #edit #aftereffects #adobeaftereffects | sound saved as library #36 (160 BPM, drop ≈ 6.0s) |
+| auto | https://www.tiktok.com/@f1edits.ae/video/7696137693096447255?_r=1&_t=ZN-9AYOmN0aImk | @f1edits.ae: Redbull under microscope👀 // #maxverstappen #redbull #f1 #f1edit #fyp  | sound saved as library #37 (97 BPM, drop ≈ 7.5s) |
+| auto | https://www.tiktok.com/@evoxcartoons/video/7695836692841762070?_r=1&_t=ZN-9AYOnZbLuJK | @evoxcartoons: Moana 😍🔥  / Song Name : TAKA VEIKA // #moana #moanaedit #moana2 #moana2edit #edit​ | sound saved as library #38 (160 BPM, drop ≈ 23.5s) |
+| auto | https://www.tiktok.com/@buschx/video/7684754099295849760?_r=1&_t=ZN-9AYOqPFgqeM | @buschx: I liked how they made him a skater // Song: on my mind - fat papi // #edit #spiderman #and | sound saved as library #39 (120 BPM, drop ≈ 9.5s) |
+
+### Batch G - five edits sent Oct 14 (sounds #35-#39)
+| ref | link | what it is | what it teaches |
+|---|---|---|---|
+| G1 | https://vm.tiktok.com/ZN8SL5x7u/ | @fwb0905, 33 s, 564k views - night car/F1 cinematic | Posted **landscape (2.16:1)**, dark night onboards, 27 cuts in 33 s; mood over text. |
+| G2 | https://vm.tiktok.com/ZN8SL6UqF/ | @chielmeester, 12 s - "farming helicopter" After Effects edit | An ordinary object filmed like a supercar: 4 macro shots only, the edit is in the camera moves. |
+| G3 | https://vm.tiktok.com/ZN8SLkpgm/ | @f1edits.ae, 19 s, 382k - "Red Bull under microscope" (Verstappen) | **Concept transition**: a can under a microscope -> zoom into the lens -> Max. Then colour / B&W / inverted flashes on every hit. A visual idea beats a plain montage. |
+| G4 | https://vm.tiktok.com/ZN8SLSpuG/ | @evoxcartoons, 25 s - Moana (song TAKA VEIKA slowed) | Animation edit: purple/pink glow grade, slow push-ins on faces, colour pulses on the beat. |
+| G5 | https://vm.tiktok.com/ZN8SLrKyK/ | @buschx, 24 s, 1.6M - Spider-Man (Andrew Garfield) with "On My Mind" (same sound as #15) | **Lyric words big in the centre, one word/phrase per beat** ("ON MY", "PUT", "LOVING ON YOU SINCE", "2025"), white serif-less caps over the shot that matches the line. |
+

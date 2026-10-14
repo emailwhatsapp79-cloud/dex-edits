@@ -36,6 +36,11 @@
 | 32 | 32_dm_songs_over_the_top | "som original - DM Songs – DM" (from @max788935: i love this game / #f1 #f1content #f126 #f126game ) | 110 | 26.1s | biggest energy jump (drop) ≈ 13.5s · strongest hits 10.59 13.52 20.33 22.72 25.30 25.66 · added automatically |
 | 33 | 33_porsche_gt3rs_roehrle | "Originalton – röhrle_mobility" (from @roehrle_mobility: Now Available: Porsche 992 GT3 RS  Sportwagen, Klassiker oder Luxusfahrzeug kaufen oder ve) | 138 | 16.4s | biggest energy jump (drop) ≈ 4.0s · strongest hits 0.03 0.16 1.01 1.92 3.22 9.71 · added automatically |
 | 34 | 34_son_original_info_foot_info_foot | "son original - Info Foot⚽️🇫🇷 – Info Foot⚽️🇫🇷" (from @minoohbk5wj: top 5 best classe goal #foot #ronaldo #messi #challenge #debruyne #mbappe #leao) | 123 | 74.3s | biggest energy jump (drop) ≈ 26.5s · strongest hits 0.03 25.82 44.28 49.24 58.23 62.82 · added automatically |
+| 35 | 35_m_thanh_g_c_z | "âm thanh gốc - Z – 𝓩" (from @fwb0905: #f1tiktok #đuaxe #sieuxe #us #douyin ) | 101 | 33.1s | biggest energy jump (drop) ≈ 12.5s · strongest hits 0.65 1.08 1.68 8.33 14.37 15.55 · added automatically |
+| 36 | 36_origineel_geluid | "origineel geluid – Meester_edits" (from @chielmeester: Farming helicopter edit🚁 #helicopter #edit #aftereffects #adobeaftereffects) | 160 | 12.0s | biggest energy jump (drop) ≈ 6.0s · strongest hits 1.54 1.94 2.67 4.54 5.69 11.67 · added automatically |
+| 37 | 37_montagem_rune_slowed | "MONTAGEM RUNE (Slowed) – WUYS, KIT" (from @f1edits.ae: Redbull under microscope👀 // #maxverstappen #redbull #f1 #f1edit #fyp ) | 97 | 19.7s | biggest energy jump (drop) ≈ 7.5s · strongest hits 0.04 9.12 9.98 12.37 17.32 17.95 · added automatically |
+| 38 | 38_taka_veika_slowed | "TAKA VEIKA - SLOWED – TheBlvcks, DJ RAYO MUSIC, dandelion." (from @evoxcartoons: Moana 😍🔥  / Song Name : TAKA VEIKA // #moana #moanaedit #moana2 #moana2edit #edit​) | 160 | 25.8s | biggest energy jump (drop) ≈ 23.5s · strongest hits 14.12 15.62 16.74 17.49 22.74 23.47 · added automatically |
+| 39 | 39_original_sound_shushy | "original sound – Shushy🇸🇧🇵🇬" (from @buschx: I liked how they made him a skater // Song: on my mind - fat papi // #edit #spiderman #and) | 120 | 24.7s | biggest energy jump (drop) ≈ 9.5s · strongest hits 0.75 1.07 13.85 14.38 20.42 23.27 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -70,3 +75,13 @@
 **33_porsche_gt3rs_roehrle:** `13.10` Thank `14.50` you `15.90` very `15.90` much `15.90` for `15.90` watching!
 
 **34_son_original_info_foot_info_foot:** `0.00` Rafa `0.46` leal `0.68` contra `0.94` o `1.02` Nakmani, `1.52` Rafa `1.72` desço, `2.30` Rafa `2.62` desço, `3.30` Rafa `3.68` desço, `4.18` Rafa, `4.88` Rafa! `5.70` Goal! `6.70` Adesso! `7.96` Adesso! `9.18` Yeah! `11.02` Tuproina, `11.90` drifting `12.24` away `12.48` from `12.68` God `12.94` of `13.08` Conte. `13.84` Carim `14.32` de `14.42` Poina! `15.08` Oh, `15.66` wow! `16.26` That's `16.58` brilliant! `17.58` That `17.90` is `18.26` magnificent! `20.30` Game `20.76` changer, `21.60` points `21.94` of `22.84` world `23.38` class `24.04` difference! `26.42` Por `27.02` uma `27.18` pede `27.50` cadê `27.82` seu `27.94` tocando `28.32` o `28.46` mente `28.60` do `28.80` Randa, `29.22` bombeu `29.54` em `29.66` papel! `30.76` Goal! `32.02` Que `32.24` isso? `33.02` Um `33.34` goooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo! `39.42` O `40.02` procurador `40.02` de `40.02` Randa, `40.24` Rafa! `42.96` Ele `43.56` é `43.86` de `44.02` um `44.16` quadro! `74.26` Legendas `74.28` por `74.28` Paulo `74.28` Montenegro
+
+**35_m_thanh_g_c_z:** `26.76` No! `30.00` You
+
+**36_origineel_geluid:** `2.74` ДИНАМИЧНАЯ `4.14` МУЗЫКА
+
+**37_montagem_rune_slowed:** `16.48` Thank `17.88` you `19.28` for `19.46` watching!
+
+**38_taka_veika_slowed:** `0.00` Inscreva `1.76` -se, `1.76` doнет `1.76` Neve, `1.76` escolha `1.76` o `1.76` que `1.76` Gedanken `1.76` Vem `1.76` cá, `2.16` vem `2.32` cá! `4.04` Deixes `4.60` a `4.82` aproveite.. `5.88` Na `6.08` gotta, `6.24` gewoon `7.24` baixa `7.24` Vê `7.58` -me `14.50` lá `14.84` a `18.50` Makes `19.32` Of
+
+**39_original_sound_shushy:** `1.00` Parker? `2.42` Yes, `2.80` sir. `3.04` Keep `3.28` that `3.48` skateboard? `4.56` Yeah. `5.36` Keep `5.48` it `5.60` off `5.68` the `5.82` ground. `6.36` Wheels `6.94` up. `7.92` Like `7.94` that. `8.92` Okay. `9.58` Okay.

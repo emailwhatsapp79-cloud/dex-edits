@@ -91,6 +91,9 @@ An edit is a short story about ONE subject, not random clips put together.
   football: goals, tackles & last-ditch blocks, skills & nutmegs, saves, free-kicks, "Top 5" countdowns (face strip
   on top, real commentary, name tag on the player); F1: overtakes, starts, wheel-to-wheel fights, saves & near
   misses, pit stops, rain, onboards, "Top 5" countdowns. One star per day for player edits (rotate).
+- **DEX template "COUNTDOWN" (Messi Top 5, Oct 17):** teaser of #1 first (WAIT FOR #1.) as the hook, then #5 -> #1;
+  every item keeps its own commentary/crowd audio (loudness-matched), header NAME / TOP 5 with five rank chips, the rank
+  pops big, a caption bar names the moment, celebration after each goal. Engine: `engine/countdown.py`.
 
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
