@@ -94,6 +94,11 @@ An edit is a short story about ONE subject, not random clips put together.
 - **DEX template "COUNTDOWN" (Messi Top 5, Oct 17):** teaser of #1 first (WAIT FOR #1.) as the hook, then #5 -> #1;
   every item keeps its own commentary/crowd audio (loudness-matched), header NAME / TOP 5 with five rank chips, the rank
   pops big, a caption bar names the moment, celebration after each goal. Engine: `engine/countdown.py`.
+- **SHARPNESS (found Oct 14 - posts looked blurry):** never motion-interpolate real-speed shots (minterpolate smeared
+  every frame: sharpness 875 -> 11 on one F1 shot); only slow-mo shots are interpolated now. Grain is 1/4 of before
+  (grain turns to mush in TikTok's ~1.3 Mbps encode). Never upscale 720p more than ~1.2x: for 720p broadcast footage use
+  layout `window` (the 16:9 picture at 1080x608 = a downscale, over its own blur or black). Dark cinema grades need a
+  shadow lift for phones (edit W: gamma 0.68).
 
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.

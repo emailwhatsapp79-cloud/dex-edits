@@ -44,21 +44,23 @@ def probe(path):
 
 
 # ---------------------------------------------------------------- footage prep
-def _vf(cfg, path, cx, out_w, out_h):
+def _vf(cfg, path, cx, out_w, out_h, interp=True):
     """Crop the source's active picture (letterbox removed) to out_w:out_h aspect around cx, scale, sharpen."""
     sw, sh = probe(path)
     ay0, ah = cfg.get('active', {}).get(os.path.basename(path), (0, sh))
     cw = int(min(sw, ah * out_w / out_h)) // 2 * 2; chh = int(min(ah, cw * out_h / out_w)) // 2 * 2
     x = int((sw - cw) * cx); y = ay0 + (ah - chh) // 2
-    return (f"crop={cw}:{chh}:{x}:{y},scale={out_w}:{out_h}:flags=lanczos,unsharp=5:5:0.8:3:3:0.4,"
-            f"minterpolate=fps={IFPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1")
+    # real-speed shots keep their own frames (frame repeat, no motion interpolation = no smear); only slow-mo
+    # shots are interpolated
+    tail = (f"minterpolate=fps={IFPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" if interp else f"fps={IFPS}")
+    return f"crop={cw}:{chh}:{x}:{y},scale={out_w}:{out_h}:flags=lanczos,unsharp=5:5:0.8:3:3:0.4,{tail}"
 
 
-def _cut(cfg, path, src, need, cx, out_w, out_h, tag):
-    out = os.path.join(cfg['tmp'], f"{tag}_{os.path.basename(path)[:-4]}_{src:.2f}_{need:.2f}_{cx:.2f}_{out_w}.mp4")
+def _cut(cfg, path, src, need, cx, out_w, out_h, tag, interp=True):
+    out = os.path.join(cfg['tmp'], f"{tag}_{os.path.basename(path)[:-4]}_{src:.2f}_{need:.2f}_{cx:.2f}_{out_w}{'' if interp else '_r'}.mp4")
     if not os.path.exists(out):
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{src:.3f}', '-t', f'{need:.3f}', '-i', path,
-                        '-vf', _vf(cfg, path, cx, out_w, out_h), '-an', '-c:v', 'libx264', '-crf', '13',
+                        '-vf', _vf(cfg, path, cx, out_w, out_h, interp), '-an', '-c:v', 'libx264', '-crf', '13',
                         '-preset', 'veryfast', out], check=True)
     return out
 
@@ -67,7 +69,7 @@ SQ_Y = 300                                       # top of the 1080x1080 'showroo
 
 
 def size_for(cfg):
-    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608)}.get(cfg['layout'], (W, H))
+    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608), 'window': (W, 608)}.get(cfg['layout'], (W, H))
 
 
 def prep(cfg):
@@ -82,7 +84,8 @@ def prep(cfg):
             return [_cut(cfg, os.path.join(cfg['srcdir'], f), src, need, cx, W, 860, f's{i:02d}{k}')
                     for k, (f, src, cx) in enumerate(s['parts'])]
         need = src_needed(s['mode'], dur) + 0.15
-        return _cut(cfg, os.path.join(cfg['srcdir'], s['file']), s['src'], need, s['cx'], ow, oh, f'{i:02d}')
+        return _cut(cfg, os.path.join(cfg['srcdir'], s['file']), s['src'], need, s['cx'], ow, oh, f'{i:02d}',
+                    interp=s['mode'] != 'real')
     with ThreadPoolExecutor(4) as ex:
         return list(ex.map(job, range(len(shots))))
 
@@ -246,6 +249,13 @@ def render_frame(cfg, f, seqs, paths):
             a = np.zeros((H, W, 3), np.float32); a[SQ_Y:SQ_Y + W] = fr
         elif cfg['layout'] == 'broadcast':                      # 16:9 'TV window' on a designed background
             a = cfg['bg'].copy(); y = cfg.get('win_y', 560); a[y:y + 608] = fr
+        elif cfg['layout'] == 'window':                         # sharp 16:9 window (no upscale) over its own blur
+            y = cfg.get('win_y', (H - 608) // 2)
+            sm = Image.fromarray((np.clip(fr[:, 351:729], 0, 1) * 255).astype(np.uint8)).resize((54, 96), Image.BILINEAR)
+            sm = sm.filter(ImageFilter.GaussianBlur(3)).resize((W, H), Image.BILINEAR)
+            a = np.asarray(sm).astype(np.float32) / 255 * 0.42 if cfg.get('win_blur', True) else np.zeros((H, W, 3), np.float32)
+            a[y:y + 608] = fr
+            if cfg.get('win_rule', True): a[y - 3:y] = 1.0; a[y + 608:y + 611] = 1.0
         elif cfg['layout'] == 'card':
             fr = fr * CARD_VIG; bg = background(fr)
             if i in cfg.get('swing', ()) and lt < 0.3:
@@ -266,7 +276,7 @@ def render_frame(cfg, f, seqs, paths):
     if s.get('label'):
         a = put(a, s['label'], ease(lt / 0.06), font=ORB, size=cfg.get('label_size', 60), cy=cfg.get('label_cy', CY - 70))
     if t > END - 0.5: a = a * (1 - ease((t - (END - 0.5)) / 0.5))
-    v = cfg.get('vig', 1.0); a = a * (1 - (1 - VIG) * v) + GRAIN[f % 4] * cfg.get('grain', 0.3)
+    v = cfg.get('vig', 1.0); a = a * (1 - (1 - VIG) * v) + GRAIN[f % 4] * cfg.get('grain', 0.3) * 0.25
     return np.clip(a, 0, 1)
 
 
