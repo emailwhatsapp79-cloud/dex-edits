@@ -8,6 +8,7 @@ Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every e
 
 ## Layout
 - `EDITING_RULES.md` – the rules learned from Desmond's feedback (direction, hook, beat sync, no repeated takes, branding).
+- `REFERENCES.md` – every reference edit studied and what it taught (permanent memory of the training).
 - `engine/` – the editing code. `beatsync.py` (drum-hit detection + cut measurement), `velocity.py` (speed ramps,
   source-take detection, clean spans), `brand.py` (DEX EDITS watermark pass), `cardedit.py` (shared engine for
   card/full-frame beat edits with take checks + cut measurement), `takesheet.py` (one thumbnail per source take),
