@@ -127,3 +127,7 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@hkt3670/video/7695093898259074324?_r=1&_t=ZN-9AYYSZ7xWYY | @hkt3670: MCLAREN 720S#fyppppppppppppppppppppppp #luxury #beautiful #supercar #mclaren  | sound saved as library #41 (101 BPM, drop ≈ 15.0s) |
 | G8 | https://vm.tiktok.com/ZN8SNvn2E/ | @hkt3670, 20 s, 131k views / 20k likes - McLaren 720S cinematic (sound #41, instrumental) | **Landscape 16:9 cinematic**, golden-hour grade throughout. Pacing long-short-long: calm 1.5-2 s establishing shots (sunset, lake, drone), then the build is **the speedo needle climbing in 4 cuts in 1.4 s** (gauge close-ups, orange glow), then wide driving shots and the dihedral doors opening as the reveal, ends driving away into the light. No text at all - the grade and the gauge carry it. |
 
+
+| auto | https://www.tiktok.com/@gf0rced/video/7690019110817680670?_r=1&_t=ZN-9AYkCFum4es | @gf0rced: this is peak life #viral #porsche  | sound saved as library #42 (108 BPM, drop ≈ 7.5s) |
+| G9 | https://vm.tiktok.com/ZN8SFCsVe/ | @gf0rced, 11 s, 363k views / 93k likes (25 % like rate!) - "this is peak life", Porsche 911 Turbo at sunset (sound #42) | **One continuous phone shot, full screen**, walking around the car under a violent orange sunset, doors open, no cuts, no text, a sad lyric song. Authentic + light beats effects. Desmond: full-screen edits get more attention than framed ones - default to FULL vertical frame. |
+

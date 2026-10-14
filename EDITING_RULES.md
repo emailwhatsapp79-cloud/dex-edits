@@ -100,6 +100,9 @@ An edit is a short story about ONE subject, not random clips put together.
   layout `window` (the 16:9 picture at 1080x608 = a downscale, over its own blur or black). Dark cinema grades need a
   shadow lift for phones (edit W: gamma 0.68).
 
+- **FULL SCREEN by default (Desmond, Oct 14):** the picture fills the whole 9:16 frame. Window/card/black-frame layouts
+  only when the source is too low-res to crop (720p broadcast) - and then prefer finding a better source.
+
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
 - F1: formula1.com videos (Brightcove player, account 6057949432001) - race highlights and "crosses the line".

@@ -43,6 +43,7 @@
 | 39 | 39_original_sound_shushy | "original sound – Shushy🇸🇧🇵🇬" (from @buschx: I liked how they made him a skater // Song: on my mind - fat papi // #edit #spiderman #and) | 120 | 24.7s | biggest energy jump (drop) ≈ 9.5s · strongest hits 0.75 1.07 13.85 14.38 20.42 23.27 · added automatically |
 | 40 | 40_jamks_music | "オリジナル楽曲 - JAMKS MUSIC 🇯🇵 – JAMKS MUSIC 🇯🇵" (from @zayybrynz_: #CapCut Bow X BARNEY🎶 / Try this templates🔥 #capcutpioneer #pioneertemplate #capcutedit #t) | 131 | 12.6s | biggest energy jump (drop) ≈ 8.0s · strongest hits 1.15 1.38 2.98 6.86 9.45 11.29 · added automatically |
 | 41 | 41_sound | "เสียงต้นฉบับ - 小朋友 – 小朋友" (from @hkt3670: MCLAREN 720S#fyppppppppppppppppppppppp #luxury #beautiful #supercar #mclaren ) | 101 | 20.9s | biggest energy jump (drop) ≈ 15.0s · strongest hits 0.66 1.10 1.71 14.39 15.57 19.11 · added automatically |
+| 42 | 42_original_sound_gforced | "original sound – gforced" (from @gf0rced: this is peak life #viral #porsche ) | 108 | 11.6s | biggest energy jump (drop) ≈ 7.5s · strongest hits 0.03 6.83 7.28 9.32 9.68 11.02 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -91,3 +92,5 @@
 **40_jamks_music:** `0.00` That's `0.36` on `0.46` the `0.54` floor, `1.14` that's `1.30` on `1.40` the `1.50` couch, `1.90` that's `2.22` on `2.30` the `2.38` stage, `2.72` and `2.92` that's `3.12` in `3.24` the `3.32` crowd, `3.72` let `3.74` me `3.84` see `3.98` you `4.08` go `4.28` Dirty `4.74` kids `5.04` with `5.24` dinosaur `5.62` from `6.20` power `6.48` imagination `7.62` And `8.02` when `8.28` we `8.46` say `8.70` he's `8.98` what `9.16` we `9.40` call `9.70` it, `9.90` by `10.10` his `10.34` fascination `10.88` Let `11.12` me `11.26` see `11.34` you `11.48` go
 
 **41_sound:** `11.26` Outro `12.66` Music
+
+**42_original_sound_gforced:** `0.00` I `0.86` hope `1.66` to `1.96` die `2.46` through `2.94` my `3.20` lover `3.74` I'd `4.16` never `4.46` lie `5.24` I `5.74` swear `6.32` I'll `7.36` try `7.76` in `8.50` the `8.72` end `9.28` I `9.68` said `9.78` midnight
