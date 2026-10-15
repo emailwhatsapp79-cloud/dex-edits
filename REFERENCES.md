@@ -29,6 +29,13 @@ Goal: learn the techniques, never copy an edit.
 |---|---|---|
 | E1 | TikTok @roehrle_mobility "Now Available: Porsche 992 GT3 RS" (16 s, dealer) | Showroom detail edit of ONE car. 0–4.2 s: one still wide shot (car in an autumn forest) while the title types itself letter by letter on the intro beats – P, PO, POR… PORSCHE, then GT3, then RS – and settles centre. 4.2 s drop: a cut on EVERY beat (~0.44 s at 138 BPM, a few 0.2 s double-cuts at the start): headlight, rear wing, PORSCHE lettering, bronze wheels, carbon, the Pepita-tartan seats, exhaust, then back to the front for the ending. Colour story: beige car + orange autumn forest, one warm grade throughout. Sound #33 (instrumental). Lessons: typewriter title reveal is a strong 4-second hook; strict one-cut-per-beat detail run; pick a location whose colours match the car. |
 
+## Batch J – 2026-10-15
+| ref | link | what it is | what it teaches |
+|---|---|---|---|
+| J1 | https://vm.tiktok.com/ZN8SD6Vws/ | @marrrlie0, 15 s, **81.5k views / 21.6k likes (26.5%!)** - Hamilton "Your prime" (sound #57: "Damn it! I can't move my body! ... Switch!") | **Then vs now, one switch**: 4.5 s of Hamilton NOW (Ferrari, yellow helmet) standing still on black while the voice says "I can't move my body!" - on "Switch!" it flips to his PRIME (Mercedes years), all **black & white**, then 17 cuts exactly on every beat (0.65 s, metronome), one grade throughout. Nostalgia + a voice line that names the idea = huge like rate. |
+
+**Lesson:** a "then vs now" concept with a spoken trigger word ("Switch!") on the cut is a top format - one colour treatment for "now", B&W for "the prime", every cut on the beat. Works for any veteran (Hamilton, Ronaldo, Messi, Alonso).
+
 ## Batch I – 2026-10-15 (voice-led and lyric edits) – sounds #52-#56
 | ref | link | what it is | what it teaches |
 |---|---|---|---|
@@ -178,3 +185,4 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@_mc.44_/video/7696534439144295713?_r=1&_t=ZN-9AaAvo7LlZO | @_mc.44_: The Flying Dutchman 🦁 / #maxverstappen #redbullracing #F1 #edit #formula1  | sound saved as library #54 (132 BPM, drop ≈ 6.5s) |
 | auto | https://www.tiktok.com/@f1edits.ae/video/7676807525924195606?_r=1&_t=ZN-9AaAwyCtkDm | @f1edits.ae: IT’S RACE TIME😜 // #lewishamilton #f1 #f1edit #fyp  | sound saved as library #55 (127 BPM, drop ≈ 6.5s) |
 | auto | https://www.tiktok.com/@waisman99/video/7683567989882375438?_r=1&_t=ZN-9AaBL6SWbaA | @waisman99: 1 of 1 Bugatti Mistral MANSORY #mansoryusa @limitedspec #1of1 #bugattimistral  | sound saved as library #56 (97 BPM, drop ≈ 78.0s) |
+| auto | https://www.tiktok.com/@marrrlie0/video/7696562855423872276?_r=1&_t=ZN-9AaK5IkpQx8 | @marrrlie0: Your prime #recommendations #f1 #formula1 #lewishamilton #f1tiktok  | sound saved as library #57 (94 BPM, drop ≈ 4.5s) |
