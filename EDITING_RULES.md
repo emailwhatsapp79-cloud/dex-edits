@@ -127,6 +127,12 @@ An edit is a short story about ONE subject, not random clips put together.
   ball is going in. Check the stills of every shot (`edit.py <t> <t> ...`) before the full render: a frame that is
   motion blur, a crowd smear or someone else gets replaced.
 
+- **TRAILER FORMAT (Desmond, Oct 15):** like a movie trailer for a player/driver: their REAL voice (radio, interview,
+  commentator) with the picture of what is being said, then a boom into the action with the real sound, music under
+  everything and ducked under each voice line, the key word landing ON the drop (edit AJ: "...Grand Prix" = drop).
+  Music must be instrumental (check with ASR first - song #23 has a commentator in its intro). Ends on the real crowd/
+  celebration audio of the final shot (picture = sound).
+
 - **NOT TOO ZOOMED (Desmond, Oct 14):** a 9:16 crop of a 16:9 film shows only 32 % of the width - cars get cut and it
   looks zoomed. For landscape sources use layout `tall` (3:4 picture, 75 % more width, over its own blur); 9:16 full
   only for vertical sources or close-ups.
