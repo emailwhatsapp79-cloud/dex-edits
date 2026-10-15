@@ -69,7 +69,7 @@ SQ_Y = 300                                       # top of the 1080x1080 'showroo
 
 
 def size_for(cfg):
-    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608), 'window': (W, 608), 'tall': (W, 1440)}.get(cfg['layout'], (W, H))
+    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608), 'window': (W, 608), 'tall': (W, cfg.get('pic_h', 1440))}.get(cfg['layout'], (W, H))
 
 
 def prep(cfg):
@@ -80,10 +80,10 @@ def prep(cfg):
         if s['mode'] == 'black': return None
         dur = s['t1'] - s['t0']
         if s['mode'] == 'split':
-            m = s.get('sub_mode', 'slow'); need = src_needed(m, dur) + 0.15
+            m = s.get('sub_mode', 'slow'); need = src_needed(m, dur) + cfg.get('pad', 0.15)
             return [_cut(cfg, os.path.join(cfg['srcdir'], f), src, need, cx, W, 860, f's{i:02d}{k}')
                     for k, (f, src, cx) in enumerate(s['parts'])]
-        need = src_needed(s['mode'], dur) + 0.15
+        need = src_needed(s['mode'], dur) + cfg.get('pad', 0.15)
         return _cut(cfg, os.path.join(cfg['srcdir'], s['file']), s['src'], need, s['cx'], ow, oh, f'{i:02d}',
                     interp=s['mode'] != 'real')
     with ThreadPoolExecutor(4) as ex:
@@ -250,10 +250,10 @@ def render_frame(cfg, f, seqs, paths):
         elif cfg['layout'] == 'broadcast':                      # 16:9 'TV window' on a designed background
             a = cfg['bg'].copy(); y = cfg.get('win_y', 560); a[y:y + 608] = fr
         elif cfg['layout'] == 'tall':                           # 3:4 picture (much less crop than 9:16) over its own blur
-            y = (H - 1440) // 2
-            sm = Image.fromarray((np.clip(fr, 0, 1) * 255).astype(np.uint8)).resize((45, 80), Image.BILINEAR)
+            ph = cfg.get('pic_h', 1440); y = (H - ph) // 2     # pic_h=810: 4:3 = 1:1 from a 2.39:1 1080p film
+            sm = Image.fromarray((np.clip(fr, 0, 1) * 255).astype(np.uint8)).resize((45, max(20, 80 * ph // 1440)), Image.BILINEAR)
             sm = sm.filter(ImageFilter.GaussianBlur(3)).resize((W, H), Image.BILINEAR)
-            a = np.asarray(sm).astype(np.float32) / 255 * 0.5; a[y:y + 1440] = fr
+            a = np.asarray(sm).astype(np.float32) / 255 * cfg.get('bg_dim', 0.5); a[y:y + ph] = fr
         elif cfg['layout'] == 'window':                         # sharp 16:9 window (no upscale) over its own blur
             y = cfg.get('win_y', (H - 608) // 2)
             sm = Image.fromarray((np.clip(fr[:, 351:729], 0, 1) * 255).astype(np.uint8)).resize((54, 96), Image.BILINEAR)
@@ -297,7 +297,7 @@ def check(cfg):
         for f, src, cx in parts:
             p = os.path.join(cfg['srcdir'], f)
             try:
-                src0 = src; src = clean_span(p, src, src_needed(m, dur) + 0.15)
+                src0 = src; src = clean_span(p, src, src_needed(m, dur) + cfg.get('pad', 0.15))
                 if abs(src - src0) > 0.01:      # the action timing was planned on src0 - say so
                     print(f"WARNING shot {cfg['shots'].index(s)} (t={s['t0']:.3f}): src moved {src0:.2f} -> {src:.2f}")
             except ValueError as e:
