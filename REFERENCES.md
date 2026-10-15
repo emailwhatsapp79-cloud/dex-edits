@@ -29,6 +29,18 @@ Goal: learn the techniques, never copy an edit.
 |---|---|---|
 | E1 | TikTok @roehrle_mobility "Now Available: Porsche 992 GT3 RS" (16 s, dealer) | Showroom detail edit of ONE car. 0–4.2 s: one still wide shot (car in an autumn forest) while the title types itself letter by letter on the intro beats – P, PO, POR… PORSCHE, then GT3, then RS – and settles centre. 4.2 s drop: a cut on EVERY beat (~0.44 s at 138 BPM, a few 0.2 s double-cuts at the start): headlight, rear wing, PORSCHE lettering, bronze wheels, carbon, the Pepita-tartan seats, exhaust, then back to the front for the ending. Colour story: beige car + orange autumn forest, one warm grade throughout. Sound #33 (instrumental). Lessons: typewriter title reveal is a strong 4-second hook; strict one-cut-per-beat detail run; pick a location whose colours match the car. |
 
+## Batch I – 2026-10-15 (voice-led and lyric edits) – sounds #52-#56
+| ref | link | what it is | what it teaches |
+|---|---|---|---|
+| I1 | https://vm.tiktok.com/ZN8SAA1c7/ | @ctrllx, 23.6 s - "We Will Rock You x F1", posted for the US GP (sound #52) | **Lyric word per cut**: 57 cuts (avg 0.41 s), every sung word stamped big and centred on its own shot ("YOU'RE / MAKE / BIG / NOISE ... WE / WILL / WILL / ROCK / YOU"), the whole grid, ends on the F1 logo. Timely: posted race week. |
+| I2 | https://vm.tiktok.com/ZN8SST1cT/ | @_mc.44_, 21 s - "The Flying Dutchman", Verstappen 2021 title (sound #54: commentary "Max Verstappen, you are the world champion!") | **Black-screen voice intro**: 3 s of black with the commentator's words appearing one by one, a white flash on CHAMPION, then the footage. One dark grade throughout. The voice IS the hook. |
+| I3 | https://vm.tiktok.com/ZN8SAFfQ1/ | @f1edits.ae, 15 s - Hamilton "It's race time" (sound #55) | **Talking-head hook**: 7 s of Hamilton speaking to camera, then a fast montage of personal moments (selfies, dog, childhood, trophies), back to the interview at the end. One tint over everything. |
+| I4 | https://vm.tiktok.com/ZN8SANhSB/ | @gt3flow, 14 s - GT3 RS at sunset (sound #53) | **2 cuts**: one slow orbit around the car into the sun, then the parked car. Soft style, the light is the edit. |
+| I5 | https://vm.tiktok.com/ZN8SSEm7c/ | @srhuayra, 12 s - "call 911" (sound #44) | **A concept/pun**: a 911 GT3 as a police car in a dark studio, red/blue light on every detail (badge, GT3 seat, wheel), 17 cuts on the beat. |
+| I6 | https://vm.tiktok.com/ZN8SASYa2/ | @waisman99, 103 s - 1-of-1 Bugatti Mistral Mansory spotted (sound #56) | Long handheld walk-around (6 cuts in 103 s): rarity + detail (orange interior) carry it, no editing needed. |
+
+**Lessons:** a real voice line (commentary, radio, interview) is the strongest hook - on black or on the speaker's face; lyric edits stamp each sung word on its own cut; car edits can be one beautiful light or one clear concept.
+
 ## Batch D – 2026-10-14
 | ref | source | what it does |
 |---|---|---|
@@ -164,3 +176,5 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@ctrllx/video/7695798142373072129?_r=1&_t=ZN-9AaAibMpPR0 | @ctrllx: We will rock you x F1 //  #usgrandprix #austingrandprix #f1drivers #f1edits #f1championshi | sound saved as library #52 (168 BPM, drop ≈ 2.0s) |
 | auto | https://www.tiktok.com/@gt3flow/video/7688025491449662751?_r=1&_t=ZN-9AaAueCLUQc | @gt3flow: #porsche #gt3rs #gt3 #911 #992  | sound saved as library #53 (115 BPM, drop ≈ 1.5s) |
 | auto | https://www.tiktok.com/@_mc.44_/video/7696534439144295713?_r=1&_t=ZN-9AaAvo7LlZO | @_mc.44_: The Flying Dutchman 🦁 / #maxverstappen #redbullracing #F1 #edit #formula1  | sound saved as library #54 (132 BPM, drop ≈ 6.5s) |
+| auto | https://www.tiktok.com/@f1edits.ae/video/7676807525924195606?_r=1&_t=ZN-9AaAwyCtkDm | @f1edits.ae: IT’S RACE TIME😜 // #lewishamilton #f1 #f1edit #fyp  | sound saved as library #55 (127 BPM, drop ≈ 6.5s) |
+| auto | https://www.tiktok.com/@waisman99/video/7683567989882375438?_r=1&_t=ZN-9AaBL6SWbaA | @waisman99: 1 of 1 Bugatti Mistral MANSORY #mansoryusa @limitedspec #1of1 #bugattimistral  | sound saved as library #56 (97 BPM, drop ≈ 78.0s) |

@@ -133,6 +133,9 @@ An edit is a short story about ONE subject, not random clips put together.
   Music must be instrumental (check with ASR first - song #23 has a commentator in its intro). Ends on the real crowd/
   celebration audio of the final shot (picture = sound).
 
+- **VOICE / LYRIC HOOKS (Batch I, Oct 15):** open on the strongest voice line - on black with the words appearing as
+  they are said (I2), or on the speaker's face (I3) - or start cold on the climax (Verstappen trailer v3). For a sung
+  song, stamp each lyric word big on its own cut (I1). Never open on a static, voiceless shot.
 - **NOT TOO ZOOMED (Desmond, Oct 14):** a 9:16 crop of a 16:9 film shows only 32 % of the width - cars get cut and it
   looks zoomed. For landscape sources use layout `tall` (3:4 picture, 75 % more width, over its own blur); 9:16 full
   only for vertical sources or close-ups.
