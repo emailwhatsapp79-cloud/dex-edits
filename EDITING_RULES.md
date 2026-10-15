@@ -100,6 +100,18 @@ An edit is a short story about ONE subject, not random clips put together.
   layout `window` (the 16:9 picture at 1080x608 = a downscale, over its own blur or black). Dark cinema grades need a
   shadow lift for phones (edit W: gamma 0.68).
 
+- **SOURCE SHARPNESS GATE (Desmond, Oct 15 - "the edit is blurry", "even the posted ones"):** the blur was mostly the
+  SOURCES: re-uploaded TikTok compilations of 2016-18 broadcasts are already upscaled (Laplacian sharpness 10-25), while
+  official clips of recent matches (@fifaworldcup pitch-side camera, @foxsports broadcast) score 250-500. Measure every
+  source (median Laplacian variance of the grey frame) and never use one under ~100 for a hero shot; a sharp shot next
+  to a soft one makes the soft one look worse. Vertical 1080x1920 sources go in layout `full` at native size (no blur
+  bands - they read as "blurry" on a phone); crop burned-in captions with `active`, keeping upscale under ~1.4x.
+- **ONE STORY, NOT A PILE OF CLIPS (Desmond, Oct 15 - "doesn't make sense"):** AD mixed 9 sources from 4 eras and 3
+  clubs, half the shots were wide shots where he is a dot, some did not even show Ronaldo. Pick ONE event or
+  tournament, every shot must show the star or the direct reaction to him (net, fans, bench), wide play only when the
+  ball is going in. Check the stills of every shot (`edit.py <t> <t> ...`) before the full render: a frame that is
+  motion blur, a crowd smear or someone else gets replaced.
+
 - **NOT TOO ZOOMED (Desmond, Oct 14):** a 9:16 crop of a 16:9 film shows only 32 % of the width - cars get cut and it
   looks zoomed. For landscape sources use layout `tall` (3:4 picture, 75 % more width, over its own blur); 9:16 full
   only for vertical sources or close-ups.
