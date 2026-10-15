@@ -33,4 +33,5 @@ edit is never scheduled.
 
 ## Posting
 Scheduling goes through the Metricool connector (brand with TikTok "Dex Edits", timezone Africa/Lagos).
+Daily slots (Desmond, Oct 15): 10:00 FOOTBALL, 12:00 F1, 18:00 CAR - one of each every day, stars rotating.
 Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-edits/main/videos/<file>.mp4`
