@@ -116,6 +116,16 @@ An edit is a short story about ONE subject, not random clips put together.
   so the join is invisible) and END on a phrase with a 1-1.2 s audio fade + a slow last shot + fade to black.
   Never stop the sound mid-word.
 
+- **FULL SONGS, STARTING AT THE GOOD PART (Desmond, Oct 15):** use the full song (`engine/fullsong.py`, songs/FULL.md)
+  instead of repeating a short TikTok sound - but never from the song's slow start: begin a few beats before the part
+  people wait for (the build right before the drop / where the TikTok clip sits) and end where the song itself
+  finishes a section (energy falls away) with a ~1 s fade. Looping (`songloop.py`) only when no full song exists.
+- **ACTION ON THE BEAT, not just the cut (Desmond, Oct 15: "nothing matches the beat"):** find the exact source frame
+  of each key action (foot on ball, ball in the net, keeper beaten, celebration landing) and set the shot's source
+  start so that frame lands ON a hit: src = event_time - (hit - shot_start). Biggest action on the drop, the others on
+  the strongest accents; quiet faces during the build. (Ronaldo edit AD: volley on the drop, net on 24.32, keeper
+  beaten on 26.82, the SIU on 29.33.)
+
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
 - F1: formula1.com videos (Brightcove player, account 6057949432001) - race highlights and "crosses the line".
