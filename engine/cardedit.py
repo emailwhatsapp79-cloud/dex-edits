@@ -57,7 +57,7 @@ def _vf(cfg, path, cx, out_w, out_h, interp=True):
 
 
 def _cut(cfg, path, src, need, cx, out_w, out_h, tag, interp=True):
-    out = os.path.join(cfg['tmp'], f"{tag}_{os.path.basename(path)[:-4]}_{src:.2f}_{need:.2f}_{cx:.2f}_{out_w}{'' if interp else '_r'}.mp4")
+    out = os.path.join(cfg['tmp'], f"{tag}_{os.path.basename(path)[:-4]}_{src:.2f}_{need:.2f}_{cx:.2f}_{out_w}x{out_h}{'' if interp else '_r'}.mp4")
     if not os.path.exists(out):
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{src:.3f}', '-t', f'{need:.3f}', '-i', path,
                         '-vf', _vf(cfg, path, cx, out_w, out_h, interp), '-an', '-c:v', 'libx264', '-crf', '13',
@@ -68,8 +68,9 @@ def _cut(cfg, path, src, need, cx, out_w, out_h, tag, interp=True):
 SQ_Y = 300                                       # top of the 1080x1080 'showroom' square
 
 
-def size_for(cfg):
-    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608), 'window': (W, 608), 'tall': (W, cfg.get('pic_h', 1440))}.get(cfg['layout'], (W, H))
+def size_for(cfg, s=None):
+    lay = (s or {}).get('layout', cfg['layout'])          # a shot may override the edit's layout (e.g. one 720p 'window' shot)
+    return {'card': (CW, CH), 'square': (W, W), 'broadcast': (W, 608), 'window': (W, 608), 'tall': (W, cfg.get('pic_h', 1440))}.get(lay, (W, H))
 
 
 def prep(cfg):
@@ -84,6 +85,7 @@ def prep(cfg):
             return [_cut(cfg, os.path.join(cfg['srcdir'], f), src, need, cx, W, 860, f's{i:02d}{k}')
                     for k, (f, src, cx) in enumerate(s['parts'])]
         need = src_needed(s['mode'], dur) + cfg.get('pad', 0.15)
+        ow, oh = size_for(cfg, s)
         return _cut(cfg, os.path.join(cfg['srcdir'], s['file']), s['src'], need, s['cx'], ow, oh, f'{i:02d}',
                     interp=s['mode'] != 'real')
     with ThreadPoolExecutor(4) as ex:
@@ -223,7 +225,7 @@ def render_frame(cfg, f, seqs, paths):
             for r in (q if isinstance(q, list) else [q]): r.close()
         seqs.clear()
         if s['mode'] == 'split': seqs[i] = [Reader(p, W, 860) for p in paths[i]]
-        elif s['mode'] != 'black': seqs[i] = Reader(paths[i], *size_for(cfg))
+        elif s['mode'] != 'black': seqs[i] = Reader(paths[i], *size_for(cfg, s))
     grade = lambda x: look(x, cfg.get('warm', 0.0), cfg.get('sat', 1.12))
     if s['mode'] == 'black':
         a = np.zeros((H, W, 3), np.float32)
@@ -245,23 +247,24 @@ def render_frame(cfg, f, seqs, paths):
         if i in cfg.get('punch', ()) and lf < 6:
             fr = np.roll(fr, int(14 * dec(lt, 0.04) * (1 if f % 2 else -1)), 1); fr = chroma(fr, 8 * dec(lt, 0.06))
         if cfg.get('pre_fx'): fr = cfg['pre_fx'](fr, i, t, lt)
-        if cfg['layout'] == 'square':
+        L = s.get('layout', cfg['layout'])
+        if L == 'square':
             a = np.zeros((H, W, 3), np.float32); a[SQ_Y:SQ_Y + W] = fr
-        elif cfg['layout'] == 'broadcast':                      # 16:9 'TV window' on a designed background
+        elif L == 'broadcast':                      # 16:9 'TV window' on a designed background
             a = cfg['bg'].copy(); y = cfg.get('win_y', 560); a[y:y + 608] = fr
-        elif cfg['layout'] == 'tall':                           # 3:4 picture (much less crop than 9:16) over its own blur
+        elif L == 'tall':                           # 3:4 picture (much less crop than 9:16) over its own blur
             ph = cfg.get('pic_h', 1440); y = (H - ph) // 2     # pic_h=810: 4:3 = 1:1 from a 2.39:1 1080p film
             sm = Image.fromarray((np.clip(fr, 0, 1) * 255).astype(np.uint8)).resize((45, max(20, 80 * ph // 1440)), Image.BILINEAR)
             sm = sm.filter(ImageFilter.GaussianBlur(3)).resize((W, H), Image.BILINEAR)
             a = np.asarray(sm).astype(np.float32) / 255 * cfg.get('bg_dim', 0.5); a[y:y + ph] = fr
-        elif cfg['layout'] == 'window':                         # sharp 16:9 window (no upscale) over its own blur
+        elif L == 'window':                         # sharp 16:9 window (no upscale) over its own blur
             y = cfg.get('win_y', (H - 608) // 2)
             sm = Image.fromarray((np.clip(fr[:, 351:729], 0, 1) * 255).astype(np.uint8)).resize((54, 96), Image.BILINEAR)
             sm = sm.filter(ImageFilter.GaussianBlur(3)).resize((W, H), Image.BILINEAR)
             a = np.asarray(sm).astype(np.float32) / 255 * 0.42 if cfg.get('win_blur', True) else np.zeros((H, W, 3), np.float32)
             a[y:y + 608] = fr
             if cfg.get('win_rule', True): a[y - 3:y] = 1.0; a[y + 608:y + 611] = 1.0
-        elif cfg['layout'] == 'card':
+        elif L == 'card':
             fr = fr * CARD_VIG; bg = background(fr)
             if i in cfg.get('swing', ()) and lt < 0.3:
                 k = 1 - ease(lt / 0.3); a = place(bg, fr, ang=-38 * k, scale=1 - 0.12 * k)
