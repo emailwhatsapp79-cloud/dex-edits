@@ -1,6 +1,6 @@
 """Edit AA - FOOTBALL, star of the day: RONALDO, SOFT style. No text, no flashes: only his faces and celebrations,
 Real Madrid (white / grey) -> Al Nassr (yellow), smiling at 41, the jump on the biggest hit. Instrumental sound
-(#51, Desmond: "this song can be used, follow the beat"). Official @realmadrid / @alnassr TikTok clips, 1080p vertical."""
+played twice (songloop 0-10.39 + 0.06-10.4, 1.2 s fade - 20.7 s, it ENDS) (#51, Desmond: "this song can be used, follow the beat"). Official @realmadrid / @alnassr TikTok clips, 1080p vertical."""
 import os, sys
 import numpy as np
 from PIL import Image, ImageFilter
@@ -23,8 +23,19 @@ PLAN = [
     sh(7.51, N3, 64.3),            # the 7
     sh(8.34, N3, 16.0),            # GOAL
     sh(9.01, N1, 3.6, 'slow'),     # the jump, biggest hit
+    # second pass of the sound (joined on the hit at 10.39 = song 0.06): the goals, then the end
+    sh(10.39, RMA, 9.5),           # Roma - in the net
+    sh(11.49, RMA, 15.0),          # the knee slide
+    sh(12.40, RMB, 10.3),          # Osasuna - the strike
+    sh(13.20, RMB, 18.2),          # in the net
+    sh(14.11, N3, 49.5),           # Al Nassr
+    sh(15.26, N3, 42.5),
+    sh(15.92, N2, 14.2),           # Al Nassr attack
+    sh(17.84, RMA, 1.0),           # Madrid, Roma
+    sh(18.67, N2, 12.5),
+    sh(19.34, RMB, 15.0, 'slow'),  # the hug - the end (sound fades out)
 ]
-END = 10.7
+END = 20.7
 
 
 def pre_fx(fr, i, t, lt):
@@ -36,7 +47,7 @@ def pre_fx(fr, i, t, lt):
 
 CFG = dict(
     name='AA', layout='full', srcdir=os.path.join(ROOT, 'src_cr7'), tmp=os.path.join(ROOT, 'tmp_aa'),
-    song=os.path.join(ROOT, 'songs', 'named', '51_son_original.mp3'), song_offset=0.0,
+    song=os.path.join(ROOT, 'songs', 'cr7_loop.mp3'), song_offset=0.0,
     out=os.path.join(ROOT, 'out', 'edit_AA_ronaldo_soft.mp4'), end=END, plan=PLAN,
     swing=set(), drop=set(), punch=set(), cut_flash=False, warm=0.005, sat=1.03, grain=0.0, vig=0.3,
     fx={}, pre_fx=pre_fx, text=[],

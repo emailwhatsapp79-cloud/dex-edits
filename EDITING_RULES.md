@@ -111,6 +111,11 @@ An edit is a short story about ONE subject, not random clips put together.
   (no text). Footage quality decides: 4K sources cropped to 9:16 (a downscale) or native vertical 1080p.
 - **CAPTIONS SHORT:** one line, max 2-3 hashtags, sometimes none ("my little baby", "this is peak life").
 
+- **LENGTH + A REAL ENDING (Desmond, Oct 15):** 10-14 s edits "look like the edit is not complete". Aim 20-25 s.
+  TikTok sounds are short: play them twice with `engine/songloop.py` (cut out on one strong hit, back in on another,
+  so the join is invisible) and END on a phrase with a 1-1.2 s audio fade + a slow last shot + fade to black.
+  Never stop the sound mid-word.
+
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
 - F1: formula1.com videos (Brightcove player, account 6057949432001) - race highlights and "crosses the line".

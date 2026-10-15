@@ -3,7 +3,7 @@
 The sound is a love song ("let me show you how proud I am to be yours ... in my summer ... feel your grace"), the
 picture follows it: proud = the headlight, yours (big hit) = the car head-on, summer = the sunlit valley,
 grace = the car gliding past, the wing, the profile. Layout 'tall' (3:4, not over-zoomed), 4K footage downscaled.
-Song: #48 (from @fonzicaars.edits). Footage: Porsche newsroom 4K footage reels 305321 / 305500 (911 GT3 Touring)."""
+Song: #48 (from @fonzicaars.edits), played twice (songloop: 0-14.08 + 0.07-11.0, joined on two hits, 1 s fade-out) so the edit runs 25 s and ENDS - Desmond: short edits felt unfinished. Footage: Porsche newsroom 4K footage reels 305321 / 305500 (911 GT3 Touring)."""
 import os, sys
 import numpy as np
 from PIL import Image, ImageFilter
@@ -24,8 +24,17 @@ PLAN = [
     sh(10.37, '305321_193', 0.5),         # the wing
     sh(11.29, '305500_222', 2.1),         # the wing in the sun
     sh(12.43, '305321_411', 0.3, cx=0.36),       # the rear, PORSCHE
+    # second pass of the sound (joined on the hit at 14.08 = song 0.07): the drive, ending on the car leaving
+    sh(14.08, '305500_351', 0.5),                # parked, the rear
+    sh(15.21, '305321_226', 0.5, cx=0.3),        # the road from above
+    sh(16.95, '305321_277', 0.3),                # the hairpin
+    sh(18.17, '305500_121', 2.6),                # close, low sun
+    sh(19.82, '305321_394', 1.0, cx=0.45),       # three-quarter rear
+    sh(21.47, '305321_445', 0.3),                # inside
+    sh(22.30, '305500_365', 0.15, 'slow'),       # GT3 Touring
+    sh(23.54, '305321_142', 0.6, 'slow'),        # driving away - the end (sound fades out)
 ]
-END = 14.45
+END = 25.0
 
 
 def pre_fx(fr, i, t, lt):
@@ -41,7 +50,7 @@ def pre_fx(fr, i, t, lt):
 
 CFG = dict(
     name='Z', layout='tall', srcdir=os.path.join(ROOT, 'src_gt3'), tmp=os.path.join(ROOT, 'tmp_z'),
-    song=os.path.join(ROOT, 'songs', 'named', '48_som_original_clovmsc.mp3'), song_offset=0.0,
+    song=os.path.join(ROOT, 'songs', 'gt3_loop.mp3'), song_offset=0.0,
     out=os.path.join(ROOT, 'out', 'edit_Z_gt3_soft.mp4'), end=END, plan=PLAN,
     swing=set(), drop=set(), punch=set(), cut_flash=False, warm=0.0, sat=1.0, grain=0.0, vig=0.25,
     fx={}, pre_fx=pre_fx, text=[],
