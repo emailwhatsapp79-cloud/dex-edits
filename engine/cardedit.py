@@ -297,10 +297,14 @@ def check(cfg):
         for f, src, cx in parts:
             p = os.path.join(cfg['srcdir'], f)
             try:
-                src = clean_span(p, src, src_needed(m, dur) + 0.15)
+                src0 = src; src = clean_span(p, src, src_needed(m, dur) + 0.15)
+                if abs(src - src0) > 0.01:      # the action timing was planned on src0 - say so
+                    print(f"WARNING shot {cfg['shots'].index(s)} (t={s['t0']:.3f}): src moved {src0:.2f} -> {src:.2f}")
             except ValueError as e:
                 bad.append(f"shot {cfg['shots'].index(s)} (t={s['t0']:.3f}, {m}, {dur:.2f}s): {e}"); continue
-            takes.append((f, sum(1 for x in union_cuts(p) if x <= src + 0.02))); newparts.append((f, src, cx))
+            if not s.get('jump'):               # jump=True: a deliberate jump cut later in the same take
+                takes.append((f, sum(1 for x in union_cuts(p) if x <= src + 0.02)))
+            newparts.append((f, src, cx))
         if not newparts: continue
         if s['mode'] == 'split': s['parts'] = newparts
         else: s['src'] = newparts[0][1]
@@ -334,7 +338,7 @@ def run(cfg, argv):
         return
     tmp = cfg['out'] + '.v.mp4'
     p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS),
-                          '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', '17', '-pix_fmt', 'yuv420p', tmp], stdin=subprocess.PIPE)
+                          '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', str(cfg.get('crf', 17)), '-pix_fmt', 'yuv420p', tmp], stdin=subprocess.PIPE)
     for f in range(int(cfg['end'] * FPS)):
         p.stdin.write((render_frame(cfg, f, seqs, paths) * 255).astype(np.uint8).tobytes())
         if f % 240 == 0: print(f, flush=True)
