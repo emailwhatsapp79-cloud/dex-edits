@@ -29,6 +29,15 @@ Goal: learn the techniques, never copy an edit.
 |---|---|---|
 | E1 | TikTok @roehrle_mobility "Now Available: Porsche 992 GT3 RS" (16 s, dealer) | Showroom detail edit of ONE car. 0–4.2 s: one still wide shot (car in an autumn forest) while the title types itself letter by letter on the intro beats – P, PO, POR… PORSCHE, then GT3, then RS – and settles centre. 4.2 s drop: a cut on EVERY beat (~0.44 s at 138 BPM, a few 0.2 s double-cuts at the start): headlight, rear wing, PORSCHE lettering, bronze wheels, carbon, the Pepita-tartan seats, exhaust, then back to the front for the ending. Colour story: beige car + orange autumn forest, one warm grade throughout. Sound #33 (instrumental). Lessons: typewriter title reveal is a strong 4-second hook; strict one-cut-per-beat detail run; pick a location whose colours match the car. |
 
+## Batch K – 2026-10-15 ("do your peak") – sounds #58-#60
+| ref | link | what it is | what it teaches |
+|---|---|---|---|
+| K1 | https://vm.tiktok.com/ZN8SDXKjp/ | @fastlane_culture, 20 s, **2.9M views / 561k likes (19%)** - Antonelli "No one is doing it like him" (sound #59) | **Interview hook with kinetic text**: 8.4 s of Antonelli to camera on a dark background ("Finally I luckily passed my driving test, which is hard... going at 30 kph is BORING"), each word popping up big beside his face, the key word in team colour; on "boring" -> the cockpit, the podium, the flag, fast cuts. The joke sets up the payoff (he drives at 300). Warm/teal cinematic grade, letterbox feel. |
+| K2 | https://vm.tiktok.com/ZN8SDPETR/ | @f1edits.ae, 8 s, 311k / 87k likes (28%) - "The Dutch Lion" Verstappen (sound #60) | **Short and dense**: 8 s, 22 cuts, flashes / glow / B&W frames between colour, burnout smoke, the helmet. Short = rewatches. |
+| K3 | https://vm.tiktok.com/ZN8SDPVCR/ | @carspotting_aux, 17 s, 146k / 35k likes (24%) - Porsche 918 Spyder "Invisible" (sound #58), Sony a7 IV | **Spotter film done right**: one silver car in a Swiss street, real camera, cuts on the beat between wide and macro details (fuel cap, badge, "918 Spyder" script, wheel, mirror), shallow focus, cool grade. |
+
+**Lessons:** the best like rates (19-28%) all have ONE strong device - a spoken joke/line with kinetic words (K1), extreme density (K2), or beautiful real-camera details (K3). Kinetic interview text = next step for our trailer subtitles: bigger words, beside the face, key word coloured.
+
 ## Batch J – 2026-10-15
 | ref | link | what it is | what it teaches |
 |---|---|---|---|
@@ -186,3 +195,6 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | auto | https://www.tiktok.com/@f1edits.ae/video/7676807525924195606?_r=1&_t=ZN-9AaAwyCtkDm | @f1edits.ae: IT’S RACE TIME😜 // #lewishamilton #f1 #f1edit #fyp  | sound saved as library #55 (127 BPM, drop ≈ 6.5s) |
 | auto | https://www.tiktok.com/@waisman99/video/7683567989882375438?_r=1&_t=ZN-9AaBL6SWbaA | @waisman99: 1 of 1 Bugatti Mistral MANSORY #mansoryusa @limitedspec #1of1 #bugattimistral  | sound saved as library #56 (97 BPM, drop ≈ 78.0s) |
 | auto | https://www.tiktok.com/@marrrlie0/video/7696562855423872276?_r=1&_t=ZN-9AaK5IkpQx8 | @marrrlie0: Your prime #recommendations #f1 #formula1 #lewishamilton #f1tiktok  | sound saved as library #57 (94 BPM, drop ≈ 4.5s) |
+| auto | https://www.tiktok.com/@carspotting_aux/video/7689423734779743521?_r=1&_t=ZN-9AaNoFC83l8 | @carspotting_aux: Invisible 🗣️ #porsche #918 #2013 #fyp #sony gear: Sony a7iv + tamron 28-75mm f/2.8 + dji r | sound saved as library #58 (116 BPM, drop ≈ 3.5s) |
+| auto | /tmp/claude-0/-home-user/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad/refs_k/ZN8SDXKjp.mp4 | @: Antonelli interview x On My Mind (fastlane_culture) | sound saved as library #59 (90 BPM, drop ≈ 8.5s) |
+| auto | /tmp/claude-0/-home-user/7be1f147-2656-5ce6-9a44-2202ae528a61/scratchpad/refs_k/ZN8SDPETR.mp4 | @: The Dutch Lion (f1edits.ae) | sound saved as library #60 (120 BPM, drop ≈ 4.5s) |
