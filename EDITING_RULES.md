@@ -2,6 +2,21 @@
 
 Rules from Desmond's feedback. Follow every one of them on every edit.
 
+## 0. HARD RULE - CLEAR AND SHARP, NO SIGN OF BLUR (Desmond, Oct 15: "every new edit must be clear and sharp")
+Nothing is scheduled until it passes ALL of these. A soft edit is not posted - it is rebuilt or replaced.
+1. **Sources:** only sharp, recent, official footage (4K press films, official 1080p clips of recent matches/races).
+   Measure every source; never re-uploaded compilations of old SD/720p broadcasts. 720p F1 footage is not used full
+   screen.
+2. **No upscaling over ~1.4x.** Vertical 1080p -> layout `full` at native size; 4K landscape -> `tall`; letterboxed
+   1080p film -> `tall` with `pic_h=810` (4:3, a downscale). Never a 9:16 crop of 1080p landscape.
+3. **No motion interpolation, no fake slow-mo, no grain, no blur transitions** (zoom/whip/spin), no glitch effects.
+   Slow motion only when the source itself is slow-mo (e.g. FIFA super-slow-mo replays).
+4. **Check every shot before the full render** (stills at each cut and each key action) and replace any frame that is
+   motion smear, crowd smear, out of focus or not the subject.
+5. **After the render:** 100% crops of the finished file next to the source - the output must be as sharp as the
+   source (the render adds a light sharpen; it must never be softer). Final encode crf 12, watermark pass >= 8 Mbps.
+6. **Same check for edits already scheduled** before they go out; below standard -> replace with a new edit.
+
 ## 1. Every edit needs a direction
 An edit is a short story about ONE subject, not random clips put together.
 - **Car edit:** one car (or one clear story such as "car A vs car B"). Same car in every shot, same look, same night/day mood. Build it: reveal → details → it moves → payoff.

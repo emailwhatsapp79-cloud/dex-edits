@@ -5,6 +5,9 @@ made with code. All Dex Edits work is committed and pushed HERE ONLY. Never push
 videos to `scamdecoded-media` – that repo belongs to a different channel (@scamdecoded).
 
 Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every edit needs a clear direction.
+HARD RULE (EDITING_RULES §0): every edit must be clear and sharp with no sign of blur - sharp official sources, no
+upscale over ~1.4x, no interpolation/blur effects, stills checked before rendering, 100% crops checked after. A soft
+edit is never scheduled.
 
 ## Layout
 - `EDITING_RULES.md` – the rules learned from Desmond's feedback (direction, hook, beat sync, no repeated takes, branding).
