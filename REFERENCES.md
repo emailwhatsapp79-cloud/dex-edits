@@ -160,3 +160,7 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 | H9 | https://vm.tiktok.com/ZN8SF5kVq/ | @cctemplatessz, 24 s, 1.3M - CapCut "Photo 1-7" beat template (sound #49) | Pure beat template: a colour flash + one photo per hit. |
 | H10 | https://vm.tiktok.com/ZN8SFbPoR/ | @allformybestcar, 14 s, 1.4M - Cadillac CT5 lot, moody overcast grade (sound #50) | Posted **3:4 (1080x1440)**, not 9:16 - the cars are not over-cropped. Joke caption. -> Desmond: 9:16 crops of 16:9 films are "too zoomed"; use layout `tall` (3:4 over its own blur). |
 
+
+| auto | https://www.tiktok.com/@ctrllx/video/7695798142373072129?_r=1&_t=ZN-9AaAibMpPR0 | @ctrllx: We will rock you x F1 //  #usgrandprix #austingrandprix #f1drivers #f1edits #f1championshi | sound saved as library #52 (168 BPM, drop ≈ 2.0s) |
+| auto | https://www.tiktok.com/@gt3flow/video/7688025491449662751?_r=1&_t=ZN-9AaAueCLUQc | @gt3flow: #porsche #gt3rs #gt3 #911 #992  | sound saved as library #53 (115 BPM, drop ≈ 1.5s) |
+| auto | https://www.tiktok.com/@_mc.44_/video/7696534439144295713?_r=1&_t=ZN-9AaAvo7LlZO | @_mc.44_: The Flying Dutchman 🦁 / #maxverstappen #redbullracing #F1 #edit #formula1  | sound saved as library #54 (132 BPM, drop ≈ 6.5s) |

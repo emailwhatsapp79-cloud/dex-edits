@@ -53,6 +53,9 @@
 | 49 | 49_sonido_original_plantillas_edits | "sonido original – ⚡plantillas edits⚡" (from @cctemplatessz: #CapCut #capcutpioneer #pioneertemplate #trend #fy ) | 153 | 24.4s | biggest energy jump (drop) ≈ 12.5s · strongest hits 7.71 9.93 12.27 16.37 17.16 19.67 · added automatically |
 | 50 | 50_suara_asli_dictt | "suara asli - Dictt – Dictt" (from @allformybestcar: A three-year relationship doesn't guarantee a happy ending, but a three-year installment p) | 111 | 14.7s | biggest energy jump (drop) ≈ 8.5s · strongest hits 0.14 1.03 9.62 11.39 11.80 13.97 · added automatically |
 | 51 | 51_son_original | "son original – 𝘮𝘦𝘥𝘸𝘢𝘹𝘹" (from @jesse.gibby: Happy Monday! Have a great and positive week!😁🕺) | 88 | 10.7s | biggest energy jump (drop) ≈ 6.0s · strongest hits 0.06 1.16 1.70 8.34 8.67 9.01 · added automatically |
+| 52 | 52_original_sound_ctrllx | "original sound – ctrllx" (from @ctrllx: We will rock you x F1 //  #usgrandprix #austingrandprix #f1drivers #f1edits #f1championshi) | 168 | 23.6s | biggest energy jump (drop) ≈ 2.0s · strongest hits 1.70 2.07 3.14 3.49 15.06 22.20 · added automatically |
+| 53 | 53_son_original | "son original – 𝐷𝑀 𝑆𝑂𝑁𝐺𝑆 • 歌" (from @gt3flow: #porsche #gt3rs #gt3 #911 #992 ) | 115 | 14.3s | biggest energy jump (drop) ≈ 1.5s · strongest hits 1.42 1.93 2.41 7.84 9.76 11.09 · added automatically |
+| 54 | 54_son_original | "son original – 𝐌𝐂𝟒𝟒" (from @_mc.44_: The Flying Dutchman 🦁 / #maxverstappen #redbullracing #F1 #edit #formula1 ) | 132 | 20.9s | biggest energy jump (drop) ≈ 6.5s · strongest hits 0.02 4.82 6.46 10.46 16.93 18.70 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -121,3 +124,9 @@
 **50_suara_asli_dictt:** `0.00` Music
 
 **51_son_original:** `1.76` THANKS `2.68` FOR `2.90` WATCHING
+
+**52_original_sound_ctrllx:** `3.72` MENU `5.75` Buddy `6.10` you're `6.72` a `6.86` boy `7.12` with `7.34` a `7.56` big `7.78` noise `8.26` Playing `8.66` in `8.92` the `9.02` street `9.36` Gonna `9.70` be `10.04` a `10.18` big `10.42` man `10.80` someday `11.18` You `11.64` got `11.94` mud `12.24` on `12.56` your `12.72` face `13.10` You `13.48` big `13.80` disgrace `14.42` Kicking `15.30` your `15.56` can `16.04` all `16.42` over `16.78` the `16.98` place `17.30` Sing `17.76` it `17.90` We `18.42` will, `19.38` we `19.86` will `20.54` rock `21.12` you
+
+**53_son_original:** `0.00` Do `1.46` you `1.68` recall? `2.84` Not `2.84` long `3.08` ago, `4.14` we `4.44` were `4.72` walking `5.18` the `5.58` sidewalk. `6.82` In `7.20` a `7.34` stand, `8.20` remember, `9.68` all `10.04` we `10.20` did `10.48` was `10.94` care `11.28` for `11.56` each `11.74` other, `12.42` but `12.92` the `13.08` night `13.34` was `13.70` warm.
+
+**54_son_original:** `0.00` Max `0.44` Verstappen, `1.40` you `1.84` are `2.16` the `2.30` world `2.62` champion! `3.80` The `3.92` world `4.40` champion! `12.48` You `13.12` can `13.76` only `13.98` be `14.20` one `14.40` by `14.60` one! `15.34` Max `15.56` Verstappen, `16.40` for `16.68` the `16.80` first `17.18` time `17.42` ever, `18.12` is `18.30` champion `18.92` of `19.76` the `20.00` world!

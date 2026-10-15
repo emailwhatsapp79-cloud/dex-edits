@@ -9,6 +9,7 @@ FONT = os.path.join(ROOT, 'fonts', 'Anton.ttf')
 def brand(src, dst, target_mb=27):
     d = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src],
                              capture_output=True, text=True).stdout)
+    target_mb = max(target_mb, d * 1.0)                    # long edits keep ~8 Mbps (a 58 s trailer must not drop to 3.5)
     br = int(target_mb * 8 * 1024 / d - 260)
     mark = (f"drawtext=fontfile={FONT}:text='DEX EDITS':fontsize=46:fontcolor=white@0.55:"
             f"shadowcolor=black@0.35:shadowx=2:shadowy=2:x=(w-text_w)/2:y=h*0.075")
