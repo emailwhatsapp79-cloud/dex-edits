@@ -55,11 +55,16 @@ PLAN = [
     sh(21.58, POD, 10.50),          # AUSTIN.
 ]
 END = 23.55
+# Desmond, Oct 16: start the song later - cut the 3 s intro, open on LIGHTS OUT on the 3.14 stomp
+OFF = 3.14
+PLAN = [dict(p, t=max(0.0, round(p['t'] - OFF, 3))) for p in PLAN if p['t'] >= 3.16]; PLAN[0]['t'] = 0.0
+END = round(END - OFF, 2)
 W_ = [(5.68, "YOU'RE"), (6.40, 'BUDDY'), (6.86, 'BOY'), (7.62, 'BIG'), (7.80, 'NOISE'), (8.24, 'PLAYING'), (9.02, 'STREET'),
       (9.70, 'GONNA BE'), (10.18, 'BIG'), (10.42, 'MAN'), (10.80, 'SOMEDAY'), (11.64, 'GOT'), (11.94, 'MUD'), (12.72, 'FACE'),
       (13.48, 'BIG'), (13.80, 'DISGRACE'), (14.96, 'KICKING'), (15.56, 'CAN'), (16.42, 'OVER'), (16.98, 'PLACE'),
       (17.60, 'SING IT'), (17.98, 'WE'), (18.40, 'WILL'), (19.42, 'WE'), (19.84, 'WILL'), (20.54, 'ROCK'), (21.12, 'YOU'),
       (21.75, 'AUSTIN.|OCT 23-25')]
+W_ = [(round(t - OFF, 2), w) for t, w in W_]
 TEXT = [(t, (W_[i + 1][0] - 0.02) if i + 1 < len(W_) else END, w) for i, (t, w) in enumerate(W_)]
 
 CFG = dict(
@@ -69,7 +74,7 @@ CFG = dict(
             LEC + '.mp4': (0, 1430), P1 + '.mp4': (0, 1390), OUT + '.mp4': (0, 1400), KPOD + '.mp4': (0, 1440),
             KI + '.mp4': (0, 1420), HAM + '.mp4': (0, 1430), REV + '.mp4': (0, 1420)},
     srcdir=os.path.join(ROOT, 'src_rock'), tmp=os.path.join(ROOT, 'tmp_aq'),
-    song=os.path.join(ROOT, 'songs', 'rock_f1.mp3'), song_offset=0.0,
+    song=os.path.join(ROOT, 'songs', 'rock_f1.mp3'), song_offset=OFF,
     out=os.path.join(ROOT, 'out', 'edit_AQ_rock_f1.mp4'), end=END, plan=PLAN, pad=0.06,
     swing=set(), drop=set(), punch=set(), cut_flash=True, warm=0.0, sat=1.06, grain=0.0, vig=0.3, bg_dim=0.4,
     fx={}, text=TEXT, text_cy=960, crf=12,
