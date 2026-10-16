@@ -82,9 +82,9 @@ def overlay(a, piece, lt, name, ranks_done):
     bar = Image.new('RGBA', (W, H), (0, 0, 0, 0)); bd = ImageDraw.Draw(bar)
     while bd.textlength(cap, font=fc) > 900: cs -= 2; fc = _font(ORB, cs, [800])
     tw = bd.textlength(cap, font=fc); k = ease(lt / 0.25)
-    bd.rounded_rectangle([(W - tw) / 2 - 30, 1560, (W + tw) / 2 + 30, 1640], 16, fill=(0, 0, 0, int(190 * k)))
+    if cap: bd.rounded_rectangle([(W - tw) / 2 - 30, 1560, (W + tw) / 2 + 30, 1640], 16, fill=(0, 0, 0, int(190 * k)))
     bd.text(((W - tw) / 2, 1578), cap, font=fc, fill=(255, 255, 255, int(255 * k)))
-    if not piece.get('teaser'):
+    if cap and not piece.get('teaser'):
         bd.rounded_rectangle([(W - tw) / 2 - 30, 1552, (W - tw) / 2 + 60, 1560], 3, fill=GOLD + (int(255 * k),))
     o = Image.alpha_composite(Image.fromarray((out * 255).astype(np.uint8)).convert('RGBA'), bar)
     out = np.asarray(o.convert('RGB')).astype(np.float32) / 255
