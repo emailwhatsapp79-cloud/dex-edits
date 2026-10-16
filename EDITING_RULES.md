@@ -27,6 +27,11 @@ Nothing is scheduled until it passes ALL of these. A soft edit is not posted - i
 - QC before scheduling: `python3 engine/effres.py videos/<file>.mp4` (effective resolution every 0.5 s) + eyeball every
   flagged frame at 100%. Smooth skin, bokeh and dark frames can read low - the 100% crop decides.
 
+### Captions and hashtags (Desmond, Oct 16)
+Every post: short line + **4-5 hashtags**: F1 `#f1 #formula1 #f1edit #fyp #<driver>`, football `#football #footballedit
+#fyp #worldcup #<player>`, cars `#carsoftiktok #caredit #fyp #<brand> #<model>`. Give each edit a concept/title worth
+sharing (M1 "race week", M2 "the art of camera angles"), not just a statement.
+
 ## 1. Every edit needs a direction
 An edit is a short story about ONE subject, not random clips put together.
 - **Car edit:** one car (or one clear story such as "car A vs car B"). Same car in every shot, same look, same night/day mood. Build it: reveal → details → it moves → payoff.
