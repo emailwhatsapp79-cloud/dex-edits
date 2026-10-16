@@ -162,6 +162,16 @@ An edit is a short story about ONE subject, not random clips put together.
   the strongest accents; quiet faces during the build. (Ronaldo edit AD: volley on the drop, net on 24.32, keeper
   beaten on 26.82, the SIU on 29.33.)
 
+### SINGLE-CAR SPOTTING (L1 GT2 RS, 23% like rate; H2, H8)
+For the CAR slot this is the format that wins on TikTok. One car, one location, nothing else:
+1. Open on a sharp macro detail (headlight, wing), NOT a wide shot.
+2. Hold a low, ground-level shot of the empty street until the car **drives into the frame** and stops on its hero 3/4.
+   That arrival is the payoff, so let it run for 2-4 s.
+3. Then one detail per cut, every 2 beats (~1 s): mirror, crest, wing, interior/shifter, badge. Finish on the hero front.
+4. No text, no effects, a soft warm grade, and a caption that is just the car's name.
+Sources must be sharp single-car footage of ONE car (press films/newsrooms or official clips). Never mix two cars or
+two locations into a spotting edit.
+
 ## 8. Where the original clips come from
 - Movies: official trailers in 1080p from IMDb (GraphQL `video.playbackURLs`), studio press sites.
 - F1: formula1.com videos (Brightcove player, account 6057949432001) - race highlights and "crosses the line".

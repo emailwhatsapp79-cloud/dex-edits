@@ -62,6 +62,7 @@
 | 58 | 58_original_sound_ludwig | "original sound – Ludwig®️ 📸" (from @carspotting_aux: Invisible 🗣️ #porsche #918 #2013 #fyp #sony gear: Sony a7iv + tamron 28-75mm f/2.8 + dji r) | 116 | 17.2s | biggest energy jump (drop) ≈ 3.5s · strongest hits 0.02 3.13 3.65 4.47 9.37 13.54 · added automatically |
 | 59 | 59_antonelli_interview_x_on_my_mind_fastlan | "Antonelli interview x On My Mind (fastlane_culture) – " (from @: Antonelli interview x On My Mind (fastlane_culture)) | 90 | 20.6s | biggest energy jump (drop) ≈ 8.5s · strongest hits 0.04 3.42 7.05 11.68 15.71 17.87 · added automatically |
 | 60 | 60_the_dutch_lion_f1edits_ae | "The Dutch Lion (f1edits.ae) – " (from @: The Dutch Lion (f1edits.ae)) | 120 | 8.2s | biggest energy jump (drop) ≈ 4.5s · strongest hits 0.18 0.73 3.17 3.73 4.29 6.19 · added automatically |
+| 61 | 61_porsche_gt2rs_sound_tj_mxdiaaa | "Porsche GT2RS sound (tj.mxdiaaa) – " (from @: Porsche GT2RS sound (tj.mxdiaaa)) | 123 | 14.3s | biggest energy jump (drop) ≈ 1.5s · strongest hits 0.53 0.74 4.20 4.45 4.91 11.32 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -146,3 +147,5 @@
 **58_original_sound_ludwig:** `5.14` Thank `6.54` you `6.66` for `7.62` watching!
 
 **59_antonelli_interview_x_on_my_mind_fastlan:** `0.00` Finally, `0.68` I `0.76` luckily `1.72` have `1.90` passed `2.14` my `2.30` driving `2.60` test, `3.40` which `3.66` is `3.88` hard. `4.88` I `4.88` mean, `5.52` man, `5.90` going `6.04` at `6.22` 30 `6.52` kph `7.18` is `7.90` boring.
+
+**61_porsche_gt2rs_sound_tj_mxdiaaa:** `0.62` Just `1.18` when `1.44` hitting `1.76` you `2.16` I `2.44` know `2.66` I'll `2.88` never `3.20` be `3.62` the `3.82` same `4.32` It's `4.98` you `5.46` baby `6.20` And `6.86` I `7.04` must `7.30` not `7.56` go `7.74` for `8.02` the `8.24` way `8.54` that `8.74` you `8.92` move, `9.48` baby `10.08` And `10.76` I `10.94` could `11.10` try `11.46` to `11.60` run `11.94` but `12.18` it `12.40` won't `12.66` be `12.92` you
