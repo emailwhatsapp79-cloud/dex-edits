@@ -17,6 +17,16 @@ Nothing is scheduled until it passes ALL of these. A soft edit is not posted - i
    source (the render adds a light sharpen; it must never be softer). Final encode crf 12, watermark pass >= 8 Mbps.
 6. **Same check for edits already scheduled** before they go out; below standard -> replace with a new edit.
 
+### TikTok delivery audit (Oct 16) - what viewers actually see
+- TikTok re-encodes every upload: 1080p at only ~1.1-2.4 Mbps (H.265) and **540p at ~0.4-1 Mbps**, which phones on mobile
+  data play by default. Anything soft in our master becomes "350p-looking" after that.
+- Posted edits with genuinely soft shots: Mbappe (the opening close-ups are upscaled crops - the softest shot was the
+  HOOK), Yamal #10 (RGB-split glitch effect = smear), Antonelli history (upscaled broadcast pack shot). Never again:
+  **the first 2 s must be the sharpest shot in the edit**, and no glitch/RGB-split effects.
+- Upload **30 fps**, not 60: TikTok gives each video roughly the same bitrate, so 60 fps halves the bits per frame.
+- QC before scheduling: `python3 engine/effres.py videos/<file>.mp4` (effective resolution every 0.5 s) + eyeball every
+  flagged frame at 100%. Smooth skin, bokeh and dark frames can read low - the 100% crop decides.
+
 ## 1. Every edit needs a direction
 An edit is a short story about ONE subject, not random clips put together.
 - **Car edit:** one car (or one clear story such as "car A vs car B"). Same car in every shot, same look, same night/day mood. Build it: reveal → details → it moves → payoff.
