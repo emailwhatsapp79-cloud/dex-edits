@@ -275,6 +275,10 @@ def render_frame(cfg, f, seqs, paths):
         if i in cfg.get('drop', ()): a = flash(a, 1.0 * dec(lt, 0.07))
         elif lf == 0 and i and cfg.get('cut_flash', True): a = flash(a, 0.22)
         elif lf == 1 and i and cfg.get('cut_flash', True): a = flash(a, 0.08)
+    for s0, s1, txt in cfg.get('mask_text', []):        # M1 'RACE WEEK' intro: black screen, the footage only INSIDE the letters
+        if s0 <= t < s1:
+            al, _ = text_layer(txt, ANTON, cfg.get('mask_size', 330), cfg.get('mask_cy', H // 2), maxw=1010)
+            a = np.clip(a * 1.15, 0, 1) * al
     tcy = cfg.get('text_cy', CY + CH // 2)
     for s0, s1, txt in cfg['text']:
         if s0 <= t < s1:
