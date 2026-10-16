@@ -20,11 +20,11 @@ KI, HAM, REV = 'f1_7695413467167100182', 'mercedesamgf1_7427481467107675425', 'f
 sh = lambda t, f, src, cx=0.5, **k: dict(t=t, file=f + '.mp4', src=src, cx=cx, mode='real', **k)
 win = lambda t, src, **k: sh(t, 'H', src, layout='window', **k)
 PLAN = [
-    sh(0.00, HELM, 15.60),          # the helmet
-    sh(1.72, HTL, 2.00),            # the launch
+    sh(0.00, P1, 0.40),             # the car rolls in
+    dict(sh(1.72, HTL, 8.60), jump=True),   # the grandstand
     win(2.39, 4.00),                # the red lights
     dict(win(3.16, 6.90), jump=True),   # lights out
-    sh(3.51, SPR, 2.25),            # flat out
+    win(3.51, 13.95),               # turn 1 from above
     sh(5.15, HTL, 7.00),            # YOU'RE
     sh(6.40, KI, 5.30),             # BUDDY - Kimi
     sh(6.86, KPOD, 3.00),           # BOY - lifted on the podium
@@ -37,8 +37,8 @@ PLAN = [
     sh(10.42, FER, 2.00),           # MAN - Lewis in red
     sh(10.80, REV, 10.00),          # SOMEDAY
     sh(11.64, GP, 8.00),            # GOT
-    dict(sh(11.94, GP, 11.00), jump=True),   # MUD - champagne
-    sh(12.72, WIN, 25.00),          # FACE
+    dict(sh(11.94, GP, 12.70), jump=True),   # MUD - the champagne bottle
+    dict(sh(12.72, GP, 13.70), jump=True),   # FACE - Max, soaked, smiling (WIN 25 had a burned radio caption)
     win(13.48, 296.40),             # BIG - off the road goes Hamilton
     dict(win(13.80, 297.30), jump=True),     # DISGRACE
     win(14.96, 324.40),             # KICKING - Antonelli past Hamilton
@@ -51,7 +51,7 @@ PLAN = [
     sh(19.42, OUT, 3.00),           # WE - Max back on top
     sh(19.84, P1, 9.00),            # WILL
     sh(20.54, POD, 4.50),           # ROCK
-    sh(21.12, WIN, 16.50),          # YOU
+    sh(21.12, GP, 6.00),            # YOU - Max, close
     sh(21.58, POD, 10.50),          # AUSTIN.
 ]
 END = 23.55
