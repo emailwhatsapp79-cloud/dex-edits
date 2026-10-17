@@ -21,7 +21,7 @@ def _text(cfg, word, t0=None, t1=None):
         return ''
     en = f":enable='between(t,{t0:.3f},{t1:.3f})'" if t0 is not None else ''
     return (f",drawtext=fontfile={cfg['font']}:text='{_esc(word)}':fontsize={cfg['fs']}:fontcolor=white:"
-            f"shadowcolor=black@0.55:shadowx=0:shadowy=4:x=(w-text_w)/2:y=(h-text_h)/2{en}")
+            f"shadowcolor=black@0.55:shadowx=0:shadowy=4:borderw=3:bordercolor=black@0.45:x=(w-text_w)/2:y=(h-text_h)/2{en}")
 
 
 def frames(cfg):
