@@ -86,6 +86,7 @@
 | 82 | 82_round_14_madring_let_s_see_what_the_no_b | "ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16) – " (from @: ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16)) | 140 | 23.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 11.23 13.24 14.09 14.65 17.38 19.81 · added automatically |
 | 83 | 83_the_porsche_engineers_knew_exactly_what_ | "The Porsche engineers knew exactly what  (sav.edits001) – " (from @: The Porsche engineers knew exactly what  (sav.edits001)) | 145 | 22.2s | biggest energy jump (drop) ≈ 9.5s · strongest hits 2.51 4.09 12.56 14.71 15.99 17.28 · added automatically |
 | 84 | 84_new_song_srhuayra | "New Song?? (srhuayra) – " (from @: New Song?? (srhuayra)) | 110 | 31.3s | biggest energy jump (drop) ≈ 2.5s · strongest hits 2.59 3.14 4.10 4.18 4.24 18.31 · added automatically |
+| 85 | 85_f1_on_my_mind_no_beam16 | "F1 “ON MY MIND” 🏎️🎶 (no.beam16) – " (from @: F1 “ON MY MIND” 🏎️🎶 (no.beam16)) | 180 | 18.7s | biggest energy jump (drop) ≈ 3.5s · strongest hits 0.36 0.72 1.05 2.06 5.27 7.50 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -216,3 +217,5 @@
 **82_round_14_madring_let_s_see_what_the_no_b:** `0.00` I'm `1.00` a `1.08` Spanish `1.42` Grand `1.72` Prix `2.12` is `2.70` underway!
 
 **83_the_porsche_engineers_knew_exactly_what_:** `0.00` The `0.14` Porsche `0.40` engineers `1.00` knew `1.18` exactly `1.66` what `1.96` their `2.10` objective `2.48` was `2.90` to `3.36` make `4.30` the `4.44` new `4.64` 911 `5.16` GT2 `6.10` RS `6.56` the `6.86` most `7.02` powerful `7.56` Porsche `8.02` for `8.26` the `8.38` road.
+
+**85_f1_on_my_mind_no_beam16:** `0.00` One `0.20` night, `1.02` I `1.14` can `1.28` take `1.48` you `1.64` around `1.86` the `1.98` world, `2.36` I'm `2.54` on `2.64` this `2.90` flight `4.18` F**k, `4.58` f**k, `4.98` f**k `5.34` On `5.56` the `5.76` line, `6.42` put `6.60` it `6.78` on `6.96` the `7.08` line `7.38` I've `7.96` been `8.08` loving `8.30` on `8.58` you `8.70` since `8.94` 2025 `9.90` We `10.56` can `10.70` fill `10.92` in `11.06` time, `11.76` I `11.92` look `12.12` for `12.24` the `12.36` night `12.72` I'm `13.30` gonna `13.38` keep `13.56` on `13.74` chasing `13.94` you `14.30` until `14.56` I `14.78` know `14.96` you're `15.14` mine `15.88` On `16.28` the `16.42` line, `17.08` put `17.24` it `17.48` on `17.62` the `17.74` line
