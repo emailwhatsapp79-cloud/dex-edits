@@ -224,4 +224,8 @@ two locations into a spotting edit.
 - **RACE-WEEK FORMULA (refs M6 1.1M, M15 300k):** commentator line "The <X> Grand Prix is underway!" word-by-word over
   the CITY (skyline, aerial, landmarks) -> event title card (track name/logo, city, ROUND n, dates) -> track action on a
   local/trending song -> end on the opening shot (loop). Horizontal native, posted early in race week.
+- **SIDEWAYS FORMAT (refs M2, M10, M12, M17 - @f1edits.ae, 131k-1.1M, 24-26% likes every time):** 16:9 footage rotated
+  90 degrees inside a 1080x1920 file. The viewer turns the phone and gets the whole picture full-screen at native size;
+  the platforms still treat it as vertical (TikTok For You + YouTube Shorts, one file for both). Best for F1 edits from
+  horizontal footage. Grade follows the song (summer pop = bright/saturated, moody song = dark).
 
