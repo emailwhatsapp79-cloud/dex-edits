@@ -207,3 +207,8 @@ two locations into a spotting edit.
 - formula1.com (Brightcove) gives 1280x720 max -> use it full-frame horizontal at 1280x720 or as a 'window' band;
   never 'tall'/'full' crops of it.
 - Never mix: one edit = one orientation, one source quality.
+- **DEFAULT FORMAT FROM OCT 17 (Desmond, after "The greatest show"): "all videos from now on should be like that".**
+  Every new edit is HORIZONTAL 16:9 at the source's native size (engine/wideedit.py): 1920x1080 from 1080p/4K
+  sources (press films, trailers, Tesla 4K), 1280x720 from formula1.com. No crops, no upscale, words centred,
+  light grade, DEX EDITS mark. Already-scheduled vertical posts stay as they are (no re-renders unless asked).
+

@@ -72,6 +72,7 @@
 | 68 | 68_baku_never_stays_quiet_123helmets | "Baku never stays quiet (123helmets) – 123Helmets" (from @123helmets: Baku never stays quiet. 🇦🇿 Walls. Speed. Slipstream. Chaos. One mistake can change everyth) | 130 | 27.5s | biggest energy jump (drop) ≈ 17.0s · strongest hits 0.12 3.25 5.09 9.96 10.63 17.32 · added automatically |
 | 69 | 69_so_close_cpc_dubai | "So close (cpc.dubai) – CPC Car Care Center" (from @cpc.dubai: So close! 😰) | 115 | 13.5s | biggest energy jump (drop) ≈ 9.0s · strongest hits 0.88 1.56 2.20 3.01 7.26 13.27 · added automatically |
 | 70 | 70_kia_ev4_gt_atlantic_road_lenny_motion | "Kia EV4 GT Atlantic Road (lenny_motion) – lenny_motion" (from @lenny_motion: Couldn’t resist… #kia #ev4gt #atlanticroad @Kia Worldwide ) | 141 | 18.8s | biggest energy jump (drop) ≈ 3.0s · strongest hits 1.70 4.43 9.38 11.94 13.54 15.04 · added automatically |
+| 71 | 71_sad_girlz_luv_money_stable_ronaldo_gt3_r | "Sad Girlz Luv Money - Stable Ronaldo GT3 RS (.zxcdre) – .zxcdre" (from @.zxcdre: Stable Ronaldo Porsche GT3RS / SONG NAME: Sad Girlz Luv Money #caredit #porsche #porschegt) | 108 | 14.0s | biggest energy jump (drop) ≈ 3.0s · strongest hits 1.56 2.10 4.28 8.71 12.04 13.70 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -176,3 +177,5 @@
 **69_so_close_cpc_dubai:** `0.00` Бай `0.12` -бай `0.30` -бай `0.44` -бай `1.14` -бай `1.36` -бай
 
 **70_kia_ev4_gt_atlantic_road_lenny_motion:** `0.00` ooooh `0.56` way `0.72` way `0.94` way `1.20` way `1.38` way `1.48` way `1.66` way `1.78` way `1.90` way `1.98` way `2.02` way `2.04` way `2.06` way `2.06` Gonna `2.40` ennene `7.24` Whoa `7.84` oh `8.38` oh `8.44` fuck `12.86` Like `13.66` do `14.54` Iings `15.44` Would `15.82` you `16.66` just `18.06` be `18.06` a `18.06` hyena `18.06` Mamma `18.76` maam
+
+**71_sad_girlz_luv_money_stable_ronaldo_gt3_r:** `0.00` I `0.50` really `0.76` like `1.14` your `1.38` body `2.08` I `2.98` really `3.40` wanna `3.74` hit `4.08` naughty `4.86` I `5.54` think `6.00` you're `6.34` such `6.66` a `7.14` hearty `7.96` Slump `8.64` dancing `9.12` in `9.68` the `9.98` party `10.76` Oh `11.46` yes, `12.06` we're `12.26` making `12.80` money
