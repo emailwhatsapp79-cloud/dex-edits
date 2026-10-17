@@ -91,6 +91,7 @@
 | 87 | 87_holy_masterpiece_the_koenigsegg_je_sm_ca | "Holy Masterpiece • 😍 • The Koenigsegg Je (sm.cars13) – " (from @: Holy Masterpiece • 😍 • The Koenigsegg Je (sm.cars13)) | 124 | 21.5s | biggest energy jump (drop) ≈ 11.0s · strongest hits 0.06 0.41 4.55 4.59 4.79 16.02 · added automatically |
 | 88 | 88_918_spyder_masterpiece_exoticmotion09 | "918 Spyder Masterpiece 💜 (exoticmotion09) – " (from @: 918 Spyder Masterpiece 💜 (exoticmotion09)) | 131 | 11.2s | biggest energy jump (drop) ≈ 8.5s · strongest hits 0.07 5.08 5.22 7.27 8.24 11.15 · added automatically |
 | 89 | 89_now_what_camie_f1_edit_aauto_editss | "🎵NOW WHAT - Camie: F1 Edit (aauto.editss) – " (from @: 🎵NOW WHAT - Camie: F1 Edit (aauto.editss)) | 110 | 13.9s | biggest energy jump (drop) ≈ 4.5s · strongest hits 0.21 4.42 6.44 7.80 9.60 13.85 · added automatically |
+| 90 | 90_gt3_black_srhuayra | "Gt3 Black (srhuayra) – " (from @: Gt3 Black (srhuayra)) | 110 | 31.3s | biggest energy jump (drop) ≈ 2.5s · strongest hits 2.70 3.01 4.34 10.46 22.05 27.57 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 

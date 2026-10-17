@@ -84,7 +84,7 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 ## Batch A – 2026-10-13
 | ref | source | what it does |
 |---|---|---|
-| A1 | TikTok @f1edits.ae "Formula 1 ❌ Formula Max ✅" | Aura edit; speech intro (handshake between teammates) matched by the picture; drop at 9.77 s; 4-frame strobe rolls; sound saved as library #23. |
+| A1 | TikTok @f1edits.ae "Formula 1 ❌ Formula Max ✅" (https://vm.tiktok.com/ZN8SGMYo9/ - **3.3M views / 539k likes (16%) / 32k shares / 72k saves**, 19 s, SQUARE 1080x1080 60 fps; re-sent Oct 17) | Aura edit; speech intro (handshake between teammates) matched by the picture; drop at 9.77 s; 4-frame strobe rolls; sound saved as library #23. |
 | A2 | TikTok @r.d_017 "We just pray for cars" (Tokyo Drift) | Cinematic lyric edit, ultrawide, lyric subtitles, lyric-matched shots; sound saved as library #24. |
 
 ## First references (v01–v23)
@@ -296,4 +296,8 @@ shares are 1.2-2.4% of views, ours are 0.
 
 | auto | https://vm.tiktok.com/ZN8Sscvgq/ | @: 🎵NOW WHAT - Camie: F1 Edit (aauto.editss) | sound saved as library #89 (110 BPM, drop ≈ 4.5s) |
 | M18 | https://vm.tiktok.com/ZN8Sscvgq/ | @aauto.editss, 13 s, **506k / 147k likes (29%) / 22k shares / 28k saves** - "NOW WHAT - Camie: F1 Edit" #mograph #davinciresolve (sound #89 - EXPLICIT lyrics, never use as-is) | **MOTION-GRAPHICS (mograph) edit, HORIZONTAL 1920x1080 24 fps**: starts on a pure WHITE void with a tiny "NOW WHAT / F1" logo; red dots drop in on the beat and grow into the poles of a catch-fence, the track barrier builds itself in 3D and a car shoots out of the white. Then real footage mixed with CUTOUTS ON WHITE (a driver rotoscoped and standing on a white background, cars on a white-only track), a glowing Max helmet, extreme eye close-ups, Russell on the podium, Monza from the air with the tricolore smoke, donuts, a pencil-SKETCH (line-art) frame of the track, and back to the white logo (loop). Lessons: (1) a white/empty void opening is a pattern-break in a feed full of dark edits; (2) subject cutouts on white (segmentation) are a premium look we can do in code (person/car mask -> white background) on sharp frames; (3) 13 s, 24 fps film cadence, ends where it starts. Song is explicit - pick clean songs for our channel. |
+
+
+| auto | https://vm.tiktok.com/ZN8SG1qCp/ | @: Gt3 Black (srhuayra) | sound saved as library #90 (110 BPM, drop ≈ 2.5s) |
+| N11 | https://vm.tiktok.com/ZN8SG1qCp/ | @srhuayra, 31 s, 158k / 34k likes (21%) / 2.9k saves - "GT3 Black" (sound #90) | Same creator as N8 and the SAME opener: the white y = tan(x^2/3) math graph -> hard cut to the car. Here real dealer footage of a black 911 GT3 (Touring-style, carbon roof), near-square 1300x1080 60 fps: rear 3/4 -> the car fading in from black -> details on the beat (carbon mirror, Alcantara wheel, wing, "GT3" sill, carbon roof) with whip-pan transitions, outside a dealership in daylight. Lessons: (1) a creator's signature opener reused on every post becomes a brand people recognise (our version: one fixed DEX EDITS intro beat); (2) black car + carbon details work because the light is soft daylight - everything sharp. |
 
