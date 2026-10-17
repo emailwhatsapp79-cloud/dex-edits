@@ -85,6 +85,7 @@
 | 81 | 81_he_s_back_editnozff1k | "He's back (editnozff1k) – " (from @: He's back (editnozff1k)) | 128 | 17.1s | biggest energy jump (drop) ≈ 13.0s · strongest hits 1.03 7.01 8.61 10.77 12.65 14.52 · added automatically |
 | 82 | 82_round_14_madring_let_s_see_what_the_no_b | "ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16) – " (from @: ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16)) | 140 | 23.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 11.23 13.24 14.09 14.65 17.38 19.81 · added automatically |
 | 83 | 83_the_porsche_engineers_knew_exactly_what_ | "The Porsche engineers knew exactly what  (sav.edits001) – " (from @: The Porsche engineers knew exactly what  (sav.edits001)) | 145 | 22.2s | biggest energy jump (drop) ≈ 9.5s · strongest hits 2.51 4.09 12.56 14.71 15.99 17.28 · added automatically |
+| 84 | 84_new_song_srhuayra | "New Song?? (srhuayra) – " (from @: New Song?? (srhuayra)) | 110 | 31.3s | biggest energy jump (drop) ≈ 2.5s · strongest hits 2.59 3.14 4.10 4.18 4.24 18.31 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
