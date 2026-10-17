@@ -84,6 +84,7 @@
 | 80 | 80_acido_3_hamilton_ts_speed29 | "Acido 3 - Hamilton (ts_speed29) – " (from @: Acido 3 - Hamilton (ts_speed29)) | 124 | 25.1s | biggest energy jump (drop) ≈ 3.5s · strongest hits 7.32 10.77 13.03 20.30 21.71 22.91 · added automatically |
 | 81 | 81_he_s_back_editnozff1k | "He's back (editnozff1k) – " (from @: He's back (editnozff1k)) | 128 | 17.1s | biggest energy jump (drop) ≈ 13.0s · strongest hits 1.03 7.01 8.61 10.77 12.65 14.52 · added automatically |
 | 82 | 82_round_14_madring_let_s_see_what_the_no_b | "ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16) – " (from @: ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16)) | 140 | 23.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 11.23 13.24 14.09 14.65 17.38 19.81 · added automatically |
+| 83 | 83_the_porsche_engineers_knew_exactly_what_ | "The Porsche engineers knew exactly what  (sav.edits001) – " (from @: The Porsche engineers knew exactly what  (sav.edits001)) | 145 | 22.2s | biggest energy jump (drop) ≈ 9.5s · strongest hits 2.51 4.09 12.56 14.71 15.99 17.28 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -212,3 +213,5 @@
 **81_he_s_back_editnozff1k:** `0.00` Max `0.40` Verstappen `1.28` takes `1.86` victory `2.52` and `3.18` wins `3.70` the `4.04` Grand `4.28` Prix!
 
 **82_round_14_madring_let_s_see_what_the_no_b:** `0.00` I'm `1.00` a `1.08` Spanish `1.42` Grand `1.72` Prix `2.12` is `2.70` underway!
+
+**83_the_porsche_engineers_knew_exactly_what_:** `0.00` The `0.14` Porsche `0.40` engineers `1.00` knew `1.18` exactly `1.66` what `1.96` their `2.10` objective `2.48` was `2.90` to `3.36` make `4.30` the `4.44` new `4.64` 911 `5.16` GT2 `6.10` RS `6.56` the `6.86` most `7.02` powerful `7.56` Porsche `8.02` for `8.26` the `8.38` road.
