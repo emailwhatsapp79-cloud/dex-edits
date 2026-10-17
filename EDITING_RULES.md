@@ -211,4 +211,10 @@ two locations into a spotting edit.
   Every new edit is HORIZONTAL 16:9 at the source's native size (engine/wideedit.py): 1920x1080 from 1080p/4K
   sources (press films, trailers, Tesla 4K), 1280x720 from formula1.com. No crops, no upscale, words centred,
   light grade, DEX EDITS mark. Already-scheduled vertical posts stay as they are (no re-renders unless asked).
+- **Clarity first, orientation second (Desmond, Oct 17, ref N5):** horizontal is not the point - CLEAR is. Use the
+  orientation the source was filmed in, at native size, in good light. Vertical native (1080x1920 phone/TikTok) and
+  horizontal native (1080p/4K films) are both fine; crops/upscales are not.
+- **YouTube is scheduled SEPARATELY from TikTok (Oct 17):** YouTube only makes vertical/square uploads Shorts - a 16:9
+  upload becomes a normal video (no Shorts feed, other compression). Horizontal edits: TikTok gets the 16:9 file,
+  YouTube gets `engine/ytshort.py` (16:9 band on black 1080x1920 + title, no crop, no blur) as its own post.
 
