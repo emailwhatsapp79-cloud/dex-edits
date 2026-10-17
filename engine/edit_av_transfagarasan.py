@@ -11,26 +11,29 @@ from cardedit import ROOT
 
 T = 'p_322803'
 sh = lambda t, src, cx=0.5, **k: dict(t=t, file=T + '.mp4', src=src, cx=cx, mode='real', **k)
-PLAN = [                             # the film's takes are ~0.5-2 s: one take per cut, cuts on the beats of #61
-    sh(0.00, 8.69),                  # headlights glowing in the fog
-    sh(1.02, 7.81),                  # the headlight, macro
-    sh(1.51, 17.10),                 # the car arrives out of the fog (held)
-    sh(3.50, 10.98),                 # the driver walks to it
-    sh(5.46, 23.70),                 # hands on the wheel
-    sh(6.43, 19.30),                 # into the bends
-    sh(8.36, 21.45),                 # headlights through the hairpin
-    sh(9.33, 31.45),                 # the road from above
-    sh(10.31, 28.65),                # TRIBUTE TO TRANSFAGARASAN - 50 YEARS
-    sh(10.80, 34.93),                # the gallery - the hero, held to the end
+# v2 (Desmond Oct 17): open on the BRIGHT aerial of the road (sharpest, instantly recognisable) + the line, sound #33
+# (138 BPM, loud from the first frame), interior shots removed ("inside car footage doesn't fit") - exterior story only.
+PLAN = [                             # cuts on every 2nd kick of #33 (0.43 s grid); one take per cut
+    sh(0.00, 31.45),                 # the road from above - THE BEST ROAD IN THE WORLD
+    sh(1.03, 8.70),                  # headlights glowing in the fog
+    sh(1.93, 13.13),                 # the car rounds the fog bend
+    sh(2.79, 17.10),                 # it arrives (held)
+    sh(4.67, 10.98),                 # the driver walks to it
+    sh(6.23, 19.30),                 # into the hairpins
+    sh(7.98, 21.45),                 # headlights through the hairpin
+    sh(8.85, 5.10),                  # out of the fog again
+    sh(10.14, 28.66),                # the badge: TRIBUTE TO TRANSFAGARASAN - 50 YEARS
+    sh(10.58, 33.50),                # into the gallery
+    sh(11.88, 34.95),                # the gallery - the hero, held
 ]
-END = 13.72                          # ends before the film's PORSCHE end card
+END = 14.04
 CFG = dict(
     name='AV', layout='tall', active={},
     srcdir=os.path.join(ROOT, 'src_pcar'), tmp=os.path.join(ROOT, 'tmp_av'),
-    song=os.path.join(ROOT, 'songs', 'gt2rs_sound.mp3'), song_offset=0.0,
+    song=os.path.join(ROOT, 'songs', 'gt3rs_roehrle.mp3'), song_offset=0.0,
     out=os.path.join(ROOT, 'out', 'edit_AV_transfagarasan.mp4'), end=END, plan=PLAN, pad=0.02,
     swing=set(), drop=set(), punch=set(), cut_flash=False, warm=0.02, sat=1.0, grain=0.0, vig=0.3, bg_dim=0.35,
-    fx={}, text=[(0.10, 2.40, 'THE BEST ROAD IN THE WORLD|GOT ITS OWN 911.')], text_cy=1700, crf=12,
+    fx={}, text=[(0.05, 2.75, 'THE BEST ROAD IN THE WORLD|GOT ITS OWN 911.')], text_cy=1560, crf=12,
 )
 
 if __name__ == '__main__':
