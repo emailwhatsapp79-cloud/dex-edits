@@ -89,6 +89,7 @@
 | 85 | 85_f1_on_my_mind_no_beam16 | "F1 “ON MY MIND” 🏎️🎶 (no.beam16) – " (from @: F1 “ON MY MIND” 🏎️🎶 (no.beam16)) | 180 | 18.7s | biggest energy jump (drop) ≈ 3.5s · strongest hits 0.36 0.72 1.05 2.06 5.27 7.50 · added automatically |
 | 86 | 86_lush_life_x_formula_1_f1edits_ae | "Lush Life x Formula 1😜 // (f1edits.ae) – " (from @: Lush Life x Formula 1😜 // (f1edits.ae)) | 98 | 23.8s | biggest energy jump (drop) ≈ 4.0s · strongest hits 0.03 1.20 1.80 6.91 15.15 22.63 · added automatically |
 | 87 | 87_holy_masterpiece_the_koenigsegg_je_sm_ca | "Holy Masterpiece • 😍 • The Koenigsegg Je (sm.cars13) – " (from @: Holy Masterpiece • 😍 • The Koenigsegg Je (sm.cars13)) | 124 | 21.5s | biggest energy jump (drop) ≈ 11.0s · strongest hits 0.06 0.41 4.55 4.59 4.79 16.02 · added automatically |
+| 88 | 88_918_spyder_masterpiece_exoticmotion09 | "918 Spyder Masterpiece 💜 (exoticmotion09) – " (from @: 918 Spyder Masterpiece 💜 (exoticmotion09)) | 131 | 11.2s | biggest energy jump (drop) ≈ 8.5s · strongest hits 0.07 5.08 5.22 7.27 8.24 11.15 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -225,3 +226,5 @@
 **86_lush_life_x_formula_1_f1edits_ae:** `0.00` But `0.24` that's `0.68` all `0.88` it `1.10` was, `1.68` so `1.98` I `2.18` gave `2.46` it `2.78` up `3.22` I `3.90` lived `4.04` my `4.22` day `4.54` as `4.86` if `5.06` it `5.30` was `5.58` the `5.80` last `6.22` And `6.48` my `6.64` day `6.98` as `7.28` if `7.48` it `7.72` was `7.98` no `8.22` past `8.60` Doing `9.02` it `9.34` all `9.62` night, `10.00` all `10.22` summer `10.68` Doing `11.50` it `11.78` the `12.04` way `12.44` I `12.72` want `12.98` it `13.30` I'ma `14.02` dance `14.32` my `14.68` heart `14.98` out `15.10` till `15.34` the `15.54` dawn `16.02` But `16.36` I `16.52` won't `16.80` be `16.96` done `17.34` when `17.54` morning `17.96` comes `18.42` Doing `18.84` it `19.12` all `19.42` night, `19.72` all `20.06` summer `20.58` Gonna `21.26` spend `21.58` it `21.92` like `22.20` no `22.54` other
 
 **87_holy_masterpiece_the_koenigsegg_je_sm_ca:** `2.54` 구독과 `3.94` 좋아요 `3.94` 부탁드립니다!
+
+**88_918_spyder_masterpiece_exoticmotion09:** `0.00` I `0.24` just `0.48` want `0.78` to `1.00` rewind `1.64` I `2.18` haven't `2.62` seen `2.86` you `3.04` in `3.30` a `3.46` long `3.76` time `4.32` You `4.70` got `4.96` me `5.12` feeling `5.48` so `5.90` lonely `6.52` Even `7.22` when `7.54` you `7.72` come `8.08` through `8.52` I `9.22` can `9.46` tell `9.82` that `10.14` it `10.36` isn't `10.80` you
