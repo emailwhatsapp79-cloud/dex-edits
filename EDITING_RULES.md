@@ -32,6 +32,12 @@ Every post: short line + **4-5 hashtags**: F1 `#f1 #formula1 #f1edit #fyp #<driv
 #fyp #worldcup #<player>`, cars `#carsoftiktok #caredit #fyp #<brand> #<model>`. Give each edit a concept/title worth
 sharing (M1 "race week", M2 "the art of camera angles"), not just a statement.
 
+### What works vs what doesn't (Desmond, Oct 17)
+- WORKS: Antonelli "20 years old. One race from history." - YouTube 7,004 views / 424 likes / 9 shares / +4 subs in 2 days,
+  the channel's best. One driver, one story with stakes in the title, trailer format, real voices.
+- NEVER AGAIN: "Top 5" compilations built from mixed broadcast/fan clips (Messi Top 5 = very blurry). A countdown only if
+  every clip is official 1080p+ and passes the 100% check - otherwise make a one-story edit instead.
+
 ## 1. Every edit needs a direction
 An edit is a short story about ONE subject, not random clips put together.
 - **Car edit:** one car (or one clear story such as "car A vs car B"). Same car in every shot, same look, same night/day mood. Build it: reveal → details → it moves → payoff.
