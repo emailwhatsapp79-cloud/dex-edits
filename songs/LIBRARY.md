@@ -98,6 +98,7 @@
 | 94 | 94_antonelli_young_prodigy_pilo_f1 | "Antonelli - Young Prodigy. | (pilo.f1) – " (from @: Antonelli - Young Prodigy. / (pilo.f1)) | 114 | 17.9s | biggest energy jump (drop) ≈ 8.0s · strongest hits 0.74 3.10 4.17 4.34 6.79 7.69 · added automatically |
 | 95 | 95_up_next_is_singapore_f1edits_ae | "UP NEXT IS SINGAPORE🇸🇬👀 // (f1edits.ae) – " (from @: UP NEXT IS SINGAPORE🇸🇬👀 // (f1edits.ae)) | 130 | 26.8s | biggest energy jump (drop) ≈ 19.5s · strongest hits 0.58 10.22 12.11 13.94 19.50 20.42 · added automatically |
 | 96 | 96_nader_mohammadi_three_flip_throw_assists | "Nader Mohammadi Three Flip-Throw Assists (footytopranking5387) – " (from @: Nader Mohammadi Three Flip-Throw Assists (footytopranking5387)) | 128 | 30.6s | biggest energy jump (drop) ≈ 29.0s · strongest hits 0.17 2.56 3.85 5.30 11.26 14.91 · added automatically |
+| 97 | 97_ferrari_racing_days_on_repeat_ferrari | "Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari) – " (from @: Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari)) | 128 | 9.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 0.03 1.76 2.01 3.13 8.20 8.31 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -248,3 +249,5 @@
 **95_up_next_is_singapore_f1edits_ae:** `0.00` Welcome `0.54` along `0.88` to `1.14` the `1.32` Singapore `1.88` Night `2.42` Race, `2.80` where `3.04` fittingly `3.94` as `4.12` we've `4.42` entered `4.66` darkness `5.22` in `5.62` this `5.80` part `6.10` of `6.20` the `6.28` world, `6.62` 1600 `6.98` bulbs `7.74` illuminate `8.36` the `8.48` circuit `8.82` and `9.14` the `9.28` Singapore `9.70` Grand `10.08` Prix `10.56` is `11.12` underway!
 
 **96_nader_mohammadi_three_flip_throw_assists:** `30.00` You
+
+**97_ferrari_racing_days_on_repeat_ferrari:** `5.78` Thanks `7.18` for `8.20` watching!
