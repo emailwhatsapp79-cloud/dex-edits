@@ -10,15 +10,20 @@ sys.path.insert(0, os.path.dirname(__file__))
 import cardedit
 from cardedit import ROOT
 
-A, B, C, D = 'k4_718', 'k4_1625', 'k4_1258', 'k4_1036'
+A, B, C, D, E = 'k4_718', 'k4_1625', 'k4_1258', 'k4_1036', 'k4_868'
 sh = lambda t, f, src, cx=0.5, **k: dict(t=t, file=f + '.mp4', src=src, cx=cx, mode='real', **k)
+J = lambda d: dict(d, jump=True)    # the stream switches cameras without a hard cut the detector sees
+# v3 (Desmond: "doesn't add up, some clips are repeated"): every moment ONCE, in the order it happened.
+# The stream's overhead replay (B 5-10) is the SAME flip as A 37-41 -> dropped; A is used in 4 non-overlapping pieces.
 PLAN = [
-    sh(0.00, A, 23.00),                         # FLYING CARS ARE REAL. - upside down on the wall
-    dict(sh(1.90, A, 22.50), jump=True),        # the stunt, real time: the wall, the launch, the landing, "well, it worked."
-    sh(11.15, B, 4.50),                         # the barrel roll from above (voice-over)
-    dict(sh(14.75, A, 41.60), jump=True),       # "well, not anymore." - it lands
-    sh(15.85, B, 23.60, layout='window'),       # the jump over the Semi + the explosion - full 16:9 band (the car crosses the whole frame)
-    sh(21.85, D, 4.50),                         # ROADSTER.
+    sh(0.00, A, 33.60),                         # FLYING CARS ARE REAL. - the car riding the arch
+    J(sh(1.90, A, 22.50)),                      # wide, live sound: up the vertical wall
+    J(sh(5.90, A, 37.60)),                      # the BARREL ROLL - from above, the moment it leaves the wall
+    J(sh(9.50, A, 30.10)),                      # the landing in smoke - "well, it worked."
+    sh(11.15, E, 7.50, layout='window'),        # on stage, the doors open - "the future promised us flying cars..."
+    J(sh(14.75, E, 11.10, layout='window')),    # "...well, not anymore."
+    sh(15.85, B, 23.60, layout='window'),       # the jump over the Semi + the explosion (live roar)
+    sh(21.85, D, 4.50),                         # the headlights - ROADSTER.
 ]
 END = 24.35
 TEXT = [(0.05, 1.85, 'FLYING CARS|ARE REAL.'), (10.00, 11.10, 'WELL, IT WORKED.'),
