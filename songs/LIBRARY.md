@@ -83,6 +83,7 @@
 | 79 | 79_camera_angles_part_2_f1edits_ae | "Camera angles part 2 (f1edits.ae) – " (from @: Camera angles part 2 (f1edits.ae)) | 119 | 22.9s | biggest energy jump (drop) ≈ 13.0s · strongest hits 0.05 4.75 8.58 18.59 22.72 22.81 · added automatically |
 | 80 | 80_acido_3_hamilton_ts_speed29 | "Acido 3 - Hamilton (ts_speed29) – " (from @: Acido 3 - Hamilton (ts_speed29)) | 124 | 25.1s | biggest energy jump (drop) ≈ 3.5s · strongest hits 7.32 10.77 13.03 20.30 21.71 22.91 · added automatically |
 | 81 | 81_he_s_back_editnozff1k | "He's back (editnozff1k) – " (from @: He's back (editnozff1k)) | 128 | 17.1s | biggest energy jump (drop) ≈ 13.0s · strongest hits 1.03 7.01 8.61 10.77 12.65 14.52 · added automatically |
+| 82 | 82_round_14_madring_let_s_see_what_the_no_b | "ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16) – " (from @: ROUND 14: MADRING🇪🇸🇪🇸 let’s see what the (no.beam16)) | 140 | 23.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 11.23 13.24 14.09 14.65 17.38 19.81 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -209,3 +210,5 @@
 **80_acido_3_hamilton_ts_speed29:** `3.60` Seven `4.20` -time `4.46` Formula `4.80` One `5.18` World `5.38` Champion, `6.18` tied `6.38` with `6.56` Michael `6.84` Schumacher, `7.72` and `7.74` holds `8.00` the `8.18` records `8.50` for `8.74` most `8.94` wins, `9.60` pole `9.74` positions, `10.64` and `10.74` podium `11.04` finishes. `12.06` Lewis `12.22` Hamilton, `13.10` he `13.26` is `13.38` now `13.58` in `13.72` his `13.84` second `14.08` season `14.50` with `14.72` Ferrari, `15.60` having `15.78` claimed `16.12` world `16.38` championships `17.04` with `17.36` both `17.56` McLaren `18.12` and `18.34` Mercedes `18.62` before `19.20` that. `19.90` Silverstone `20.42` stands `20.70` out `21.04` as `21.20` his `21.34` strongest `21.70` track `22.18` with `22.40` a `22.50` record `22.74` nine `23.06` wins.
 
 **81_he_s_back_editnozff1k:** `0.00` Max `0.40` Verstappen `1.28` takes `1.86` victory `2.52` and `3.18` wins `3.70` the `4.04` Grand `4.28` Prix!
+
+**82_round_14_madring_let_s_see_what_the_no_b:** `0.00` I'm `1.00` a `1.08` Spanish `1.42` Grand `1.72` Prix `2.12` is `2.70` underway!
