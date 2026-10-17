@@ -90,6 +90,7 @@
 | 86 | 86_lush_life_x_formula_1_f1edits_ae | "Lush Life x Formula 1😜 // (f1edits.ae) – " (from @: Lush Life x Formula 1😜 // (f1edits.ae)) | 98 | 23.8s | biggest energy jump (drop) ≈ 4.0s · strongest hits 0.03 1.20 1.80 6.91 15.15 22.63 · added automatically |
 | 87 | 87_holy_masterpiece_the_koenigsegg_je_sm_ca | "Holy Masterpiece • 😍 • The Koenigsegg Je (sm.cars13) – " (from @: Holy Masterpiece • 😍 • The Koenigsegg Je (sm.cars13)) | 124 | 21.5s | biggest energy jump (drop) ≈ 11.0s · strongest hits 0.06 0.41 4.55 4.59 4.79 16.02 · added automatically |
 | 88 | 88_918_spyder_masterpiece_exoticmotion09 | "918 Spyder Masterpiece 💜 (exoticmotion09) – " (from @: 918 Spyder Masterpiece 💜 (exoticmotion09)) | 131 | 11.2s | biggest energy jump (drop) ≈ 8.5s · strongest hits 0.07 5.08 5.22 7.27 8.24 11.15 · added automatically |
+| 89 | 89_now_what_camie_f1_edit_aauto_editss | "🎵NOW WHAT - Camie: F1 Edit (aauto.editss) – " (from @: 🎵NOW WHAT - Camie: F1 Edit (aauto.editss)) | 110 | 13.9s | biggest energy jump (drop) ≈ 4.5s · strongest hits 0.21 4.42 6.44 7.80 9.60 13.85 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -228,3 +229,5 @@
 **87_holy_masterpiece_the_koenigsegg_je_sm_ca:** `2.54` 구독과 `3.94` 좋아요 `3.94` 부탁드립니다!
 
 **88_918_spyder_masterpiece_exoticmotion09:** `0.00` I `0.24` just `0.48` want `0.78` to `1.00` rewind `1.64` I `2.18` haven't `2.62` seen `2.86` you `3.04` in `3.30` a `3.46` long `3.76` time `4.32` You `4.70` got `4.96` me `5.12` feeling `5.48` so `5.90` lonely `6.52` Even `7.22` when `7.54` you `7.72` come `8.08` through `8.52` I `9.22` can `9.46` tell `9.82` that `10.14` it `10.36` isn't `10.80` you
+
+**89_now_what_camie_f1_edit_aauto_editss:** `3.18` BITCH `3.66` I'M `3.88` HARD `4.08` FOR `4.34` EVERYTHING `5.26` Yeah `5.74` she `5.88` sure `6.20` that `6.42` takes `7.52` Got `8.00` that `8.12` bitch `8.32` by `8.54` her `8.68` neck `9.06` I `9.98` told `10.12` that `10.32` bitch `10.54` get `10.74` her `10.84` dress `11.20` Yeah `11.68` I'm `12.54` taking `12.76` her `13.04` face
