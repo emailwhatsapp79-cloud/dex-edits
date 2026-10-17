@@ -66,6 +66,7 @@
 | 62 | 62_original_sound_formula_1 | "original sound – Formula 1" (from @f1: we’re heading back to Africa 🌍 celebrating the excitement and spirit of connection with ou) | 125 | 66.2s | biggest energy jump (drop) ≈ 38.0s · strongest hits 1.44 4.28 17.56 31.26 49.00 58.84 · added automatically |
 | 63 | 63_race_week_antonelli_monza_ctrllx | "RACE WEEK Antonelli Monza (ctrllx) – " (from @: RACE WEEK Antonelli Monza (ctrllx)) | 122 | 28.0s | biggest energy jump (drop) ≈ 17.0s · strongest hits 0.10 1.57 21.60 24.75 27.89 27.98 · added automatically |
 | 64 | 64_the_art_of_camera_angles_f1edits_ae | "The art of camera angles (f1edits.ae) – " (from @: The art of camera angles (f1edits.ae)) | 121 | 19.8s | biggest energy jump (drop) ≈ 18.5s · strongest hits 0.08 1.51 6.26 10.11 12.54 13.35 · added automatically |
+| 65 | 65_jamks_music (= #40, same sound; word timings below) | "オリジナル楽曲 - JAMKS MUSIC 🇯🇵 – JAMKS MUSIC 🇯🇵" (from @azmiedtz03: #CapCut TRY THIS TEMPLATE // BOW BOW BOW X BARNEY CAR EDIT 🎥 @lennart.raw  #capcuttemplate) | 131 | 12.6s | biggest energy jump (drop) ≈ 8.0s · strongest hits 1.09 1.31 2.93 5.71 7.12 9.40 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -158,3 +159,5 @@
 **63_race_week_antonelli_monza_ctrllx:** `0.00` You `0.80` should `1.32` know `2.32` I `9.06` It's `9.78` so `9.94` hard `10.24` I'm `10.48` holding `10.68` a `11.02` sticker `11.46` that `12.14` I'm `12.44` feminine `12.78` It's `13.46` like `13.66` a `14.28` rodeo, `15.00` no, `15.54` it's `15.64` just `15.80` how `16.12` to `16.26` take `16.62` control `17.76` When `18.12` I'm `18.42` vulnerable, `19.14` it's `19.54` straight `19.74` -talking `20.24` It's `20.38` almost `20.58` a `20.88` conversation `21.82` over `22.56` Training `23.78` season's `25.40` over
 
 **64_the_art_of_camera_angles_f1edits_ae:** `0.00` Thank `0.56` you `1.54` for `1.96` watching, `12.20` please `12.20` subscribe `13.16` to `19.78` my `19.78` channel `19.78` if `19.78` you `19.78` like `19.78` this `19.78` video.
+
+**65_jamks_music:** `0.00` That's `0.30` on `0.40` the `0.48` floor. `1.10` That's `1.24` on `1.34` the `1.44` couch. `1.92` That's `2.16` on `2.26` the `2.32` stage. `2.84` That's `3.08` in `3.18` the `3.26` crowd. `3.70` Let `3.70` me `3.78` see `3.92` you `4.02` go

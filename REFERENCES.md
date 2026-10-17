@@ -210,3 +210,6 @@ beat. The hook is the view itself (or "wait for it…"), not big text.
 **Lesson (Desmond, Oct 16):** all three use 4-5 hashtags (#f1 #f1edit #formula1 #fyp + topic). We dropped to one - go back to
 4-5 relevant ones on every post. And all three have a TITLE/CONCEPT people share ("race week", "the art of camera angles"):
 shares are 1.2-2.4% of views, ours are 0.
+
+| auto | https://www.tiktok.com/@azmiedtz03/video/7696164559744191745?_r=1&_t=ZN-9AciE0BXDyo | @azmiedtz03: #CapCut TRY THIS TEMPLATE // BOW BOW BOW X BARNEY CAR EDIT 🎥 @lennart.raw  #capcuttemplate | sound saved as library #65 (131 BPM, drop ≈ 8.0s) |
+| N1 | https://vm.tiktok.com/ZN8S4UERP/ | @azmiedtz03 (CapCut template, footage @lennart.raw), 12 s, **437k / 72k likes (17%) / 5.5k shares / 7.7k saves** - 911 GT3 RS "Bow x Barney" (sound #40 = #65, same sound; #65 has the word timings) | **Lyric edit for a CAR**: every sung word typed small in the centre on its own beat ("THAT'S ON THE FLOOR / COUCH / STAGE / CROWD", "BARNEY IS A DINOSAUR FROM OUR IMAGINATION"), one car (GT3 RS) in one car park, cold teal grade. A few words get an effect: STAGE big BEHIND the car roof (text-behind-subject), "DINOSAUR" in a cloud bubble. Cuts only from the drop (4.4 s), 17 cuts in 12 s. The fun lyric + a serious car = the contrast people share. |
