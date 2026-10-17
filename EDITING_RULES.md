@@ -199,3 +199,11 @@ two locations into a spotting edit.
 - Cars: brand newsrooms (Porsche newstv, Bugatti newsroom) - press films, often 4K.
 - Football: official club / league TikTok accounts (single videos download fine).
 - Skip any moment with burned-in subtitles or a channel's big caption; check every chosen span.
+
+## Pixels 1:1 (Desmond, Oct 17 - "why can't you get clean shots like that", ref M6 1.1M views)
+- The cleanest viral edits never crop a narrow 9:16 slice out of a 16:9 clip. Either upload HORIZONTAL (16:9, the
+  whole frame, at the source's native size) or build vertical edits ONLY from native-vertical sources
+  (official @f1 / team / club TikToks at 1080x1920).
+- formula1.com (Brightcove) gives 1280x720 max -> use it full-frame horizontal at 1280x720 or as a 'window' band;
+  never 'tall'/'full' crops of it.
+- Never mix: one edit = one orientation, one source quality.
