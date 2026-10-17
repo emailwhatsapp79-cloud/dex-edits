@@ -1,7 +1,10 @@
-"""Edit AX - CAR, TESLA ROADSTER (unveil Oct 15 2026, SpaceX McGregor) - "TESLA MADE A CAR THAT FLIES."
-Official Tesla livestream replay in 4K (3840x2160) -> 9:16 crop = DOWNscale, razor sharp. Sound #23 (calm build, DROP 9.77).
-  hook: the car in mid-air from above -> the build: up the vertical wall, through the truss, the run-in from above ->
-  DROP: the barrel roll -> the landing in smoke -> the jump over the Semi -> the explosion of smoke -> 0-60 launch -> ROADSTER."""
+"""Edit AX v2 - CAR, TESLA ROADSTER - TRAILER with Elon's real voice + the real event sound (no F1 song; Desmond Oct 17:
+"why is it on F1 song... can't we do better"). Official Tesla livestream replay in 4K -> 9:16 = downscale, sharp.
+  "Flying cars are real." (over the car upside down on the wall) -> the stunt in REAL TIME with the live sound:
+  up the wall, launch, landing, "Well, it worked." -> the barrel roll from above under "the future promised us flying cars,
+  but instead we got 140 characters." -> "Well, not anymore." -> the jump over the Semi + the explosion -> ROADSTER.
+Audio = songs/tesla_live.wav, stitched from the livestream segments in shot order (each shot carries its own sound
+except the voice-over lines)."""
 import os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 import cardedit
@@ -10,25 +13,23 @@ from cardedit import ROOT
 A, B, C, D = 'k4_718', 'k4_1625', 'k4_1258', 'k4_1036'
 sh = lambda t, f, src, cx=0.5, **k: dict(t=t, file=f + '.mp4', src=src, cx=cx, mode='real', **k)
 PLAN = [
-    sh(0.00, B, 13.60),             # HOOK: the car in mid-air, from above
-    sh(1.90, A, 23.00),             # up the vertical wall, upside down
-    dict(sh(5.00, A, 33.60), jump=True),             # through the truss
-    dict(sh(7.00, A, 36.00), jump=True),             # the run-in, from above
-    sh(9.77, B, 5.50),              # DROP: the barrel roll
-    dict(sh(11.30, A, 41.20), jump=True),            # the landing in smoke
-    sh(12.70, B, 26.20),            # the jump over the Semi
-    dict(sh(14.06, B, 29.00), jump=True),            # the smoke explodes
-    sh(15.50, C, 13.00),            # 0-60 in under a second
-    sh(17.40, D, 4.50),             # ROADSTER.
+    sh(0.00, A, 23.00),                         # FLYING CARS ARE REAL. - upside down on the wall
+    dict(sh(1.90, A, 22.50), jump=True),        # the stunt, real time: the wall, the launch, the landing, "well, it worked."
+    sh(11.15, B, 4.50),                         # the barrel roll from above (voice-over)
+    dict(sh(14.75, A, 41.60), jump=True),       # "well, not anymore." - it lands
+    sh(15.85, B, 23.60, layout='window'),       # the jump over the Semi + the explosion - full 16:9 band (the car crosses the whole frame)
+    sh(21.85, D, 4.50),                         # ROADSTER.
 ]
-END = 19.30
-TEXT = [(0.05, 1.85, 'TESLA MADE A CAR|THAT FLIES.'), (17.45, END, 'ROADSTER.')]
+END = 24.35
+TEXT = [(0.05, 1.85, 'FLYING CARS|ARE REAL.'), (10.00, 11.10, 'WELL, IT WORKED.'),
+        (11.20, 13.30, 'THE FUTURE PROMISED US|FLYING CARS'), (13.34, 14.70, 'BUT WE GOT|140 CHARACTERS.'),
+        (14.78, 15.82, 'WELL,|NOT ANYMORE.'), (22.20, END, 'ROADSTER.')]
 CFG = dict(
     name='AX', layout='full', active={},
     srcdir=os.path.join(ROOT, 'src_tsla4k'), tmp=os.path.join(ROOT, 'tmp_ax'),
-    song=os.path.join(ROOT, 'songs', 'formula_max.wav'), song_offset=0.0,
+    song=os.path.join(ROOT, 'songs', 'tesla_live.wav'), song_offset=0.0,
     out=os.path.join(ROOT, 'out', 'edit_AX_tesla_roadster.mp4'), end=END, plan=PLAN, pad=0.06,
-    swing=set(), drop={4}, punch=set(), cut_flash=True, warm=0.0, sat=1.04, grain=0.0, vig=0.25,
+    swing=set(), drop=set(), punch=set(), cut_flash=False, warm=0.0, sat=1.04, grain=0.0, vig=0.25,
     fx={}, text=TEXT, text_cy=1500, crf=12,
 )
 if __name__ == '__main__':
