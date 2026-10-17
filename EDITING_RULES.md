@@ -217,4 +217,8 @@ two locations into a spotting edit.
 - **YouTube is scheduled SEPARATELY from TikTok (Oct 17):** YouTube only makes vertical/square uploads Shorts - a 16:9
   upload becomes a normal video (no Shorts feed, other compression). Horizontal edits: TikTok gets the 16:9 file,
   YouTube gets `engine/ytshort.py` (16:9 band on black 1080x1920 + title, no crop, no blur) as its own post.
+- **Frame rate per platform (Desmond, Oct 17: "YouTube looks blurry since 30 fps, views dropped"):** TikTok streams at a
+  fixed bitrate, so 30 fps = more detail per frame. YouTube does the opposite - 60 fps uploads get a higher bitrate tier.
+  So: TikTok post = 30 fps file, YouTube post = 60 fps file (brand(..., fps=60)) when the edit was made at 60.
+  All Oct 17-23 posts with a 60 fps master were split this way (YouTube media = the pre-conversion files at commit 520a9e3).
 

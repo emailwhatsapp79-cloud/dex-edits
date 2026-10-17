@@ -6,14 +6,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT = os.path.join(ROOT, 'fonts', 'Anton.ttf')
 
 
-def brand(src, dst, target_mb=27):
+def brand(src, dst, target_mb=27, fps=30):
     d = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src],
                              capture_output=True, text=True).stdout)
     target_mb = max(target_mb, d * 1.0)                    # long edits keep ~8 Mbps (a 58 s trailer must not drop to 3.5)
     br = int(target_mb * 8 * 1024 / d - 260)
     mark = (f"drawtext=fontfile={FONT}:text='DEX EDITS':fontsize=46:fontcolor=white@0.55:"
             f"shadowcolor=black@0.35:shadowx=2:shadowy=2:x=(w-text_w)/2:y=h*0.075")
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', 'fps=30,' + mark,   # 30 fps: TikTok gives a fixed bitrate, so 30 fps = 2x bits per frame
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', f'fps={fps},' + mark,   # TikTok: 30 (fixed bitrate -> 2x bits/frame); YouTube: 60 when the edit is 60 (YouTube gives 60 fps more bitrate)
                     '-c:v', 'libx264', '-preset', 'slow',
                     '-b:v', f'{br}k', '-maxrate', f'{int(br * 1.2)}k', '-bufsize', f'{br * 2}k', '-pix_fmt', 'yuv420p',
                     '-c:a', 'copy', '-movflags', '+faststart', dst], check=True)
