@@ -92,6 +92,12 @@
 | 88 | 88_918_spyder_masterpiece_exoticmotion09 | "918 Spyder Masterpiece 💜 (exoticmotion09) – " (from @: 918 Spyder Masterpiece 💜 (exoticmotion09)) | 131 | 11.2s | biggest energy jump (drop) ≈ 8.5s · strongest hits 0.07 5.08 5.22 7.27 8.24 11.15 · added automatically |
 | 89 | 89_now_what_camie_f1_edit_aauto_editss | "🎵NOW WHAT - Camie: F1 Edit (aauto.editss) – " (from @: 🎵NOW WHAT - Camie: F1 Edit (aauto.editss)) | 110 | 13.9s | biggest energy jump (drop) ≈ 4.5s · strongest hits 0.21 4.42 6.44 7.80 9.60 13.85 · added automatically |
 | 90 | 90_gt3_black_srhuayra | "Gt3 Black (srhuayra) – " (from @: Gt3 Black (srhuayra)) | 110 | 31.3s | biggest energy jump (drop) ≈ 2.5s · strongest hits 2.70 3.01 4.34 10.46 22.05 27.57 · added automatically |
+| 91 | 91_porsche_911_gt3_cup_sav_edits001 | "Porsche 911 GT3 CUP (sav.edits001) – " (from @: Porsche 911 GT3 CUP (sav.edits001)) | 130 | 27.8s | biggest energy jump (drop) ≈ 13.5s · strongest hits 0.47 0.63 1.86 15.58 20.50 25.43 · added automatically |
+| 92 | 92_max_verstappen_will_he_perform_racing_in | "MAX VERSTAPPEN | will he perform 😤 (racing_incident) – " (from @: MAX VERSTAPPEN / will he perform 😤 (racing_incident)) | 99 | 18.0s | biggest energy jump (drop) ≈ 5.5s · strongest hits 0.58 0.71 1.86 3.83 14.68 15.05 · added automatically |
+| 93 | 93_eoo_but_it_s_formula_one_no_beam16 | "EoO but it’s formula one 🏎️⚡️ (no.beam16) – " (from @: EoO but it’s formula one 🏎️⚡️ (no.beam16)) | 92 | 24.9s | biggest energy jump (drop) ≈ 19.5s · strongest hits 3.29 7.72 14.79 17.42 21.39 23.59 · added automatically |
+| 94 | 94_antonelli_young_prodigy_pilo_f1 | "Antonelli - Young Prodigy. | (pilo.f1) – " (from @: Antonelli - Young Prodigy. / (pilo.f1)) | 114 | 17.9s | biggest energy jump (drop) ≈ 8.0s · strongest hits 0.74 3.10 4.17 4.34 6.79 7.69 · added automatically |
+| 95 | 95_up_next_is_singapore_f1edits_ae | "UP NEXT IS SINGAPORE🇸🇬👀 // (f1edits.ae) – " (from @: UP NEXT IS SINGAPORE🇸🇬👀 // (f1edits.ae)) | 130 | 26.8s | biggest energy jump (drop) ≈ 19.5s · strongest hits 0.58 10.22 12.11 13.94 19.50 20.42 · added automatically |
+| 96 | 96_nader_mohammadi_three_flip_throw_assists | "Nader Mohammadi Three Flip-Throw Assists (footytopranking5387) – " (from @: Nader Mohammadi Three Flip-Throw Assists (footytopranking5387)) | 128 | 30.6s | biggest energy jump (drop) ≈ 29.0s · strongest hits 0.17 2.56 3.85 5.30 11.26 14.91 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -232,3 +238,13 @@
 **88_918_spyder_masterpiece_exoticmotion09:** `0.00` I `0.24` just `0.48` want `0.78` to `1.00` rewind `1.64` I `2.18` haven't `2.62` seen `2.86` you `3.04` in `3.30` a `3.46` long `3.76` time `4.32` You `4.70` got `4.96` me `5.12` feeling `5.48` so `5.90` lonely `6.52` Even `7.22` when `7.54` you `7.72` come `8.08` through `8.52` I `9.22` can `9.46` tell `9.82` that `10.14` it `10.36` isn't `10.80` you
 
 **89_now_what_camie_f1_edit_aauto_editss:** `3.18` BITCH `3.66` I'M `3.88` HARD `4.08` FOR `4.34` EVERYTHING `5.26` Yeah `5.74` she `5.88` sure `6.20` that `6.42` takes `7.52` Got `8.00` that `8.12` bitch `8.32` by `8.54` her `8.68` neck `9.06` I `9.98` told `10.12` that `10.32` bitch `10.54` get `10.74` her `10.84` dress `11.20` Yeah `11.68` I'm `12.54` taking `12.76` her `13.04` face
+
+**92_max_verstappen_will_he_perform_racing_in:** `2.32` Will `2.72` he `2.84` perform `3.16` when `3.40` he `3.52` has `3.66` money `3.88` right `4.10` in `4.24` front `4.44` of `4.58` him?
+
+**93_eoo_but_it_s_formula_one_no_beam16:** `17.72` ¡Suscríbete!
+
+**94_antonelli_young_prodigy_pilo_f1:** `11.78` Outro
+
+**95_up_next_is_singapore_f1edits_ae:** `0.00` Welcome `0.54` along `0.88` to `1.14` the `1.32` Singapore `1.88` Night `2.42` Race, `2.80` where `3.04` fittingly `3.94` as `4.12` we've `4.42` entered `4.66` darkness `5.22` in `5.62` this `5.80` part `6.10` of `6.20` the `6.28` world, `6.62` 1600 `6.98` bulbs `7.74` illuminate `8.36` the `8.48` circuit `8.82` and `9.14` the `9.28` Singapore `9.70` Grand `10.08` Prix `10.56` is `11.12` underway!
+
+**96_nader_mohammadi_three_flip_throw_assists:** `30.00` You
