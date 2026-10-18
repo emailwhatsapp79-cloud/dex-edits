@@ -4,8 +4,9 @@ A vertical worship cut from a memorial / church gathering. Separate from DEX EDI
 
 ## Files
 
-- `church/church-edit.mp4` — 53.5 s, 1080×1920, 30 fps, H.264, AAC 192 kbps stereo, about −13.5 LUFS
-- `church/church-teaser.mp4` — 12.3 s, hook + “There is nothing You cannot do” + the scripture card
+- `church/church-edit.mp4` — 53.53 s, 1080×1920, 30 fps, yuv420p, H.264, AAC 192 kbps stereo, about −13.5 LUFS. 86 MB.
+- `church/church-teaser.mp4` — 12.33 s, hook + “There is nothing You cannot do” + the scripture card. Rebuilt from the same clean picture as the main edit.
+- `church/church-edit-check.jpg` — one frame every 0.5 s across the whole main edit (8 columns). Used to confirm there is no block smearing.
 
 ## Transcript (what is in the edit)
 
@@ -34,23 +35,33 @@ On the second carnal sentence he moves from “saved but not transformed” into
 - Opening worship syllables before “I sing about Your mercy,” the “Daddy we thank You” refrain, “when I look around I see Your face,” “I call on You on my knees,” and “one more time.”
 - He walks off at the end of the phone clip. That is not in the edit.
 
+## What was wrong with the first upload
+
+Every shot opened on one clean frame, then faces, the pulpit, and the guitar broke into blocky squares until the next cut. The teaser had the same damage. It looked like a bad join, but the phone frames at those times are clean, and a join of the old upscales could not have fixed it.
+
+The blocks were written by `vidstabtransform` (`crop=keep`) on the 14 fps intermediates, before the upscaler. The upscaler then enlarged those broken frames. Stabilising the same window with only a light denoise and a scale left a clean picture. `vidstab` is off and is not coming back.
+
+The picture in this file was rebuilt from the original phone clips with the same real-footage upscaler, the same in and out points, the same captions, the same audio, and the same Romans 12:2 card.
+
 ## Enhancement
 
 Source is WhatsApp 360×640, ~26 fps, heavy compression.
 
-- Stabilise: `vidstab` (shakiness 5, smoothing 12, max shift 16), borders kept so there are no black edges.
-- Light denoise before the upscaler: `hqdn3d=1.4:1.1:2.5:2`. Heavy denoise was avoided so faces would not go plastic.
-- AI upscale: **realesr-general-x4v3** (Real-ESRGAN real-footage SRVGG, not `realesr-animevideov3`). 360×640 → 1440×2560, then a slow punch-in (about 1.12–1.36×) and Lanczos down to 1080×1920.
-- `RealESRGAN_x4plus` was loaded and checked on a still (weights matched, face looked clean) but it took **~63 s per frame** on this 2-core CPU, which is most of a day for the cut. The general real-footage model was ~3.2 s/frame and did not wax the skin. Frames were checked at 100% on the face before and after the grade. Skin stays soft, not plastic.
-- Upscale sample rate 14 fps from the 26 fps source (CPU), then conformed to 30 fps. Motion is a standing preacher and a standing singer, so the dropped frames read as a slight hold, not a stutter montage.
-- After the punch-in: light `deband`, gentle `unsharp` 5×5 amount 0.20 (no face-crisp plastic look), gamma 1.055, contrast 1.04, saturation 1.07, warm `colorbalance` (lifted shadows, gold highlights, skin left alone).
+- No stabiliser. Light denoise only, before the upscaler: `hqdn3d=1.4:1.1:2.5:2`. Heavy denoise was avoided so faces would not go plastic.
+- AI upscale: **realesr-general-x4v3** (Real-ESRGAN real-footage SRVGG, not `realesr-animevideov3`, not `RealESRGAN_x4plus`). 360×640 → 1440×2560, then a slow punch-in (about 1.12–1.36×) and Lanczos down to 1080×1920.
+- `RealESRGAN_x4plus` was checked on a still but took ~63 s per frame on this 2-core CPU. The general real-footage model was ~3.2 s/frame and did not wax the skin.
+- Upscale sample rate 14 fps from the 26 fps source, then conformed to 30 fps by **duplicating frames** (`fps=30`). No `minterpolate`, no frame blending.
+- Each graded shot is 1080×1920, yuv420p, 30 fps, libx264, `keyint=30`, `scenecut=0`, `bframes=0`, before the join.
+- The six shots are joined with the **concat filter**, not `-c copy`. Captions are burned after the join. The scripture card is an xfade (0.65 s). The mux re-encodes the video. Nothing is stream-copied across a cut.
+- After the punch-in: light `deband`, gentle `unsharp` 5×5 amount 0.20, gamma 1.055, contrast 1.04, saturation 1.07, warm `colorbalance`.
+- The assembled master was CRF 14 and came out at 118 MB (123,434,528 bytes). GitHub rejects files over 100 MB, so the file in this folder is that same picture and the same AAC, re-encoded once at **CRF 17**, preset fast, same keyint / scenecut / bframes / pixel format / frame rate. 90,265,571 bytes. I-frames land every 1.0 s. `church-edit-check.jpg` is every 0.5 s of this file; none of those frames is smeared.
 
 ## Audio
 
 - Voice: high-pass 85 Hz, `afftdn` (nr 9), light compression 2.3:1, limiter. No heavy de-reverb — the room is part of a live church and stripping it made the voice hollow.
 - Under the preaching only: his own guitar from the worship take, low-passed around 620 Hz, quiet, sidechain-ducked by the voice, faded as the song enters. No commercial track.
 - The sung section is his live vocal and guitar, same cleanup, no added pad.
-- Loudness about −14 LUFS (measured −13.5 integrated, true peak −4.3 dBTP), AAC 192 kbps stereo.
+- Loudness about −14 LUFS (measured −13.5 integrated, true peak −4.3 dBTP), AAC 192 kbps stereo. Audio was copied from the CRF 14 master, not encoded again.
 
 ## Suggested caption
 
