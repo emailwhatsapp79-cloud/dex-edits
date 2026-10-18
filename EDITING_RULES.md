@@ -174,6 +174,10 @@ An edit is a short story about ONE subject, not random clips put together.
   VS WHAT I SAW. Hold the TV aerial, cut to the onboard (the driver's view), then a white flash on the biggest hit into
   the moment that view was heading for, and cut that fast. If the lyric says when the beat starts, that line IS the flash.
   Square is fine. Do not copy the colour-fringe on the edges — it softens the frame.
+- **SAME GUY, TWO VERSIONS (M29, Oct 18, @f1byrv33 "Stroll is just too good"):** one caption for the whole edit.
+  Hold the ordinary version through the build. On the drop, one hard cut to the famous version of the same person,
+  and leave the caption alone so the picture is the joke. One cut is enough. Do not copy a burned-in watermark
+  or a broken speed readout.
 - **NOT TOO ZOOMED (Desmond, Oct 14):** a 9:16 crop of a 16:9 film shows only 32 % of the width - cars get cut and it
   looks zoomed. For landscape sources use layout `tall` (3:4 picture, 75 % more width, over its own blur); 9:16 full
   only for vertical sources or close-ups.

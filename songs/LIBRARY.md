@@ -110,6 +110,8 @@
 | 106 | 106_raya_slowed_zericxxn_hamilton_whos_next | "Raya Slowed Zericxxn Hamilton whos next – " (from @: Raya Slowed Zericxxn Hamilton whos next) | 98 | 14.4s | biggest energy jump (drop) ≈ 4.5s · strongest hits 2.94 6.00 7.52 8.44 10.28 10.88 · added automatically |
 | 107 | 107_we_just_pray_for_cars_6wear | "We just pray for cars 6wear – " (from @: We just pray for cars 6wear) | 124 | 12.6s | biggest energy jump (drop) ≈ 10.5s · strongest hits 1.41 1.74 3.03 4.32 4.82 8.17 · added automatically |
 | 108 | 108_sente_mais_super_slowed_eternxlkz | "SENTE MAIS (SUPER SLOWED)" – Eternxlkz (Baku Flashback, @f1lightAEP, ref M28). Shazam https://www.shazam.com/track/834210422/sente-mais-super-slowed | 93 | 13.1s | slowed Brazilian funk. Energy jump ≈ 2.5s · biggest snare 7.31 (the lyric "quando o beat começar", the flashback smash) · hits 2.47 5.39 7.31 7.97 8.31 9.60 · this clip is the slowed intro, no swear words |
+| 109 | 109_golden_brown_the_stranglers | "Golden Brown" – The Stranglers (YouTube Short "Use this audio!", Make Me Viral). Shazam https://www.shazam.com/track/302413/golden-brown | 94 | 12.4s | calm harpsichord loop, no real drop (3.0s is only the biggest small rise; level stays flat). Hits 0.06 1.42 1.87 2.51 6.33 10.00. Measured 94 BPM on a 6/8 song, so the grid may not be the real pulse. No swear words. The auto-caption "Never ever after" is a mishear of "never a frown" |
+| 110 | 110_apptekk_lxao | "Apptekk" – lxao (Stroll "same guy btw", @f1byrv33, ref M29). Hardtekk, 2026-02-11. Shazam https://www.shazam.com/track/863941876/apptekk | 94 | 16.7s | instrumental. Energy jump ≈ 10.5s (the edit cuts at 10.17s). Strongest hits 2.43 3.38 3.71 4.34 14.20 16.67. Measured 94 BPM may be half-time of a faster hardtekk. No words |
 
 ## Lyrics with timestamps (seconds)
 
@@ -282,3 +284,7 @@
 **107_we_just_pray_for_cars_6wear:** `0.58` 100 `0.98` on `1.22` the `1.34` dash `1.66` give `1.84` me `1.96` close `2.26` to `2.46` God. `2.96` We `3.10` don't `3.32` pray `3.52` for `3.72` love. `4.22` We `4.42` just `4.58` pray `4.84` for `5.02` cars `6.64` House `7.04` so `7.18` empty `7.36` need `7.66` us `7.82` in `7.98` the `8.10` peace `8.56` 20 `9.34` racks `9.58` of `9.70` tablecloth `10.20` from `10.40` ebony
 
 **108_sente_mais_super_slowed_eternxlkz:** `0.00` medo `0.70` No `0.92` passinho `2.28` segredo `3.24` Todo `3.88` o `4.04` mundo `4.64` vai `5.06` notar `5.86` quando `6.62` o beat `7.24` começar `7.66` toma — then the "toma" chop repeats to the end (slowed, not new words). Dance Portuguese. No swears in this 13s.
+
+**109_golden_brown_the_stranglers:** no clean word timings. Buried vocal. YouTube's auto-caption hears "Never ever after" at 7.12–8.04 and "No" at 11.00 — that is a mishear of "never a frown … golden brown", so do not stamp the caption. No swears in this 12.4s.
+
+**110_apptekk_lxao:** instrumental. No words.
