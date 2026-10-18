@@ -7,7 +7,7 @@ Shots run from their t to the next shot's t. Modes: render (default) | stills (o
 import os, subprocess, sys, json
 from PIL import Image
 
-FPS = 30
+FPS = int(os.environ.get('DEX_FPS', 30))   # 30 for TikTok; DEX_FPS=50/60 renders the YouTube master from 50/60 fps sources
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GRADE = 'eq=contrast=1.10:saturation=1.08:gamma=0.94,unsharp=3:3:0.25'   # crushed blacks, tiny edge lift (no halo)
 

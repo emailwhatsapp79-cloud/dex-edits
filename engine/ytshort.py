@@ -9,7 +9,7 @@ import brand
 FONT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'fonts', 'Anton.ttf')
 
 
-def make(src, out, title=''):
+def make(src, out, title='', fps=30):
     vf = 'scale=1080:-2:flags=lanczos,pad=1080:1920:0:(oh-ih)/2:black'
     for i, line in enumerate(l for l in title.split('|') if l):
         line = line.replace("'", '’').replace(':', '\\:')
@@ -18,9 +18,9 @@ def make(src, out, title=''):
     tmp = out.replace('.mp4', '_pre.mp4')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', vf, '-c:v', 'libx264', '-crf', '10', '-preset', 'slow',
                     '-pix_fmt', 'yuv420p', '-c:a', 'copy', tmp], check=True)
-    brand.brand(tmp, out); os.remove(tmp)
+    brand.brand(tmp, out, fps=fps); os.remove(tmp)
     return out
 
 
 if __name__ == '__main__':
-    print(make(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else ''))
+    print(make(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else '', int(sys.argv[4]) if len(sys.argv) > 4 else 30))
