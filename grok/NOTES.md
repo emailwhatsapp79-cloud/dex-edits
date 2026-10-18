@@ -79,3 +79,65 @@ Shot list (edit time → source time): 0.00→160.20 UP NEXT, 1.83→7.00 AUSTIN
 
 Caption: Up next is Austin. What are we getting this weekend?
 #f1 #formula1 #f1edit #fyp #austin
+
+# v2 — 18 Oct 2026
+
+The three edits above are the first cut. They stay in the branch. v2 is the cut to watch. Nothing was scheduled.
+
+## CAR v2 — Mission S, the studio
+
+`grok/2026-10-18-mission-s-studio-v2.mp4` (1920x1080) and `grok/2026-10-18-mission-s-studio-v2-yt.mp4` (YouTube Short).
+
+One car, one room. The newsroom film also has the pier, a 1953 550 Spyder, the launch crowd and the Brooklyn Bridge. None of those are in this cut. Studio only: the rear, the light bar, the wheel, the cockpit, the gauges, the gear, the badge, the engine deck, then the hero rear. Refs N7 / N9 / N12. Song **#91** `91_porsche_911_gt3_cup_sav_edits001` (130 bpm), instrumental.
+
+- Source: official Porsche newsroom, 4K 25 fps, downscaled to 1920x1080. No crop, no upscale.
+  https://newstv.porsche.com/porschevideos/newstv.porsche.com_341406_en.mp4
+- Script: `engine/grok_mission_s_studio_v2.py`
+- Length: 16.5 s
+- Worst cut error: 17 ms early (the light bar at 3.00 s, hit at 3.017 s). Nothing is late by more than 6 ms.
+
+Shot list (edit time → source time): 0.00→60.12 MISSION S, 3.00→55.20 light bar, 5.33→67.02 wheel,
+6.20→63.80 cockpit, 8.20→72.25 gauges, 10.03→77.42 gear, 11.13→79.15 badge, 12.50→81.15 deck, 14.40→88.20 hero.
+
+Caption: Mission S. Same car, same room, nothing else in the cut. Would you take it over a 911?
+#carsoftiktok #caredit #fyp #porsche #missions
+
+## FOOTBALL v2 — Kevin Pina, from range
+
+`grok/2026-10-18-pina-way-out-v2.mp4` (already vertical).
+
+One player, one goal. The strike is from distance, the drop is the goal, and the celebration is held to the fade. Not Dembélé. Not a red number 19.
+
+Proof, all three shots are the same official post (three takes, no repeated range):
+- Post: https://www.tiktok.com/@fifaworldcup/video/7693949914702679318
+- Caption: "Kevin Pina from WAY out" #FIFAWorldCup
+- On screen: Cape Verde in red, Uruguay in sky blue. The celebration ends on a red 6, which is his 2026 number. A teammate in 5 is also in the huddle, so the edit does not stamp a number over the pile.
+- Native 1080x1920, nothing cropped or scaled. Source commentary is muted.
+- Song **#37** `37_montagem_rune_slowed`. Instrumental until "thank you for watching" at 16.48 s. The edit ends at 15.77 s, before that line.
+- Script: `engine/grok_pina_way_out_v2.py`
+- Length: 15.8 s
+- Worst cut error: 9 ms late (the goal at 7.43 s, the drop is 7.424 s). The celebration cut is 7 ms late.
+
+Shot list: 0.00 PINA / WAY OUT (source 2.40, the range, through the strike), 7.43 GOAL (source 10.18, the net), 10.83 the celebration held (source 14.30).
+
+Caption: Pina. From range. Then he stayed there. Who else is scoring them like that?
+#football #footballedit #fyp #worldcup #pina
+
+## F1 v2 — Max, first Singapore win
+
+`grok/2026-10-18-max-singapore-v2.mp4` (already vertical, official @f1).
+
+Not Austin, not a race week, no lap counter and no position tower. M21 shape: black cards on the beat (MAX / SINGAPORE / FIRST WIN), then one driver in black and white — the car, the helmet, the track, and the trophy held. Singapore 2026 was 11 October. He won it from pole. That is the story. Ferrari's podium and Antonelli are not this edit.
+
+- Source: official @f1, native 1080x1920, 50 fps mastered at 30. No crop, no upscale.
+  https://www.tiktok.com/@f1/video/7696506664224296214
+  Caption: "it was a weekend of going from strength to strength for max"
+- The file carries a small Friday / Saturday / Sunday tag and the F1 bug. Shots with a lap number, a position board or a panning smear were left out. Song **#5** `05_montagem_kali_slowed` is instrumental, so the cards are not fighting a voice.
+- Script: `engine/grok_max_singapore_v2.py`
+- Length: 15.0 s
+- Worst cut error: 15 ms late (the track shot at 8.60 s, hit at 8.585 s). Nothing else is later than 10 ms.
+
+Shot list: 0.00 MAX, 1.83 SINGAPORE, 3.90 FIRST WIN, 5.67 the car (source 0.45), 7.13 the helmet (source 2.40), 8.60 the track (source 8.92), 11.23 the trophy (source 39.72, held).
+
+Caption: Max. First time in Singapore. He did not give that one back.
+#f1 #formula1 #f1edit #fyp #maxverstappen
