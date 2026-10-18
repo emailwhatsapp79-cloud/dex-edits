@@ -219,3 +219,58 @@ Shot list: 0.00 Monaco lights (source 3.22), 1.84 Singapore (source 6.94), 3.90 
 Caption: Lights out. Austin, today.
 #f1 #formula1 #f1edit #fyp #lightsout
 
+# v4 — 18 Oct 2026
+
+v3 of around-the-world stays in the branch. It was four shots and a long Monaco hold, so it felt slow. v4 is the same song cut on the beat. Nothing was scheduled.
+
+## F1 v4 — Around the world
+
+`grok/2026-10-24-around-the-world-v4.mp4` — 1280x720, 30 fps, 17.74 s, 26.3 MB.
+`grok/2026-10-24-around-the-world-v4-yt.mp4` — 1080x1920 Short, 50 fps, 17.74 s, 26.0 MB. Title AROUND THE WORLD / F1 2026.
+
+The 2026 season, one car at speed, a different place every cut. Eight tracks. The hook is an onboard at Melbourne, not a hold and not a title card. Song **#100** `100_simple_edit_mb_i_ve_been_busy_scp_piastr`, 115 bpm, so a beat is 0.522 s. Before the drop the cut is every two beats. From 11.38 s it is every beat. 21 shots. Nothing is longer than 1.48 s. The phrase AROUND THE WORLD is on screen from 2.46 s (the word "Around" in LIBRARY) through 4.20 s (just after "World" at 3.92 s). After that, only the track name, small, Anton, black border.
+
+Official formula1.com race highlights, 1280x720, 50 fps, kept 1:1. No lap counter, no timing tower, no RACE bug, no replay wipe. A small F1 logo and the trackside boards stay. None of these ranges are the lights-out shots, and none of them are Austin.
+
+- Melbourne https://www.formula1.com/en/video/race-highlights-2026-australian-grand-prix.1859073701054990671
+- Shanghai https://www.formula1.com/en/video/race-highlights-2026-chinese-grand-prix.1859720122095299762
+- Suzuka https://www.formula1.com/en/video/race-highlights-2026-japanese-grand-prix.1860981885174442903
+- Miami https://www.formula1.com/en/video/race-highlights-2026-miami-grand-prix.1864198818823907914
+- Silverstone https://www.formula1.com/en/video/race-highlights-2026-british-grand-prix.1869893362466065062
+- Spa https://www.formula1.com/en/video/race-highlights-2026-belgian-grand-prix.1871156468094962300
+- Hungaroring https://www.formula1.com/en/video/race-highlights-2026-hungarian-grand-prix.1871795237413048481
+- Singapore https://www.formula1.com/en/video/race-highlights-2026-singapore-grand-prix.1878763614925929557
+
+Script: `engine/grok_around_the_world_v4.py`
+
+Cuts measured with `beatsync.video_cuts` on the 50 fps master against the hits in song #100. Offset is cut minus the hit it was snapped to. One frame at 50 fps is 20 ms. Worst is 19 ms early. Nothing is late.
+
+| edit | hit | offset | track | source |
+|---|---|---|---|---|
+| 1.080 | 1.085 | -5 ms | SUZUKA | japan 8.05 |
+| 2.160 | 2.175 | -15 ms | MIAMI | miami 8.20 |
+| 3.160 | 3.179 | -19 ms | SILVERSTONE | britain 20.60 |
+| 4.200 | 4.210 | -10 ms | SPA | belgium 14.80 |
+| 5.260 | 5.264 | -4 ms | SHANGHAI | china 12.20 |
+| 6.300 | 6.303 | -3 ms | SINGAPORE | singapore 104.20 |
+| 7.380 | 7.380 | 0 | HUNGARY | hungary 12.50 |
+| 8.380 | 8.397 | -17 ms | MIAMI | miami 24.05 |
+| 9.340 | 9.347 | -7 ms | SILVERSTONE | britain 15.55 |
+| 10.440 | 10.452 | -12 ms | SPA | belgium 30.55 |
+| 11.380 | 11.398 | -18 ms | SHANGHAI | china 33.15 |
+| 11.920 | 11.923 | -3 ms | HUNGARY | hungary 23.70 |
+| 12.420 | 12.436 | -16 ms | MELBOURNE | australia 26.30 |
+| 12.940 | 12.954 | -14 ms | SUZUKA | japan 17.80 |
+| 13.460 | 13.478 | -18 ms | SILVERSTONE | britain 33.20 |
+| 14.020 | 14.036 | -16 ms | MIAMI | miami 27.20 |
+| 14.600 | 14.604 | -4 ms | HUNGARY | hungary 30.20 |
+| 15.140 | 15.145 | -5 ms | SUZUKA | japan 25.80 |
+| 15.720 | 15.726 | -6 ms | SHANGHAI | china 23.40 |
+| 16.260 | 16.272 | -12 ms | SPA | belgium 19.35, held to 17.74 |
+
+Opens at 0.00 on the Melbourne onboard (australia 12.40).
+
+Caption: Around the world. Eight races, one pass each, no waiting around.
+#f1 #formula1 #f1edit #fyp #aroundtheworld
+
+
