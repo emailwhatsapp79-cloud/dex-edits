@@ -273,4 +273,61 @@ Opens at 0.00 on the Melbourne onboard (australia 12.40).
 Caption: Around the world. Eight races, one pass each, no waiting around.
 #f1 #formula1 #f1edit #fyp #aroundtheworld
 
+# v5 — 18 Oct 2026
+
+v4 stays in the branch. The pace was right. The graphics were not. The Melbourne open was a replay, and 17 of the 21 shots carried the black FIA lap card. v5 is the same song, the same 21 cuts, the same text. Every shot is a new window from the same eight highlights. Nothing was scheduled.
+
+## F1 v5 — Around the world
+
+`grok/2026-10-24-around-the-world-v5.mp4` — 1280x720, 30 fps, 17.74 s, 26.3 MB.
+`grok/2026-10-24-around-the-world-v5-yt.mp4` — 1080x1920 Short, 50 fps, 17.74 s, 26.0 MB. Title AROUND THE WORLD / F1 2026.
+`grok/around-the-world-v5-corners.jpg` — the top-left 260x130 of every shot, native, no scale.
+
+The hook is a Suzuka onboard at speed, not the Melbourne replay. Song **#100** `100_simple_edit_mb_i_ve_been_busy_scp_piastr`, 115 bpm. Before the drop the cut is every two beats. From 11.38 s it is every beat. 21 shots. Nothing is longer than 1.48 s. AROUND THE WORLD is on screen from 2.46 s through 4.20 s. After that, only the track name, small, Anton, black border.
+
+Official formula1.com race highlights, 1280x720, 50 fps, kept 1:1. No crop, no upscale. These packages keep the LAP card, or a red REPLAY tag, up for almost the whole race. The windows below are the ones where a 260x130 corner crop is only the small F1 logo. That was counted on the pixels (logo present, no lap text, no red REPLAY word), then the corner sheet was looked at. A red flash inside the Spa onboard is a track post going past the logo, not a REPLAY word. None of these ranges are the v4 ranges, the lights-out shots, or Austin.
+
+- Melbourne https://www.formula1.com/en/video/race-highlights-2026-australian-grand-prix.1859073701054990671
+- Shanghai https://www.formula1.com/en/video/race-highlights-2026-chinese-grand-prix.1859720122095299762
+- Suzuka https://www.formula1.com/en/video/race-highlights-2026-japanese-grand-prix.1860981885174442903
+- Miami https://www.formula1.com/en/video/race-highlights-2026-miami-grand-prix.1864198818823907914
+- Silverstone https://www.formula1.com/en/video/race-highlights-2026-british-grand-prix.1869893362466065062
+- Spa https://www.formula1.com/en/video/race-highlights-2026-belgian-grand-prix.1871156468094962300
+- Hungaroring https://www.formula1.com/en/video/race-highlights-2026-hungarian-grand-prix.1871795237413048481
+- Singapore https://www.formula1.com/en/video/race-highlights-2026-singapore-grand-prix.1878763614925929557
+
+Script: `engine/grok_around_the_world_v5.py`
+
+Cuts measured with `beatsync.video_cuts` on the 50 fps master against the hits in the original song #100 mp3. Offset is the cut minus the hit it was snapped to. One frame at 50 fps is 20 ms. Worst is 19 ms early. Nothing is late. The fade near 17.6 s is not a cut.
+
+| edit | hit | offset | track | source |
+|---|---|---|---|---|
+| 1.080 | 1.085 | -5 ms | SINGAPORE | singapore 112.72 |
+| 2.160 | 2.175 | -15 ms | MELBOURNE | australia 18.75 |
+| 3.160 | 3.179 | -19 ms | SINGAPORE | singapore 97.22 |
+| 4.200 | 4.210 | -10 ms | SUZUKA | japan 3.42 |
+| 5.260 | 5.264 | -4 ms | SINGAPORE | singapore 91.50 |
+| 6.300 | 6.303 | -3 ms | HUNGARY | hungary 228.75 |
+| 7.380 | 7.380 | 0 | SINGAPORE | singapore 116.55 |
+| 8.380 | 8.397 | -17 ms | SILVERSTONE | britain 312.38 |
+| 9.340 | 9.347 | -7 ms | SINGAPORE | singapore 88.68 |
+| 10.440 | 10.452 | -12 ms | MELBOURNE | australia 16.92 |
+| 11.380 | 11.398 | -18 ms | SINGAPORE | singapore 120.40 |
+| 11.920 | 11.923 | -3 ms | SINGAPORE | singapore 102.26 |
+| 12.420 | 12.436 | -16 ms | SHANGHAI | china 13.36 |
+| 12.940 | 12.954 | -14 ms | SINGAPORE | singapore 94.80 |
+| 13.460 | 13.478 | -18 ms | SPA | belgium 334.96 |
+| 14.020 | 14.036 | -16 ms | SINGAPORE | singapore 130.48 |
+| 14.600 | 14.604 | -4 ms | SPA | belgium 5.20, the grid |
+| 15.140 | 15.145 | -5 ms | SINGAPORE | singapore 133.42 |
+| 15.720 | 15.726 | -6 ms | MIAMI | miami 2.20 |
+| 16.260 | 16.272 | -12 ms | SINGAPORE | singapore 124.42, held to 17.74 |
+
+Opens at 0.00 on the Suzuka onboard (japan 416.50).
+
+Singapore is most of the logo-only racing in these eight films, so it comes back. The green Mercedes is three of those shots, each from a different cut between the lap stings, not one repeated range. 11.38 and 11.92 are both Singapore on purpose: a side pass, then a Haas onboard. There is no 21st clean at-speed shot on another track, so 14.60 is the Spa grid, live, logo only, half a second. Miami is the safety-car train. That is the whole clean Miami reel. Shanghai is the cars on the straight at 13.36, after v4's window.
+
+Caption: Around the world. Eight races, cut on the beat.
+#f1 #formula1 #f1edit #fyp #aroundtheworld
+
 
