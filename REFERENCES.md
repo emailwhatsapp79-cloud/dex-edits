@@ -322,3 +322,7 @@ shares are 1.2-2.4% of views, ours are 0.
   emergency?" -> caller line as text -> beat drop into a Porsche 911 edit. Pun-to-picture (M16) + question hook (M19) + mission
   voice-over intro (N7). Needs a clean operator-voice sound (trending TikTok sound) - never a real emergency recording.
 
+
+| auto | https://vm.tiktok.com/ZN8ScFQhT/ | @: Come on shake your body F1 fans! (priouss) | sound saved as library #98 (121 BPM, drop ≈ 16.5s) |
+| M23 | https://vm.tiktok.com/ZN8ScFQhT/ | @priouss (prits.vfx), 17 s, 14.8k / 3.6k likes (24%) / 622 shares - "Come on shake your body F1 fans!" (Gloria Estefan "Conga", sound #98) | **Feel-good LYRIC edit with words BEHIND drivers, HORIZONTAL 1280x720**: huge white letters placed behind the subject (CONGA behind Vettel doing his hands-together dance, SHAKE behind Leclerc's face, ANY behind Max with the flag, CONTROL over a track aerial), hot pink/magenta grade, start lights, the Monza flying car, a row of cockpit-cam faces (Albon, Norris, Max, Sainz) on the beat, ends on the same donuts it opens with (loop) + a paint-splash logo. Lessons: (1) an old, happy, well-known song + F1 = a fun watch; (2) "words behind the subject" again (M11, M14, M23) - the strongest text style, worth building into our engine (needs a subject mask); (3) small account, low reach - style lesson only. |
+

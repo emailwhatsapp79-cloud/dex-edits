@@ -99,6 +99,7 @@
 | 95 | 95_up_next_is_singapore_f1edits_ae | "UP NEXT IS SINGAPORE🇸🇬👀 // (f1edits.ae) – " (from @: UP NEXT IS SINGAPORE🇸🇬👀 // (f1edits.ae)) | 130 | 26.8s | biggest energy jump (drop) ≈ 19.5s · strongest hits 0.58 10.22 12.11 13.94 19.50 20.42 · added automatically |
 | 96 | 96_nader_mohammadi_three_flip_throw_assists | "Nader Mohammadi Three Flip-Throw Assists (footytopranking5387) – " (from @: Nader Mohammadi Three Flip-Throw Assists (footytopranking5387)) | 128 | 30.6s | biggest energy jump (drop) ≈ 29.0s · strongest hits 0.17 2.56 3.85 5.30 11.26 14.91 · added automatically |
 | 97 | 97_ferrari_racing_days_on_repeat_ferrari | "Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari) – " (from @: Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari)) | 128 | 9.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 0.03 1.76 2.01 3.13 8.20 8.31 · added automatically |
+| 98 | 98_come_on_shake_your_body_f1_fans_priouss | "Come on shake your body F1 fans! (priouss) – " (from @: Come on shake your body F1 fans! (priouss)) | 121 | 17.5s | biggest energy jump (drop) ≈ 16.5s · strongest hits 6.71 9.63 9.96 10.60 12.81 13.41 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -251,3 +252,5 @@
 **96_nader_mohammadi_three_flip_throw_assists:** `30.00` You
 
 **97_ferrari_racing_days_on_repeat_ferrari:** `5.78` Thanks `7.18` for `8.20` watching!
+
+**98_come_on_shake_your_body_f1_fans_priouss:** `0.68` Come `1.04` on, `1.24` shake `1.38` your `1.54` body, `1.78` baby, `2.06` do `2.14` that `2.34` con `2.58` guy, `2.90` no, `3.22` you `3.24` can't `3.46` control `3.64` yourself `3.92` any `4.24` longer.
