@@ -96,6 +96,15 @@ An edit is a short story about ONE subject, not random clips put together.
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
 
+**FRESHNESS (Desmond, Oct 18) - edits must not look backdated:**
+- The three edits of a day (football, F1, car) are made TOGETHER, as close to their post date as possible - not weeks ahead.
+- Use the NEWEST material first:
+  - F1: the latest race weekend (highlights from formula1.com usually appear the evening of the race). Post-race edits wait for the race.
+  - Football: matches from the last few days (Champions League, Premier League, LaLiga etc., from official club/league accounts). A World Cup or older moment is a fallback, not the default.
+  - Cars: the newest launches and reveals, any brand and any country, including Chinese brands (BYD/Yangwang, Xiaomi, Zeekr, NIO, Xpeng, Hongqi...), not only Porsche/Bugatti.
+- Only when there is nothing new and good enough, use older footage. It should still be recent (this season / the last few months, or a big anniversary), never something that looks stale or is presented as current when it is not.
+- Say the date of the moment in NOTES so the reviewer can check it is current.
+
 **Trending audio (Desmond, Oct 18):** the sound does NOT have to be one already in `songs/LIBRARY.md`. Grok can search TikTok for what is trending right now and take the audio from there - use it. Still: clean lyrics only (no explicit words in the part used), and write the TikTok link of the sound in NOTES so it gets saved with add_sound.
 
 **Length (Oct 18):** length follows the story and the song phrase, not a target number. Reference hits: 7 s (N16, 514k), 12 s (N17, 2.3M; M26, 30% likes), 20-24 s (M24, M25 - stories/series). Guide: one-shot/detail edits 8-12 s (short = rewatches/loops); a goal = 12-15 s (build-up, strike, net, celebration - under ~8 s cannot tell it); story/race-week/lyric edits 15-25 s. The hook in the first 1-2 s matters more than the length. Never pad with holds to reach a number.

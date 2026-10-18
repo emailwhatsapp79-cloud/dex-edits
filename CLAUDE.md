@@ -34,6 +34,9 @@ edit is never scheduled.
 ## Posting
 Scheduling goes through the Metricool connector (brand with TikTok "Dex Edits", timezone Africa/Lagos).
 Daily slots (Desmond, Oct 15): 10:00 FOOTBALL, 12:00 F1, 18:00 CAR - one of each every day, stars rotating.
+FRESHNESS (Desmond, Oct 18): the three edits of a day are made together, close to the post date, from the newest material
+(latest race, matches from the last few days, newest car launches incl. Chinese brands). Older footage only when nothing new
+exists, and never stale. Details: EDITING_RULES "Freshness".
 HARD RULE (Desmond, Oct 17) - never post a 30 fps file to YouTube when a 60 fps version exists: TikTok gets the 30 fps
 file, YouTube gets the 60 fps file (`brand(..., fps=60)`) as a SEPARATE YouTube-only post. Horizontal edits also get a
 vertical YouTube Shorts version (`engine/ytshort.py`). Details: EDITING_RULES "Frame rate per platform".
