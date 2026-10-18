@@ -141,3 +141,81 @@ Shot list: 0.00 MAX, 1.83 SINGAPORE, 3.90 FIRST WIN, 5.67 the car (source 0.45),
 
 Caption: Max. First time in Singapore. He did not give that one back.
 #f1 #formula1 #f1edit #fyp #maxverstappen
+
+# v3 — 18 Oct 2026
+
+Three more cuts. v1 and v2 stay in the branch. Nothing was scheduled.
+TikTok files are 30 fps. The two horizontal F1 edits also have a YouTube Short at the source rate, 50 fps.
+`engine/ytshort.py` takes an optional 4th argument for that. `engine/wideedit.py` reads `DEX_FPS` and stays at 30 when it is unset.
+
+## FOOTBALL v3 — Wilson Isidor, top corner
+
+`grok/2026-10-24-isidor-top-corner.mp4` — 1080x1920, 30 fps, 15.03 s, 27.6 MB.
+No YouTube file. The source is 30 fps.
+
+One player, one goal. The first frame is the strike in the top corner, then a rewind to the build-up, then the celebration held through the fade. No number is stamped. The pile has other shirts in it.
+
+Proof:
+- Post: https://www.tiktok.com/@fifaworldcup/video/7694302696496532758
+- Caption: "Straight into the top corner from Isidor"
+- On screen: Haiti in blue, Morocco in red. The celebration is a blue 18, which is Wilson Isidor's 2026 number (Sunderland). The same pile shows Lenny Joseph 16 and Danley Jean Jacques 17, who are his teammates, plus 22, 4 and 5. So the edit says ISIDOR and never a number. The surname is not claimed off the shirt. The name is the caption, the 18, and that roster.
+- Native 1080x1920. Nothing cropped or scaled. Source commentary is muted.
+- Song **#5** `05_montagem_kali_slowed`. Instrumental. The edit ends at 15.03 s.
+- Script: `engine/grok_isidor_top_corner_v3.py`
+- Worst cut error: 25 ms early (the rewind at 5.633 s, hit 5.658 s, and the pile at 12.633 s, hit 12.658 s). Nothing is late.
+
+Shot list: 0.00 the strike (source 8.10, ISIDOR / TOP CORNER), 2.87 the build-up (source 1.00, ISIDOR only), 5.63 the run (source 11.49, blue 18), 10.33 the pile (source 16.26), 12.63 the pile held (source 18.62).
+
+Caption: Isidor. Top corner. Then he stayed there.
+#football #footballedit #fyp #worldcup #isidor
+
+## F1 v3 — Around the world
+
+`grok/2026-10-24-around-the-world.mp4` — 1280x720, 30 fps.
+`grok/2026-10-24-around-the-world-yt.mp4` — 1080x1920, 50 fps.
+Master rendered with `DEX_FPS=50`. TikTok is `brand.py` at 30. YouTube is `ytshort.py` at 50.
+
+One 2026 track per shot. Monaco harbour, then the Barcelona start, the Sepang crowd, and a Singapore night aerial. The vocal is one line. The bracket waits for the word, then stays.
+
+- Song **#100** `100_simple_edit_mb_i_ve_been_busy_scp_piastr` (115 bpm, 20.5 s). Words: 0.00 Bound, 1.68 the, 1.98 Wheels, 2.46 Around, 3.10 the, 3.92 World. Nothing on screen contradicts that. [AROUND] at 2.46, [AROUND THE] at 3.10, [AROUND THE WORLD] from 3.92 to the fade.
+- Sources, official formula1.com 2026 race highlights, 1280x720, 50 fps, kept 1:1. No crop, no upscale.
+  - Monaco https://www.formula1.com/en/video/race-highlights-2026-monaco-grand-prix.1867355748376897082
+  - Barcelona id 1867987150306679134
+  - Sepang id 1878118714727462605
+  - Singapore https://www.formula1.com/en/video/race-highlights-2026-singapore-grand-prix.1878763614925929557
+- No lap counter and no timing tower. A small F1 bug and trackside boards (Pirelli, MSC, Formula 1 hoardings) are in some frames. Monza was left out: a RACE bug is on the grid by 2.2 s. The Singapore reel has a red SINGAPORE banner around 106 s, so that piece starts after it.
+- These source ranges are not the ones in the lights-out cut, and they are not the ranges in the greatest-show edit.
+- Script: `engine/grok_around_the_world_v3.py`
+- Length: 15.28 s
+- Worst cut error: 18 ms early (Sepang at 9.780 s, hit 9.798 s). The night aerial is held across the 13.87 s hit. Nothing is late.
+
+Shot list: 0.00 Monaco harbour (source 459.90), 5.82 Barcelona (source 1.18), 9.78 Sepang (source 14.32), 11.68 Singapore night (source 107.55, held).
+
+Caption: Around the world. One lap of it.
+#f1 #formula1 #f1edit #fyp #aroundtheworld
+
+## F1 v3 — Lights out
+
+`grok/2026-10-25-lights-out.mp4` — 1280x720, 30 fps, 15.04 s.
+`grok/2026-10-25-lights-out-yt.mp4` — 1080x1920, 50 fps, 15.04 s.
+Same split as the other F1 cut. `DEX_FPS=50`, then brand at 30 and `ytshort.py` at 50.
+
+The five reds are on at frame 0 and out before 1.2 s. Then 2026 starts from five other tracks. The last shot is held, and the line is AUSTIN. TODAY. There is no picture of Austin. Austin 2025 is not in it. Las Vegas 2026 has not been run.
+
+- Song **#5** `05_montagem_kali_slowed`. Instrumental, so the cards are not fighting a voice.
+- Sources, official formula1.com 2026 race highlights, 1280x720, 50 fps, kept 1:1.
+  - Monaco https://www.formula1.com/en/video/race-highlights-2026-monaco-grand-prix.1867355748376897082
+  - Singapore https://www.formula1.com/en/video/race-highlights-2026-singapore-grand-prix.1878763614925929557
+  - Austria id 1869253533864637800
+  - Sepang id 1878118714727462605
+  - Baku id 1877401243065210101
+  - Madrid (Spanish GP) id 1876231054932125334
+- No lap counter, no position tower, no RACE bug. A small F1 bug stays, and so do trackside sponsors (Louis Vuitton, Singapore Airlines, Lenovo, Gulf Air, Qatar Airways, TAG Heuer). The "12" on the Madrid gantry is the start-light board, not a lap.
+- Script: `engine/grok_lights_out_v3.py`
+- Worst cut error: 18 ms early (Sepang at 5.640 s, hit 5.658 s). 1.840 and 3.900 land on the hit. Nothing is late.
+
+Shot list: 0.00 Monaco lights (source 3.22), 1.84 Singapore (source 6.94), 3.90 Austria (source 1.50), 5.64 Sepang (source 3.40), 8.58 Baku (source 1.70), 10.34 Madrid, held (source 4.32, AUSTIN. TODAY.).
+
+Caption: Lights out. Austin, today.
+#f1 #formula1 #f1edit #fyp #lightsout
+

@@ -24,16 +24,21 @@ def _text(cfg, word, t0=None, t1=None):
             f"shadowcolor=black@0.55:shadowx=0:shadowy=4:borderw=3:bordercolor=black@0.45:x=(w-text_w)/2:y=(h-text_h)/2{en}")
 
 
+def _fps():
+    # 30 unless DEX_FPS is set (50/60). Unset keeps every older edit at 30.
+    return int(os.environ.get('DEX_FPS', '30'))
+
+
 def frames(cfg):
     ts = [s[0] for s in cfg['shots']] + [cfg['end']]
-    fr = [round(t * FPS) for t in ts]
+    fr = [round(t * _fps()) for t in ts]
     return [b - a for a, b in zip(fr, fr[1:])]
 
 
 def check(cfg):
     used = {}
     for (t, src, st, w), n in zip(cfg['shots'], frames(cfg)):
-        d = n / FPS; dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src], capture_output=True, text=True).stdout)
+        d = n / _fps(); dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src], capture_output=True, text=True).stdout)
         assert st + d <= dur, f'{src} too short at {st}'
         for a, b in used.get(src, []):
             assert st + d <= a or st >= b, f'repeated footage {os.path.basename(src)} {st:.2f}'
@@ -44,7 +49,7 @@ def check(cfg):
 def stills(cfg, out):
     W, H = cfg['size']; ims = []
     for (t, src, st, w), n in zip(cfg['shots'], frames(cfg)):
-        p = subprocess.run(['ffmpeg', '-v', 'error', '-ss', f'{st + n / FPS / 2:.3f}', '-i', src, '-frames:v', '1',
+        p = subprocess.run(['ffmpeg', '-v', 'error', '-ss', f'{st + n / _fps() / 2:.3f}', '-i', src, '-frames:v', '1',
                             '-vf', f'scale={W}:{H}:flags=lanczos,{GRADE}' + _text(cfg, w), '-f', 'image2pipe', '-vcodec', 'png', '-'], capture_output=True)
         import io; ims.append(Image.open(io.BytesIO(p.stdout)).convert('RGB').resize((W // 3, H // 3)))
     cols = 4; rows = (len(ims) + cols - 1) // cols
@@ -57,7 +62,7 @@ def render(cfg, out, tmp):
     os.makedirs(tmp, exist_ok=True); W, H = cfg['size']; parts = []
     for i, ((t, src, st, w), n) in enumerate(zip(cfg['shots'], frames(cfg))):
         p = os.path.join(tmp, f's{i:02d}.mp4'); parts.append(p)
-        vf = f'fps={FPS},scale={W}:{H}:flags=lanczos,{GRADE},setsar=1' + _text(cfg, w)
+        vf = f'fps={_fps()},scale={W}:{H}:flags=lanczos,{GRADE},setsar=1' + _text(cfg, w)
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{st:.3f}', '-i', src, '-frames:v', str(n), '-an', '-vf', vf,
                         '-c:v', 'libx264', '-crf', '10', '-preset', 'fast', '-pix_fmt', 'yuv420p', p], check=True)
     lst = os.path.join(tmp, 'list.txt'); open(lst, 'w').write(''.join(f"file '{p}'\n" for p in parts))
