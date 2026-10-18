@@ -101,6 +101,7 @@
 | 97 | 97_ferrari_racing_days_on_repeat_ferrari | "Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari) – " (from @: Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari)) | 128 | 9.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 0.03 1.76 2.01 3.13 8.20 8.31 · added automatically |
 | 98 | 98_come_on_shake_your_body_f1_fans_priouss | "Come on shake your body F1 fans! (priouss) – " (from @: Come on shake your body F1 fans! (priouss)) | 121 | 17.5s | biggest energy jump (drop) ≈ 16.5s · strongest hits 6.71 9.63 9.96 10.60 12.81 13.41 · added automatically |
 | 99 | 99_a_dan_a_sempre_acontece_no_gtwc_e_voc_gr | "A dança sempre acontece no GTWC! E você  (grandepremio) – " (from @: A dança sempre acontece no GTWC! E você  (grandepremio)) | 136 | 12.8s | biggest energy jump (drop) ≈ 5.0s · strongest hits 0.94 2.11 3.34 11.82 12.69 12.76 · added automatically |
+| 100 | 100_simple_edit_mb_i_ve_been_busy_scp_piastr | "simple edit mb, i’ve been busy || scp: @ (piastrimaywin) – " (from @: simple edit mb, i’ve been busy // scp: @ (piastrimaywin)) | 115 | 20.5s | biggest energy jump (drop) ≈ 11.0s · strongest hits 0.11 0.31 1.29 3.18 13.87 17.75 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -255,3 +256,5 @@
 **97_ferrari_racing_days_on_repeat_ferrari:** `5.78` Thanks `7.18` for `8.20` watching!
 
 **98_come_on_shake_your_body_f1_fans_priouss:** `0.68` Come `1.04` on, `1.24` shake `1.38` your `1.54` body, `1.78` baby, `2.06` do `2.14` that `2.34` con `2.58` guy, `2.90` no, `3.22` you `3.24` can't `3.46` control `3.64` yourself `3.92` any `4.24` longer.
+
+**100_simple_edit_mb_i_ve_been_busy_scp_piastr:** `0.00` ["Bound `1.68` the `1.98` Wheels `2.46` Around `3.10` the `3.92` World"]
