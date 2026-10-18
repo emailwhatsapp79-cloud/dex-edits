@@ -330,4 +330,110 @@ Singapore is most of the logo-only racing in these eight films, so it comes back
 Caption: Around the world. Eight races, cut on the beat.
 #f1 #formula1 #f1edit #fyp #aroundtheworld
 
+# Oct 26 — 18 Oct 2026
+
+Three edits. Nothing scheduled. M26 and N17 are not in REFERENCES.md (it stops at M24). The F1 text is the M26 idea taken from the flow edit itself, drawn sharp, with none of its blur. The car edit is the one-colour profile the brief asked for. N10 in the repo is a CGI one-colour world. This one is a real press film.
+
+## FOOTBALL — Salah
+
+`grok/2026-10-26-salah.mp4` — 1080x1920, 30 fps, 4.87 s, 27.0 MB.
+No YouTube file. The source is 29.97, not 50 or 60.
+`grok/salah-corners.jpg` — top-left and bottom-left 260x130 of the run, the strike, the net and the arms. Crowd and grass. No score bug.
+
+Egypt 1–2 up against New Zealand, BC Place, Vancouver, 21 June 2026. The go-ahead, 67th minute, after a one-two. Number 10, red. Official @fifaworldcup, native vertical, kept 1:1.
+
+https://www.tiktok.com/@fifaworldcup/video/7654129160910097686
+
+The live angle is one camera and it ends just after 5.4 s, when the clip cuts to a replay of the same goal. The replay is not used. The 60-second FIFA highlight of the same match has a score bug in the corner the whole way, so that celebration close-up was left out. What is here is the run, the strike, the ball in the net, and his arms-wide finish, in that order, and the edit ends on the arms. It is short because that is the clean take.
+
+Song **#4** `04_legacy_phonk_108bpm`. The vocal ("they hate on me") starts at 17.8 s. This edit uses 0.00–4.86 s. Instrumental.
+
+Script: `engine/grok_salah.py`
+
+Cuts are the frame the new shot starts. The two angles are the same wide camera, so the automatic detector only flags the harder change inside the celebration. The frame difference is at 2.167 and 4.433. One frame at 30 fps is 33 ms. Both are early.
+
+| edit | hit | offset | what |
+|---|---|---|---|
+| 2.167 | 2.198 | -31 ms | the one-two, source 2.70 |
+| 4.433 | 4.460 | -27 ms | arms wide, source 5.02, held to 4.86 |
+
+Opens at 0.00 on the run (source 0.20). SALAH. is on from the first frame. THE GO-AHEAD. comes on as the shot is struck.
+
+Caption: Salah. The go-ahead in Vancouver. Did you see the one-two?
+#football #footballedit #fyp #worldcup #salah
+
+## F1 — I get it
+
+`grok/2026-10-26-i-get-it.mp4` — 1280x720, 30 fps, 10.90 s, 25.5 MB.
+`grok/2026-10-26-i-get-it-yt.mp4` — 1080x1920 Short, 50 fps, 10.90 s, 24.1 MB. Title I GET IT / MAX VERSTAPPEN.
+`grok/i-get-it-corners.jpg` — top-left and bottom-left of every shot. The small F1 logo only. No lap card, no replay word.
+
+Library has no file #105. The sound is the 11.8 s recording on the flow edit that uses this text (https://www.tiktok.com/@aep.quin/video/7568164152951311638). That video is not the footage. The stamps sit on the kicks in this recording: 0.48, 2.80, 5.34, 7.36. The voice peaks about a fifth of a second later, so the words are up as the line is sung. White vertical bar, IT over GET, Anton. The third stamp (5.34) is gold. A thin double frame punches in on the hit and is gone in half a second. No blur.
+
+The hook is tyre smoke. It is the 2023 Abu Dhabi #1 donuts, the season-finale laps, not the race the title was decided in. That is the official donut film with the smoke in the first frame. Said plainly so it is not billed as the title-clinch.
+
+- 2023 Abu Dhabi donuts, formula1.com, Brightcove 1783637921051439731. Smoke 1.60, arms 12.60, helmet off 16.20.
+- 2022 Abu Dhabi donuts, formula1.com, Brightcove 1750030099497815599. Smoke 5.40.
+- https://www.formula1.com/en/video/2026-bahrain-grand-prix-verstappen-crosses-the-line-to-take-his-first-win-of-the-season.1878116592061332264 — head-on 0.30, the car along the straight 1.70. Sepang, his first win of 2026.
+- https://www.formula1.com/en/video/2026-singapore-grand-prix-verstappen-crosses-the-line-to-take-his-first-singapore-gp-win.1878763527671997097 — the finish straight 0.40. The rest of that clip is team radio with burned subtitles, so it is not used.
+
+All four are 1280x720, kept 1:1. No source twice in a row. The donut film is used three times, from three different ranges.
+
+Script: `engine/grok_i_get_it.py`
+
+Cuts measured on the 50 fps master against the wav, not the AAC and not the Short. One frame at 50 fps is 20 ms. The stamp leaving at 5.88 is not a cut. 7.16 and 8.74 are cuts. The night shots sit under the detector's bar (frame diff 20 and 22). They are on the hits.
+
+| edit | hit | offset | what |
+|---|---|---|---|
+| 1.640 | 1.647 | -7 ms | Sepang, head-on |
+| 2.780 | 2.787 | -7 ms | 2022 smoke |
+| 3.800 | 3.801 | -1 ms | arms up |
+| 5.320 | 5.328 | -8 ms | the car, side-on. Gold stamp at 5.34 |
+| 7.160 | 7.168 | -8 ms | helmet off |
+| 8.740 | 8.746 | -6 ms | Singapore, held to 10.90 |
+
+Opens at 0.00 on the smoke (donuts 1.60).
+
+Caption: I get it. The smoke, then the line. Did he?
+#f1 #formula1 #f1edit #fyp #verstappen
+
+## CAR — one colour
+
+`grok/2026-10-26-one-colour.mp4` — 1920x1080, 30 fps, 6.44 s, 25.2 MB.
+`grok/2026-10-26-one-colour-yt.mp4` — 1080x1920 Short, 25 fps, 6.44 s, 17.1 MB. No title on the picture.
+`grok/one-colour-corners.jpg` — top-left and bottom-left of every shot. No type.
+
+One car. Porsche 911 Carrera T Sonderwunsch "Formosa", Paint to Sample Ipanema Blue Metallic. The body is that blue. Suzuka Grey is trim, not a second body colour. Official newsroom film, 3840x2160 25 fps, downscaled to 1920x1080. No crop, no upscale.
+
+https://newsroom.porsche.com/en/2025/products/porsche-sonderwunsch-911-carrera-t-formosa-41254.html
+Film: https://newstv.porsche.com/porschevideos/newstv.porsche.com_328485_en.mp4
+
+The film is a drive through Taiwan, not a studio walkaround, and a different red car turns up later. That car is not in this cut. Neither is the line "THERE IS NO SUBSTITUTE", which fades on at 116.9 s. The clean takes of this blue car are short, so the edit is 6.44 s and it stops before the type.
+
+- 52.08 side, parked, the shop
+- 55.28 the mirror
+- 57.62 the light
+- 58.96 the rear
+- 115.12 the ridge, held to 116.40
+
+Dark, cool grade so the blue reads. No text.
+
+Sound #104 is not in the library. Song **#73** `73_gt3_rs_gulf_blue_showroom_porschebakersf` is the Paint-to-Sample showroom sound. Used 0.00–6.44 s, inside the 10.90 s line. The words in that window are "Take me to the room where we both fell in love." Nothing after 10.90 is in the file.
+
+Script: `engine/grok_one_colour.py`
+
+Cuts measured on the 25 fps master against the original mp3. One frame at 25 fps is 40 ms. None are late.
+
+| edit | hit | offset | what |
+|---|---|---|---|
+| 0.600 | 0.607 | -7 ms | the mirror |
+| 2.080 | 2.106 | -26 ms | the light |
+| 2.760 | 2.795 | -35 ms | the rear |
+| 5.160 | 5.187 | -27 ms | the ridge, held to 6.44 |
+
+Opens at 0.00 on the side (52.08).
+
+Caption: Ipanema Blue. One of one. Would you order it?
+#carsoftiktok #caredit #fyp #porsche #911
+
 
