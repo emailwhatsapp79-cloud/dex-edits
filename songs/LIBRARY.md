@@ -100,6 +100,7 @@
 | 96 | 96_nader_mohammadi_three_flip_throw_assists | "Nader Mohammadi Three Flip-Throw Assists (footytopranking5387) – " (from @: Nader Mohammadi Three Flip-Throw Assists (footytopranking5387)) | 128 | 30.6s | biggest energy jump (drop) ≈ 29.0s · strongest hits 0.17 2.56 3.85 5.30 11.26 14.91 · added automatically |
 | 97 | 97_ferrari_racing_days_on_repeat_ferrari | "Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari) – " (from @: Ferrari Racing Days on repeat 🔁🇭🇺 (ferrari)) | 128 | 9.7s | biggest energy jump (drop) ≈ 1.0s · strongest hits 0.03 1.76 2.01 3.13 8.20 8.31 · added automatically |
 | 98 | 98_come_on_shake_your_body_f1_fans_priouss | "Come on shake your body F1 fans! (priouss) – " (from @: Come on shake your body F1 fans! (priouss)) | 121 | 17.5s | biggest energy jump (drop) ≈ 16.5s · strongest hits 6.71 9.63 9.96 10.60 12.81 13.41 · added automatically |
+| 99 | 99_a_dan_a_sempre_acontece_no_gtwc_e_voc_gr | "A dança sempre acontece no GTWC! E você  (grandepremio) – " (from @: A dança sempre acontece no GTWC! E você  (grandepremio)) | 136 | 12.8s | biggest energy jump (drop) ≈ 5.0s · strongest hits 0.94 2.11 3.34 11.82 12.69 12.76 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
