@@ -102,6 +102,9 @@
 | 98 | 98_come_on_shake_your_body_f1_fans_priouss | "Come on shake your body F1 fans! (priouss) – " (from @: Come on shake your body F1 fans! (priouss)) | 121 | 17.5s | biggest energy jump (drop) ≈ 16.5s · strongest hits 6.71 9.63 9.96 10.60 12.81 13.41 · added automatically |
 | 99 | 99_a_dan_a_sempre_acontece_no_gtwc_e_voc_gr | "A dança sempre acontece no GTWC! E você  (grandepremio) – " (from @: A dança sempre acontece no GTWC! E você  (grandepremio)) | 136 | 12.8s | biggest energy jump (drop) ≈ 5.0s · strongest hits 0.94 2.11 3.34 11.82 12.69 12.76 · added automatically |
 | 100 | 100_simple_edit_mb_i_ve_been_busy_scp_piastr | "simple edit mb, i’ve been busy || scp: @ (piastrimaywin) – " (from @: simple edit mb, i’ve been busy // scp: @ (piastrimaywin)) | 115 | 20.5s | biggest energy jump (drop) ≈ 11.0s · strongest hits 0.11 0.31 1.29 3.18 13.87 17.75 · added automatically |
+| 101 | 101_corrida_noturna_tem_seu_charme_quem_a_gr | "Corrida noturna tem seu charme! Quem aí  (grandepremio) – " (from @: Corrida noturna tem seu charme! Quem aí  (grandepremio)) | 141 | 12.6s | biggest energy jump (drop) ≈ 1.0s · strongest hits 1.18 1.38 2.68 6.11 10.61 12.11 · added automatically |
+| 102 | 102_the_big_4_leclerked | "The big 4 (leclerked) – " (from @: The big 4 (leclerked)) | 128 | 24.8s | biggest energy jump (drop) ≈ 3.0s · strongest hits 2.68 4.08 9.18 10.46 16.81 20.07 · added automatically |
+| 103 | 103_porsche_rixxchh | "Porsche 🫡🫡 (rixxchh) – " (from @: Porsche 🫡🫡 (rixxchh)) | 108 | 7.3s | biggest energy jump (drop) ≈ 6.0s · strongest hits 0.04 1.23 1.72 1.99 6.03 7.02 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -258,3 +261,9 @@
 **98_come_on_shake_your_body_f1_fans_priouss:** `0.68` Come `1.04` on, `1.24` shake `1.38` your `1.54` body, `1.78` baby, `2.06` do `2.14` that `2.34` con `2.58` guy, `2.90` no, `3.22` you `3.24` can't `3.46` control `3.64` yourself `3.92` any `4.24` longer.
 
 **100_simple_edit_mb_i_ve_been_busy_scp_piastr:** `0.00` ["Bound `1.68` the `1.98` Wheels `2.46` Around `3.10` the `3.92` World"]
+
+**101_corrida_noturna_tem_seu_charme_quem_a_gr:** `0.00` Thank `0.34` you `0.34` for `0.58` watching!
+
+**102_the_big_4_leclerked:** `15.34` Thank `16.74` you `18.14` so `21.84` much `21.84` for `22.36` watching `22.36` this `24.66` video, `24.66` I `24.66` hope `24.66` you `24.66` enjoyed `24.66` it!
+
+**103_porsche_rixxchh:** `0.00` I'm `0.44` back `0.44` at `0.70` me, `0.94` I `1.04` gave `1.24` a `1.38` move `1.72` Can't `2.30` see `2.30` the `2.46` problem, `2.80` I `2.94` know `3.26` where `3.44` it `3.60` goes `3.82` She `4.18` had `4.44` the `4.64` map, `5.38` I'm `5.82` changing `6.16` food
