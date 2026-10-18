@@ -436,4 +436,99 @@ Opens at 0.00 on the side (52.08).
 Caption: Ipanema Blue. One of one. Would you order it?
 #carsoftiktok #caredit #fyp #porsche #911
 
+# Oct 26 v2 — 18 Oct 2026
+
+The three Oct 26 edits, cut again. v1 is still on disk. Nothing scheduled. Not pushed to scamdecoded-media.
+
+## FOOTBALL — Salah v2
+
+`grok/2026-10-26-salah-v2.mp4` — 1080x1920, 30 fps, 11.30 s, 28.8 MB.
+No YouTube file. Both sources are ~30 fps, not 50 or 60.
+`grok/2026-10-26-salah-v2-corners.jpg` — top-left and bottom-left 260x130 after the bug crop. Crowd, grass, a stadium board. No score bug, no name tag.
+
+Egypt, the go-ahead against New Zealand, BC Place, 21 June 2026. Number 10.
+
+- https://www.tiktok.com/@fifaworldcup/video/7654129160910097686 — the pitchside angle, native 1080x1920, no bug. The run (source 0.35) and the strike through the net (source 4.18, ends 5.21, before the replay at 5.48). He is not a close-up in this clip. The replay after 5.48 is players as dots, so it is not used.
+- https://www.tiktok.com/@fifaworldcup/video/7654126408284851478 — the match highlight. A score bug sits at the top of every frame. Shots are cropped from y=300 (1080x1620) and scaled back, 1.19x, which puts the bug above the frame. The other angle of the move (38.25), the keeper and the ball (40.10), then him, close, 42.60–45.87. That close take ends at 45.91. The next shot is wide, so the edit stops.
+
+He is big for the last 3.3 s, which is the whole clean close-up. There is no second close of him that is actually him: the celebration at 52 s is a different player. Club goals were not used. 11.30 s is the length of the clean pictures. Stretching it would be the wide replay or the bug.
+
+Sound: library **#5** `05_montagem_kali_slowed`, instrumental phonk. TikTok sound: https://www.tiktok.com/music/MONTAGEM-KALI-Slowed-7677012374906259457
+The lights-out edit uses 0.00–15.03 s of this file. This cut starts at 15.05 s, so it does not reuse that range. The strike is the cut at 7.00, on the hit. SALAH. from the first frame. THE GO-AHEAD. from 7.00.
+
+Script: `engine/grok_salah_v2.py`
+
+Cuts measured on the 30 fps master against a wav of the same 15.05–26.35 s. One frame at 30 fps is 33 ms. All four are early.
+
+| edit | hit | offset | what |
+|---|---|---|---|
+| 1.400 | 1.420 | -20 ms | the run, number 10 |
+| 4.967 | 4.974 | -7 ms | the keeper, the ball |
+| 7.000 | 7.027 | -27 ms | the strike and the net |
+| 8.033 | 8.058 | -25 ms | him, held to 11.30 |
+
+No source twice in a row. The highlight is used three times, from three different takes.
+
+Caption: Salah. The go-ahead. Watch the one-two, then him.
+#football #footballedit #fyp #worldcup #salah
+
+## F1 — I get it v2
+
+`grok/2026-10-26-i-get-it-v2.mp4` — 1280x720, 30 fps, 10.90 s, 27.0 MB.
+`grok/2026-10-26-i-get-it-v2-yt.mp4` — 1080x1920 Short, 50 fps, 10.90 s, 27.3 MB. Title I GET IT / MAX VERSTAPPEN.
+`grok/2026-10-26-i-get-it-v2-corners.jpg` — top-left and bottom-left of every shot. The small F1 logo, or bodywork. No name tag, no lap, no replay word.
+
+v1's wide finish lines (Bahrain, the Singapore hold) are gone. The donut opener stays. After that, his car fills the frame, and the last shot is him.
+
+Sound **#105**. https://www.tiktok.com/@v33stappen/video/7697654217405779214
+Clean. Stamps stay at 0.48 / 2.80 / 5.34 / 7.36. White, white, gold, white. The third is the gold one. No blur, no streak.
+
+- 2023 Abu Dhabi #1 donuts, formula1.com. Smoke from 2.20 (the hook, 3.34 s — this is the wide one, on purpose). Arms up in the car from 12.60. Him, arms up, from 18.30, the last 1.00 s. These are the season-finale donuts, not the race the title was decided in.
+- Singapore onboard, formula1.com, Brightcove 1878860497628040753. Source 9.55–10.95, still his car (the cut to the next driver is at 11.34). The "MAX VERSTAPPEN" lower-third is cropped off the bottom 110 px and scaled back, about 1.18x. A track gantry reads SINGAPORE for a moment as he drives under it. That is the circuit, not a bug.
+- 2022 Abu Dhabi cockpit, formula1.com. Source 10.10–12.52, before the aerial at 12.62. The car fills it. "MAX VERSTAPPEN" on the nose is the livery.
+
+All kept 1280x720, 1:1 apart from that one crop. No source twice in a row. The 2023 film is used three times, three different takes.
+
+Script: `engine/grok_i_get_it_v2.py`
+
+Cuts measured on the 50 fps master against the wav. One frame is 20 ms. The detector sees three of the four cuts. The two cockpits are close enough that the fourth (7.48) stays under the bar. It is a hard concat on the hit. The three it sees are early.
+
+| edit | what |
+|---|---|
+| 3.340 | his onboard, name tag cropped |
+| 4.740 | arms up in the #1 |
+| 7.480 | 2022 cockpit |
+| 9.900 | him, 1.00 s, held to 10.90 |
+
+Opens at 0.00 on the smoke.
+
+Caption: I get it. The smoke, then the car, then him.
+#f1 #formula1 #f1edit #fyp #verstappen
+
+## CAR — one colour v2
+
+`grok/2026-10-26-one-colour-v2.mp4` — 1920x1080, 30 fps, 10.88 s, 26.2 MB.
+`grok/2026-10-26-one-colour-v2-yt.mp4` — 1080x1920 Short, 25 fps, 10.88 s, 23.3 MB. No title.
+`grok/2026-10-26-one-colour-v2-corners.jpg` — top-left and bottom-left of every shot, 100% of the 4K. Paint, sky, tarmac. No type.
+
+One car, one red. It is a Guards Red 911 GT3 S/C, the April 2026 newsroom walkaround, not a Paint-to-Sample one-off. Said plainly. The brief asked for a special colour. The films that are actually a rare colour (Formosa, the jade, the gold) do not have fifteen clean detail takes. Formosa (328485) is the one already posted, and it is a drive, so it is not used. This film is the one that has the N17 grammar: the side, then the parts, then the side again.
+
+https://newstv.porsche.com/porschevideos/newstv.porsche.com_332698_en.mp4
+3840x2160, 25 fps, downscaled to 1920x1080. No crop, no upscale.
+
+22 cuts. The side profile is the anchor, three times, from the same tracking take (44.30, 45.15, 45.80). The rest are different details: rear, wheel, lamp, mirror, the blade, the paint, the wheel again with a hand, the scoop, the exhaust, the tail lamp, the light bar, the diffuser, the mirror, the wheel from inside, the door card, the gear lever, the column, hands on the wheel, a hand on the deck. Walter Röhrl is in this film. He is not the shot. A hand on the paint is in a few of them, because that is the walkaround. No title card.
+
+Dark, cool grade. No text.
+
+Sound **#104**, 0.00–10.88 only. The explicit line ("fuck your man") is at 11.00 and is not in this cut.
+https://www.tiktok.com/@igvfte/video/7679940726808907040
+https://vm.tiktok.com/ZN8Swd3bT/
+
+Script: `engine/grok_one_colour_v2.py`
+
+Cuts measured on the 25 fps master against the wav. One frame is 40 ms. 19 of 21 cuts clear the detector (two details are too similar for it). All 19 are inside one frame. Three sit a few milliseconds after the hit the detector chose, still inside that frame, and early of the hit they were snapped to.
+
+Caption: Guards Red. One car. Count the cuts.
+#carsoftiktok #caredit #fyp #porsche #911
+
 
