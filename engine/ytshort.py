@@ -19,6 +19,7 @@ def make(src, out, title='', fps=30):
     tmp = out.replace('.mp4', '_pre.mp4')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', vf, '-c:v', 'libx264', '-crf', '10', '-preset', 'slow',
                     '-pix_fmt', 'yuv420p', '-c:a', 'copy', tmp], check=True)
+<<<<<<< HEAD
     brand.brand(tmp, out, fps=int(fps)); os.remove(tmp)
     return out
 

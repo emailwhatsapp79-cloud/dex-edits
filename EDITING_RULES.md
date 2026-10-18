@@ -96,6 +96,10 @@ An edit is a short story about ONE subject, not random clips put together.
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
 
+**Trending audio (Desmond, Oct 18):** the sound does NOT have to be one already in `songs/LIBRARY.md`. Grok can search TikTok for what is trending right now and take the audio from there - use it. Still: clean lyrics only (no explicit words in the part used), and write the TikTok link of the sound in NOTES so it gets saved with add_sound.
+
+**Length (Oct 18):** length follows the story and the song phrase, not a target number. Reference hits: 7 s (N16, 514k), 12 s (N17, 2.3M; M26, 30% likes), 20-24 s (M24, M25 - stories/series). Guide: one-shot/detail edits 8-12 s (short = rewatches/loops); a goal = 12-15 s (build-up, strike, net, celebration - under ~8 s cannot tell it); story/race-week/lyric edits 15-25 s. The hook in the first 1-2 s matters more than the length. Never pad with holds to reach a number.
+
 ## 7. Styles learned from reference edits
 - **"Aura" F1 edit (Formula Max sound):** one long, calm slow-motion intro (no cuts) until the drop, then a cut on
   every snare. On the hits: a white flash, 1-3 photocopy (black/white threshold) frames, colour <-> black-and-white
@@ -221,6 +225,8 @@ two locations into a spotting edit.
   fixed bitrate, so 30 fps = more detail per frame. YouTube does the opposite - 60 fps uploads get a higher bitrate tier.
   So: TikTok post = 30 fps file, YouTube post = 60 fps file (brand(..., fps=60)) when the edit was made at 60.
   All Oct 17-23 posts with a 60 fps master were split this way (YouTube media = the pre-conversion files at commit 520a9e3).
+  formula1.com highlights are 50 fps -> the YouTube master is rendered at 50 (DEX_FPS=50 python3 engine/edit_<x>.py render,
+  then engine/ytshort.py <in> <out> '<title>' 50). Any source at 50/60 fps = YouTube gets 50/60.
 - **RACE-WEEK FORMULA (refs M6 1.1M, M15 300k):** commentator line "The <X> Grand Prix is underway!" word-by-word over
   the CITY (skyline, aerial, landmarks) -> event title card (track name/logo, city, ROUND n, dates) -> track action on a
   local/trending song -> end on the opening shot (loop). Horizontal native, posted early in race week.

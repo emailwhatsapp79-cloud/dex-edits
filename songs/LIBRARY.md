@@ -102,6 +102,11 @@
 | 98 | 98_come_on_shake_your_body_f1_fans_priouss | "Come on shake your body F1 fans! (priouss) – " (from @: Come on shake your body F1 fans! (priouss)) | 121 | 17.5s | biggest energy jump (drop) ≈ 16.5s · strongest hits 6.71 9.63 9.96 10.60 12.81 13.41 · added automatically |
 | 99 | 99_a_dan_a_sempre_acontece_no_gtwc_e_voc_gr | "A dança sempre acontece no GTWC! E você  (grandepremio) – " (from @: A dança sempre acontece no GTWC! E você  (grandepremio)) | 136 | 12.8s | biggest energy jump (drop) ≈ 5.0s · strongest hits 0.94 2.11 3.34 11.82 12.69 12.76 · added automatically |
 | 100 | 100_simple_edit_mb_i_ve_been_busy_scp_piastr | "simple edit mb, i’ve been busy || scp: @ (piastrimaywin) – " (from @: simple edit mb, i’ve been busy // scp: @ (piastrimaywin)) | 115 | 20.5s | biggest energy jump (drop) ≈ 11.0s · strongest hits 0.11 0.31 1.29 3.18 13.87 17.75 · added automatically |
+| 101 | 101_corrida_noturna_tem_seu_charme_quem_a_gr | "Corrida noturna tem seu charme! Quem aí  (grandepremio) – " (from @: Corrida noturna tem seu charme! Quem aí  (grandepremio)) | 141 | 12.6s | biggest energy jump (drop) ≈ 1.0s · strongest hits 1.18 1.38 2.68 6.11 10.61 12.11 · added automatically |
+| 102 | 102_the_big_4_leclerked | "The big 4 (leclerked) – " (from @: The big 4 (leclerked)) | 128 | 24.8s | biggest energy jump (drop) ≈ 3.0s · strongest hits 2.68 4.08 9.18 10.46 16.81 20.07 · added automatically |
+| 103 | 103_porsche_rixxchh | "Porsche 🫡🫡 (rixxchh) – " (from @: Porsche 🫡🫡 (rixxchh)) | 108 | 7.3s | biggest energy jump (drop) ≈ 6.0s · strongest hits 0.04 1.23 1.72 1.99 6.03 7.02 · added automatically |
+| 104 | 104_tiffany_x_porsche_vfte_original_sound | "Lotto" rap – @igvfte "$13.000.000 Tiffany x Porsche" (ref N17) – **EXPLICIT at 11.00: use 0.00-10.90 only** | 148 | 12.2s | biggest energy jump (drop) ≈ 11.5s · strongest hits 2.10 2.51 8.55 9.72 10.17 11.78 · added automatically |
+| 105 | 105_i_get_it_mv3_flow_v33stappen | "I get it" (@v33stappen Max flow edit, ref M26) – clean; "I get it" at 0.48 / 2.80 / 5.34 / 7.36 | 110 | 12.2s | biggest energy jump (drop) ≈ 5.0s · strongest hits 0.42 2.68 3.22 3.65 3.97 4.64 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -258,3 +263,13 @@
 **98_come_on_shake_your_body_f1_fans_priouss:** `0.68` Come `1.04` on, `1.24` shake `1.38` your `1.54` body, `1.78` baby, `2.06` do `2.14` that `2.34` con `2.58` guy, `2.90` no, `3.22` you `3.24` can't `3.46` control `3.64` yourself `3.92` any `4.24` longer.
 
 **100_simple_edit_mb_i_ve_been_busy_scp_piastr:** `0.00` ["Bound `1.68` the `1.98` Wheels `2.46` Around `3.10` the `3.92` World"]
+
+**101_corrida_noturna_tem_seu_charme_quem_a_gr:** `0.00` Thank `0.34` you `0.34` for `0.58` watching!
+
+**102_the_big_4_leclerked:** `15.34` Thank `16.74` you `18.14` so `21.84` much `21.84` for `22.36` watching `22.36` this `24.66` video, `24.66` I `24.66` hope `24.66` you `24.66` enjoyed `24.66` it!
+
+**103_porsche_rixxchh:** `0.00` I'm `0.44` back `0.44` at `0.70` me, `0.94` I `1.04` gave `1.24` a `1.38` move `1.72` Can't `2.30` see `2.30` the `2.46` problem, `2.80` I `2.94` know `3.26` where `3.44` it `3.60` goes `3.82` She `4.18` had `4.44` the `4.64` map, `5.38` I'm `5.82` changing `6.16` food
+
+**104_tiffany_x_porsche_vfte_original_sound:** `0.00` Lotto `0.70` where `1.02` you `1.16` are, `1.70` you `1.84` ain't `2.08` got `2.22` nothing `2.62` to `2.80` prove `3.28` You've `3.86` been `3.98` through `4.24` a `4.42` lot, `4.88` let `4.98` me `5.14` show `5.42` you `5.64` how `5.88` to `6.00` move `6.36` Let `6.62` me `6.84` show `7.06` you `7.30` how `7.52` to `7.64` get `7.90` that `8.48` bad `8.82` You `9.08` ain't `9.34` never `9.58` coming `9.92` last, `11.00` fuck `11.14` your `11.66` man
+
+**105_i_get_it_mv3_flow_v33stappen:** `0.48` I `0.92` get `1.14` it. `1.70` She `1.98` wanna `2.28` come `2.56` with `2.80` me. `3.14` I `3.14` get `3.38` it. `3.80` She `4.16` wanna `4.48` come `4.74` fill `4.98` me. `5.34` I `5.34` get `5.56` it. `6.06` I'm `6.30` the `6.42` stuff `6.62` that `6.82` you `6.98` want. `7.36` I `7.42` get `7.74` it. `8.24` How `8.44` do `8.56` you `8.68` wanna `8.86` run?
