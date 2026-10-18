@@ -96,6 +96,10 @@ An edit is a short story about ONE subject, not random clips put together.
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
 
+**Trending audio (Desmond, Oct 18):** the sound does NOT have to be one already in `songs/LIBRARY.md`. Grok can search TikTok for what is trending right now and take the audio from there - use it. Still: clean lyrics only (no explicit words in the part used), and write the TikTok link of the sound in NOTES so it gets saved with add_sound.
+
+**Length (Oct 18):** length follows the story and the song phrase, not a target number. Reference hits: 7 s (N16, 514k), 12 s (N17, 2.3M; M26, 30% likes), 20-24 s (M24, M25 - stories/series). Guide: one-shot/detail edits 8-12 s (short = rewatches/loops); a goal = 12-15 s (build-up, strike, net, celebration - under ~8 s cannot tell it); story/race-week/lyric edits 15-25 s. The hook in the first 1-2 s matters more than the length. Never pad with holds to reach a number.
+
 ## 7. Styles learned from reference edits
 - **"Aura" F1 edit (Formula Max sound):** one long, calm slow-motion intro (no cuts) until the drop, then a cut on
   every snare. On the hits: a white flash, 1-3 photocopy (black/white threshold) frames, colour <-> black-and-white
