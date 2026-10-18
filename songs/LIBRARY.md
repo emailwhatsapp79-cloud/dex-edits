@@ -107,6 +107,8 @@
 | 103 | 103_porsche_rixxchh | "Porsche 🫡🫡 (rixxchh) – " (from @: Porsche 🫡🫡 (rixxchh)) | 108 | 7.3s | biggest energy jump (drop) ≈ 6.0s · strongest hits 0.04 1.23 1.72 1.99 6.03 7.02 · added automatically |
 | 104 | 104_tiffany_x_porsche_vfte_original_sound | "Lotto" rap – @igvfte "$13.000.000 Tiffany x Porsche" (ref N17) – **EXPLICIT at 11.00: use 0.00-10.90 only** | 148 | 12.2s | biggest energy jump (drop) ≈ 11.5s · strongest hits 2.10 2.51 8.55 9.72 10.17 11.78 · added automatically |
 | 105 | 105_i_get_it_mv3_flow_v33stappen | "I get it" (@v33stappen Max flow edit, ref M26) – clean; "I get it" at 0.48 / 2.80 / 5.34 / 7.36 | 110 | 12.2s | biggest energy jump (drop) ≈ 5.0s · strongest hits 0.42 2.68 3.22 3.65 3.97 4.64 · added automatically |
+| 106 | 106_raya_slowed_zericxxn_hamilton_whos_next | "Raya Slowed Zericxxn Hamilton whos next – " (from @: Raya Slowed Zericxxn Hamilton whos next) | 98 | 14.4s | biggest energy jump (drop) ≈ 4.5s · strongest hits 2.94 6.00 7.52 8.44 10.28 10.88 · added automatically |
+| 107 | 107_we_just_pray_for_cars_6wear | "We just pray for cars 6wear – " (from @: We just pray for cars 6wear) | 124 | 12.6s | biggest energy jump (drop) ≈ 10.5s · strongest hits 1.41 1.74 3.03 4.32 4.82 8.17 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -273,3 +275,7 @@
 **104_tiffany_x_porsche_vfte_original_sound:** `0.00` Lotto `0.70` where `1.02` you `1.16` are, `1.70` you `1.84` ain't `2.08` got `2.22` nothing `2.62` to `2.80` prove `3.28` You've `3.86` been `3.98` through `4.24` a `4.42` lot, `4.88` let `4.98` me `5.14` show `5.42` you `5.64` how `5.88` to `6.00` move `6.36` Let `6.62` me `6.84` show `7.06` you `7.30` how `7.52` to `7.64` get `7.90` that `8.48` bad `8.82` You `9.08` ain't `9.34` never `9.58` coming `9.92` last, `11.00` fuck `11.14` your `11.66` man
 
 **105_i_get_it_mv3_flow_v33stappen:** `0.48` I `0.92` get `1.14` it. `1.70` She `1.98` wanna `2.28` come `2.56` with `2.80` me. `3.14` I `3.14` get `3.38` it. `3.80` She `4.16` wanna `4.48` come `4.74` fill `4.98` me. `5.34` I `5.34` get `5.56` it. `6.06` I'm `6.30` the `6.42` stuff `6.62` that `6.82` you `6.98` want. `7.36` I `7.42` get `7.74` it. `8.24` How `8.44` do `8.56` you `8.68` wanna `8.86` run?
+
+**106_raya_slowed_zericxxn_hamilton_whos_next:** `2.84` Music
+
+**107_we_just_pray_for_cars_6wear:** `0.58` 100 `0.98` on `1.22` the `1.34` dash `1.66` give `1.84` me `1.96` close `2.26` to `2.46` God. `2.96` We `3.10` don't `3.32` pray `3.52` for `3.72` love. `4.22` We `4.42` just `4.58` pray `4.84` for `5.02` cars `6.64` House `7.04` so `7.18` empty `7.36` need `7.66` us `7.82` in `7.98` the `8.10` peace `8.56` 20 `9.34` racks `9.58` of `9.70` tablecloth `10.20` from `10.40` ebony
