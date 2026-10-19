@@ -112,6 +112,11 @@
 | 108 | 108_sente_mais_super_slowed_eternxlkz | "SENTE MAIS (SUPER SLOWED)" – Eternxlkz (Baku Flashback, @f1lightAEP, ref M28). Shazam https://www.shazam.com/track/834210422/sente-mais-super-slowed | 93 | 13.1s | slowed Brazilian funk. Energy jump ≈ 2.5s · biggest snare 7.31 (the lyric "quando o beat começar", the flashback smash) · hits 2.47 5.39 7.31 7.97 8.31 9.60 · this clip is the slowed intro, no swear words |
 | 109 | 109_golden_brown_the_stranglers | "Golden Brown" – The Stranglers (YouTube Short "Use this audio!", Make Me Viral). Shazam https://www.shazam.com/track/302413/golden-brown | 94 | 12.4s | calm harpsichord loop, no real drop (3.0s is only the biggest small rise; level stays flat). Hits 0.06 1.42 1.87 2.51 6.33 10.00. Measured 94 BPM on a 6/8 song, so the grid may not be the real pulse. No swear words. The auto-caption "Never ever after" is a mishear of "never a frown" |
 | 110 | 110_apptekk_lxao | "Apptekk" – lxao (Stroll "same guy btw", @f1byrv33, ref M29). Hardtekk, 2026-02-11. Shazam https://www.shazam.com/track/863941876/apptekk | 94 | 16.7s | instrumental. Energy jump ≈ 10.5s (the edit cuts at 10.17s). Strongest hits 2.43 3.38 3.71 4.34 14.20 16.67. Measured 94 BPM may be half-time of a faster hardtekk. No words |
+| 111 | 111_atlantis_sped_up_seafret | "Atlantis (Sped Up)" – Seafret. 18.8M Short "16M views with this audio" (https://www.youtube.com/shorts/Lw231gXfEbg). Shazam https://www.shazam.com/track/625063225/atlantis-sped-up-version | 120 | 24.0s | clean hook: "oh no / I can't save you, my Atlantis / we built this town on shaky ground". Hits 1.28 3.64 3.77 4.46 5.31 16.78. The 22s mark is the end of the clip, not a drop |
+| 112 | 112_brutus_instrumental_the_buttress | "Brutus (Instrumental)" – The Buttress. TikTok chart 18 Oct 2026. The vocal version is explicit — this file is the instrumental only | 144 | 22.0s | instrumental, no words. Energy jump ≈ 1.5s. Hits 0.24 0.49 1.90 6.90 7.16 8.57 |
+| 113 | 113_we_fell_in_love_in_october_girl_in_red | "we fell in love in october" – girl in red. Peak October TikTok sound. Official chorus | 130 | 22.0s | clean. Hits 0.35 6.49 6.82 7.27 8.55 18.22 |
+| 114 | 114_ramalama_bang_bang_r_is_n_murphy | "Ramalama (Bang Bang)" – Róisín Murphy. Halloween TikTok return, chart 18 Oct 2026. Chorus only | 107 | 24.0s | clean chorus (ramalama / bang bang / crash bang, "if I need a rhythm"). No swears. Hits 8.18 11.81 12.99 14.06 17.42 19.67 |
+| 115 | 115_paper_moon_static_marnie_cusk | "Paper Moon Static" – Marnie Cusk. TikTok chart 18 Oct 2026, ambient | 139 | 22.0s | instrumental. No words. 139 BPM is a detector guess on a static bed — don't cut it like a drum track. Hits 0.09 1.26 8.48 12.98 13.40 14.26 |
 
 ## Lyrics with timestamps (seconds)
 
@@ -288,3 +293,13 @@
 **109_golden_brown_the_stranglers:** no clean word timings. Buried vocal. YouTube's auto-caption hears "Never ever after" at 7.12–8.04 and "No" at 11.00 — that is a mishear of "never a frown … golden brown", so do not stamp the caption. No swears in this 12.4s.
 
 **110_apptekk_lxao:** instrumental. No words.
+
+**111_atlantis_sped_up_seafret:** `0.00` Tell `0.82` me `1.16` why `1.56` this `1.78` has `2.00` to `2.40` end `2.96` oh `3.18` no `8.14` I `9.30` can't `9.98` save `10.48` you `11.10` my `12.18` Atlantis `15.98` We `16.56` build `16.86` this `17.08` town `17.46` on `17.62` shaky `18.14` ground `18.90` I `19.98` can't `20.66` save `21.26` you `21.84` my `22.54` Atlantis. Clean. No swears.
+
+**112_brutus_instrumental_the_buttress:** instrumental. No words.
+
+**113_we_fell_in_love_in_october_girl_in_red:** `0.00` We `1.06` fell `1.66` in `2.16` love `2.72` in `3.36` October `5.00` That's `5.88` why `6.54` I `7.92` love `8.26` fall `8.80` Looking `9.92` at `10.94` the `11.52` stars `12.50` Admiring `13.74` from `14.40` afar `16.22` My `16.68` girl, `17.14` my `17.52` girl, `18.30` my `18.94` girl. Clean.
+
+**114_ramalama_bang_bang_r_is_n_murphy:** chorus only. "Ramalama, bang bang / crash bang" and "if I need a rhythm, it'll be to my heart I listen". No swears. The auto word timings were wrong, so none are stored.
+
+**115_paper_moon_static_marnie_cusk:** instrumental. No words.
