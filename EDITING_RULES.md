@@ -96,6 +96,12 @@ An edit is a short story about ONE subject, not random clips put together.
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
 
+**WHAT OUR OWN NUMBERS SAY (first 16 posts, Oct 19 - analysis/2026-10-19-first-16-posts.md):**
+- TikTok: nothing passed ~900 views (first test batch). F1 likes 11-13%, football 1.5-8.5%, cars 2-7%. Shares: 5 in 16 posts.
+- YouTube: Antonelli "20 years old. One race from history" 9,736 views - a searched name + a stake in the title. Everything else ~1,000.
+- So: a stake/claim in the first line, one name people search this week, a question people can answer or send. Cars need an
+  event (first, record, "would you"), not only beauty shots. No compilations from mixed/soft sources.
+
 **FRESHNESS (Desmond, Oct 18) - edits must not look backdated:**
 - The three edits of a day (football, F1, car) are made TOGETHER, as close to their post date as possible - not weeks ahead.
 - Use the NEWEST material first:
