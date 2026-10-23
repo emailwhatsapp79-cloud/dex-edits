@@ -96,6 +96,18 @@ An edit is a short story about ONE subject, not random clips put together.
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
 
+**LYRICS LOOK LIKE A WATERMARK (Desmond, Oct 23 - ref X9/X17/X13 jet edits):** every lyric edit shows the lyrics, one
+word per beat, but NOT as white Anton with a black border. The word sits INSIDE the picture like a watermark: a wide
+extended font, letters FILLED with an image/sky texture (or a soft gradient) at ~80-90% opacity, no outline, no shadow,
+medium size, centred. It reads as part of the shot, not a sticker on top. (BC Doomsday used the old sticker style.)
+
+**ACTION LANDS ON THE BEAT, NOT JUST THE CUT (Desmond, Oct 23, rated BC Doomsday x Ready 5/10):** "no punching, no landing
+scene, you just switch from scene to scene". Cutting on the beat is not enough - the HIT inside the shot (punch, impact,
+landing, explosion, lightning strike, a jet passing the camera, a goal net bulging, a car's apex) must happen ON the beat.
+Pick the source in-point so the impact frame = the beat (in-point = impact time - (beat - cut)). Prefer shots with an
+action peak over portraits/standing shots; hold a portrait only on the slow parts. Check: every heavy beat shows motion
+peaking, not a still face.
+
 **WHAT OUR OWN NUMBERS SAY (first 16 posts, Oct 19 - analysis/2026-10-19-first-16-posts.md):**
 - TikTok: nothing passed ~900 views (first test batch). F1 likes 11-13%, football 1.5-8.5%, cars 2-7%. Shares: 5 in 16 posts.
 - YouTube: Antonelli "20 years old. One race from history" 9,736 views - a searched name + a stake in the title. Everything else ~1,000.
