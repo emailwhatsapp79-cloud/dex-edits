@@ -362,3 +362,38 @@ shares are 1.2-2.4% of views, ours are 0.
 | auto | https://www.youtube.com/shorts/Lw231gXfEbg | @WealthMindset-1T: 16M views with this audio, try yours | sound saved as library #111 (120 BPM) |
 | note | https://www.youtube.com/shorts/Lw231gXfEbg | Arthur (@WealthMindset-1T), 6 s, 1080x1920, 18.8M / 196k likes (1.0%) - "16M views with this audio, try yours" (sound #111, Seafret "Atlantis (Sped Up)") | **NOT AN EDIT. DO NOT COPY.** A waterfall with one sticker: "Used this audio and i got 16M views." Same growth hack as the Studio screenshot (#109). The song is the point. This 24s is the hook ("oh no / I can't save you, my Atlantis / we built this town on shaky ground"). Clean. If we use it, the picture has to show that line. |
 | chart | TikTok + YouTube charts, 18 Oct 2026 | Weekly sound pull | **#112 Brutus (Instrumental)** – The Buttress, 144 BPM, no words. The vocal Brutus is explicit, so only the instrumental is saved. **#113 we fell in love in october** – girl in red, 130 BPM, clean chorus. **#114 Ramalama (Bang Bang)** – Róisín Murphy, 107 BPM, clean chorus. **#115 Paper Moon Static** – Marnie Cusk, ambient, no words. Skipped the fastest climber, **Vibin – Wxoda** (+147k videos that day): the chorus is explicit. Also skipped Fortnite emote SFX and unnamed "original sound" clips. |
+
+| auto | https://vm.tiktok.com/ZN8DJM9kw/ | @: X01 pointblankplane pointblankplane | sound saved as library #116 (136 BPM, drop ≈ 9.0s) |
+| auto | https://vm.tiktok.com/ZN8DJh3dc/ | @: X02 ryanzfilms ryanzfilms | sound saved as library #117 (154 BPM, drop ≈ 33.0s) |
+| auto | https://vm.tiktok.com/ZN8DJL2CK/ | @: X03 sdotz07 sdotz07 | sound saved as library #118 (115 BPM, drop ≈ 41.5s) |
+| auto | https://vm.tiktok.com/ZN8DJNvVw/ | @: X04 Cold fedgratis2005 | sound saved as library #119 (133 BPM, drop ≈ 9.0s) |
+| auto | https://vm.tiktok.com/ZN8DJYV5H/ | @: X05 son original rainbowpfp67 | sound saved as library #120 (122 BPM, drop ≈ 9.5s) |
+| auto | https://vm.tiktok.com/ZN8DJePbv/ | @: X06 READY realmadaradusal | sound saved as library #121 (126 BPM, drop ≈ 21.0s) |
+| auto | https://vm.tiktok.com/ZN8DJRHcy/ | @: X07 som original 5starfartrend | sound saved as library #122 (177 BPM, drop ≈ 4.0s) |
+| auto | https://vm.tiktok.com/ZN8DJyEG2/ | @: X08   cinemavibes69 | sound saved as library #123 (128 BPM, drop ≈ 4.0s) |
+| auto | https://www.tiktok.com/@f35_a_lightning_ll/video/7697301289943780630 | @: X09 F35A f35alightningll | sound saved as library #124 (103 BPM, drop ≈ 5.0s) |
+| auto | https://www.tiktok.com/@r0dn3y_/video/7694744986776046866 | @: X10 r0dn3y r0dn3y | sound saved as library #125 (143 BPM, drop ≈ 13.0s) |
+| auto | https://www.tiktok.com/@sharko.edz/video/7685483318363573537 | @: X11 sharkoedz sharkoedz | sound saved as library #126 (102 BPM, drop ≈ 6.0s) |
+| auto | https://www.tiktok.com/@army_bravo/video/7698093109841890590 | @: X12 Originalton armybravo | sound saved as library #127 (133 BPM, drop ≈ 6.5s) |
+| auto | https://www.tiktok.com/@.airpowerarchive/video/7680514071438888214 | @: X13 suara asli        airpowerarchive | sound saved as library #128 (109 BPM, drop ≈ 18.0s) |
+| auto | https://www.tiktok.com/@maverick_archive/video/7693192680540523797 | @: X14 maverickarchive maverickarchive | sound saved as library #129 (96 BPM, drop ≈ 5.0s) |
+| auto | https://www.tiktok.com/@nikon_editz0/video/7689861247285595414 | @: X15 nikoneditz0 nikoneditz0 | sound saved as library #130 (158 BPM, drop ≈ 12.0s) |
+| auto | https://www.tiktok.com/@afjd72/video/7685462347565059360 | @: X16 son original afjd72 | sound saved as library #131 (95 BPM, drop ≈ 6.0s) |
+| auto | https://vm.tiktok.com/ZN8DJrV4n/ | @: X17 original lyd  F35A f35alightningll | sound saved as library #132 (121 BPM, drop ≈ 16.5s) |
+
+## Batch X - 2026-10-23 (17 links: Avengers movie edits, fighter-jet/military edits, songs)
+Desmond: "I want exactly that kind of edits ... the edit lands on the beat ... that kind of edits for the movies."
+| ref | link | stats | what it teaches |
+|---|---|---|---|
+| X2 | https://vm.tiktok.com/ZN8DJh3dc/ | @ryanzfilms "Avengers", 60 s, **3.5M / 957k likes (27%) / 97k shares** | Horizontal 1920x1080 MCU montage: a dialogue/score build ("together... we keep the fight here"), the MARVEL logo burn, then hero-by-hero action on every hit. Heavy cinematic grade, no text. |
+| X3 | https://vm.tiktok.com/ZN8DJL2CK/ | @sdotz_07 "Avengers X Uptown Funk", 60 s, **2.2M / 593k (27%) / 68k shares** | Movie lines + a famous pop song; each lyric word stamped on its own cut in coloured heavy type ("A SPORT", "I WILL", "THE AVENGERS", "MIGHTIEST"). Song is explicit - the format is the lesson. |
+| X4 | https://vm.tiktok.com/ZN8DJNvVw/ | @fedgratis2005 "COLD X AVENGERS GOES HARD", 32 s, 892k / 241k (27%) | Same horizontal Avengers montage over a hit song (Maroon 5 "Cold", explicit verse). |
+| X5 | https://vm.tiktok.com/ZN8DJYV5H/ | Spider-Man edit, 44 s, 573k | Vertical character edit, dialogue hook ("Peter!"). |
+| X6 | https://vm.tiktok.com/ZN8DJePbv/ | @real_madara_dusal "Ready", 28 s, 489k / 92k (19%) | **THE SONG Desmond picked.** Kids dance-off, every lyric word stamped centre ("TELL THEM WE / READY READY READY..."). Clean, 123 bpm, "READY" on every beat 6.4-12.6 and 14.0-20.7. Used in BC (Doomsday x Ready). |
+| X7, X8, X10 | (links above) | 528k / 8.1M / 314k | Sound references (non-edits): a lyric-caption selfie video, a viral school-lobby clip, a "taca taca" chant. Saved #122 #123 #125. |
+| X9, X17 | @f35_a_lightning_ll | 133k / **696k (22%)** | DCS-sim jets (F-14, A-10) in golden light, every lyric word stamped big in chrome/gradient type ("COME / BODY / CONGA"), cut on each word. |
+| X11 | @sharko.edz "flip it - Su-57", 16 s, **2.3M / 239k / 24k shares** | Top Gun: Maverick cockpit/missile hook (movie), then air-show Su-57 manoeuvres; letterboxed 1728x1080. Movie hook -> real footage payoff. |
+| X12 | @army_bravo "Im Curious", 14 s, 587k / 109k (19%) | Special-forces night footage, teal grade, lyric words stamped with key words in big red ("CAUGHT", "ATTENTION", "CHERRY"). Highlight the lyric's punch word in a second colour. |
+| X13, X14, X15, X16 | aviation/military accounts | 170k / **832k (17%)** / 128k / 506k | A-10 edit: "THAT'S THE SOUND OF THE BEAST" word stamps, giant red "BEAST" on the gun; 9 s only. Tornado, NATO montage. |
+
+**Lessons (all 17):** (1) horizontal 1920x1080 native is normal for the big movie/jet edits; (2) a cut on every beat + one lyric word per beat is the shared format; (3) recognisable IP (Avengers, Top Gun, A-10, F-22) carries reach - our car/F1 posts lack that pull; (4) the punch word gets a second colour/size; (5) clean audio: X3 (#118), X4 (#119), X16 (#131) have explicit lyrics - the formats are usable, those songs are not.
