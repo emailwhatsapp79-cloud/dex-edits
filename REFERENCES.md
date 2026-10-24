@@ -397,3 +397,17 @@ Desmond: "I want exactly that kind of edits ... the edit lands on the beat ... t
 | X13, X14, X15, X16 | aviation/military accounts | 170k / **832k (17%)** / 128k / 506k | A-10 edit: "THAT'S THE SOUND OF THE BEAST" word stamps, giant red "BEAST" on the gun; 9 s only. Tornado, NATO montage. |
 
 **Lessons (all 17):** (1) horizontal 1920x1080 native is normal for the big movie/jet edits; (2) a cut on every beat + one lyric word per beat is the shared format; (3) recognisable IP (Avengers, Top Gun, A-10, F-22) carries reach - our car/F1 posts lack that pull; (4) the punch word gets a second colour/size; (5) clean audio: X3 (#118), X4 (#119), X16 (#131) have explicit lyrics - the formats are usable, those songs are not.
+
+| auto | https://www.tiktok.com/@kam_cuts/video/7699100703595318549 | @: K1 kam_cuts another banger anime | sound saved as library #133 (148 BPM, drop ≈ 7.5s) |
+
+## K1 - 2026-10-24 - @kam_cuts "ANOTHER BANGER? best watched with headphones" (the action-on-the-beat masterclass)
+https://www.tiktok.com/@kam_cuts/video/7699100703595318549 - 35 s, 1280x720 24 fps, **1.4M views / 409k likes (29%) / 46k shares (3.3%) / 6.2k comments**. Sound #133 (148 bpm, "You ready?").
+Desmond: "everything lands on the beat and there are different videos to make that edit - fighting, come, go... learn it every millisecond."
+Measured frame by frame (24 fps, 1 frame = 42 ms):
+- **Hook 0.00-1.30:** a character stares into the lens, "YOU / READY?" (white + red) typed on the vocal; the FIRST punch lands on the first hit (cut 1.33, sound 1.30).
+- **60 cuts in 34 s**, median shot 0.42 s (= 1 beat at 148), shortest 0.17 s, longest 1.9 s. Lengths vary with the music, not a fixed grid.
+- **The action inside the shot IS the beat:** muzzle flash 4.875 vs sound 4.90 (+25 ms); second/third shots of the same gun on the next beats (one shot held for 3 hits - the gun fires 3 times = 3 beats); sword slash 6.21 vs 6.22; slash 6.84 vs 6.83; foot-stomp smear frame 2.125 vs hit 2.14. Within 1 frame.
+- So the editor picks each clip BECAUSE its own motion rhythm matches 1-3 beats (gun x3, sword x2, punch combo), then trims the in-point so the contact frame sits on the sound. Cuts fall between actions, often on the off-beat/vocal chop, not on every kick.
+- Every clip is a different show/fight - variety + motion, never a standing face (faces only for the "YOU READY?" hook and the "ANOTHER BANGER" laugh).
+- Text: hook question (white + red), mid "ANOTHER / BANGER" (white + green) as the payoff, a meme caption "is this mf warming up mid edit?" (comment bait), neon creator-name build at the end.
+- Note: an automatic motion-vs-onset correlation does NOT see this (anime is drawn on 2s/3s and the sound has vocal chops) - the sync has to be checked by eye, frame by frame, on every hit. engine/actionsync.py (new) finds candidate action peaks and fits in-points; the final check stays manual.

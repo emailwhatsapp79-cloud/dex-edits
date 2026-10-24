@@ -107,6 +107,9 @@ landing, explosion, lightning strike, a jet passing the camera, a goal net bulgi
 Pick the source in-point so the impact frame = the beat (in-point = impact time - (beat - cut)). Prefer shots with an
 action peak over portraits/standing shots; hold a portrait only on the slow parts. Check: every heavy beat shows motion
 peaking, not a still face.
+HOW (ref K1 @kam_cuts, 1.4M): choose clips whose OWN rhythm matches 1-3 beats (a gun firing 3 times = hold one shot over 3
+hits; a punch combo; two sword slashes), set the in-point so the contact/flash frame is within 1 frame of the sound, and put
+the cuts between actions. Tool: engine/actionsync.py fit() proposes in-points; verify every hit by eye on a frame strip.
 
 **WHAT OUR OWN NUMBERS SAY (first 16 posts, Oct 19 - analysis/2026-10-19-first-16-posts.md):**
 - TikTok: nothing passed ~900 views (first test batch). F1 likes 11-13%, football 1.5-8.5%, cars 2-7%. Shares: 5 in 16 posts.
