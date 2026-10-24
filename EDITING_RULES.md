@@ -111,6 +111,15 @@ HOW (ref K1 @kam_cuts, 1.4M): choose clips whose OWN rhythm matches 1-3 beats (a
 hits; a punch combo; two sword slashes), set the in-point so the contact/flash frame is within 1 frame of the sound, and put
 the cuts between actions. Tool: engine/actionsync.py fit() proposes in-points; verify every hit by eye on a frame strip.
 
+**KNOW THE SONG FIRST - THE WORD PICKS THE PICTURE (Desmond, Oct 24):** before cutting, write out every word of the sound
+with its time (whisper 2-3 passes at different offsets + drum hits; whisper alone mishears chopped vocals) and decide what each
+word MEANS on screen. "bang"/"boom" = a punch landing, a gunshot, an explosion; "crash" = a body through a wall/onto the floor;
+"ouch" = someone taking the hit; "bing"/wind-up words = the fist pulled back, the jump; "whoa" = the jaw-drop moment; a
+calm line ("to my heart I listen") = the quiet hero shot. The contact frame sits ON the word.
+**THE MOVIE'S OWN SOUND GOES ON TOP (Desmond, Oct 24, ref K1):** the gunshots and punches in the kam_cuts edit are the
+scene's own sounds laid over the song. For every big hit, lay ~0.5 s of that shot's own audio (in sync with the picture) on
+the song and dip the song ~5 dB for 0.25 s so the hit punches through (engine/edit_be_streetfighter_ramalama.py: SFX + duck).
+
 **WHAT OUR OWN NUMBERS SAY (first 16 posts, Oct 19 - analysis/2026-10-19-first-16-posts.md):**
 - TikTok: nothing passed ~900 views (first test batch). F1 likes 11-13%, football 1.5-8.5%, cars 2-7%. Shares: 5 in 16 posts.
 - YouTube: Antonelli "20 years old. One race from history" 9,736 views - a searched name + a stake in the title. Everything else ~1,000.
