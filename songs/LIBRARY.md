@@ -135,6 +135,27 @@
 | 131 | 131_x16_son_original_afjd72 | **EXPLICIT (b****) - do not use** "X16 son original afjd72 – " (from @: X16 son original afjd72) | 95 | 56.6s | biggest energy jump (drop) ≈ 6.0s · strongest hits 2.43 3.71 27.38 28.24 37.87 41.64 · added automatically |
 | 132 | 132_x17_original_lyd_f35a_f35alightningll | "X17 original lyd  F35A f35alightningll – " (from @: X17 original lyd  F35A f35alightningll) | 121 | 17.5s | biggest energy jump (drop) ≈ 16.5s · strongest hits 2.46 8.96 9.62 9.97 10.60 14.72 · added automatically |
 | 133 | 133_k1_kam_cuts_another_banger_anime | "K1 kam_cuts another banger anime – " (from @: K1 kam_cuts another banger anime) | 148 | 35.3s | biggest energy jump (drop) ≈ 7.5s · strongest hits 7.00 7.40 10.25 10.66 11.49 18.76 · added automatically |
+| 134 | 134_good_time | "Good Time" – Owl City & Carly Rae Jepsen. TikTok chart 24 Oct 2026. Chorus only | 126 | 22.0s | clean: "we don't even have to try, it's always a good time". Hits 0.21 1.65 5.23 5.45 13.06 19.73. Energy jump ≈ 13.5s |
+| 135 | 135_set_fire_to_the_rain | "Set Fire to the Rain" – Adele. TikTok chart 24 Oct 2026. Chorus only | 108 | 22.0s | clean: "I set fire to the rain". Hits 2.31 3.97 6.75 8.41 17.27 21.75 |
+| 136 | 136_lightweight_funk | "LIGHTWEIGHT FUNK" – launch13, TOKYOSLEEP & rodricci. TikTok chart 24 Oct 2026 | 130 | 22.0s | funk bed with ad-libs only (yeah / yo). No lyric line to stamp. Hits 0.41 1.33 1.68 1.79 3.19 20.72. Energy jump ≈ 21.5s is the end of the clip |
+| 137 | 137_so_easy_to_fall_in_love | "So Easy (To Fall In Love)" – Olivia Dean. TikTok chart 24 Oct 2026. Chorus only | 140 | 22.0s | clean: "it's so easy to fall in love". Hits 7.30 7.66 9.55 14.48 15.99 21.14 |
+| 138 | 138_yellow | "Yellow" – Coldplay. TikTok chart 24 Oct 2026 | 87 | 22.0s | clean: "look at the stars, look how they shine for you". Hits 8.48 13.34 15.05 16.79 20.59 20.93. 87 BPM is the slow pulse |
+| 139 | 139_hard_times | "Hard Times" – Paramore. TikTok chart 24 Oct 2026. Chorus only | 120 | 22.0s | clean: "hard times, gonna make you wonder why you even try". Hits 0.33 2.58 3.82 12.59 18.32 19.32 |
+| 140 | 140_coming_up_roses | "Coming Up Roses" – Harry Styles. TikTok chart 24 Oct 2026. Chorus only | 89 | 22.0s | clean: "just for tonight, let's go hangover chasing". No swear in this 22s. Hits 0.34 5.42 6.46 6.86 16.31 16.36 |
+| 141 | 141_better_when_i_m_dancin | "Better When I'm Dancin'" – Meghan Trainor. TikTok chart 24 Oct 2026. Chorus only | 128 | 22.0s | clean: "I feel better when I'm dancing". Hits 1.16 2.80 9.86 18.63 19.21 21.08 |
+| 142 | 142_need_you_now | "Need You Now" – Lady A. TikTok chart 24 Oct 2026. Chorus only | 108 | 22.0s | clean: "it's a quarter after one, I'm a little drunk and I need you now". No swear. Hits 3.34 5.56 6.67 7.79 13.54 15.00 |
+| 143 | 143_summer_91_looking_back | "Summer 91 (Looking Back)" – Noizu. TikTok chart 24 Oct 2026 | 125 | 22.0s | house, instrumental. No words. Hits 8.32 15.53 16.97 17.44 18.89 19.36 |
+| 144 | 144_landslide | "Landslide" – Fleetwood Mac. TikTok chart 24 Oct 2026 | 160 | 22.0s | clean: "I took my love, I took it down". Hits 0.14 0.97 2.48 8.46 12.61 21.95. 160 BPM is a detector double-time on a slow song — don't cut it that fast |
+| 145 | 145_lego_house | "Lego House" – Ed Sheeran. TikTok chart 24 Oct 2026. Chorus only | 160 | 22.0s | clean: "I'm gonna pick up the pieces and build a Lego house". Hits 4.51 7.51 9.01 13.31 13.51 19.51. 160 BPM is double-time of the real pulse |
+| 146 | 146_la_la_lost_you | "La La Lost You" – NIKI. TikTok chart 24 Oct 2026 | 100 | 22.0s | clean: "missing that broken heart". No swear in this 22s. Hits 2.10 2.41 4.51 4.81 5.41 16.84 |
+| 147 | 147_alors_on_danse | "Alors on danse" – Stromae. TikTok chart 24 Oct 2026. Verse into the hook | 118 | 22.0s | clean. The line to stamp is "alors on danse". Hits 2.77 3.01 7.34 9.49 17.61 18.63 |
+| 148 | 148_runaway | "Runaway" – AURORA. TikTok chart 24 Oct 2026. Chorus only | 115 | 22.0s | clean: "I was running far away". Hits 2.01 4.37 5.41 10.62 19.70 21.20 |
+| 149 | 149_try | "Try" – P!nk. TikTok chart 24 Oct 2026. Chorus only | 104 | 22.0s | clean: "you've gotta get up and try". Hits 0.11 0.69 1.85 7.04 7.32 11.94 |
+| 150 | 150_the_winner_takes_it_all | "The Winner Takes It All" – ABBA. TikTok chart 24 Oct 2026 | 122 | 22.0s | clean: "the winner takes it all". Hits 2.76 3.69 8.79 9.72 20.21 21.13 |
+| 151 | 151_golden_hour | "golden hour" – JVKE. TikTok chart 24 Oct 2026 | 94 | 22.0s | clean: "it was just two lovers, sitting in the car". Hits 0.55 6.27 9.47 13.25 18.23 18.77 |
+| 152 | 152_treat_u_right | "treat u right" – FOLA & Ayra Starr. Nigeria TikTok, 24 Oct 2026. Chorus only | 100 | 22.0s | no swear. English line to stamp: "sayin' I won't treat you right". Same bars have Yoruba and "when I want some" (suggestive, not a swear). Hits 0.13 1.62 2.52 15.22 20.37 20.82 |
+| 153 | 153_be_there_still | "Be There Still" – Davido. Nigeria TikTok, 24 Oct 2026. Chorus only | 114 | 22.0s | clean: "anywhere money dey, make dem call me / I will be there still". Hits 0.69 2.01 2.27 8.32 20.56 20.95 |
+| 154 | 154_heaven_baby | "Heaven Baby" – Ayra Starr ft. ZAYN. Nigeria TikTok, 24 Oct 2026. Pre-chorus into the hook, cut short | 123 | 19.0s | the next bar says "goddammit" — this file stops before that word. Usable line: "you could be my heaven, baby / die for you if you let me, baby". Do not extend it. Hits 2.11 4.25 8.67 10.35 12.29 18.57 |
 
 ## Lyrics with timestamps (seconds)
 
