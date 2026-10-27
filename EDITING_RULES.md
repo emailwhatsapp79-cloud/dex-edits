@@ -167,6 +167,7 @@ An edit is a short story about ONE subject, not random clips put together.
   stamp only that line, then one impact per cut on the real drum hits, then a second face answers. The stamp is the
   word being said, a little early, and it changes when the line changes. Do not copy another editor's clips, watermark,
   motion blur, or their sound. Length is the phrase, not their runtime.
+- **SHE BUGGING, HOOK ONLY (27 Oct, @gleaming_tights2, #156):** the usable file is the first 19.7 s, the "baby you bugging" chant. The verse after it is explicit. Do not extend #156. This is not the @_timise_ "She's Buggin" sound (a repeated swear, never saved). His picture is a fast fight with blur and flash frames — do not copy the clips or the blur. His line is not on the picture; if we use the words, they still go in the corner (N30).
 - **BROADCAST VS ONBOARD (M28, Oct 18, @f1lightAEP "Baku Flashback"):** two-line title in a white bar, WHAT EVERYONE SAW /
   VS WHAT I SAW. Hold the TV aerial, cut to the onboard (the driver's view), then a white flash on the biggest hit into
   the moment that view was heading for, and cut that fast. If the lyric says when the beat starts, that line IS the flash.
