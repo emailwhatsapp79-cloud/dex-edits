@@ -138,6 +138,7 @@
 | 152 | 152_treat_u_right | "treat u right" – FOLA & Ayra Starr. Nigeria TikTok, 24 Oct 2026. Chorus only | 100 | 22.0s | no swear. English line to stamp: "sayin' I won't treat you right". Same bars have Yoruba and "when I want some" (suggestive, not a swear). Hits 0.13 1.62 2.52 15.22 20.37 20.82 |
 | 153 | 153_be_there_still | "Be There Still" – Davido. Nigeria TikTok, 24 Oct 2026. Chorus only | 114 | 22.0s | clean: "anywhere money dey, make dem call me / I will be there still". Hits 0.69 2.01 2.27 8.32 20.56 20.95 |
 | 154 | 154_heaven_baby | "Heaven Baby" – Ayra Starr ft. ZAYN. Nigeria TikTok, 24 Oct 2026. Pre-chorus into the hook, cut short | 123 | 19.0s | the next bar says "goddammit" — this file stops before that word. Usable line: "you could be my heaven, baby / die for you if you let me, baby". Do not extend it. Hits 2.11 4.25 8.67 10.35 12.29 18.57 |
+| 155 | 155_i_m_feeling_tremendous | "I'm feeling tremendous" – Your Favorite Martian, from "Verified" (2022). TikTok trend, Oct 2026. This 18s only | 111 | 18.1s | clean in this file: "I'm feeling tremendous / now people clap when I finish up a sentence". The bar BEFORE this clip says "bitch, I'm verified" — do not extend it backwards. Hits 6.52 11.44 11.85 12.39 14.01 15.12. https://www.tiktok.com/@gleaming_tights2/video/7689972735367204126 |
 
 ## Lyrics with timestamps (seconds)
 
@@ -324,3 +325,5 @@
 **114_ramalama_bang_bang_r_is_n_murphy:** chorus only. "Ramalama, bang bang / crash bang" and "if I need a rhythm, it'll be to my heart I listen". No swears. The auto word timings were wrong, so none are stored.
 
 **115_paper_moon_static_marnie_cusk:** instrumental. No words.
+
+**155_i_m_feeling_tremendous:** `0.00` I'm `0.50` feeling `0.86` tremendous `1.54` Now `1.92` people `2.16` clap `2.44` when `2.68` I `2.78` finish `3.06` up `3.26` a `3.36` sentence `3.72` Now `4.02` they `4.14` build `4.30` a `4.40` statue `4.80` to `4.98` honor `5.18` my `5.44` existence `5.84` Now `6.26` I `6.34` got `6.46` the `6.56` president `6.86` filling `7.34` up `7.56` my `7.68` mentions `8.68` I `9.16` don't `9.56` need `9.66` a `9.82` chauffeur `10.36` I `10.62` ain't `10.76` had `10.84` a `10.98` car `11.16` since `11.42` last `11.70` October `12.40` Ever `12.80` since `12.96` they `13.14` gave `13.36` me `13.56` a `13.68` Nobel `13.92` Prize `14.48` I `14.64` don't `14.78` drive `15.00` cause `15.18` a `15.30` crowd `15.56` carries `15.86` me `16.10` everywhere `16.60` on `16.78` their `16.90` shoulders
