@@ -411,3 +411,21 @@ Measured frame by frame (24 fps, 1 frame = 42 ms):
 - Every clip is a different show/fight - variety + motion, never a standing face (faces only for the "YOU READY?" hook and the "ANOTHER BANGER" laugh).
 - Text: hook question (white + red), mid "ANOTHER / BANGER" (white + green) as the payoff, a meme caption "is this mf warming up mid edit?" (comment bait), neon creator-name build at the end.
 - Note: an automatic motion-vs-onset correlation does NOT see this (anime is drawn on 2s/3s and the sound has vocal chops) - the sync has to be checked by eye, frame by frame, on every hit. engine/actionsync.py (new) finds candidate action peaks and fits in-points; the final check stays manual.
+
+| T1 | https://www.tiktok.com/@keny4580/video/7700934427395984641?_r=1&_t=ZN-9AuIxwLBh82 | @keny4580: I say make I follow una reserve ahbiii reverse😭#mylifedonspoil🤲😭😹  | sound saved as library #157 (112 BPM, drop ≈ 12.0s) |
+| T2 | https://www.tiktok.com/@ethn.fx/video/7692987702106541318?_r=1&_t=ZN-9AuJCUCT0EQ | @ethn.fx: MULTIFANDOM // LOW #edit #sfx #sfxedit #multifandom #multifandomedit | sound saved as library #158 (128 BPM, drop ≈ 21.0s) |
+| T3 | https://www.tiktok.com/@johand.villain/video/7699018344254426390?_r=1&_t=ZN-9AuJEAGQXdm | @johand.villain: Ultron Takes Over Vision's Body #ultron #visionquest #edit | sound saved as library #159 (126 BPM, drop ≈ 35.5s) |
+| T4 | https://www.tiktok.com/@_pukatz_/video/7699476218848087326?_r=1&_t=ZN-9AuJEsobzWg | @_pukatz_: TOP GUN // SLIPPERY // Text by @cabalyst // shoutout @wavofilms.ae for the outro #fyp #edi | sound saved as library #160 (142 BPM, drop ≈ 16.0s) |
+**Batch T (Desmond, Oct 27) - "make our own 10/10 punching edit on THIS song":**
+- T1 @keny4580 (245k): a dance video - only the SOUND is the brief (#157, 112 BPM instrumental, heavy hits ~2.8-4.0, 6-9.4,
+  11.4-13.5, 15.9-18.9, 21-23.7). Desmond wants a movie fight edit on it, cut like K1 (@kam_cuts) / N30 (tremendous anime).
+- T2 @ethn.fx "MULTIFANDOM // LOW" (412k, 61 s, 1280x720): opens on a movie line (Wolf of Wall Street "only one rule in
+  this jungle... he eats", kinetic 2-colour words), then ~2 cuts/s across ~40 films, every cut a HIT with its own SFX
+  (gunshot, punch, tyre, drum - #sfxedit). Film name tiny bottom-right. Includes Street Fighter. Sound #158 is explicit at 1.3 s.
+- T3 @johand.villain "Ultron takes over Vision's body" (1.9M / 238k, 59 s, 1:1): a NEW series (VisionQuest) scene - the
+  sound is the show's own dialogue + score. The spoken words glow in the speaker's colour (red Ultron, purple Jocasta),
+  see-through, just under the face; a small title banner on top. Freshness + dialogue = 1.9M.
+- T4 @_pukatz_ "TOP GUN // SLIPPERY" (361k, 44 s, 2582x1080 60 fps): dialogue intro with 2-colour words BESIDE the speaker
+  (never over the face), then the song and the flight action, a cut per beat, "EDITED BY PUKATZ" outro.
+- Lesson: talk (the film's own line) -> the hits (each with its own sound) -> the answer/payoff. Words see-through, below
+  centre. Films people are watching this month.

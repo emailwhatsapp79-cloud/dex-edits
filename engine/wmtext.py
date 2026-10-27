@@ -28,7 +28,7 @@ def _sky(w, h, seed=7):
     return Image.fromarray(np.clip(img, 0, 255).astype(np.uint8))
 
 
-def word_png(text, w, h, out, size=None, opacity=0.9, cy=0.5):
+def word_png(text, w, h, out, size=None, opacity=0.9, cy=0.6):
     size = size or int(h * 0.17)
     f = _font(size)
     while f.getlength(text) > w * 0.86 and size > 20:

@@ -100,6 +100,16 @@ An edit is a short story about ONE subject, not random clips put together.
 word per beat, but NOT as white Anton with a black border. The word sits INSIDE the picture like a watermark: a wide
 extended font, letters FILLED with an image/sky texture (or a soft gradient) at ~80-90% opacity, no outline, no shadow,
 medium size, centred. It reads as part of the shot, not a sticker on top. (BC Doomsday used the old sticker style.)
+**WHERE THE WORDS SIT (Desmond, Oct 27):** not dead centre and not a subtitle bar. The line's centre sits 40% up from the
+bottom (60% down from the top) - just below the middle, over the body/chest, not over the eyes. See-through (glow or
+texture fill, ~70-85%), so you watch the movie THROUGH the words. Never a solid white subtitle that blocks the picture,
+never a small caption in the black letterbox bar (Grok's "tremendous" did this - rejected). Ref T3 (Ultron/VisionQuest
+1.9M): the spoken words glow in the speaker's colour just under the face. wmtext.word_png(cy=0.6) is the default.
+**NEW FILMS PEOPLE WATCH, NOT A SONG SWAP (Desmond, Oct 27):** a movie edit is built new for its sound - the words, the
+punches and the story are chosen for THIS song. Never take an old edit's clips (Creed III / Equalizer 3 / John Wick 4 /
+The Batman, 2022-23) and drop a new song on top - rejected twice (Hard Times, Tremendous). Use what people are watching
+NOW: this month's box-office #1, the newest trailers/series everyone is clipping (Oct 2026: Street Fighter, Spider-Man:
+Brand New Day, VisionQuest, Avengers: Doomsday).
 
 **ACTION LANDS ON THE BEAT, NOT JUST THE CUT (Desmond, Oct 23, rated BC Doomsday x Ready 5/10):** "no punching, no landing
 scene, you just switch from scene to scene". Cutting on the beat is not enough - the HIT inside the shot (punch, impact,
