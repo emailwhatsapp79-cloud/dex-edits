@@ -110,6 +110,12 @@ punches and the story are chosen for THIS song. Never take an old edit's clips (
 The Batman, 2022-23) and drop a new song on top - rejected twice (Hard Times, Tremendous). Use what people are watching
 NOW: this month's box-office #1, the newest trailers/series everyone is clipping (Oct 2026: Street Fighter, Spider-Man:
 Brand New Day, VisionQuest, Avengers: Doomsday).
+**CLEAN SONG ONLY, OUR OWN MOVIE SOUNDS ON TOP (Desmond, Oct 27):** an edit's sound often already carries ITS movie
+inside it - Maverick's lines and the jet engines in T4, the Wolf of Wall Street line and the gunshots in T2, Ultron's voice
+in T3. That audio only fits THAT movie. Never lay it on another film. Find the clean original song (the music alone - no
+dialogue, no punches, no engines, no whooshes the editor added; Shazam the edit or find the song's own TikTok sound page),
+then add OUR film's own sounds on our own picture: its lines, punches, gunshots, engines, jet pass-bys. Check before cutting:
+whisper finds no speech, and the spectrogram shows only music (a hallucinated "Thanks for watching" = no speech).
 
 **ACTION LANDS ON THE BEAT, NOT JUST THE CUT (Desmond, Oct 23, rated BC Doomsday x Ready 5/10):** "no punching, no landing
 scene, you just switch from scene to scene". Cutting on the beat is not enough - the HIT inside the shot (punch, impact,
