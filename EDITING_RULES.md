@@ -96,6 +96,61 @@ An edit is a short story about ONE subject, not random clips put together.
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
 
+**LYRICS LOOK LIKE A WATERMARK (Desmond, Oct 23 - ref X9/X17/X13 jet edits):** every lyric edit shows the lyrics, one
+word per beat, but NOT as white Anton with a black border. The word sits INSIDE the picture like a watermark: a wide
+extended font, letters FILLED with an image/sky texture (or a soft gradient) at ~80-90% opacity, no outline, no shadow,
+medium size, centred. It reads as part of the shot, not a sticker on top. (BC Doomsday used the old sticker style.)
+**WHERE THE WORDS SIT (Desmond, Oct 27):** not dead centre and not a subtitle bar. The line's centre sits 40% up from the
+bottom (60% down from the top) - just below the middle, over the body/chest, not over the eyes. See-through (glow or
+texture fill, ~70-85%), so you watch the movie THROUGH the words. Never a solid white subtitle that blocks the picture,
+never a small caption in the black letterbox bar (Grok's "tremendous" did this - rejected). Ref T3 (Ultron/VisionQuest
+1.9M): the spoken words glow in the speaker's colour just under the face. wmtext.word_png(cy=0.6) is the default.
+**NEW FILMS PEOPLE WATCH, NOT A SONG SWAP (Desmond, Oct 27):** a movie edit is built new for its sound - the words, the
+punches and the story are chosen for THIS song. Never take an old edit's clips (Creed III / Equalizer 3 / John Wick 4 /
+The Batman, 2022-23) and drop a new song on top - rejected twice (Hard Times, Tremendous). Use what people are watching
+NOW: this month's box-office #1, the newest trailers/series everyone is clipping (Oct 2026: Street Fighter, Spider-Man:
+Brand New Day, VisionQuest, Avengers: Doomsday).
+**CLEAN SONG ONLY, OUR OWN MOVIE SOUNDS ON TOP (Desmond, Oct 27):** an edit's sound often already carries ITS movie
+inside it - Maverick's lines and the jet engines in T4, the Wolf of Wall Street line and the gunshots in T2, Ultron's voice
+in T3. That audio only fits THAT movie. Never lay it on another film. Find the clean original song (the music alone - no
+dialogue, no punches, no engines, no whooshes the editor added; Shazam the edit or find the song's own TikTok sound page),
+then add OUR film's own sounds on our own picture: its lines, punches, gunshots, engines, jet pass-bys. Check before cutting:
+whisper finds no speech, and the spectrogram shows only music (a hallucinated "Thanks for watching" = no speech).
+
+**ACTION LANDS ON THE BEAT, NOT JUST THE CUT (Desmond, Oct 23, rated BC Doomsday x Ready 5/10):** "no punching, no landing
+scene, you just switch from scene to scene". Cutting on the beat is not enough - the HIT inside the shot (punch, impact,
+landing, explosion, lightning strike, a jet passing the camera, a goal net bulging, a car's apex) must happen ON the beat.
+Pick the source in-point so the impact frame = the beat (in-point = impact time - (beat - cut)). Prefer shots with an
+action peak over portraits/standing shots; hold a portrait only on the slow parts. Check: every heavy beat shows motion
+peaking, not a still face.
+HOW (ref K1 @kam_cuts, 1.4M): choose clips whose OWN rhythm matches 1-3 beats (a gun firing 3 times = hold one shot over 3
+hits; a punch combo; two sword slashes), set the in-point so the contact/flash frame is within 1 frame of the sound, and put
+the cuts between actions. Tool: engine/actionsync.py fit() proposes in-points; verify every hit by eye on a frame strip.
+
+**KNOW THE SONG FIRST - THE WORD PICKS THE PICTURE (Desmond, Oct 24):** before cutting, write out every word of the sound
+with its time (whisper 2-3 passes at different offsets + drum hits; whisper alone mishears chopped vocals) and decide what each
+word MEANS on screen. "bang"/"boom" = a punch landing, a gunshot, an explosion; "crash" = a body through a wall/onto the floor;
+"ouch" = someone taking the hit; "bing"/wind-up words = the fist pulled back, the jump; "whoa" = the jaw-drop moment; a
+calm line ("to my heart I listen") = the quiet hero shot. The contact frame sits ON the word.
+**THE MOVIE'S OWN SOUND GOES ON TOP (Desmond, Oct 24, ref K1):** the gunshots and punches in the kam_cuts edit are the
+scene's own sounds laid over the song. For every big hit, lay ~0.5 s of that shot's own audio (in sync with the picture) on
+the song and dip the song ~5 dB for 0.25 s so the hit punches through (engine/edit_be_streetfighter_ramalama.py: SFX + duck).
+
+**WHAT OUR OWN NUMBERS SAY (first 16 posts, Oct 19 - analysis/2026-10-19-first-16-posts.md):**
+- TikTok: nothing passed ~900 views (first test batch). F1 likes 11-13%, football 1.5-8.5%, cars 2-7%. Shares: 5 in 16 posts.
+- YouTube: Antonelli "20 years old. One race from history" 9,736 views - a searched name + a stake in the title. Everything else ~1,000.
+- So: a stake/claim in the first line, one name people search this week, a question people can answer or send. Cars need an
+  event (first, record, "would you"), not only beauty shots. No compilations from mixed/soft sources.
+
+**FRESHNESS (Desmond, Oct 18) - edits must not look backdated:**
+- The three edits of a day (football, F1, car) are made TOGETHER, as close to their post date as possible - not weeks ahead.
+- Use the NEWEST material first:
+  - F1: the latest race weekend (highlights from formula1.com usually appear the evening of the race). Post-race edits wait for the race.
+  - Football: matches from the last few days (Champions League, Premier League, LaLiga etc., from official club/league accounts). A World Cup or older moment is a fallback, not the default.
+  - Cars: the newest launches and reveals, any brand and any country, including Chinese brands (BYD/Yangwang, Xiaomi, Zeekr, NIO, Xpeng, Hongqi...), not only Porsche/Bugatti.
+- Only when there is nothing new and good enough, use older footage. It should still be recent (this season / the last few months, or a big anniversary), never something that looks stale or is presented as current when it is not.
+- Say the date of the moment in NOTES so the reviewer can check it is current.
+
 **Trending audio (Desmond, Oct 18):** the sound does NOT have to be one already in `songs/LIBRARY.md`. Grok can search TikTok for what is trending right now and take the audio from there - use it. Still: clean lyrics only (no explicit words in the part used), and write the TikTok link of the sound in NOTES so it gets saved with add_sound.
 
 **Chart pull (Desmond, Oct 18):** check that day's TikTok and YouTube charts and add the new clean songs to the library. A handful, not the whole chart. Skip explicit lyrics, meme sound effects, and anything already saved. Write down which chart songs were skipped and why.

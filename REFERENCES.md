@@ -359,10 +359,85 @@ shares are 1.2-2.4% of views, ours are 0.
 | note | https://www.youtube.com/shorts/zytWBfiJhfI | Make Me Viral, 12 s, 1080x1920, 7.87M / 51.1k likes (0.65%) - "Use this audio! I got 1K in 5 days!" (sound #109, The Stranglers "Golden Brown") | **NOT AN EDIT. DO NOT COPY.** The picture is a YouTube Studio screenshot (channel "Make Me Viral", 1,339 subs, 135.7K views / 151 watch hours) with a yellow sticker: "Use this audio! I got 1k in 5 days!" The 7.9M views are that growth hack, not the picture. The song is Golden Brown, a calm harpsichord loop, clean, no swear in this 12.4 s. If we use it, the picture has to show the real line ("never a frown … golden brown"), not the auto-caption "Never ever after". Like rate is 0.65%, so this is not a style. |
 | auto | https://www.youtube.com/shorts/goDHbCr37b0 | @f1byrv33: Stroll is just too good | sound saved as library #110 (94 BPM, drop ≈ 10.5s) |
 | M29 | https://www.youtube.com/shorts/goDHbCr37b0 | @f1byrv33, 17 s, native 2160x3840 30 fps, 2.18M / 46.6k likes (2.1%) - "Stroll is just too good" (sound #110, lxao "Apptekk") | **SAME GUY, ORDINARY THEN THE FAMOUS VERSION.** One caption, "same guy btw:", for the whole 17 s. 0–10.17 s is one held onboard of the current green Aston Martin #18, dry, daytime. On the drop (energy jump ≈ 10.5 s, the only cut is at 10.17 s) it hard-cuts to the 2020 pink BWT Stroll onboard in the wet, with a STROLL speed readout climbing (16, 21, 53, a glitched 376, then 139, 141). The caption never changes, so the picture is the joke — comments say one drop of rain and he's prime Senna. Lessons: (1) one line that names the contrast, then don't explain it; (2) hold the ordinary version through the build and cut to the famous version ON the drop; (3) one cut is enough when the joke is the change. Do NOT copy the burned-in f1byrv33 watermark or the broken speed HUD. The blurred side panels on the YouTube thumbnail are not in the edit. Like rate is only ~2% — the views are the joke plus a trending hardtekk. Sound is instrumental, no words. Measured 94 BPM may be half-time. |
-
 | auto | https://www.youtube.com/shorts/Lw231gXfEbg | @WealthMindset-1T: 16M views with this audio, try yours | sound saved as library #111 (120 BPM) |
 | note | https://www.youtube.com/shorts/Lw231gXfEbg | Arthur (@WealthMindset-1T), 6 s, 1080x1920, 18.8M / 196k likes (1.0%) - "16M views with this audio, try yours" (sound #111, Seafret "Atlantis (Sped Up)") | **NOT AN EDIT. DO NOT COPY.** A waterfall with one sticker: "Used this audio and i got 16M views." Same growth hack as the Studio screenshot (#109). The song is the point. This 24s is the hook ("oh no / I can't save you, my Atlantis / we built this town on shaky ground"). Clean. If we use it, the picture has to show that line. |
 | chart | TikTok + YouTube charts, 18 Oct 2026 | Weekly sound pull | **#112 Brutus (Instrumental)** – The Buttress, 144 BPM, no words. The vocal Brutus is explicit, so only the instrumental is saved. **#113 we fell in love in october** – girl in red, 130 BPM, clean chorus. **#114 Ramalama (Bang Bang)** – Róisín Murphy, 107 BPM, clean chorus. **#115 Paper Moon Static** – Marnie Cusk, ambient, no words. Skipped the fastest climber, **Vibin – Wxoda** (+147k videos that day): the chorus is explicit. Also skipped Fortnite emote SFX and unnamed "original sound" clips. |
+
+| auto | https://vm.tiktok.com/ZN8DJM9kw/ | @: X01 pointblankplane pointblankplane | sound saved as library #116 (136 BPM, drop ≈ 9.0s) |
+| auto | https://vm.tiktok.com/ZN8DJh3dc/ | @: X02 ryanzfilms ryanzfilms | sound saved as library #117 (154 BPM, drop ≈ 33.0s) |
+| auto | https://vm.tiktok.com/ZN8DJL2CK/ | @: X03 sdotz07 sdotz07 | sound saved as library #118 (115 BPM, drop ≈ 41.5s) |
+| auto | https://vm.tiktok.com/ZN8DJNvVw/ | @: X04 Cold fedgratis2005 | sound saved as library #119 (133 BPM, drop ≈ 9.0s) |
+| auto | https://vm.tiktok.com/ZN8DJYV5H/ | @: X05 son original rainbowpfp67 | sound saved as library #120 (122 BPM, drop ≈ 9.5s) |
+| auto | https://vm.tiktok.com/ZN8DJePbv/ | @: X06 READY realmadaradusal | sound saved as library #121 (126 BPM, drop ≈ 21.0s) |
+| auto | https://vm.tiktok.com/ZN8DJRHcy/ | @: X07 som original 5starfartrend | sound saved as library #122 (177 BPM, drop ≈ 4.0s) |
+| auto | https://vm.tiktok.com/ZN8DJyEG2/ | @: X08   cinemavibes69 | sound saved as library #123 (128 BPM, drop ≈ 4.0s) |
+| auto | https://www.tiktok.com/@f35_a_lightning_ll/video/7697301289943780630 | @: X09 F35A f35alightningll | sound saved as library #124 (103 BPM, drop ≈ 5.0s) |
+| auto | https://www.tiktok.com/@r0dn3y_/video/7694744986776046866 | @: X10 r0dn3y r0dn3y | sound saved as library #125 (143 BPM, drop ≈ 13.0s) |
+| auto | https://www.tiktok.com/@sharko.edz/video/7685483318363573537 | @: X11 sharkoedz sharkoedz | sound saved as library #126 (102 BPM, drop ≈ 6.0s) |
+| auto | https://www.tiktok.com/@army_bravo/video/7698093109841890590 | @: X12 Originalton armybravo | sound saved as library #127 (133 BPM, drop ≈ 6.5s) |
+| auto | https://www.tiktok.com/@.airpowerarchive/video/7680514071438888214 | @: X13 suara asli        airpowerarchive | sound saved as library #128 (109 BPM, drop ≈ 18.0s) |
+| auto | https://www.tiktok.com/@maverick_archive/video/7693192680540523797 | @: X14 maverickarchive maverickarchive | sound saved as library #129 (96 BPM, drop ≈ 5.0s) |
+| auto | https://www.tiktok.com/@nikon_editz0/video/7689861247285595414 | @: X15 nikoneditz0 nikoneditz0 | sound saved as library #130 (158 BPM, drop ≈ 12.0s) |
+| auto | https://www.tiktok.com/@afjd72/video/7685462347565059360 | @: X16 son original afjd72 | sound saved as library #131 (95 BPM, drop ≈ 6.0s) |
+| auto | https://vm.tiktok.com/ZN8DJrV4n/ | @: X17 original lyd  F35A f35alightningll | sound saved as library #132 (121 BPM, drop ≈ 16.5s) |
+
+## Batch X - 2026-10-23 (17 links: Avengers movie edits, fighter-jet/military edits, songs)
+Desmond: "I want exactly that kind of edits ... the edit lands on the beat ... that kind of edits for the movies."
+| ref | link | stats | what it teaches |
+|---|---|---|---|
+| X2 | https://vm.tiktok.com/ZN8DJh3dc/ | @ryanzfilms "Avengers", 60 s, **3.5M / 957k likes (27%) / 97k shares** | Horizontal 1920x1080 MCU montage: a dialogue/score build ("together... we keep the fight here"), the MARVEL logo burn, then hero-by-hero action on every hit. Heavy cinematic grade, no text. |
+| X3 | https://vm.tiktok.com/ZN8DJL2CK/ | @sdotz_07 "Avengers X Uptown Funk", 60 s, **2.2M / 593k (27%) / 68k shares** | Movie lines + a famous pop song; each lyric word stamped on its own cut in coloured heavy type ("A SPORT", "I WILL", "THE AVENGERS", "MIGHTIEST"). Song is explicit - the format is the lesson. |
+| X4 | https://vm.tiktok.com/ZN8DJNvVw/ | @fedgratis2005 "COLD X AVENGERS GOES HARD", 32 s, 892k / 241k (27%) | Same horizontal Avengers montage over a hit song (Maroon 5 "Cold", explicit verse). |
+| X5 | https://vm.tiktok.com/ZN8DJYV5H/ | Spider-Man edit, 44 s, 573k | Vertical character edit, dialogue hook ("Peter!"). |
+| X6 | https://vm.tiktok.com/ZN8DJePbv/ | @real_madara_dusal "Ready", 28 s, 489k / 92k (19%) | **THE SONG Desmond picked.** Kids dance-off, every lyric word stamped centre ("TELL THEM WE / READY READY READY..."). Clean, 123 bpm, "READY" on every beat 6.4-12.6 and 14.0-20.7. Used in BC (Doomsday x Ready). |
+| X7, X8, X10 | (links above) | 528k / 8.1M / 314k | Sound references (non-edits): a lyric-caption selfie video, a viral school-lobby clip, a "taca taca" chant. Saved #122 #123 #125. |
+| X9, X17 | @f35_a_lightning_ll | 133k / **696k (22%)** | DCS-sim jets (F-14, A-10) in golden light, every lyric word stamped big in chrome/gradient type ("COME / BODY / CONGA"), cut on each word. |
+| X11 | @sharko.edz "flip it - Su-57", 16 s, **2.3M / 239k / 24k shares** | Top Gun: Maverick cockpit/missile hook (movie), then air-show Su-57 manoeuvres; letterboxed 1728x1080. Movie hook -> real footage payoff. |
+| X12 | @army_bravo "Im Curious", 14 s, 587k / 109k (19%) | Special-forces night footage, teal grade, lyric words stamped with key words in big red ("CAUGHT", "ATTENTION", "CHERRY"). Highlight the lyric's punch word in a second colour. |
+| X13, X14, X15, X16 | aviation/military accounts | 170k / **832k (17%)** / 128k / 506k | A-10 edit: "THAT'S THE SOUND OF THE BEAST" word stamps, giant red "BEAST" on the gun; 9 s only. Tornado, NATO montage. |
+
+**Lessons (all 17):** (1) horizontal 1920x1080 native is normal for the big movie/jet edits; (2) a cut on every beat + one lyric word per beat is the shared format; (3) recognisable IP (Avengers, Top Gun, A-10, F-22) carries reach - our car/F1 posts lack that pull; (4) the punch word gets a second colour/size; (5) clean audio: X3 (#118), X4 (#119), X16 (#131) have explicit lyrics - the formats are usable, those songs are not.
+
+| auto | https://www.tiktok.com/@kam_cuts/video/7699100703595318549 | @: K1 kam_cuts another banger anime | sound saved as library #133 (148 BPM, drop ≈ 7.5s) |
+
+## K1 - 2026-10-24 - @kam_cuts "ANOTHER BANGER? best watched with headphones" (the action-on-the-beat masterclass)
+https://www.tiktok.com/@kam_cuts/video/7699100703595318549 - 35 s, 1280x720 24 fps, **1.4M views / 409k likes (29%) / 46k shares (3.3%) / 6.2k comments**. Sound #133 (148 bpm, "You ready?").
+Desmond: "everything lands on the beat and there are different videos to make that edit - fighting, come, go... learn it every millisecond."
+Measured frame by frame (24 fps, 1 frame = 42 ms):
+- **Hook 0.00-1.30:** a character stares into the lens, "YOU / READY?" (white + red) typed on the vocal; the FIRST punch lands on the first hit (cut 1.33, sound 1.30).
+- **60 cuts in 34 s**, median shot 0.42 s (= 1 beat at 148), shortest 0.17 s, longest 1.9 s. Lengths vary with the music, not a fixed grid.
+- **The action inside the shot IS the beat:** muzzle flash 4.875 vs sound 4.90 (+25 ms); second/third shots of the same gun on the next beats (one shot held for 3 hits - the gun fires 3 times = 3 beats); sword slash 6.21 vs 6.22; slash 6.84 vs 6.83; foot-stomp smear frame 2.125 vs hit 2.14. Within 1 frame.
+- So the editor picks each clip BECAUSE its own motion rhythm matches 1-3 beats (gun x3, sword x2, punch combo), then trims the in-point so the contact frame sits on the sound. Cuts fall between actions, often on the off-beat/vocal chop, not on every kick.
+- Every clip is a different show/fight - variety + motion, never a standing face (faces only for the "YOU READY?" hook and the "ANOTHER BANGER" laugh).
+- Text: hook question (white + red), mid "ANOTHER / BANGER" (white + green) as the payoff, a meme caption "is this mf warming up mid edit?" (comment bait), neon creator-name build at the end.
+- Note: an automatic motion-vs-onset correlation does NOT see this (anime is drawn on 2s/3s and the sound has vocal chops) - the sync has to be checked by eye, frame by frame, on every hit. engine/actionsync.py (new) finds candidate action peaks and fits in-points; the final check stays manual.
+
+| T1 | https://www.tiktok.com/@keny4580/video/7700934427395984641?_r=1&_t=ZN-9AuIxwLBh82 | @keny4580: I say make I follow una reserve ahbiii reverse😭#mylifedonspoil🤲😭😹  | sound saved as library #157 (112 BPM, drop ≈ 12.0s) |
+| T2 | https://www.tiktok.com/@ethn.fx/video/7692987702106541318?_r=1&_t=ZN-9AuJCUCT0EQ | @ethn.fx: MULTIFANDOM // LOW #edit #sfx #sfxedit #multifandom #multifandomedit | sound saved as library #158 (128 BPM, drop ≈ 21.0s) |
+| T3 | https://www.tiktok.com/@johand.villain/video/7699018344254426390?_r=1&_t=ZN-9AuJEAGQXdm | @johand.villain: Ultron Takes Over Vision's Body #ultron #visionquest #edit | sound saved as library #159 (126 BPM, drop ≈ 35.5s) |
+| T4 | https://www.tiktok.com/@_pukatz_/video/7699476218848087326?_r=1&_t=ZN-9AuJEsobzWg | @_pukatz_: TOP GUN // SLIPPERY // Text by @cabalyst // shoutout @wavofilms.ae for the outro #fyp #edi | sound saved as library #160 (142 BPM, drop ≈ 16.0s) |
+**Batch T (Desmond, Oct 27) - "make our own 10/10 punching edit on THIS song":**
+- T1 @keny4580 (245k): a dance video - only the SOUND is the brief (#157, 112 BPM instrumental, heavy hits ~2.8-4.0, 6-9.4,
+  11.4-13.5, 15.9-18.9, 21-23.7). Desmond wants a movie fight edit on it, cut like K1 (@kam_cuts) / N30 (tremendous anime).
+- T2 @ethn.fx "MULTIFANDOM // LOW" (412k, 61 s, 1280x720): opens on a movie line (Wolf of Wall Street "only one rule in
+  this jungle... he eats", kinetic 2-colour words), then ~2 cuts/s across ~40 films, every cut a HIT with its own SFX
+  (gunshot, punch, tyre, drum - #sfxedit). Film name tiny bottom-right. Includes Street Fighter. Sound #158 is explicit at 1.3 s.
+- T3 @johand.villain "Ultron takes over Vision's body" (1.9M / 238k, 59 s, 1:1): a NEW series (VisionQuest) scene - the
+  sound is the show's own dialogue + score. The spoken words glow in the speaker's colour (red Ultron, purple Jocasta),
+  see-through, just under the face; a small title banner on top. Freshness + dialogue = 1.9M.
+- T4 @_pukatz_ "TOP GUN // SLIPPERY" (361k, 44 s, 2582x1080 60 fps): dialogue intro with 2-colour words BESIDE the speaker
+  (never over the face), then the song and the flight action, a cut per beat, "EDITED BY PUKATZ" outro.
+- Lesson: talk (the film's own line) -> the hits (each with its own sound) -> the answer/payoff. Words see-through, below
+  centre. Films people are watching this month.
+
+**U1 (Desmond, Oct 27 - "make edits like this also"):** https://vm.tiktok.com/ZN8DTmpxy/ @icedmane247 (the artist's own
+account), 121k / 21k likes, 30 s, 1:1. Despicable Me - Gru. Sound = FUNK UNICO SUPER SLOWED (ICEDMANE) - the clean song is
+already library #13 - with the FILM'S OWN DIALOGUE laid on top. **THE LINE BUILDS, THE PAYOFF WORD IS THE DROP:** 0-10 s Gru
+talks ("Dave... listen up, please... next, we are going to steal... (pause for effect)... THE MOON"), each word appears as it
+is said, small white glowing caps, just below the middle of the frame, over the scene where he says it; the song sits low
+under the talk. On "THE MOON" (~14 s) the drop hits: big serif title, then a cut on every beat - Gru's poses and dances from
+the whole film, glitch/flash/zoom transitions, a cut every 0.3-0.6 s to the end. Shape for us: a famous line from a film
+people watch now -> its key word lands on the drop -> beat cuts of that character.
 | chart | TikTok worldwide (Soundcharts, week of 24 Oct 2026) + Nigeria TikTok | Weekly sound pull | **21 clean clips, #134–#154.** #116–#133 were already taken on main (batch X and K1), so these start at 134. Chorus only, about 22s, so the picture can show the line. Nigerian: **#152 treat u right** – FOLA & Ayra Starr ("sayin' I won't treat you right"; "when I want some" is suggestive, not a swear). **#153 Be There Still** – Davido ("anywhere money dey, make dem call me / I will be there still"). **#154 Heaven Baby** – Ayra Starr ft. ZAYN, 19s, cut short: the next bar is "goddammit", so do not extend it. Usable line is "you could be my heaven, baby". Worldwide: Good Time, Set Fire to the Rain, LIGHTWEIGHT FUNK (ad-libs, no line), So Easy (To Fall In Love), Yellow, Hard Times, Coming Up Roses, Better When I'm Dancin', Need You Now, Summer 91 (instrumental), Landslide, Lego House, La La Lost You, Alors on danse, Runaway (AURORA), Try, The Winner Takes It All, golden hour. Landslide and Lego House measured 160 BPM — that is double-time, don't cut them that fast. Skipped because already saved: we fell in love in october (#113), Ramalama (#114). Skipped as explicit: Housewife – Tate McRae ("be my sex on the side"), Rema "Oh No" (verse "she wanna sex me"), Vibin – Wxoda, G.A.D, No Type, Naughty Girl, 7 rings, Asquerosamente Rico, Just a Lil Bit, It Wasn't Me, IKEBE 3000, CA$H OUT. Also skipped Fortnite emote SFX, Chopin SFX, and unnamed original sounds. |
 | note | https://vm.tiktok.com/ZN8DnpmMx/ | @_timise_ "Sukuna x She's Buggin" | **DO NOT USE.** 18 s, the sound is a repeated explicit line. Not saved. |
 | note | https://vm.tiktok.com/ZN8Dn3Ka6/ | @gleaming_tights2 "im feeling tremendous" | One word at a time (I'M / UP / DON'T / OCTOBER) over a held shot. Not the structure. Sound not saved. |
