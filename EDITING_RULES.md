@@ -163,6 +163,10 @@ An edit is a short story about ONE subject, not random clips put together.
 - **VOICE / LYRIC HOOKS (Batch I, Oct 15):** open on the strongest voice line - on black with the words appearing as
   they are said (I2), or on the speaker's face (I3) - or start cold on the climax (Verstappen trailer v3). For a sung
   song, stamp each lyric word big on its own cut (I1). Never open on a static, voiceless shot.
+- **TALK, THEN THE HITS, THEN A BUTTON (27 Oct, three TikToks, the last one is @kam_cuts):** one face says a line,
+  stamp only that line, then one impact per cut on the real drum hits, then a second face answers. The stamp is the
+  word being said, a little early, and it changes when the line changes. Do not copy another editor's clips, watermark,
+  motion blur, or their sound. Length is the phrase, not their runtime.
 - **BROADCAST VS ONBOARD (M28, Oct 18, @f1lightAEP "Baku Flashback"):** two-line title in a white bar, WHAT EVERYONE SAW /
   VS WHAT I SAW. Hold the TV aerial, cut to the onboard (the driver's view), then a white flash on the biggest hit into
   the moment that view was heading for, and cut that fast. If the lyric says when the beat starts, that line IS the flash.

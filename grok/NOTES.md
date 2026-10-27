@@ -531,4 +531,32 @@ Cuts measured on the 25 fps master against the wav. One frame is 40 ms. 19 of 21
 Caption: Guards Red. One car. Count the cuts.
 #carsoftiktok #caredit #fyp #porsche #911
 
+## MOVIE — Hard times
+
+`grok/2026-10-27-hard-times.mp4` — 1920x1080, 30 fps, 21.60 s, 25.6 MB. TikTok.
+`grok/2026-10-27-hard-times-yt.mp4` — 1080x1920 Short, 30 fps, 21.60 s, 25.4 MB. Title: HARD TIMES / GAS IN THE TANK.
+
+Direction: hard times hit. He still has gas in the tank.
+
+Not a copy of @kam_cuts. His clips, his sound, his watermark and his blur are not in this. Same shape only: a person talks, then the punches, then a person talks. Three films for the punches, a fourth for the answer. Length is the chorus, not his 50 s.
+
+Sound **#139** Hard Times, Paramore. Chorus only, 22 s file, this cut uses 0–20.5 of it. Clean. "Hard" starts at 1.11 s, after "tank". The song ducks under both spoken lines. No 60 fps file: the trailers are 23.976 and 24. YouTube is the Short of this 30 fps master.
+
+Script: `engine/grok_hard_times.py`
+
+Sources, official trailers, 1920x1080, letterbox kept, no crop, no upscale:
+- Creed III — Damien, "I still got gas in the tank." Then the ring, the beach, the counter, the tree.
+- The Equalizer 3 — the punches and the knee.
+- John Wick: Chapter 4 — one fight, one take.
+- The Batman — Catwoman, "If we don't stand up, no one will."
+
+Shot list (edit time → source time): 0.00→51.80 GAS IN THE TANK, 1.43→35.48, 3.67→113.30, 4.43→46.53, 5.67→109.40, 7.93→62.16, 8.90→119.70, 10.93→139.41, 11.93→86.16, 13.43→114.28, 14.93→105.86, 16.93→49.48 ROCK BOTTOM, 19.43→62.15 IF WE DON'T / STAND UP / NO ONE WILL.
+
+12 cuts. One frame is 33 ms. Worst early is 23 ms (the tree). Two cuts sit 5 ms after the hit. Nothing is a frame late. Each punch is a different take. The first frame of each punch is the contact.
+
+Caption: Hard times. He still has gas in the tank.
+#movie #movieedit #fyp #creed #johnwick
+
+Not scheduled.
+
 
