@@ -429,3 +429,12 @@ Measured frame by frame (24 fps, 1 frame = 42 ms):
   (never over the face), then the song and the flight action, a cut per beat, "EDITED BY PUKATZ" outro.
 - Lesson: talk (the film's own line) -> the hits (each with its own sound) -> the answer/payoff. Words see-through, below
   centre. Films people are watching this month.
+
+**U1 (Desmond, Oct 27 - "make edits like this also"):** https://vm.tiktok.com/ZN8DTmpxy/ @icedmane247 (the artist's own
+account), 121k / 21k likes, 30 s, 1:1. Despicable Me - Gru. Sound = FUNK UNICO SUPER SLOWED (ICEDMANE) - the clean song is
+already library #13 - with the FILM'S OWN DIALOGUE laid on top. **THE LINE BUILDS, THE PAYOFF WORD IS THE DROP:** 0-10 s Gru
+talks ("Dave... listen up, please... next, we are going to steal... (pause for effect)... THE MOON"), each word appears as it
+is said, small white glowing caps, just below the middle of the frame, over the scene where he says it; the song sits low
+under the talk. On "THE MOON" (~14 s) the drop hits: big serif title, then a cut on every beat - Gru's poses and dances from
+the whole film, glitch/flash/zoom transitions, a cut every 0.3-0.6 s to the end. Shape for us: a famous line from a film
+people watch now -> its key word lands on the drop -> beat cuts of that character.
