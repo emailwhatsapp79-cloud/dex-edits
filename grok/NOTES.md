@@ -584,4 +584,25 @@ Caption: I'm feeling tremendous.
 
 Not scheduled.
 
+## MOVIE — Not a hero anymore (#157)
+
+`grok/2026-10-27-not-a-hero.mp4` — 1920x1080, 30 fps, 24.40 s, 27.8 MB. TikTok.
+`grok/2026-10-27-not-a-hero-yt.mp4` — 1080x1920 Short, 30 fps, 24.40 s, 26.7 MB. Title: NOT A HERO / ANYMORE.
+
+Direction: he says he is not a hero anymore. Then the hits. Then Ken says he is going to win it all.
+
+Sound **#157** `157_original_sound_official_quality` — the keny4580 dance, 112 BPM, 25.3 s. Clean. Whisper with VAD found no speech. Without VAD it hallucinated "Thank you" across the whole file. Spectrogram is kick, snare and bass, no voice. The T2/T3/T4 reference audios were not used.
+
+Script: `engine/grok_157_not_a_hero.py`
+
+Official IMDb 1080p trailers, letterbox kept, pixels 1:1 (no upscale):
+- VisionQuest — the open line, Ultron's beam, Vision's beam, the explosion.
+- Street Fighter — Ken's punch, the glove, the flame kick, Chun-Li, the canvas, the flying kick, the green kick, the ground punch, and "I'm going to win it all."
+- Spider-Man: Brand New Day — the fist, the blast, the fall, the collision, the web, the stare.
+- Avengers: Doomsday — Doom's punch, Doom's face, the group punch.
+
+Spoken lines only, see-through, centre 40% up, in the speaker's colour (Vision gold, Ken red). Song dipped ~10 dB under the lines and ~5 dB for 0.25 s under each hit, with ~0.5 s of that shot's own audio. One frame is 33 ms. Every contact is on the snapped drum, and every snap is inside one frame of the transient.
+
+Not scheduled.
+
 

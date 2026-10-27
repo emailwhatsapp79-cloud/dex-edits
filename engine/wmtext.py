@@ -28,7 +28,7 @@ def _sky(w, h, seed=7):
     return Image.fromarray(np.clip(img, 0, 255).astype(np.uint8))
 
 
-def word_png(text, w, h, out, size=None, opacity=0.9, cy=0.6):
+def word_png(text, w, h, out, size=None, opacity=0.9, cy=0.6, color=None):
     size = size or int(h * 0.17)
     f = _font(size)
     while f.getlength(text) > w * 0.86 and size > 20:
@@ -38,8 +38,19 @@ def word_png(text, w, h, out, size=None, opacity=0.9, cy=0.6):
     x, y = (w - tw) // 2 - box[0], int(h * cy - th / 2) - box[1]
     mask = Image.new('L', (w, h), 0)
     ImageDraw.Draw(mask).text((x, y), text, font=f, fill=int(255 * opacity))
-    tex = _sky(w, h)
-    rgba = tex.convert('RGBA'); rgba.putalpha(mask)
+    if color is None:
+        tex = _sky(w, h)
+        rgba = tex.convert('RGBA'); rgba.putalpha(mask)
+    else:
+        # see-through glow in the speaker's colour (T3): halo + filled letters, no white subtitle
+        halo = mask.filter(ImageFilter.GaussianBlur(14))
+        rgba = Image.new('RGBA', (w, h), (0, 0, 0, 0))
+        glow = Image.new('RGBA', (w, h), (*color, 0))
+        glow.putalpha(halo.point(lambda p: min(255, int(p * 0.85))))
+        rgba = Image.alpha_composite(rgba, glow)
+        fill = Image.new('RGBA', (w, h), (*color, 0))
+        fill.putalpha(mask)
+        rgba = Image.alpha_composite(rgba, fill)
     rgba.save(out)
     return out
 
