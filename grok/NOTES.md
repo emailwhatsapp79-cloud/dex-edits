@@ -605,4 +605,30 @@ Spoken lines only, see-through, centre 40% up, in the speaker's colour (Vision g
 
 Not scheduled.
 
+## MOVIE — Something bad (#157)
+
+`grok/2026-10-28-something-bad.mp4` — 1920x1080, 30 fps, 22.73 s, 27.4 MB. TikTok.
+`grok/2026-10-28-something-bad-yt.mp4` — 1080x1920 Short, 30 fps, 22.73 s, 26.9 MB. Title: SOMETHING BAD / WHO'S LEFT?
+
+A new cut. Not a patch of "Not a hero anymore."
+
+Peter, trailer 1, over the red suit in the washer: "Something bad was going to happen." Then the fight, hero and villain answering, one contact per drum. The wall, the jet, the crash and the bus are held about two beats. He dives and says "I'm Spider-Man."
+
+Sound **#157** `157_original_sound_official_quality` — the clean keny4580 dance, 112 BPM. Nothing on it but those two lines, in his voice, and each hit's own sound from the shot on screen. Song dipped ~10 dB under the lines and ~5 dB for 0.25 s under each hit.
+
+Script: `engine/grok_157_v2.py`
+
+Official IMDb 1080p, letterbox kept, pixels 1:1. No final-trailer recap.
+- Spider-Man: Brand New Day — trailer 1 (the line, the roof, the swings, the bus, the punch, the dive) and the June trailer (through the wall, through the building).
+- Street Fighter — Ken's room, the kick, the boot, the blast.
+- VisionQuest — the walk through the wreck, the beam.
+- Avengers: Doomsday — the jet, the blast, the two in the smoke.
+
+Spoken lines only, see-through, centre 40% up, in his red. One frame is 33 ms. Every contact is inside one frame of the drum.
+
+Caption: Something bad was going to happen. So who's left standing?
+#StreetFighter #SpiderMan #VisionQuest #AvengersDoomsday #DexEdits
+
+Not scheduled.
+
 
