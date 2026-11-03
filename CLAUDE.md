@@ -47,9 +47,11 @@ vertical YouTube Shorts version (`engine/ytshort.py`). Details: EDITING_RULES "F
 Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-edits/main/videos/<file>.mp4`
 
 ## Status (Nov 3 2026) - read first in a new session
-- NICHE: Claude recommended F1 ONLY (F1 = best engagement); Desmond to confirm. Cars dropped. 2 posts/day 12:00 + 18:00.
+- NICHE: F1 ONLY (Desmond confirmed Nov 3). Cars, football and movies dropped for now. 2 posts/day 12:00 + 18:00.
 - Posted: Lap 1 Brazil (Nov 3, by hand). Scheduled in Zernio: Antonelli World Champion, Nov 3 18:00 (TikTok + YouTube).
-- Next: tomorrow's 2 F1 edits (Nov 4 12:00/18:00), then the Brazil GP (Sun Nov 8): race edit the same night from
+- Scheduled in Zernio (TikTok + YouTube each): Nov 4 12:00 I get it (Max), 18:00 Max 'capitalize'; Nov 5 12:00 Lindblad
+  'easily', 18:00 Hamilton Ferrari pole; Nov 6 12:00 Mexico onboard, 18:00 Antonelli 'Ascari has his heir' (edit_bh_mexico_week.py).
+- Next: Nov 7 posts, then the Brazil GP (Sun Nov 8): race edit the same night from
   formula1.com official highlights (yt-dlp on players.brightcove.net/6057949432001/default_default/index.html?videoId=<id>,
   ids from https://www.formula1.com/en/video), posted Monday 12:00.
 - Remaining unposted edits: I get it (Max), 911 emergency (car - dropped if F1 only), Isidor (football).
