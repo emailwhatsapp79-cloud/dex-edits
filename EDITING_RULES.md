@@ -300,3 +300,12 @@ two locations into a spotting edit.
   the platforms still treat it as vertical (TikTok For You + YouTube Shorts, one file for both). Best for F1 edits from
   horizontal footage. Grade follows the song (summer pop = bright/saturated, moody song = dark).
 
+
+**GROWTH LESSONS (ref W1 @isaaccverse "easiest way to get monetized", 283k, Nov 3):**
+- Every video is judged ON ITS OWN, not by the channel or its subscribers: it is shown to a small group first (often people who
+  already know us), then to bigger groups of strangers only if they click AND stay. So every edit must work for a stranger.
+- Chase consistency, not one viral hit: steady 10k-20k a video beats random 1M spikes. Fewer, better edits (2/day max).
+- Two jobs: the CLICK (first frame + the caption's question; on YouTube the title) and the WATCH (the edit pays off).
+- The viewer is a player: a short "tutorial" (the hook - who/what this is in the first second) then SEVERAL small payoffs, not
+  one at the end - e.g. the line lands, the drop, the best hit, the reveal/title. Each 4-6 s should give something new.
+- The video itself matters more than tags, descriptions or hashtags.

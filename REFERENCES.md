@@ -438,3 +438,8 @@ is said, small white glowing caps, just below the middle of the frame, over the 
 under the talk. On "THE MOON" (~14 s) the drop hits: big serif title, then a cut on every beat - Gru's poses and dances from
 the whole film, glitch/flash/zoom transitions, a cut every 0.3-0.6 s to the end. Shape for us: a famous line from a film
 people watch now -> its key word lands on the drop -> beat cuts of that character.
+
+**W1 (Desmond, Nov 3):** https://vm.tiktok.com/ZN8yx1yBA/ @isaaccverse, 283k / 27.5k likes, 19 min talk "The Easiest Way To Get
+Monetized on YouTube". Not an edit - growth advice: each video is tested alone (small group -> bigger strangers), consistency
+over virality, click + watch, hook = short tutorial, several payoffs ("quests") per video, video quality over metadata. Sponsor
+segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LESSONS".
