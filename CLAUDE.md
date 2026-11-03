@@ -38,7 +38,7 @@ accounts free, unlimited posts - never connect a 3rd). Media = the public GitHub
 posts_create with schedule_minutes; timezone Africa/Lagos (Zernio shows UTC).
 COMMENTS (Desmond, Nov 3 - posts stall with likes but no comments): Desmond adds a TikTok comment POLL by hand when each post
 goes live (app-only feature) and pins it. On YOUTUBE Claude posts a "Quick poll 👇 ... Reply 🔴 X or 🔵 Y" text comment ~7 min
-after each post goes live (Zernio comments_reply_to_inbox_post) - it worked (replies within the hour, Nov 3). Not on TikTok.
+after each post goes live on TikTok AND YouTube (Zernio comments_reply_to_inbox_post) - it worked (replies within the hour, Nov 3).
 With every new edit, give Desmond a poll question + 2-3 options that make people take a side. FACT-CHECK the question: the
 Nov 3 one called Max a "youngest champion" and a viewer corrected it (Vettel held the record until Kimi).
 Daily slots (Desmond, Oct 23): TWO posts a day - 12:00 and 18:00 (was 3/day at 10/12/18 until Oct 23). Fewer, bigger edits:
