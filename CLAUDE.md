@@ -32,7 +32,10 @@ edit is never scheduled.
 3. If the sound has speech or lyrics, the picture must show what is being said (EDITING_RULES §3).
 
 ## Posting
-Scheduling goes through the Metricool connector (brand with TikTok "Dex Edits", timezone Africa/Lagos).
+Scheduling goes through the ZERNIO connector (since Nov 3 2026; Metricool's free plan stops at 20 posts/month/network).
+Zernio accounts: TikTok dex_edit0 = 6aea02e372766ee660c00d1b, YouTube dexedits-z3p = 6aea02c8e64468f4036068d9 (first 2
+accounts free, unlimited posts - never connect a 3rd). Media = the public GitHub raw URL below (check its size first).
+posts_create with schedule_minutes; timezone Africa/Lagos (Zernio shows UTC).
 Daily slots (Desmond, Oct 23): TWO posts a day - 12:00 and 18:00 (was 3/day at 10/12/18 until Oct 23). Fewer, bigger edits:
 the strongest edit of the day at 18:00. Mix football / F1 / cars / movies across the week, not one of each per day.
 FRESHNESS (Desmond, Oct 18): the three edits of a day are made together, close to the post date, from the newest material
@@ -42,3 +45,12 @@ HARD RULE (Desmond, Oct 17) - never post a 30 fps file to YouTube when a 60 fps 
 file, YouTube gets the 60 fps file (`brand(..., fps=60)`) as a SEPARATE YouTube-only post. Horizontal edits also get a
 vertical YouTube Shorts version (`engine/ytshort.py`). Details: EDITING_RULES "Frame rate per platform".
 Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-edits/main/videos/<file>.mp4`
+
+## Status (Nov 3 2026) - read first in a new session
+- NICHE: Claude recommended F1 ONLY (F1 = best engagement); Desmond to confirm. Cars dropped. 2 posts/day 12:00 + 18:00.
+- Posted: Lap 1 Brazil (Nov 3, by hand). Scheduled in Zernio: Antonelli World Champion, Nov 3 18:00 (TikTok + YouTube).
+- Next: tomorrow's 2 F1 edits (Nov 4 12:00/18:00), then the Brazil GP (Sun Nov 8): race edit the same night from
+  formula1.com official highlights (yt-dlp on players.brightcove.net/6057949432001/default_default/index.html?videoId=<id>,
+  ids from https://www.formula1.com/en/video), posted Monday 12:00.
+- Remaining unposted edits: I get it (Max), 911 emergency (car - dropped if F1 only), Isidor (football).
+- Start a new session every day or two to save usage: everything needed is in this repo.
