@@ -2,7 +2,7 @@
 the reference (its editor already placed every cut on a music event), and the ACTION inside each shot - a car passing the
 lens, a start launch, a lock-up, cars touching - fitted onto the sound inside that shot (engine/actionsync.fit).
 Hook: start lights + "YOU / READY?" (watermark lyrics, Desmond Oct 23). Payoff "LAP 1. / IS WAR." on the breath (12.96),
-end "AUSTIN. / YOU READY?". Footage: official formula1.com 2026 race highlights, LAP 1 only (no timing tower yet);
+end "BRAZIL. / YOU READY?" (was AUSTIN until the US GP). Footage: official formula1.com 2026 race highlights, LAP 1 only (no timing tower yet);
 every frame cropped just below the LAP 1/xx box (1070x602 of 1280x720, kept native - no upscale).
 Usage: python3 edit_bd_lap1_ready.py [fit|stills|render] ; DEX_FPS=50 for the YouTube master."""
 import os, sys, json, subprocess
@@ -39,7 +39,7 @@ TAKES = [('sing', 0.5, 10.3),      # hook: the grid under the lights
          ('sing', 32.08, 38.0), ('monaco', 65.96, 83.3), ('dutch', 33.5, 36.4), ('monza', 33.42, 38.78),
          ('baku', 15.2, 20.68), ('monaco', 32.16, 40.24), None, ('austria', 21.8, 26.2), ('baku', 28.68, 38.8)]
 WORDS = [(0.05, 0.84, 'YOU'), (0.86, 1.31, 'READY?'), (12.958, 13.58, 'LAP 1.'), (13.6, 14.24, 'IS WAR.'),
-         (20.25, 20.64, 'AUSTIN.'), (20.66, END, 'YOU READY?')]
+         (20.25, 20.64, 'BRAZIL.'), (20.66, END, 'YOU READY?')]
 
 
 def plan():
