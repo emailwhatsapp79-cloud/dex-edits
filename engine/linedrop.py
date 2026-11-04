@@ -9,7 +9,8 @@ render(cfg) - cfg keys:
   after [(beats, key, in, take_end)]
   outro (key, a, b, words) | None  a last spoken line after the beats, song dipped to 0.3
   cap (size, cy)                 spoken-word text size and height (0.6 = 40 % up from the bottom)
-  hits [(after_index, offset)]   that shot's own sound laid on the song at the cut (+offset)"""
+  hits [(after_index, offset)]   that shot's own sound laid on the song at the cut (+offset)
+  intro_song                     song level before the drop (0.3 = under the voice; 0 = the moment plays raw, no music)"""
 import os, subprocess
 import wmtext
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -112,7 +113,7 @@ def render(cfg, scratch, out):
         fx += (f"[{n1 + j}:a]aformat=channel_layouts=stereo,afade=t=out:st=0.3:d=0.3,volume=1.5,adelay={int(at * 1000)}|{int(at * 1000)}[x{j}];")
         labels.append(f'[x{j}]')
     o_start = end_beats if outro else END + 1
-    fx += (f"[1:a]atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),0.3,if(gt(t,{o_start:.3f}),0.3,1.0))':eval=frame,"
+    fx += (f"[1:a]atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),{cfg.get("intro_song", 0.3)},if(gt(t,{o_start:.3f}),0.3,1.0))':eval=frame,"
            f"afade=t=out:st={END - 0.4:.3f}:d=0.4[song];[song]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0,alimiter=limit=0.85[a]")
     subprocess.run(cmd + ['-filter_complex', chain + fx, '-map', last, '-map', '[a]', '-t', f'{END:.3f}', '-r', str(FPS),
                           '-c:v', 'libx264', '-crf', '12', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '256k', out], check=True)

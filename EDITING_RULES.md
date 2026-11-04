@@ -309,3 +309,10 @@ two locations into a spotting edit.
 - The viewer is a player: a short "tutorial" (the hook - who/what this is in the first second) then SEVERAL small payoffs, not
   one at the end - e.g. the line lands, the drop, the best hit, the reveal/title. Each 4-6 s should give something new.
 - The video itself matters more than tags, descriptions or hashtags.
+
+**THE MOMENT, THEN THE EDIT (Desmond, Nov 4):** open on the REAL moment with its own broadcast sound and NO music: the
+overtake / the goal / the crash, live commentary and team radio in sync with the picture (3-8 s). Let the air after it
+breathe for 1-2 s (crowd roar, radio "get in there!", celebration starting) - still no music. THEN the song drops and the
+beat edit of that player/team starts. A stranger sees something real happen in the first second (the hook) and stays for the
+edit (the payoff). Engine: engine/linedrop.py with cfg intro_song=0 (song silent until the drop); the talk spans are the
+moment and its tail. First use: the Brazil GP race edit (Mon Nov 9 12:00).
