@@ -74,6 +74,12 @@ Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-e
   around the world 41/953 (4.3%), Antonelli champion 34/1,319 (2.6%).
 - Weak: football/movie/generic - Bellingham 0.7%, Kane 1.2%, Doomsday 1.0%, Ferrari 1.5%, I get it 1.0% (496 views).
 - So the fix is the post, not YouTube: a named star + a stake in the title, a hook in the first second, a payoff, a loop.
+- YouTube Studio / Gemini breakdown (Nov 4): lifetime 55,749 views, 21,874 unique viewers, 1,612 likes, +46 subs, avg
+  "stayed to watch" 45.1%. THE DECIDING NUMBER IS STAYED-vs-SWIPED: above ~52-57% a Short scales into the thousands
+  (Antonelli "20 years old. One race from history" 11,119 views / 52.7%; finish the job 52.8%; Austin keep watching 57.9%);
+  in the low 40s it stalls (Lap 1 Austin 40.6%, I get it 45.6%). Drop-off happens in the first 1-2 s. Target: 60%+.
+  -> Every edit's FIRST FRAME must already be the action or the most dramatic face/moment - no fade-in, no slow build, no
+  talking head first. Driver-narrative stories (Antonelli, Max vs Kimi, Hamilton in red) win. Only 14 comments channel-wide.
 
 ## Ideas saved for later (Desmond, Nov 4 - not built yet, do not start without him)
 - TREND RADAR: a tool in the container that checks what is trending on TikTok right now (top songs/sounds, by country:

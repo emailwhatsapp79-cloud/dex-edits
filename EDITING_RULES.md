@@ -322,3 +322,9 @@ moment and its tail. First use: the Brazil GP race edit (Mon Nov 9 12:00).
 Rotate across posts/days: (1) THE MOMENT, THEN THE EDIT, (2) the LINE -> DROP edit (a quote's payoff word is the drop),
 (3) the pure BEAT/ACTION edit (lap 1, contact on the drum, K1 style), (4) ONBOARD / POV, (5) the LYRIC-MAPPED edit (the words
 pick the picture). Heat it up, then change it. Before scheduling a week, list each post's format and check no two in a row match.
+
+**THE FIRST SECOND DECIDES (YouTube Studio data, Nov 4):** Shorts where 52-58% of viewers stay (vs swipe) reach thousands
+of views; at 40-46% they stall. People decide in the first 1-2 s. So frame 1 = the action or the most dramatic moment (the
+crash, the overtake, the champion's face, the trophy) - never a fade-in, a slow build, a wide calm shot or an interview face
+first. For a line -> drop or interview edit, open with a ~1 s COLD OPEN of the payoff (the crash/the pole lap/the trophy),
+then go back and tell the story. Target 60%+ stayed.
