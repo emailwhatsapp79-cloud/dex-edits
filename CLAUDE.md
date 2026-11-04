@@ -63,6 +63,14 @@ Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-e
 - Remaining unposted edits: I get it (Max), 911 emergency (car - dropped if F1 only), Isidor (football).
 - Start a new session every day or two to save usage: everything needed is in this repo.
 
+## Gemini (watch + listen helper, since Nov 4)
+The environment "for s scraper" holds a Gemini API key as a network secret (header x-goog-api-key, injected by the proxy -
+never put a key in code). Call https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent with
+inline_data (audio/mp3 or video/mp4 under ~20 MB; bigger files via the Files API) to get a TEXT description: is a sound clean
+(no speech/SFX from another edit), where the drop is, the mood, what happens when in a reference edit. Use it instead of loading
+dozens of frame images when studying references; still verify hit sync frame by frame yourself.
+Tested Nov 4: #157 = clean instrumental, Middle-Eastern/Mediterranean, upbeat, beat kicks in at 0:04.
+
 ## Race weekends (Desmond, Nov 4)
 - Before scheduling several days ahead, CHECK THE F1 CALENDAR. If a race falls inside the window, schedule only up to the day
   before / one day ahead and TELL Desmond why ("race tomorrow - only 1 day ahead").
