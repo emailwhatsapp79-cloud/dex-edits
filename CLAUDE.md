@@ -10,6 +10,7 @@ upscale over ~1.4x, no interpolation/blur effects, stills checked before renderi
 edit is never scheduled.
 
 ## Layout
+- `GOALS.md` – this month's targets (followers, views, likes, comments; per-video targets) + the weekly check-in table.
 - `EDITING_RULES.md` – the rules learned from Desmond's feedback (direction, hook, beat sync, no repeated takes, branding).
 - `REFERENCES.md` – every reference edit studied and what it taught (permanent memory of the training).
 - `engine/` – the editing code. `beatsync.py` (drum-hit detection + cut measurement), `velocity.py` (speed ramps,
