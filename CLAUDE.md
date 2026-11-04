@@ -62,6 +62,19 @@ Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-e
 - Remaining unposted edits: I get it (Max), 911 emergency (car - dropped if F1 only), Isidor (football).
 - Start a new session every day or two to save usage: everything needed is in this repo.
 
+## Race weekends (Desmond, Nov 4)
+- Before scheduling several days ahead, CHECK THE F1 CALENDAR. If a race falls inside the window, schedule only up to the day
+  before / one day ahead and TELL Desmond why ("race tomorrow - only 1 day ahead").
+- Race day: as soon as the official highlights are on formula1.com (~1-2 h after the flag), make a quick race edit and post it
+  that night or first thing next morning. Fresh clips beat backdated ones.
+- Reminders set in this session: Sat Nov 7 09:00 Lagos (plan Sat/Sun posts), Sun Nov 8 21:30 Lagos (Brazil race edit).
+
+## YouTube numbers (Nov 4, Zernio analytics, 46 subscribers)
+- Like rate is fine on the strong F1 posts: finish the job 256/5,465 (4.7%), Austin keep watching 182/4,743 (3.8%),
+  around the world 41/953 (4.3%), Antonelli champion 34/1,319 (2.6%).
+- Weak: football/movie/generic - Bellingham 0.7%, Kane 1.2%, Doomsday 1.0%, Ferrari 1.5%, I get it 1.0% (496 views).
+- So the fix is the post, not YouTube: a named star + a stake in the title, a hook in the first second, a payoff, a loop.
+
 ## Ideas saved for later (Desmond, Nov 4 - not built yet, do not start without him)
 - TREND RADAR: a tool in the container that checks what is trending on TikTok right now (top songs/sounds, by country:
   Nigeria, US, UK) to pick hook sounds. Feasible: TikTok Creative Center's "Popular music" page
