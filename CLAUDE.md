@@ -89,5 +89,6 @@ Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-e
   so read the page with the preinstalled Playwright/Chromium. Save the top ~20 with add_sound (clean versions only).
 - REVIEW PAGE: one link per edit where Desmond leaves notes on the exact second (idea from mrpaidsocial's video-editor-agent;
   that repo has no licence - build our own, e.g. as an Artifact page).
+- GOALS DASHBOARD: a live page with progress bars for GOALS.md (Desmond wants it, on hold Nov 4 - weekly usage nearly used up).
 - AUTO-QA: script that scans every finished file for black/frozen frames, loudness, the DEX EDITS mark, before scheduling.
 - Desmond will later move the work to his own PC (Claude desktop app) when he is home on Wi-Fi.
