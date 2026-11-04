@@ -310,9 +310,15 @@ two locations into a spotting edit.
   one at the end - e.g. the line lands, the drop, the best hit, the reveal/title. Each 4-6 s should give something new.
 - The video itself matters more than tags, descriptions or hashtags.
 
-**THE MOMENT, THEN THE EDIT (Desmond, Nov 4):** open on the REAL moment with its own broadcast sound and NO music: the
-overtake / the goal / the crash, live commentary and team radio in sync with the picture (3-8 s). Let the air after it
-breathe for 1-2 s (crowd roar, radio "get in there!", celebration starting) - still no music. THEN the song drops and the
-beat edit of that player/team starts. A stranger sees something real happen in the first second (the hook) and stays for the
-edit (the payoff). Engine: engine/linedrop.py with cfg intro_song=0 (song silent until the drop); the talk spans are the
+**THE MOMENT, THEN THE EDIT (Desmond, Nov 4):** open on the REAL moment with its own broadcast sound: the overtake / the
+goal / the crash, live commentary and team radio in sync with the picture (3-8 s), with the SONG'S INTRO already playing
+LOW underneath as a background bed (Desmond: "not no music - a background sound, the thing starting up"). Let the air after
+it breathe for 1-2 s (crowd roar, radio "get in there!") over that low build. THEN the song drops and the beat edit of that
+player/team starts. A stranger sees something real happen in the first second (the hook) and stays for the
+edit (the payoff). Engine: engine/linedrop.py (intro_song ~0.25-0.35 = the low bed under the moment); the talk spans are the
 moment and its tail. First use: the Brazil GP race edit (Mon Nov 9 12:00).
+
+**ROTATE THE FORMATS - NEVER THE SAME KIND TWICE IN A ROW (Desmond, Nov 4):** the page must not feel like one template.
+Rotate across posts/days: (1) THE MOMENT, THEN THE EDIT, (2) the LINE -> DROP edit (a quote's payoff word is the drop),
+(3) the pure BEAT/ACTION edit (lap 1, contact on the drum, K1 style), (4) ONBOARD / POV, (5) the LYRIC-MAPPED edit (the words
+pick the picture). Heat it up, then change it. Before scheduling a week, list each post's format and check no two in a row match.

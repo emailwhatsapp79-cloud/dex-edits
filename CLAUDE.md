@@ -61,3 +61,13 @@ Media URL format: `https://raw.githubusercontent.com/emailwhatsapp79-cloud/dex-e
   ids from https://www.formula1.com/en/video), posted Monday 12:00.
 - Remaining unposted edits: I get it (Max), 911 emergency (car - dropped if F1 only), Isidor (football).
 - Start a new session every day or two to save usage: everything needed is in this repo.
+
+## Ideas saved for later (Desmond, Nov 4 - not built yet, do not start without him)
+- TREND RADAR: a tool in the container that checks what is trending on TikTok right now (top songs/sounds, by country:
+  Nigeria, US, UK) to pick hook sounds. Feasible: TikTok Creative Center's "Popular music" page
+  (ads.tiktok.com/business/creativecenter/inspiration/popular/music) - its API refuses plain requests (needs signed headers),
+  so read the page with the preinstalled Playwright/Chromium. Save the top ~20 with add_sound (clean versions only).
+- REVIEW PAGE: one link per edit where Desmond leaves notes on the exact second (idea from mrpaidsocial's video-editor-agent;
+  that repo has no licence - build our own, e.g. as an Artifact page).
+- AUTO-QA: script that scans every finished file for black/frozen frames, loudness, the DEX EDITS mark, before scheduling.
+- Desmond will later move the work to his own PC (Claude desktop app) when he is home on Wi-Fi.
