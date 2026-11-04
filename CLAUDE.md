@@ -24,6 +24,8 @@ edit is never scheduled.
 - `videos/` – finished, watermarked edits (`YYYY-MM-DD-slug.mp4`). Public URLs of these files are what
   Metricool uses when scheduling posts.
 - `fonts/` – Anton, Orbitron, Archivo (SIL Open Font License).
+- `.claude/skills/humanizer/` – blader/humanizer (MIT): rewrites text so it doesn't read as AI-written. Run every caption,
+  YouTube title and poll question through it before scheduling (short, plain, like a fan wrote it).
 
 ## Every link or video Desmond sends
 1. Save its sound: `python3 engine/add_sound.py <link or file[::Title]>` – downloads, analyses (tempo, drop,
