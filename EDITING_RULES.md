@@ -328,3 +328,10 @@ of views; at 40-46% they stall. People decide in the first 1-2 s. So frame 1 = t
 crash, the overtake, the champion's face, the trophy) - never a fade-in, a slow build, a wide calm shot or an interview face
 first. For a line -> drop or interview edit, open with a ~1 s COLD OPEN of the payoff (the crash/the pole lap/the trophy),
 then go back and tell the story. Target 60%+ stayed.
+
+
+## SAME SOUND, MANY EDITS (Desmond, Nov 6)
+A sound that is trending or already worked for us (e.g. #06 Lindblad 10k, #161 "What's up?") can be used again on a DIFFERENT
+edit - different footage, different story. Just not two posts in a row / the same day on the same sound.
+SHAKE ON THE HIT (ref X1): a short mild jiggle (0.95 crop moving ~20 px, 0.28 s, decaying) on each vocal hit / cut - see
+edit_bi_brazil_arrivals.py.

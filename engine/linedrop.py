@@ -3,9 +3,10 @@ interview) builds over the quiet part of the song with its own picture in sync, 
 every beat (or every 2), optionally an OUTRO line at the end with the song dipped under it.
 render(cfg) - cfg keys:
   name, song, drop (song second of the drop), beat (s), files {key: path}, size (W, H), fps
-  talk  [(key, a, b, pic_lead)]  source spans played in order, voice + picture in sync (pic_lead delays the picture)
+  talk  [(key, a, b, pic_lead[, pic_key, pic_in])]  source spans played in order, voice + picture in sync (pic_lead delays
+                                 the picture); with pic_key/pic_in the voice plays OVER another shot (cold open: frame 1 = action)
   words [(key, t, 'WORD')]       spoken words (source times); '|WORD' starts a new line
-  big   ('TEXT', beats)          see-through watermark word on the drop
+  big   ('TEXT', beats)          see-through watermark word on the drop (big_size: height share, default 0.13)
   after [(beats, key, in, take_end)]
   outro (key, a, b, words) | None  a last spoken line after the beats, song dipped to 0.3
   cap (size, cy)                 spoken-word text size and height (0.6 = 40 % up from the bottom)
@@ -37,7 +38,7 @@ def glow_png(text, W, H, out, size=48, cy=0.6):
 
 def render(cfg, scratch, out):
     W, H = cfg['size']; FPS = cfg.get('fps', 30); F = cfg['files']; talk = cfg['talk']
-    drop_e = sum(b - a for _, a, b, _ in talk)
+    drop_e = sum(x[2] - x[1] for x in talk)
     off = cfg['drop'] - drop_e
     beat = lambda k: drop_e + k * cfg['beat']
     after = cfg['after']; outro = cfg.get('outro')
@@ -55,8 +56,8 @@ def render(cfg, scratch, out):
         parts.append(p)
 
     spans = []                                   # (edit start, key, a, b) of every voiced span
-    for i, (k, a, b, lead) in enumerate(talk):
-        spans.append((t, k, a, b)); clip(k, a + lead, b - a, f'a{i}.mp4'); t += b - a
+    for i, (k, a, b, lead, *pic) in enumerate(talk):
+        spans.append((t, k, a, b)); clip(pic[0] if pic else k, pic[1] if pic else a + lead, b - a, f'a{i}.mp4'); t += b - a
     for i, (n, k, s, e) in enumerate(after):
         d = beat(sum(x for x, *_ in after[:i + 1])) - t
         assert s + d <= e + 0.03, f"{cfg['name']} after #{i} runs past its take ({s + d:.2f} > {e})"
@@ -95,7 +96,7 @@ def render(cfg, scratch, out):
     pngs = []
     for i, (_, _, w) in enumerate(texts):
         p = os.path.join(tmp, f'c{i:02d}.png')
-        pngs.append(wmtext.word_png(w, W, H, p, size=int(H * 0.13)) if w == big else glow_png(w, W, H, p, size, cy))
+        pngs.append(wmtext.word_png(w, W, H, p, size=int(H * cfg.get('big_size', 0.13))) if w == big else glow_png(w, W, H, p, size, cy))
     cmd = ['ffmpeg', '-v', 'error', '-y', '-i', vid, '-ss', f'{off:.3f}', '-i', cfg['song']]
     for p in pngs: cmd += ['-loop', '1', '-framerate', str(FPS), '-t', f'{END:.3f}', '-i', p]
     chain, last = wmtext.overlay_filter(texts, 2, '[0:v]')
