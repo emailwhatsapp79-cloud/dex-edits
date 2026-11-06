@@ -332,6 +332,7 @@ then go back and tell the story. Target 60%+ stayed.
 
 ## SAME SOUND, MANY EDITS (Desmond, Nov 6)
 A sound that is trending or already worked for us (e.g. #06 Lindblad 10k, #161 "What's up?") can be used again on a DIFFERENT
-edit - different footage, different story. Just not two posts in a row / the same day on the same sound.
+edit - different footage, different story. It CAN run on two or three posts in a row (Desmond, Nov 6) as long as each is its
+own edit and the sound is trending. Ride a trending sound while it is hot.
 SHAKE ON THE HIT (ref X1): a short mild jiggle (0.95 crop moving ~20 px, 0.28 s, decaying) on each vocal hit / cut - see
 edit_bi_brazil_arrivals.py.
