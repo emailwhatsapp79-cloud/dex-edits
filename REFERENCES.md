@@ -443,3 +443,7 @@ people watch now -> its key word lands on the drop -> beat cuts of that characte
 Monetized on YouTube". Not an edit - growth advice: each video is tested alone (small group -> bigger strangers), consistency
 over virality, click + watch, hook = short tutorial, several payoffs ("quests") per video, video quality over metadata. Sponsor
 segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LESSONS".
+
+| auto | https://www.tiktok.com/@samster619/video/7704051799342255391?_r=1&_t=ZN-9BB6Wr6VVSB | @samster619: They’re hitting it tho #capcut #edit #meimei #snowleopard #seal | sound saved as library #161 (133 BPM, drop ≈ 7.0s) 
+
+**X1 (#161, @samster619 cat/seal meme, trending, Nov 6):** clean dance-pop vocal chop "What's up? / in a minute" (Gemini: no speech/SFX from another edit). Only 2 pictures, alternated every ~3.5 s with 0.5 s crossfades; the effect is a short, mild camera SHAKE (x+y jiggle) on every "What's up?" hit, nothing else - no zooms, no ramps. Lesson: the sound + shake carry it; the picture should *answer* the vocal - for F1, drivers looking into the lens / nodding at arrivals on "What's up?". Hits ≈ 0.0, 3.0, 6.6, 7.2, 7.8, 9.3 (whisper hears "Wasaba"). Keep to 14 s, loops.
