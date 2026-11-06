@@ -92,6 +92,21 @@ Tested Nov 4: #157 = clean instrumental, Middle-Eastern/Mediterranean, upbeat, b
   -> Every edit's FIRST FRAME must already be the action or the most dramatic face/moment - no fade-in, no slow build, no
   talking head first. Driver-narrative stories (Antonelli, Max vs Kimi, Hamilton in red) win. Only 14 comments channel-wide.
 
+## Progress check Nov 6 (Zernio) - THE TIKTOK PROBLEM IS THE FORMAT
+- YouTube 46 -> 54 subs. Lindblad "easily" Short = 10,489 views / 512 likes (4.9%) in a day - our 2nd best ever. Max 1,778,
+  Antonelli champ 1,942, Hamilton 1,290, I get it 1,248. YouTube gets the VERTICAL ytshort version.
+- TikTok still 5 followers. Every post stops at ~250-330 views (Antonelli 994) even though like rate is huge (14-17%).
+  TikTok gets the HORIZONTAL 16:9 file: small picture with black bars on a phone -> retention collapses: 100% -> ~40% by 2 s,
+  ~30% by 3 s, completion 3-16%. 97-99% of views come from For You and 100% are non-followers. Audience: UK, Italy, Poland,
+  Germany, Netherlands (Europe).
+- FIX: post the VERTICAL version on TikTok too (ytshort.py at 30 fps), and keep edits short (Lindblad 13 s had the best
+  TikTok retention: 59% at 2 s, 16% completion; and the best YouTube result).
+
+## Trend 48 (Desmond's app, repo emailwhatsapp79-cloud/trend-48, Nov 6)
+Shows named songs moving on TikTok + YouTube Shorts (tokchart.com sounds/songs by country NG/US/UK/BR/PH, kabo.sh,
+charts.youtube.com SHORTS_TRACKS_BY_USAGE daily by market). tokchart.com answers 403 to plain requests from this container -
+read it through Playwright or use Desmond's deployed app. Use it to pick trending, CLEAN songs (check with Gemini).
+
 ## Ideas saved for later (Desmond, Nov 4 - not built yet, do not start without him)
 - TREND RADAR: a tool in the container that checks what is trending on TikTok right now (top songs/sounds, by country:
   Nigeria, US, UK) to pick hook sounds. Feasible: TikTok Creative Center's "Popular music" page
