@@ -11,7 +11,8 @@ render(cfg) - cfg keys:
   outro (key, a, b, words) | None  a last spoken line after the beats, song dipped to 0.3
   cap (size, cy)                 spoken-word text size and height (0.6 = 40 % up from the bottom)
   hits [(after_index, offset)]   that shot's own sound laid on the song at the cut (+offset)
-  intro_song                     song level before the drop (0.3 = under the voice; 0 = the moment plays raw, no music)"""
+  intro_song                     song level before the drop (0.3 = under the voice; 0 = the moment plays raw, no music)
+  shake                          True: a short mild camera shake on the drop and every cut after it (ref X1/Y1)"""
 import os, subprocess
 import wmtext
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -99,7 +100,15 @@ def render(cfg, scratch, out):
         pngs.append(wmtext.word_png(w, W, H, p, size=int(H * cfg.get('big_size', 0.13))) if w == big else glow_png(w, W, H, p, size, cy))
     cmd = ['ffmpeg', '-v', 'error', '-y', '-i', vid, '-ss', f'{off:.3f}', '-i', cfg['song']]
     for p in pngs: cmd += ['-loop', '1', '-framerate', str(FPS), '-t', f'{END:.3f}', '-i', p]
-    chain, last = wmtext.overlay_filter(texts, 2, '[0:v]')
+    src = '[0:v]'
+    if cfg.get('shake'):
+        hits = [drop_e] + [beat(sum(x for x, *_ in after[:i + 1])) for i in range(len(after) - 1)]
+        sh = lambda amp, f, ph: '+'.join(f"between(t,{h:.3f},{h + 0.28:.3f})*{amp}*sin(2*PI*{f}*(t-{h:.3f})+{ph})*(1-(t-{h:.3f})/0.28)" for h in hits)
+        cw, ch = int(W * 0.94) // 2 * 2, int(H * 0.94) // 2 * 2; mx, my = (W - cw) // 2, (H - ch) // 2
+        a = max(6, W // 60)
+        src = f"[0:v]crop={cw}:{ch}:'{mx}+{sh(a, 18, 0)}':'{my}+{sh(a * 0.65, 23, 1.3)}',scale={W}:{H}:flags=lanczos,setsar=1[sh];"
+    chain, last = wmtext.overlay_filter(texts, 2, '[sh]' if cfg.get('shake') else '[0:v]')
+    if cfg.get('shake'): chain = src + chain
     n0 = 2 + len(pngs); fx, labels = '', []
     for i, (e0, k, a, b) in enumerate(spans):        # the voices, in sync; the last talk span runs on through the drop word
         tail = 0.55 if i == len(talk) - 1 else 0.0

@@ -103,6 +103,13 @@ Tested Nov 4: #157 = clean instrumental, Middle-Eastern/Mediterranean, upbeat, b
 - FIX: post the VERTICAL version on TikTok too (ytshort.py at 30 fps), and keep edits short (Lindblad 13 s had the best
   TikTok retention: 59% at 2 s, 16% completion; and the best YouTube result).
 
+## TikTok test (Desmond, Nov 7) - FULL SCREEN, posted BY HAND
+- TikTok gets a FULL-SCREEN 9:16 file: no black bars, no title text (centre crop of the 16:9 source, 405x720 -> 540x960 =
+  1.33x, sharp; DEX_VERT=1 in edit_bk_norris_pole.py). The song stays in the edit (never send a silent edit).
+- YouTube keeps the band + title Short (ytshort.py) - it works there.
+- For 1-2 days Desmond posts TikTok BY HAND (so the trending sound can be attached in-app); Claude schedules YouTube only and
+  sends him the TikTok file + caption + poll question. Then compare views (were ~250-330 per post via Zernio).
+
 ## Trend 48 (Desmond's app, repo emailwhatsapp79-cloud/trend-48, Nov 6)
 Shows named songs moving on TikTok + YouTube Shorts (tokchart.com sounds/songs by country NG/US/UK/BR/PH, kabo.sh,
 charts.youtube.com SHORTS_TRACKS_BY_USAGE daily by market). tokchart.com answers 403 to plain requests from this container -
