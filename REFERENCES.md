@@ -449,3 +449,19 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
 **X1 (#161, @samster619 cat/seal meme, trending, Nov 6):** clean dance-pop vocal chop "What's up? / in a minute" (Gemini: no speech/SFX from another edit). Only 2 pictures, alternated every ~3.5 s with 0.5 s crossfades; the effect is a short, mild camera SHAKE (x+y jiggle) on every "What's up?" hit, nothing else - no zooms, no ramps. Lesson: the sound + shake carry it; the picture should *answer* the vocal - for F1, drivers looking into the lens / nodding at arrivals on "What's up?". Hits ≈ 0.0, 3.0, 6.6, 7.2, 7.8, 9.3 (whisper hears "Wasaba"). Keep to 14 s, loops.
 
 | auto | https://www.tiktok.com/@useheadset_/video/7697649569034734868?_r=1&_t=ZN-9BDJNAQxJGY | @useheadset_: FUNK LOADING - Slowed (Brazilian Phonk 2026) Heavy Bass & Reverb FUNK LOADING (Slowed) – B | sound saved as library #162 (123 BPM, drop ≈ 1.0s) |
+| auto | https://www.tiktok.com/@vibebassxy/video/7701765663303519506?_r=1&_t=ZN-9BDQsfJ5ElK | @vibebassxy: this song  >>> Spotify playlist in bio! #songs #slowedsongs #funk #fyp #slowed  | sound saved as library #163 (108 BPM, drop ≈ 15.0s) |
+| auto | https://www.tiktok.com/@fa_ith86/video/7704806961501523221?_r=1&_t=ZN-9BDQx31SliY | @fa_ith86: #CapCut  | sound saved as library #164 (122 BPM, drop ≈ 8.5s) |
+| auto | https://www.tiktok.com/@f1edits.ae/video/7681633439421943062?_r=1&_t=ZN-9BDQziQC3Ow | @f1edits.ae: WE ARE BACK IN MONZA🇮🇹 // #f1 #monza #italy #f1edit #fyp  | sound saved as library #165 (126 BPM, drop ≈ 15.0s) |
+
+**Y1 - PEAK F1 EDIT (@f1edits.ae "WE ARE BACK IN MONZA", sound #165, Desmond Nov 7):** the "moment, then the edit" format done right.
+- 0-13 s BUILD: race-day commentary ("This is Monza, and today the century-old circuit welcomes the F1 world championship...
+  here come the five red lights... and the Italian Grand Prix is - GO!") over ESTABLISHING shots (crowd from above, the Monza
+  sign, aerial of the track, flags, empty grid, a driver waving at fans). Every commentary word is on screen as glowing white
+  text, 1-3 words per cut, one cut per phrase; mild shake on each cut. The song is barely audible underneath from ~8 s.
+- 13 s DROP = the word "GO!" + the lights going out: the song slams in full, a black LETTERBOX appears, text stops, and it is
+  wheel-to-wheel battles on every beat (~1 s each) with hard beat-synced shakes, short white flashes, slight zoom punches and
+  speed ramps; vivid high-contrast grade.
+- Lessons: (1) the drop must land on the commentary's payoff word AND the biggest visual moment (lights out) together;
+  (2) build with place + atmosphere before the action (it tells you where/what is at stake); (3) letterbox + harder shakes
+  after the drop make it feel like a film. Use this for the Brazil race edit ("lights out and away we go" = the drop).
+- #165 is the edit's own audio (commentary on top) - use the song only after 13 s, or take the commentary from our own footage.
