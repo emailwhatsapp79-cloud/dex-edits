@@ -167,6 +167,7 @@
 | 163 | 163_look_at_me_now_zess_j5ytee_chillznyc | (Gemini: CLEAN, beat from 0:00, "shine a body go / I wanna ride") "look at me now zess j5ytee chillznyc – 5" (from @vibebassxy: this song  >>> Spotify playlist in bio! #songs #slowedsongs #funk #fyp #slowed ) | 108 | 22.9s | biggest energy jump (drop) ≈ 15.0s · strongest hits 9.84 18.32 19.84 20.54 21.79 22.76 · added automatically |
 | 164 | 164_son_original_trinix | (Hindi/Urdu devotional, beat at 8.0; line at 11-13 s "tu de har gaali pe gaali" = abuse for abuse - avoid that bar) "son original – TRINIX" (from @fa_ith86: #CapCut ) | 122 | 17.6s | biggest energy jump (drop) ≈ 8.5s · strongest hits 1.12 5.92 8.38 8.75 10.10 11.70 · added automatically |
 | 165 | 165_playing_dirty_by_alli_kate_unrelease | (has the ref edit's Monza COMMENTARY on top until ~13 s; song drop at 13.0) "Playing Dirty by Alli Kate UNRELEASE – allikatevault" (from @f1edits.ae: WE ARE BACK IN MONZA🇮🇹 // #f1 #monza #italy #f1edit #fyp ) | 126 | 24.9s | biggest energy jump (drop) ≈ 15.0s · strongest hits 0.03 4.54 4.79 16.46 18.36 22.17 · added automatically |
+| 166 | 166_funk_adelante_slowed | "FUNK ADELANTE - Slowed – Rythmoooo" (from @f1szn41: kimi Antonelli is a world champion 🏆🏆 // #kimiantonelliedit #f1 #fyp #viral #wdc // © COPY) | 130 | 14.3s | biggest energy jump (drop) ≈ 3.0s · strongest hits 3.47 6.45 8.36 9.28 10.35 13.28 · added automatically |
 
 ## Lyrics with timestamps (seconds)
 
@@ -407,3 +408,5 @@
 **163_look_at_me_now_zess_j5ytee_chillznyc:** `0.00` Out!
 
 **165_playing_dirty_by_alli_kate_unrelease:** `0.00` This `0.62` is `1.08` Monza, `2.02` and `2.30` today `2.70` the `3.02` Central `3.40` Circuit `4.10` welcomes `4.70` back `5.02` the `5.42` Formula `5.74` 1 `6.06` World `6.36` Championship. `7.18` Here `7.30` come `7.70` the `8.02` 5 `8.44` red `8.80` lights `9.22` in `9.56` Monza, `10.34` and `10.46` the `10.60` Italian `11.12` Grand `11.46` Prix `11.92` is `12.40` go!
+
+**166_funk_adelante_slowed:** `0.00` Kimi `0.54` Antonelli `1.74` is `2.18` the `2.36` Formula `2.78` One `3.46` World `4.38` Champion!

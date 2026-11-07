@@ -336,3 +336,9 @@ edit - different footage, different story. It CAN run on two or three posts in a
 own edit and the sound is trending. Ride a trending sound while it is hot.
 SHAKE ON THE HIT (ref X1): a short mild jiggle (0.95 crop moving ~20 px, 0.28 s, decaying) on each vocal hit / cut - see
 edit_bi_brazil_arrivals.py.
+
+
+## HERO EDIT FORMAT - 3:4 POSTER (Desmond, Nov 7, ref Z1)
+For a one-driver hype edit: 3:4 portrait, tight crops on the hero, RGB split + flash on every cut, a colour tint per shot,
+grain, a cut on every beat after a short commentary line. Desmond REJECTED the plain full-screen 9:16 centre crop (Nov 7)
+- it looked like a cut-down widescreen. Use 3:4 hero framing or the band + title layout, never a blind centre crop.

@@ -465,3 +465,16 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
   (2) build with place + atmosphere before the action (it tells you where/what is at stake); (3) letterbox + harder shakes
   after the drop make it feel like a film. Use this for the Brazil race edit ("lights out and away we go" = the drop).
 - #165 is the edit's own audio (commentary on top) - use the song only after 13 s, or take the commentary from our own footage.
+
+| auto | https://www.tiktok.com/@f1szn41/video/7703678795970055446?_r=1&_t=ZN-9BDbI87qAju | @f1szn41: kimi Antonelli is a world champion 🏆🏆 // #kimiantonelliedit #f1 #fyp #viral #wdc // © COPY | sound saved as library #166 (130 BPM, drop ≈ 3.0s) |
+
+**Z1 - KIMI "WORLD CHAMPION" STYLE EDIT (@f1szn41, sound #166 Funk Adelante slowed, Desmond Nov 7 - "this kind is good, not full phone screen"):**
+- FRAME: 3:4 PORTRAIT (1080x1440), not 9:16. Every shot cropped TIGHT on the driver (face, upper body, helmet, trophy) - one
+  hero only. TikTok shows it big with small bars, it feels like a poster.
+- 0-3 s: commentary "Kimi Antonelli is the Formula One world champion" over podium shots -> drop at 3.0 -> a cut on EVERY beat
+  (0.5-1 s), ends holding his face looking into the lens.
+- LOOK: RGB split / chromatic aberration on almost every shot, a flash (white or tinted) on every cut, small zoom punches and
+  shakes on hits, a different colour tint per shot (red/pink, green/teal, mono), light film grain, motion blur ONLY on the
+  transition frames. Small gothic watermark.
+- For us (720p F1 sources): crop 540x720 (3:4) -> 720x960 = 1.33x, sharp. Keep the footage itself sharp; the blur lives only
+  in the 2-4 transition frames between shots (EDITING_RULES §0 still holds for the shots).
