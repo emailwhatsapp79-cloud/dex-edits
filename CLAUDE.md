@@ -40,6 +40,10 @@ Zernio accounts: TikTok dex_edit0 = 6aea02e372766ee660c00d1b, YouTube dexedits-z
 accounts free, unlimited posts - never connect a 3rd). Media = the public GitHub raw URL below (check its size first).
 posts_create with schedule_minutes; timezone Africa/Lagos (Zernio shows UTC).
 POLL COMMENT FORMAT (Desmond, Nov 7): the QUESTION ONLY, e.g. "Quick poll 👇 Does Lewis win another race before he retires?" - no "Reply ✅ YES or ❌ NO" options typed after it.
+REPLY TO COMMENTS (Desmond, Nov 8): after every post (at the poll-comment check-in, and again at the next check-in) list new
+viewer comments on the last few posts (comments_list_inbox_comments + comments_get_inbox_post_comments) and reply to each one
+not yet answered: short, fun, like a fan (1 line, an emoji at most two), never argue, never fake facts. Liked comments first.
+Zernio cannot LIKE comments - Desmond does that in the app.
 COMMENTS (Desmond, Nov 3 - posts stall with likes but no comments): Desmond adds a TikTok comment POLL by hand when each post
 goes live (app-only feature) and pins it. On YOUTUBE Claude posts a "Quick poll 👇 ... Reply 🔴 X or 🔵 Y" text comment ~7 min
 after each post goes live on TikTok AND YouTube (Zernio comments_reply_to_inbox_post) - it worked (replies within the hour, Nov 3).
