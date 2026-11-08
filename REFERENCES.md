@@ -478,3 +478,5 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
   transition frames. Small gothic watermark.
 - For us (720p F1 sources): crop 540x720 (3:4) -> 720x960 = 1.33x, sharp. Keep the footage itself sharp; the blur lives only
   in the 2-4 transition frames between shots (EDITING_RULES §0 still holds for the shots).
+
+| auto | https://www.tiktok.com/@nguyenvantu2k10605/video/7701893807050198280?_r=1&_t=ZN-9BEL73ECiX8 | @nguyenvantu2k10605: #xuhuong #dij #mini3  | sound saved as library #167 (98 BPM, drop ≈ 1.0s) |
