@@ -342,3 +342,9 @@ edit_bi_brazil_arrivals.py.
 For a one-driver hype edit: 3:4 portrait, tight crops on the hero, RGB split + flash on every cut, a colour tint per shot,
 grain, a cut on every beat after a short commentary line. Desmond REJECTED the plain full-screen 9:16 centre crop (Nov 7)
 - it looked like a cut-down widescreen. Use 3:4 hero framing or the band + title layout, never a blind centre crop.
+
+## A WIN NEEDS THE CELEBRATION + THE WHOLE RACE (Desmond, Nov 8 - "missing passion... where's the celebration...
+## why are you removing the Red Bull footage")
+A race-winner edit is not "only the winner's car". After the drop: the race story on the beat (start, the big moves, the
+lead change, the charge from the back - other teams' cars and onboards INCLUDED), then the finish line, the team going wild,
+the podium, and the winner's own emotional words to close. Never cut a strong shot just because it isn't the winner.
