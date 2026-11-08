@@ -98,7 +98,7 @@ def render(cfg, scratch, out):
     for i, (_, _, w) in enumerate(texts):
         p = os.path.join(tmp, f'c{i:02d}.png')
         pngs.append(wmtext.word_png(w, W, H, p, size=int(H * cfg.get('big_size', 0.13))) if w == big else glow_png(w, W, H, p, size, cy))
-    cmd = ['ffmpeg', '-v', 'error', '-y', '-i', vid, '-ss', f'{off:.3f}', '-i', cfg['song']]
+    cmd = ['ffmpeg', '-v', 'error', '-y', '-i', vid, '-ss', f'{max(0.0, off):.3f}', '-i', cfg['song']]
     for p in pngs: cmd += ['-loop', '1', '-framerate', str(FPS), '-t', f'{END:.3f}', '-i', p]
     src = '[0:v]'
     if cfg.get('shake'):
@@ -123,7 +123,8 @@ def render(cfg, scratch, out):
         fx += (f"[{n1 + j}:a]aformat=channel_layouts=stereo,afade=t=out:st=0.3:d=0.3,volume=1.5,adelay={int(at * 1000)}|{int(at * 1000)}[x{j}];")
         labels.append(f'[x{j}]')
     o_start = end_beats if outro else END + 1
-    fx += (f"[1:a]atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),{cfg.get("intro_song", 0.3)},if(gt(t,{o_start:.3f}),0.3,1.0))':eval=frame,"
+    pre = f"adelay={int(-off * 1000)}|{int(-off * 1000)}," if off < 0 else ''   # song starts AT the drop (its bar 1 = the drop)
+    fx += (f"[1:a]{pre}atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),{cfg.get("intro_song", 0.3)},if(gt(t,{o_start:.3f}),0.3,1.0))':eval=frame,"
            f"afade=t=out:st={END - 0.4:.3f}:d=0.4[song];[song]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0,alimiter=limit=0.85[a]")
     subprocess.run(cmd + ['-filter_complex', chain + fx, '-map', last, '-map', '[a]', '-t', f'{END:.3f}', '-r', str(FPS),
                           '-c:v', 'libx264', '-crf', '12', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '256k', out], check=True)
