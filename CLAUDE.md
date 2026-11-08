@@ -113,6 +113,12 @@ Tested Nov 4: #157 = clean instrumental, Middle-Eastern/Mediterranean, upbeat, b
 - For 1-2 days Desmond posts TikTok BY HAND; Claude schedules YouTube only and sends him the TikTok file + caption + poll
   question. Then compare views (were ~250-330 per post via Zernio).
 
+## TikTok Studio test week (Desmond, Nov 8)
+TikTok's API has no native scheduling (Zernio holds the post and fires it on time, so TikTok shows nothing as scheduled).
+From the Nov 9 batch Desmond schedules TikTok himself in TikTok Studio (web, up to 10 days ahead, trending sound attached
+in-app). Claude schedules YouTube in Zernio and gives Desmond ONE list: file link, date/time, caption, poll question per post.
+Compare that week's TikTok views with the ~250-290 cap of Zernio/API posts. If no better -> back to fully automatic Zernio.
+
 ## Trend 48 (Desmond's app, repo emailwhatsapp79-cloud/trend-48, Nov 6)
 Shows named songs moving on TikTok + YouTube Shorts (tokchart.com sounds/songs by country NG/US/UK/BR/PH, kabo.sh,
 charts.youtube.com SHORTS_TRACKS_BY_USAGE daily by market). tokchart.com answers 403 to plain requests from this container -
