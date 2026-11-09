@@ -40,12 +40,13 @@ def ask(path):
             try: j = json.loads(r.stdout)
             except Exception: j = {}
             if 'candidates' in j: return j['candidates'][0]['content']['parts'][0]['text']
-            time.sleep(15 * (i + 1))
+            time.sleep(30 * (i + 1))
         return 'Gemini unavailable: ' + r.stdout[:200]
     finally:
         os.remove(req)
 
 
 if __name__ == '__main__':
-    for p in sys.argv[1:]:
+    for i, p in enumerate(sys.argv[1:]):
+        if i: time.sleep(65)                  # the free key allows only so many video tokens per minute
         print(f'===== {os.path.basename(p)}\n{ask(p)}\n', flush=True)
