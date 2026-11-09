@@ -47,7 +47,7 @@ A post below these after 48 h = study why (first second? story? sound?) and writ
 | Week | TikTok followers | TikTok views (week) | YT subs | YT views (week) | Likes (both) | Comments (both) | Best post |
 |---|---|---|---|---|---|---|---|
 | Start Nov 4 | 5 | – | 46 | – | – | – | Antonelli champion (TT 992 views, YT 1,319) |
-| Nov 9 | | | | | | | |
+| Nov 9 | 7 | ~3,000 (12 posts, ~250 each) | 62 | ~70,500 (126,302 lifetime) | YT 2,851 + TT ~340 | YT ~68 + TT ~15 | Lindblad 'easily' YT 32,525 / Antonelli 'Ascari' YT 12,758 |
 | Nov 16 | | | | | | | |
 | Nov 23 | | | | | | | |
 | Nov 30 | | | | | | | |
