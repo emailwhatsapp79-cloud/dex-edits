@@ -70,7 +70,7 @@ CFG = {
                ('r', 19.92, '|LAWSON GETS BY.'), ('r', 35.74, '|LAWSON,'), ('r', 36.04, 'SO OPPORTUNISTIC.'), ('r', 37.90, '|BRAVE FROM THIRD.'),
                ('r', 39.30, "|HE'S GOT A POINT"), ('r', 39.90, 'TO PROVE,'), ('r', 40.30, "HASN'T HE?")],
         outro=('li', 43.15, 45.75, [('li', 43.32, '|HONESTLY,'), ('li', 44.00, 'JUST TRYING'), ('li', 44.48, '|TO ENJOY DRIVING'), ('li', 45.10, 'AT THE MOMENT.')],
-               [('r', 401.00, 1.2), ('li', 44.35, 0.6), ('r', 118.00, 99)])),
+               [('r', 401.00, 1.2), ('li', 44.35, 0.6), ('r', 117.60, 99)]), outro_song=0.12, outro_voice=3.2, hold=2.6, vfade=1.2),
     'russell': dict(song=song('167'), drop=0.0, beat=60 / 98, big=('NIGHTMARE.', 4),
         talk=[('r', 178.70, 183.85, 0), ('r', 193.40, 194.30, 0)],
         after=[(2, 'r', 162.50, 164.00), (2, 'r', 188.50, 191.46), (2, 'r', 196.00, 202.60), (4, 'r', 199.50, 202.60)],

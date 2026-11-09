@@ -61,12 +61,14 @@ def build_song(cfg, pre, post, out):
     have = D - SF
     if have >= pre:
         a = y[int((D - pre) * sr):int(D * sr)]
-    else:
-        unit_beats = max(1, int(have / b) // 4 * 4) if have >= 4 * b else max(1, int(have / b))
-        U = unit_beats * b
-        loop = y[int((D - U) * sr):int(D * sr)]
-        a = tile(loop, int(pre * sr) + len(loop))[-int(pre * sr):]
-        a[-len(loop):] = loop[-len(a[-len(loop):]):]          # the last pass is the untouched lead-in to the drop
+    elif have >= 2 * b:                       # a short intro: loop its last whole beats/bars, ending exactly on the drop
+        unit_beats = int(have / b) // 4 * 4 if have >= 4 * b else int(have / b)
+        loop = y[int((D - unit_beats * b) * sr):int(D * sr)]
+        a = tile(loop, int(pre * sr))
+        a = a[len(a) - int(pre * sr):]
+    else:                                      # no intro at all (the song starts on its beat): loop its first 2 bars
+        loop = y[int(SF * sr):int((SF + 8 * b) * sr)]
+        a = tile(loop, int(pre * sr))[:int(pre * sr)]
     # AFTER the drop
     left = len(y) / sr - D
     if left >= post:
@@ -167,7 +169,7 @@ def render(cfg, scratch, out):
         tail = 0.55 if i == len(talk) - 1 else (cfg.get('otail', 0.12) if i >= len(talk) else 0.2)   # a breath after every span: no clipped last word
         cmd += ['-ss', f'{a:.3f}', '-t', f'{b - a + tail:.3f}', '-i', F[k]]
         fx += (f"[{n0 + i}:a]aformat=channel_layouts=stereo,highpass=f=90,afade=t=in:d=0.03,afade=t=out:st={b - a + tail - 0.12:.3f}:d=0.12,"
-               f"volume={cfg.get('voice', 1.8)},adelay={int(e0 * 1000)}|{int(e0 * 1000)}[v{i}];")
+               f"volume={cfg.get('outro_voice', 2.6) if i >= len(talk) else cfg.get('voice', 1.8)},adelay={int(e0 * 1000)}|{int(e0 * 1000)}[v{i}];")
         labels.append(f'[v{i}]')
     n1 = n0 + len(spans)
     for j, (idx, o) in enumerate(cfg.get('hits', [])):
