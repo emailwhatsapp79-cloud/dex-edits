@@ -23,7 +23,9 @@ CFG = dict(name='norriswin', song=glob.glob(os.path.join(SONGS, '162_*.mp3'))[0]
     # v2 (Desmond: "missing passion... where's the celebration... why remove the Red Bull footage"): the whole race on the
     # beat - start, Lawson's lap-1 move, Kimi spinning out of the lead, Max's charge, Hadjar's Red Bull - then Lando
     # crossing the line, the crew going crazy, the podium, and his own words to close.
-    outro=('ni', 49.82, 51.58, [('ni', 49.86, '|PROBABLY ONE OF THE BEST WINS'), ('ni', 50.98, "|I'VE HAD.")]))
+    outro=('ni', 49.82, 57.75, [('ni', 49.86, '|PROBABLY ONE OF THE BEST WINS'), ('ni', 50.98, "|I'VE HAD."),
+                                 ('ni', 51.74, '|IT WAS ENJOYABLE,'), ('ni', 53.98, '|A CONSTANT CHALLENGE,'),
+                                 ('ni', 55.28, '|BUT PROBABLY ONE OF'), ('ni', 56.56, '|THE MOST REWARDING.')]))
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 30))
