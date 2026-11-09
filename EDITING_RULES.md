@@ -391,3 +391,6 @@ subtitle lines. Post captions: one short hype line + " // " + 3-4 hashtags (e.g.
    voice the song sits at 0.18 so the words are clear.
 8. On-screen words from whisper: fix names (CHARLES LECLERC, ALBON, HADJAR, INTERLAGOS...), never end a line on a hanging
    word (SO / THE / AND...). Race-feed shots: crop the timing tower off (crop=1088:612:176:54, 1.18x, race feed only).
+9. CHECK A SONG'S FIRST SECONDS FOR SOMEONE ELSE'S VOICE (Nov 9: #166 starts "Kimi Antonelli is the Formula One World
+   Champion!" - it leaked into the Mercedes and Lawson edits). Whisper the first 6 s of every new sound; if there is a
+   voiceover, set song_from past it. A story edit shows ONLY its hero (Gemini: Hamilton edit had Max/other onboards).
