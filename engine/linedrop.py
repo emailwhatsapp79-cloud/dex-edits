@@ -51,11 +51,12 @@ def render(cfg, scratch, out):
     tmp = os.path.join(scratch, 'tmp_' + cfg['name']); os.makedirs(tmp, exist_ok=True)
     parts, t = [], 0.0
 
-    def clip(k, s, d, name):
+    def clip(k, s, d, name, speed=1.0):
         n = round((t + d) * FPS) - round(t * FPS); p = os.path.join(tmp, name)
+        slow = f'setpts=PTS/{speed},' if speed != 1.0 else ''   # slow motion (50 fps sources): a moment plays out longer
         crop = cfg.get('crop', '') if k in cfg.get('crop_keys', [k]) else ''
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{s:.3f}', '-i', F[k], '-frames:v', str(n), '-an', '-vf',
-                        f'fps={FPS},{crop + "," if crop else ""}scale={W}:{H},{GRADE},setsar=1', '-c:v', 'libx264', '-crf', '12',
+                        f'{slow}fps={FPS},{crop + "," if crop else ""}scale={W}:{H},{GRADE},setsar=1', '-c:v', 'libx264', '-crf', '12',
                         '-preset', 'fast', '-pix_fmt', 'yuv420p', p], check=True)
         parts.append(p)
 
@@ -70,9 +71,9 @@ def render(cfg, scratch, out):
         k, a, b = outro[:3]; spans.append((t, k, a, b))
         pics = outro[4] if len(outro) > 4 else [(k, a, b - a)]       # outro voice can play OVER other shots (the celebration)
         rest = b - a
-        for j, (pk, ps, pd) in enumerate(pics):
+        for j, (pk, ps, pd, *sp) in enumerate(pics):               # optional 4th value = speed (0.6 = slow motion)
             d = rest + HOLD if j == len(pics) - 1 else pd
-            clip(pk, ps, d, f'z{j}.mp4'); t += d; rest -= d
+            clip(pk, ps, d, f'z{j}.mp4', sp[0] if sp else 1.0); t += d; rest -= d
     lst = os.path.join(tmp, 'list.txt'); open(lst, 'w').write(''.join(f"file '{x}'\n" for x in parts))
     vid = os.path.join(tmp, 'video.mp4')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', vid], check=True)

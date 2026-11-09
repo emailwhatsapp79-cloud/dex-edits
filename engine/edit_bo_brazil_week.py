@@ -66,8 +66,11 @@ CFG = {
         talk=[('r', 17.30, 20.95, 0), ('r', 35.70, 40.70, 0)],
         after=[(2, 'r', 7.00, 10.30), (2, 'r', 114.00, 121.00), (2, 'r', 116.60, 121.00), (2, 'r', 381.40, 387.80),
                (2, 'r', 399.40, 404.00)],
-        outro=('li', 43.15, 47.62, [('li', 43.32, '|HONESTLY, JUST TRYING'), ('li', 44.48, '|TO ENJOY DRIVING'), ('li', 45.10, 'AT THE MOMENT.'), ('li', 45.86, '|THE CAR IS'), ('li', 46.72, 'IN A GREAT PLACE.')],
-               [('r', 401.00, 1.2), ('li', 44.35, 1.87), ('r', 7.90, 99)])),
+        words=[('r', 17.32, '|LAWSON'), ('r', 17.70, 'DOWN THE INSIDE,'), ('r', 18.30, '|AND NORRIS,'), ('r', 18.92, "|HE'S UP TO SECOND."),
+               ('r', 19.92, '|LAWSON GETS BY.'), ('r', 35.74, '|LAWSON,'), ('r', 36.04, 'SO OPPORTUNISTIC.'), ('r', 37.90, '|BRAVE FROM THIRD.'),
+               ('r', 39.30, "|HE'S GOT A POINT"), ('r', 39.90, 'TO PROVE,'), ('r', 40.30, "HASN'T HE?")],
+        outro=('li', 43.15, 45.75, [('li', 43.32, '|HONESTLY,'), ('li', 44.00, 'JUST TRYING'), ('li', 44.48, '|TO ENJOY DRIVING'), ('li', 45.10, 'AT THE MOMENT.')],
+               [('r', 401.00, 1.2), ('li', 44.35, 0.6), ('r', 118.00, 99)])),
     'russell': dict(song=song('167'), drop=0.0, beat=60 / 98, big=('NIGHTMARE.', 4),
         talk=[('r', 178.70, 183.85, 0), ('r', 193.40, 194.30, 0)],
         after=[(2, 'r', 162.50, 164.00), (2, 'r', 188.50, 191.46), (2, 'r', 196.00, 202.60), (4, 'r', 199.50, 202.60)],
@@ -95,6 +98,6 @@ if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 30))
     for name in sys.argv[1:]:
         cfg = dict(BASE, **CFG[name], name=name, fps=fps)
-        cfg['words'] = words(cfg['talk'])
+        cfg['words'] = cfg.get('words') or words(cfg['talk'])
         out, drop, end = linedrop.render(cfg, S, os.path.join(S, 'out', f'bo_{name}_{fps}.mp4'))
         print(out, f'drop {drop:.2f} end {end:.2f}', flush=True)
