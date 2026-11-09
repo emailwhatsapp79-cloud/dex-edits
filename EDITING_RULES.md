@@ -380,3 +380,9 @@ Every closing quote (outro) is built like the approved Norris win (edit_bm, v5):
 On-screen words: ONE word or short phrase per cut, big bold caps, white with a soft dark shadow, centred on the subject,
 fading in/out on the cut; key words (place names, the payoff) in colour (country colours / gold glow). Not long 3-6 word
 subtitle lines. Post captions: one short hype line + " // " + 3-4 hashtags (e.g. "LANDO DOES IT AGAIN🏆🔥 // #f1 #norris #f1edit #fyp").
+5. END ON A MOMENT, NOT A FACE (Gemini QC + Desmond, Nov 9): outro pictures = action (1.2 s, voice starts) -> the speaker
+   -> a closing moment (podium / team celebrating / the pass itself) for the last ~1.4 s + the 1 s hold. Talking head last
+   = feels abrupt even when the sentence is complete.
+6. Every finished edit goes through BOTH checks before sending/scheduling: engine/qc_end.py (whisper: last word complete,
+   >= 0.7 s after it) and engine/qc_gemini.py (Gemini watches + listens: endings, cut words, graphics, blur, story, score,
+   VERDICT). Fix every FAIL first.
