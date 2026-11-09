@@ -45,7 +45,8 @@ def render(cfg, scratch, out):
     beat = lambda k: drop_e + k * cfg['beat']
     after = cfg['after']; outro = cfg.get('outro')
     end_beats = beat(sum(n for n, *_ in after))
-    END = end_beats + ((outro[2] - outro[1]) if outro else 0)
+    HOLD = cfg.get('hold', 1.0) if outro else 0.0          # picture + song keep going after the last word (never end ON it)
+    END = end_beats + ((outro[2] - outro[1]) if outro else 0) + HOLD
     tmp = os.path.join(scratch, 'tmp_' + cfg['name']); os.makedirs(tmp, exist_ok=True)
     parts, t = [], 0.0
 
@@ -69,7 +70,7 @@ def render(cfg, scratch, out):
         pics = outro[4] if len(outro) > 4 else [(k, a, b - a)]       # outro voice can play OVER other shots (the celebration)
         rest = b - a
         for j, (pk, ps, pd) in enumerate(pics):
-            d = rest if j == len(pics) - 1 else pd
+            d = rest + HOLD if j == len(pics) - 1 else pd
             clip(pk, ps, d, f'z{j}.mp4'); t += d; rest -= d
     lst = os.path.join(tmp, 'list.txt'); open(lst, 'w').write(''.join(f"file '{x}'\n" for x in parts))
     vid = os.path.join(tmp, 'video.mp4')
@@ -98,7 +99,7 @@ def render(cfg, scratch, out):
     texts = build(cfg['words'], drop_e - 0.001)
     big, nb = cfg['big']
     texts.append((drop_e, beat(nb) - 0.02, big))
-    if outro: texts += build(outro[3], END - 0.05)
+    if outro: texts += build(outro[3], END - HOLD + 0.4)
     size, cy = cfg.get('cap', (48, 0.6))
     pngs = []
     for i, (_, _, w) in enumerate(texts):
@@ -117,7 +118,7 @@ def render(cfg, scratch, out):
     if cfg.get('shake'): chain = src + chain
     n0 = 2 + len(pngs); fx, labels = '', []
     for i, (e0, k, a, b) in enumerate(spans):        # the voices, in sync; the last talk span runs on through the drop word
-        tail = 0.55 if i == len(talk) - 1 else 0.0
+        tail = 0.55 if i == len(talk) - 1 else (0.35 if i >= len(talk) else 0.2)   # a breath after every span: no clipped last word
         cmd += ['-ss', f'{a:.3f}', '-t', f'{b - a + tail:.3f}', '-i', F[k]]
         fx += (f"[{n0 + i}:a]aformat=channel_layouts=stereo,highpass=f=90,afade=t=in:d=0.03,afade=t=out:st={b - a + tail - 0.12:.3f}:d=0.12,"
                f"volume={cfg.get('voice', 1.8)},adelay={int(e0 * 1000)}|{int(e0 * 1000)}[v{i}];")
@@ -130,7 +131,7 @@ def render(cfg, scratch, out):
         labels.append(f'[x{j}]')
     o_start = end_beats if outro else END + 1
     pre = f"adelay={int(-off * 1000)}|{int(-off * 1000)}," if off < 0 else ''   # song starts AT the drop (its bar 1 = the drop)
-    fx += (f"[1:a]{pre}atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),{cfg.get("intro_song", 0.3)},if(gt(t,{o_start:.3f}),0.3,1.0))':eval=frame,"
+    fx += (f"[1:a]{pre}atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),{cfg.get("intro_song", 0.3)},if(gt(t,{END - HOLD + 0.3:.3f}),0.8,if(gt(t,{o_start:.3f}),0.3,1.0)))':eval=frame,"
            f"afade=t=out:st={END - cfg.get('fade', 0.4):.3f}:d={cfg.get('fade', 0.4)}[song];[song]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0,alimiter=limit=0.85[a]")
     subprocess.run(cmd + ['-filter_complex', chain + fx, '-map', last, '-map', '[a]', '-t', f'{END:.3f}', '-r', str(FPS),
                           '-c:v', 'libx264', '-crf', '12', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '256k', out], check=True)
