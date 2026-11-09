@@ -39,6 +39,10 @@ Scheduling goes through the ZERNIO connector (since Nov 3 2026; Metricool's free
 Zernio accounts: TikTok dex_edit0 = 6aea02e372766ee660c00d1b, YouTube dexedits-z3p = 6aea02c8e64468f4036068d9 (first 2
 accounts free, unlimited posts - never connect a 3rd). Media = the public GitHub raw URL below (check its size first).
 posts_create with schedule_minutes; timezone Africa/Lagos (Zernio shows UTC).
+CAPTION CALL TO ACTION (Desmond, Nov 9 - subs are the weakest goal): every caption ends with
+"subscribe for an F1 edit every day 🏁" (YouTube) / "follow for an F1 edit every day 🏁" (TikTok), before the hashtags.
+STATS: when reporting likes/views use the LIFETIME channel totals from analytics (source=all, all posts) - not only the
+Zernio-posted ones (Nov 9 Desmond caught "2,851 likes" when the channel had 4,430).
 POLL COMMENT FORMAT (Desmond, Nov 7): the QUESTION ONLY, e.g. "Quick poll 👇 Does Lewis win another race before he retires?" - no "Reply ✅ YES or ❌ NO" options typed after it.
 REPLY TO COMMENTS (Desmond, Nov 8): after every post (at the poll-comment check-in, and again at the next check-in) list new
 viewer comments on the last few posts (comments_list_inbox_comments + comments_get_inbox_post_comments) and reply to each one
