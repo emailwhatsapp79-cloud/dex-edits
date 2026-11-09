@@ -352,3 +352,8 @@ the podium, and the winner's own emotional words to close. Never cut a strong sh
 ## NEVER CUT A SPEAKER MID-THOUGHT (Desmond, Nov 9 - "looks incomplete, he was saying something")
 An outro/quote ends where the speaker's sentence or thought ends, even if the edit runs past 16 s. Short is the target,
 but a cut-off voice feels broken. If the full thought is too long, pick a different quote that ends cleanly.
+
+## END WELL - NO HALF THINGS (Desmond, Nov 9 - "the celebration should celebrate well before you cut")
+Every edit ends on a COMPLETE moment: the celebration/podium shot holds >= ~2 s (4-5 beats, not 2), the last voice line is a
+full sentence, and the song fades over ~1 s (linedrop fade=1.0). Prefer closing on the driver's own words (Norris "one of the
+most rewarding", Max "starting P21 and finishing second", Lawson "the car is in a great place").
