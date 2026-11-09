@@ -13,13 +13,15 @@ render(cfg) - cfg keys:
   cap (size, cy)                 spoken-word text size and height (0.6 = 40 % up from the bottom)
   hits [(after_index, offset)]   that shot's own sound laid on the song at the cut (+offset)
   intro_song                     song level before the drop (0.3 = under the voice; 0 = the moment plays raw, no music)
-  shake                          True: a short mild camera shake on the drop and every cut after it (ref X1/Y1)"""
+  shake                          True: a short mild camera shake on the drop and every cut after it (ref X1/Y1) - only
+                                 during the 0.28 s hit; the rest of the edit keeps its native pixels (no 0.94 crop upscale)
+  grade                          look.GRADES key: 'cine' (default, AA1 dark F1 look), 'pop' (AA2/AA3 bright "4k"), 'clean'
+  caps                           'solid' (default, AA1 bold italic white) | 'glow' (the old see-through text)"""
 import os, subprocess
-import wmtext
+import wmtext, look
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np
 
-GRADE = 'eq=contrast=1.06:saturation=1.10'
 
 
 def glow_png(text, W, H, out, size=48, cy=0.6):
@@ -102,7 +104,7 @@ def render(cfg, scratch, out):
         slow = f'setpts=PTS/{speed},' if speed != 1.0 else ''   # slow motion (50 fps sources): a moment plays out longer
         crop = cfg.get('crop', '') if k in cfg.get('crop_keys', [k]) else ''
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{s:.3f}', '-i', F[k], '-frames:v', str(n), '-an', '-vf',
-                        f'{slow}fps={FPS},{crop + "," if crop else ""}scale={W}:{H},{GRADE},setsar=1', '-c:v', 'libx264', '-crf', '12',
+                        f'{slow}fps={FPS},{crop + "," if crop else ""}{look.scale(W, H)},{look.GRADES[cfg.get("grade", "cine")]},setsar=1', '-c:v', 'libx264', '-crf', '12',
                         '-preset', 'fast', '-pix_fmt', 'yuv420p', p], check=True)
         parts.append(p)
 
@@ -152,7 +154,10 @@ def render(cfg, scratch, out):
     pngs = []
     for i, (_, _, w) in enumerate(texts):
         p = os.path.join(tmp, f'c{i:02d}.png')
-        pngs.append(wmtext.word_png(w, W, H, p, size=int(H * cfg.get('big_size', 0.13))) if w == big else glow_png(w, W, H, p, size, cy))
+        if cfg.get('caps', 'solid') == 'glow':
+            pngs.append(wmtext.word_png(w, W, H, p, size=int(H * cfg.get('big_size', 0.13))) if w == big else glow_png(w, W, H, p, size, cy))
+        else:                                    # AA1: solid bold italic; the drop word big and centred
+            pngs.append(look.caption_png(w, W, H, p, int(H * cfg.get('big_size', 0.13)), 0.5) if w == big else look.caption_png(w, W, H, p, size, cy))
     cmd = ['ffmpeg', '-v', 'error', '-y', '-i', vid, '-ss', f'{max(SF, off):.3f}', '-i', cfg['song']]
     for p in pngs: cmd += ['-loop', '1', '-framerate', str(FPS), '-t', f'{END:.3f}', '-i', p]
     src = '[0:v]'
@@ -161,7 +166,9 @@ def render(cfg, scratch, out):
         sh = lambda amp, f, ph: '+'.join(f"between(t,{h:.3f},{h + 0.28:.3f})*{amp}*sin(2*PI*{f}*(t-{h:.3f})+{ph})*(1-(t-{h:.3f})/0.28)" for h in hits)
         cw, ch = int(W * 0.94) // 2 * 2, int(H * 0.94) // 2 * 2; mx, my = (W - cw) // 2, (H - ch) // 2
         a = max(6, W // 60)
-        src = f"[0:v]crop={cw}:{ch}:'{mx}+{sh(a, 18, 0)}':'{my}+{sh(a * 0.65, 23, 1.3)}',scale={W}:{H}:flags=lanczos,setsar=1[sh];"
+        on = '+'.join(f'between(t,{h:.3f},{h + 0.28:.3f})' for h in hits)   # the zoomed, shaking copy shows ONLY on the hits
+        src = (f"[0:v]split[base][z];[z]crop={cw}:{ch}:'{mx}+{sh(a, 18, 0)}':'{my}+{sh(a * 0.65, 23, 1.3)}',{look.scale(W, H)},setsar=1[zs];"
+               f"[base][zs]overlay=0:0:enable='{on}'[sh];")
     chain, last = wmtext.overlay_filter(texts, 2, '[sh]' if cfg.get('shake') else '[0:v]')
     if cfg.get('shake'): chain = src + chain
     n0 = 2 + len(pngs); fx, labels = '', []
@@ -182,7 +189,7 @@ def render(cfg, scratch, out):
     fx += (f"[1:a]{pre}atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),{cfg.get("intro_song", 0.3)},if(gt(t,{END - HOLD + 0.3:.3f}),0.7,if(gt(t,{o_start:.3f}),{cfg.get('outro_song', 0.18)},1.0)))':eval=frame,"
            f"afade=t=out:st={END - cfg.get('fade', 2.0):.3f}:d={cfg.get('fade', 2.0)}:curve=qsin[song];[song]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0,alimiter=limit=0.85[a]")
     vf = cfg.get('vfade', 0.6)                                   # the picture fades out with the music: a finished ending
-    chain += f"{last}fade=t=out:st={END - vf:.3f}:d={vf}[vend];"; last = '[vend]'
+    chain += f"{last}{look.SHARPEN},fade=t=out:st={END - vf:.3f}:d={vf}[vend];"; last = '[vend]'
     subprocess.run(cmd + ['-filter_complex', chain + fx, '-map', last, '-map', '[a]', '-t', f'{END:.3f}', '-r', str(FPS),
                           '-c:v', 'libx264', '-crf', '12', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '256k', out], check=True)
     return out, drop_e, END

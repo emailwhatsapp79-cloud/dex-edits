@@ -1,5 +1,25 @@
 # Editing rules (TikTok edits)
 
+## THE 4K LOOK - DEFAULT FOR EVERY EDIT (Desmond, Nov 9 - refs AA1-AA3 in REFERENCES.md)
+The "4k" edits with millions of views (@agoftbl France 9.4M, Lamine Yamal 12.4M) are only 720x1280 files. They look 4K
+because of how they are made, not the file size. Every edit now does all of this (engine/look.py, built into linedrop):
+1. **Best source available, used at native size or smaller.** F1: the FORMULA 1 YouTube highlights (1080p50) beat
+   formula1.com (720p max) - 2.25x the detail. Never stretch a picture: crops render at their own size (BO renders
+   1088x612, not 1280x720). One resize per shot, lanczos only (`look.scale`).
+2. **Shots that are sharp by nature:** close-ups and onboards - helmets, faces, hands, cockpit, garage, team boss
+   reactions, podium. Wide shots of small cars in rain spray turn to mush on a phone - use them only for a beat.
+3. **A real grade, not "light":** `grade='cine'` (AA1: crushed blacks, teal shadows, warm highlights, vignette) is the
+   default for F1 story edits; `grade='pop'` (AA2/AA3: bright, punchy, saturation ~1.5x) for celebration/hype edits.
+4. **Sharpen after the last resize** (`look.SHARPEN`, CAS 0.55) - edge contrast is what reads as "4K" after TikTok's encode.
+5. **Captions are solid and confident** (AA1): white, heavy italic capitals, soft shadow, 1-3 words at a time synced to
+   the voice, lower part of the frame (cy 0.78-0.8), the drop word big in the centre. NOT see-through, NOT a watermark
+   (`caps='solid'`, the default; `caps='glow'` is the old style, only on request).
+6. **Big frame on the phone:** the picture fills as much of the screen as the source allows. TikTok Studio (Nov 9): the
+   band-on-black post lost most viewers at 0:02 (2.9% finished) - the first frame must look full and sharp.
+   Occasional extra format (not daily): `look.turned()` = the 16:9 picture rotated 90 deg to fill the 9:16 screen at
+   native pixels ("turn your phone", AA2/AA3 style).
+
+
 Rules from Desmond's feedback. Follow every one of them on every edit.
 
 ## 0. HARD RULE - CLEAR AND SHARP, NO SIGN OF BLUR (Desmond, Oct 15: "every new edit must be clear and sharp")
@@ -84,7 +104,7 @@ An edit is a short story about ONE subject, not random clips put together.
   carries another app's logo (e.g. a TikTok download re-posted to YouTube).
 
 ## 4. Not every clip needs heavy effects
-- Use heavy effects (flash, shake, RGB split, blur) only on the drop and on key words.
+- Use heavy effects (flash, shake) only on the drop and on key words. No RGB split / blur effects (they smear in TikTok's encode).
 - Let the best shots breathe: clean, slower, minimal effects.
 
 ## 5. Quality
@@ -96,15 +116,6 @@ An edit is a short story about ONE subject, not random clips put together.
 ## 6. Sounds
 - The song library lives with the edit assets (see `songs/LIBRARY.md` in the assets folder). Re-use from it instead of asking for songs again.
 
-**LYRICS LOOK LIKE A WATERMARK (Desmond, Oct 23 - ref X9/X17/X13 jet edits):** every lyric edit shows the lyrics, one
-word per beat, but NOT as white Anton with a black border. The word sits INSIDE the picture like a watermark: a wide
-extended font, letters FILLED with an image/sky texture (or a soft gradient) at ~80-90% opacity, no outline, no shadow,
-medium size, centred. It reads as part of the shot, not a sticker on top. (BC Doomsday used the old sticker style.)
-**WHERE THE WORDS SIT (Desmond, Oct 27):** not dead centre and not a subtitle bar. The line's centre sits 40% up from the
-bottom (60% down from the top) - just below the middle, over the body/chest, not over the eyes. See-through (glow or
-texture fill, ~70-85%), so you watch the movie THROUGH the words. Never a solid white subtitle that blocks the picture,
-never a small caption in the black letterbox bar (Grok's "tremendous" did this - rejected). Ref T3 (Ultron/VisionQuest
-1.9M): the spoken words glow in the speaker's colour just under the face. wmtext.word_png(cy=0.6) is the default.
 **NEW FILMS PEOPLE WATCH, NOT A SONG SWAP (Desmond, Oct 27):** a movie edit is built new for its sound - the words, the
 punches and the story are chosen for THIS song. Never take an old edit's clips (Creed III / Equalizer 3 / John Wick 4 /
 The Batman, 2022-23) and drop a new song on top - rejected twice (Hard Times, Tremendous). Use what people are watching
@@ -194,8 +205,7 @@ the song and dip the song ~5 dB for 0.25 s so the hit punches through (engine/ed
 - **SHARPNESS (found Oct 14 - posts looked blurry):** never motion-interpolate real-speed shots (minterpolate smeared
   every frame: sharpness 875 -> 11 on one F1 shot); only slow-mo shots are interpolated now. Grain is 1/4 of before
   (grain turns to mush in TikTok's ~1.3 Mbps encode). Never upscale 720p more than ~1.2x: for 720p broadcast footage use
-  layout `window` (the 16:9 picture at 1080x608 = a downscale, over its own blur or black). Dark cinema grades need a
-  shadow lift for phones (edit W: gamma 0.68).
+  layout `window` (the 16:9 picture at 1080x608 = a downscale, over its own blur or black).
 
 - **SOURCE SHARPNESS GATE (Desmond, Oct 15 - "the edit is blurry", "even the posted ones"):** the blur was mostly the
   SOURCES: re-uploaded TikTok compilations of 2016-18 broadcasts are already upscaled (Laplacian sharpness 10-25), while
@@ -278,8 +288,8 @@ two locations into a spotting edit.
 - Never mix: one edit = one orientation, one source quality.
 - **DEFAULT FORMAT FROM OCT 17 (Desmond, after "The greatest show"): "all videos from now on should be like that".**
   Every new edit is HORIZONTAL 16:9 at the source's native size (engine/wideedit.py): 1920x1080 from 1080p/4K
-  sources (press films, trailers, Tesla 4K), 1280x720 from formula1.com. No crops, no upscale, words centred,
-  light grade, DEX EDITS mark. Already-scheduled vertical posts stay as they are (no re-renders unless asked).
+  sources (press films, trailers, Tesla 4K), 1280x720 from formula1.com. No crops, no upscale, the 4K LOOK grade +
+  captions (top of this file), DEX EDITS mark. Already-scheduled vertical posts stay as they are (no re-renders unless asked).
 - **Clarity first, orientation second (Desmond, Oct 17, ref N5):** horizontal is not the point - CLEAR is. Use the
   orientation the source was filmed in, at native size, in good light. Vertical native (1080x1920 phone/TikTok) and
   horizontal native (1080p/4K films) are both fine; crops/upscales are not.
@@ -334,13 +344,13 @@ then go back and tell the story. Target 60%+ stayed.
 A sound that is trending or already worked for us (e.g. #06 Lindblad 10k, #161 "What's up?") can be used again on a DIFFERENT
 edit - different footage, different story. It CAN run on two or three posts in a row (Desmond, Nov 6) as long as each is its
 own edit and the sound is trending. Ride a trending sound while it is hot.
-SHAKE ON THE HIT (ref X1): a short mild jiggle (0.95 crop moving ~20 px, 0.28 s, decaying) on each vocal hit / cut - see
-edit_bi_brazil_arrivals.py.
+SHAKE ON THE HIT (ref X1): a short mild jiggle (0.94 crop moving ~20 px, 0.28 s, decaying) on each vocal hit / cut - ONLY
+during the hit (linedrop overlays the zoomed copy just for those 0.28 s); the rest of the edit stays at native pixels.
 
 
 ## HERO EDIT FORMAT - 3:4 POSTER (Desmond, Nov 7, ref Z1)
-For a one-driver hype edit: 3:4 portrait, tight crops on the hero, RGB split + flash on every cut, a colour tint per shot,
-grain, a cut on every beat after a short commentary line. Desmond REJECTED the plain full-screen 9:16 centre crop (Nov 7)
+For a one-driver hype edit: 3:4 portrait, tight crops on the hero (native size, no upscale), a flash on every cut, the
+'pop' or 'cine' grade (4K LOOK), a cut on every beat after a short commentary line. Desmond REJECTED the plain full-screen 9:16 centre crop (Nov 7)
 - it looked like a cut-down widescreen. Use 3:4 hero framing or the band + title layout, never a blind centre crop.
 
 ## A WIN NEEDS THE CELEBRATION + THE WHOLE RACE (Desmond, Nov 8 - "missing passion... where's the celebration...

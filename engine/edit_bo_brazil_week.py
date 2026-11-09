@@ -43,7 +43,7 @@ def words(talk):
     return out
 
 
-BASE = dict(size=(1280, 720), files=FILES, cap=(46, 0.6), shake=True, crop='crop=1088:612:176:54', crop_keys=['r'])   # end well: last shot >= ~2 s, song fades 1 s
+BASE = dict(size=(1088, 612), files=FILES, cap=(46, 0.8), shake=True, crop='crop=1088:612:176:54', crop_keys=['r'])   # end well: last shot >= ~2 s, song fades 1 s
 CFG = {
     'kimi': dict(song=song('167'), drop=0.0, beat=60 / 98, big=('SO VERY, VERY SAD.', 4),
         talk=[('r', 228.30, 230.45, 0), ('r', 231.35, 235.05, 0, 'r', 230.30)],

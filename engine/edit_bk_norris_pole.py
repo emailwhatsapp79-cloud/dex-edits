@@ -24,7 +24,7 @@ CFG = dict(name='norrispole', song=glob.glob(os.path.join(SONGS, '162_*.mp3'))[0
 if VERT:
     CFG.update(size=(540, 960), crop='crop=405:720:437:0', cap=(40, 0.6), big_size=0.075)
 else:
-    CFG.update(size=(1280, 720), cap=(46, 0.6))
+    CFG.update(size=(1280, 720), cap=(46, 0.8))
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 30))

@@ -5,6 +5,10 @@ made with code. All Dex Edits work is committed and pushed HERE ONLY. Never push
 videos to `scamdecoded-media` – that repo belongs to a different channel (@scamdecoded).
 
 Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every edit needs a clear direction.
+THE 4K LOOK (EDITING_RULES top section, Nov 9) is the default for every edit: best source at native size (F1 = FORMULA 1
+YouTube highlights 1080p, not formula1.com 720p), close-up shots, the 'cine'/'pop' grade + CAS sharpen and solid bold
+italic captions from engine/look.py. TikTok Studio Nov 9: posts DO reach For You (98.6%) - viewers leave at 0:02, so the
+first frame must look full and sharp.
 HARD RULE (EDITING_RULES §0): every edit must be clear and sharp with no sign of blur - sharp official sources, no
 upscale over ~1.4x, no interpolation/blur effects, stills checked before rendering, 100% crops checked after. A soft
 edit is never scheduled.

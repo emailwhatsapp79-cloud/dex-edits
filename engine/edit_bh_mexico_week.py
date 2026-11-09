@@ -18,7 +18,7 @@ M = os.environ.get('DEX_MEX', os.path.join(S, 'mex'))
 SONGS = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'dex-edits-assets', 'songs')
 song = lambda n: glob.glob(os.path.join(SONGS, n + '_*.mp3'))[0]
 FILES = {k: os.path.join(M, k + '.mp4') for k in ('race', 'maxwin', 'quali', 'qend', 'hampole', 'lindint', 'lindcrash', 'season60', 'bologna')}
-BASE = dict(size=(1280, 720), files=FILES, cap=(46, 0.6))
+BASE = dict(size=(1280, 720), files=FILES, cap=(46, 0.8))
 
 CFG = {
     'max': dict(BASE, song=song('11'), drop=13.0, beat=0.7895, crop='crop=1070:602:105:118',   # lap 1 box off, 1.2x

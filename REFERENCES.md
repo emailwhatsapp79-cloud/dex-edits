@@ -490,3 +490,16 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
 - FRAME: 4:3 (1440x1080), cinematic soft grade + vignette, crowd/flags/legends (Senna banner, Lewis in a Brazil flag) before
   the cars - the PLACE and the PEOPLE first, then racing.
 - POST CAPTION: very short hype line + " // " + 3-4 hashtags: "F1 IS BACK IN BRAZILLL🇧🇷🔥 // #f1 #brazil #f1edit #fyp".
+
+## AA - the "4K look" (Nov 9)
+- **AA1** @81l_l184 "Simply Lovely #f1" (381k views, 62k likes, 68 s) - https://vm.tiktok.com/ZN8PL2cgf/ . Sao Paulo race
+  told through team radio. Only ~600 kbps on TikTok yet looks sharp: close-ups (helmets, onboards, garage, team boss),
+  crushed blacks + teal grade + vignette (avg luma ~75, saturation ~13), solid white heavy italic captions with a soft
+  shadow, 1-3 words synced to the radio. -> look.GRADES['cine'] + look.caption_png.
+- **AA2** @agoftbl "France 4k" (9.4M views, 1.6M likes, 11 s) - https://vm.tiktok.com/ZN8PLE3CY/ and **AA3** "Lamine
+  Yamal 4k" (12.4M, 2.6M likes, 14 s) - https://vm.tiktok.com/ZN8PLqHDP/ . 720x1280 at 60 fps; TikTok streams them at ~4 Mbps
+  (ours get ~0.55). Broadcast super-slow-mo close-ups with shallow focus, bright punchy grade (avg luma ~108, saturation
+  ~29 = 2x ours), the 16:9 frame rotated 90 deg to fill the phone (no crop, no bars). No text at all. -> look.GRADES['pop'],
+  look.turned() for the odd day.
+- **Not useful for editing:** @kallaway.marketing "Claude as a viral content machine" (https://vm.tiktok.com/ZN8PLFUrq/) -
+  an ad for prompt packs for talking-head creators.

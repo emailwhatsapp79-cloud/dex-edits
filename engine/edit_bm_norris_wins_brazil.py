@@ -11,7 +11,7 @@ S = os.environ.get('SCRATCH', '/tmp')
 B = os.path.join(S, 'bra')
 SONGS = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'dex-edits-assets', 'songs')
 CFG = dict(name='norriswin', song=glob.glob(os.path.join(SONGS, '162_*.mp3'))[0], drop=8.0, beat=60 / 123, shake=True,
-    size=(1280, 720), cap=(46, 0.6),
+    size=(1280, 720), cap=(46, 0.8),
     files={'fin': os.path.join(B, 'finish.mp4'), 'r': os.path.join(B, 'race.mp4'), 'ni': os.path.join(B, 'norint.mp4')},
     talk=[('fin', 0.00, 3.45, 0, 'r', 427.70), ('fin', 3.45, 6.20, 0, 'fin', 1.60)],
     words=[('fin', 0.02, '|LANDO NORRIS'), ('fin', 1.36, '|WILL GO BACK TO BACK'), ('fin', 2.92, 'IN BRAZIL.'),
