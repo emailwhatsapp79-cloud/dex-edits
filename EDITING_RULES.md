@@ -357,3 +357,21 @@ but a cut-off voice feels broken. If the full thought is too long, pick a differ
 Every edit ends on a COMPLETE moment: the celebration/podium shot holds >= ~2 s (4-5 beats, not 2), the last voice line is a
 full sentence, and the song fades over ~1 s (linedrop fade=1.0). Prefer closing on the driver's own words (Norris "one of the
 most rewarding", Max "starting P21 and finishing second", Lawson "the car is in a great place").
+
+## THE VOICE STARTS BEFORE THE FACE (J-CUT) - Desmond, Nov 9 ("Norris is okay because the voice starts even before the
+## guy, which makes his sentence complete - make it in the other posts")
+Every closing quote (outro) is built like the approved Norris win (edit_bm, v5):
+1. The speaker's voice STARTS over the last action shot (~1.2 s) - only then cut to his face (or keep the celebration
+   under him). linedrop: outro=(key, a, b, words, [(action_key, in, 1.2), (key, a + 1.2, 99)]).
+2. The quote is a COMPLETE sentence. A comma or "and/but/so" after the last word = it is NOT finished - take the whole
+   sentence or pick another quote. (Leclerc "...the most special thing ever AND you kind of..." was cut mid-sentence;
+   Kimi "...disappointed with the race, BUT..." too.)
+3. Whisper word ends are early - start the span ~0.1 s before the first word and end it 0.3-0.8 s AFTER the last word
+   (before the next voice starts), so the last syllable and a breath are heard. Never end exactly on a whisper word end.
+4. The song fades over ~1 s under the end (fade=1.0); the last picture holds through the fade.
+
+## QC BEFORE SENDING (every edit, every time - Desmond, Nov 9: "check every clip and make sure they are okay")
+- A 1-fps strip of the WHOLE edit: no F1 graphics (logo wipes, LAP xx cards, results tables, F1's own captions), every
+  shot is what the story says, the first frame is action.
+- Listen check of the last 6 s: the last word is complete, nothing starts and gets cut, the song fades.
+- Only then send / schedule.
