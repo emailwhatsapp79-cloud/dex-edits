@@ -44,6 +44,8 @@ CAPTION CALL TO ACTION (Desmond, Nov 9 - subs are the weakest goal): every capti
 STATS: when reporting likes/views use the LIFETIME channel totals from analytics (source=all, all posts) - not only the
 Zernio-posted ones (Nov 9 Desmond caught "2,851 likes" when the channel had 4,430).
 POLL COMMENT FORMAT (Desmond, Nov 7): the QUESTION ONLY, e.g. "Quick poll 👇 Does Lewis win another race before he retires?" - no "Reply ✅ YES or ❌ NO" options typed after it.
+REPLY WITH A QUESTION BACK (Desmond, Nov 9): where it fits, end a reply with a short question to the viewer ("who takes Vegas?",
+"Lando or Max?") so the thread keeps going. Not on every reply, never on insults or corrections - there just thank them.
 REPLY TO COMMENTS (Desmond, Nov 8): after every post (at the poll-comment check-in, and again at the next check-in) list new
 viewer comments on the last few posts (comments_list_inbox_comments + comments_get_inbox_post_comments) and reply to each one
 not yet answered: short, fun, like a fan (1 line, an emoji at most two), never argue, never fake facts. Liked comments first.
@@ -140,3 +142,11 @@ read it through Playwright or use Desmond's deployed app. Use it to pick trendin
 - GOALS DASHBOARD: a live page with progress bars for GOALS.md (Desmond wants it, on hold Nov 4 - weekly usage nearly used up).
 - AUTO-QA: script that scans every finished file for black/frozen frames, loudness, the DEX EDITS mark, before scheduling.
 - Desmond will later move the work to his own PC (Claude desktop app) when he is home on Wi-Fi.
+
+## Las Vegas GP weekend (Desmond, Nov 9) - 3 POSTS A DAY that weekend
+- Quali Sat Nov 21 ~05:00 Lagos, race Sun Nov 22 ~05:00 Lagos (Saturday night in Vegas).
+- Sat 21 + Sun 22 + Mon 23: 09:00, 12:00, 18:00. Sat 09:00 = quali edit (made that morning from the formula1.com highlights),
+  Sun 09:00 = race edit, Mon = reaction/driver stories. Titles "Las Vegas GP | ...". Weekly long video Mon 23 or Tue 24.
+- Reminders set: Thu Nov 19 (plan Vegas week, check the calendar, pick trending sounds), Sat Nov 21 08:00 (quali edit),
+  Sun Nov 22 08:00 (race edit).
+- Weekly long video: Brazil GP "every moment" scheduled Sun Nov 15 18:00 (YouTube 6af1ecea03f9ad0dfff03e48).

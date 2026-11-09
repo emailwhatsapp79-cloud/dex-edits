@@ -398,3 +398,21 @@ subtitle lines. Post captions: one short hype line + " // " + 3-4 hashtags (e.g.
     and wanted P17 from 2024). Use its review for craft (picture, sound, pace, ending); verify any fact flag ourselves from the
     official footage, never change a true 2026 fact because Gemini disagrees. Free key: ~20 checks/day per model ->
     qc_gemini.py tries gemini-3-flash-preview, then 2.5-flash, then 2.5-flash-lite.
+
+## LOOP ENDINGS (Desmond, Nov 9 - from the growth ideas)
+- Plan the last 1-2 s so they lead back into frame 1: end on the same driver/car/shot type the edit opens with, or end on
+  a line that the opening answers (e.g. open on the celebration, end on the lights going out). A Short that loops counts
+  extra views and watch time.
+- This works WITH "end well" (hold and fade), not against it: the hold/fade stays, it just lands on a picture that matches
+  the first frame. Never cut a speaker mid-sentence to force a loop.
+- Check: watch the last 2 s then the first 2 s back to back before sending.
+
+## SERIES NAMING (Desmond, Nov 9)
+- Every YouTube title starts with the race as a series: "Brazil GP | <named star + stake>", "Las Vegas GP | ...". People who
+  liked one look for the next. Keep the rest of the title short: a name and what's at stake.
+
+## WEEKLY LONG VIDEO (Desmond, Nov 9)
+- After each race week, a normal (horizontal) YouTube video of the whole weekend: the week's Shorts in story order (band
+  cropped back to 16:9, 720p50), "<RACE> GP <YEAR> / EVERY MOMENT" title card for 3 s, chapters in the description
+  (0:00 first, each >= 10 s), audio limited to -1.5 dBTP, file under ~95 MB (2-pass ~2.8 Mbit/s) for the GitHub raw URL.
+  Post Sunday 18:00 (or the Monday after a race weekend). First one: Brazil GP, Sun Nov 15.
