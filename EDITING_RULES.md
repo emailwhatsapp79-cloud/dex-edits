@@ -394,3 +394,7 @@ subtitle lines. Post captions: one short hype line + " // " + 3-4 hashtags (e.g.
 9. CHECK A SONG'S FIRST SECONDS FOR SOMEONE ELSE'S VOICE (Nov 9: #166 starts "Kimi Antonelli is the Formula One World
    Champion!" - it leaked into the Mercedes and Lawson edits). Whisper the first 6 s of every new sound; if there is a
    voiceover, set song_from past it. A story edit shows ONLY its hero (Gemini: Hamilton edit had Max/other onboards).
+10. GEMINI'S KNOWLEDGE IS OLD: it does not know the 2026 season (it called Max's real "starting P21" interview "AI-altered"
+    and wanted P17 from 2024). Use its review for craft (picture, sound, pace, ending); verify any fact flag ourselves from the
+    official footage, never change a true 2026 fact because Gemini disagrees. Free key: ~20 checks/day per model ->
+    qc_gemini.py tries gemini-3-flash-preview, then 2.5-flash, then 2.5-flash-lite.
