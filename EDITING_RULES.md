@@ -386,3 +386,8 @@ subtitle lines. Post captions: one short hype line + " // " + 3-4 hashtags (e.g.
 6. Every finished edit goes through BOTH checks before sending/scheduling: engine/qc_end.py (whisper: last word complete,
    >= 0.7 s after it) and engine/qc_gemini.py (Gemini watches + listens: endings, cut words, graphics, blur, story, score,
    VERDICT). Fix every FAIL first.
+7. THE FINISH (Gemini, Nov 9 - "ends abruptly, music and video cut suddenly"): hold 1.8 s after the last word, the song
+   comes back under the hold and fades over 2 s (qsin curve), the PICTURE fades out over the last 0.6 s. Under a closing
+   voice the song sits at 0.18 so the words are clear.
+8. On-screen words from whisper: fix names (CHARLES LECLERC, ALBON, HADJAR, INTERLAGOS...), never end a line on a hanging
+   word (SO / THE / AND...). Race-feed shots: crop the timing tower off (crop=1088:612:176:54, 1.18x, race feed only).

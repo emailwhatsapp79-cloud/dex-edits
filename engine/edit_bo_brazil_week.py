@@ -22,6 +22,12 @@ FILES = {k: os.path.join(B, v + '.mp4') for k, v in [('r', 'race'), ('m', 'mercs
 WJ = os.path.join(B, 'words.json')
 
 
+FIX = {'SHARL': 'CHARLES', 'SHARLES': 'CHARLES', 'LECLEC': 'LECLERC', 'LECLERC,': 'LECLERC,', 'ALBANY': 'ALBON', 'ALBANY.': 'ALBON.',
+       'HAJAR': 'HADJAR', 'HADJARA': 'HADJAR', 'LIMBLAD': 'LINDBLAD', 'INTELARGOS.': 'INTERLAGOS.', 'INTELAGOS.': 'INTERLAGOS.',
+       'HULKENBERG': 'HÜLKENBERG', 'CARSWIT': 'CAR', 'KIMMY': 'KIMI', 'STAPPEN': 'VERSTAPPEN'}
+HANG = {'SO', 'THE', 'A', 'AN', 'AND', 'OF', 'TO', 'IN', 'IS', 'HE', 'HE\'S', 'FROM', 'FOR', 'BUT', 'WITH', 'AT', 'ON'}
+
+
 def words(talk):
     """1-3 word caption lines from whisper words inside each talk span (a new line at punctuation or after 3 words)."""
     W = json.load(open(WJ)); out = []
@@ -30,14 +36,14 @@ def words(talk):
         line = []
         for s, e, w in src[k]:
             if a - 0.02 <= s <= b - 0.08:
-                w = w.upper()
+                w = FIX.get(w.upper(), w.upper())
                 if not line: out.append((k, max(s, a), '|' + w)); line = [w]
                 else: out.append((k, s, w)); line.append(w)
-                if len(line) == 3 or w[-1] in '.,?!': line = []
+                if (len(line) >= 3 and w.strip('.,?!') not in HANG) or w[-1] in '.,?!': line = []
     return out
 
 
-BASE = dict(size=(1280, 720), files=FILES, cap=(46, 0.6), shake=True, fade=1.0)   # end well: last shot >= ~2 s, song fades 1 s
+BASE = dict(size=(1280, 720), files=FILES, cap=(46, 0.6), shake=True, crop='crop=1088:612:176:54', crop_keys=['r'])   # end well: last shot >= ~2 s, song fades 1 s
 CFG = {
     'kimi': dict(song=song('167'), drop=0.0, beat=60 / 98, big=('SO VERY, VERY SAD.', 4),
         talk=[('r', 227.10, 230.40, 0), ('r', 231.35, 235.05, 0, 'r', 230.30)],
@@ -54,9 +60,9 @@ CFG = {
     'hamilton': dict(song=song('163'), drop=15.0, beat=60 / 108, big=('UP 11 PLACES.', 2),
         talk=[('r', 44.50, 48.70, 0), ('r', 48.95, 51.40, 0)],
         after=[(2, 'r', 53.80, 70.98), (2, 'r', 55.90, 70.98), (2, 'r', 59.40, 70.98), (2, 'r', 61.60, 66.00)],
-        outro=('hi', 9.84, 14.40, [('hi', 9.86, '|I HAD A GREAT START'), ('hi', 12.66, '|AND I THOUGHT I WAS ON'), ('hi', 13.14, 'FOR SOMETHING POSITIVE.')],
+        outro=('hi', 9.84, 14.30, [('hi', 9.86, '|I HAD A GREAT START'), ('hi', 12.66, '|AND I THOUGHT I WAS ON'), ('hi', 13.14, 'FOR SOMETHING POSITIVE.')],
                [('r', 326.00, 1.2), ('hi', 11.04, 1.96), ('r', 332.00, 99)])),
-    'lawson': dict(song=song('165'), drop=13.0, beat=60 / 126, big=('POINT PROVEN.', 2), intro_song=0.0,
+    'lawson': dict(song=song('166'), drop=3.0, beat=60 / 130, big=('POINT PROVEN.', 2),
         talk=[('r', 17.30, 20.95, 0), ('r', 35.70, 40.70, 0)],
         after=[(2, 'r', 7.00, 10.30), (2, 'r', 114.00, 121.00), (2, 'r', 116.60, 121.00), (2, 'r', 381.40, 387.80),
                (2, 'r', 399.40, 404.00)],
@@ -80,7 +86,7 @@ CFG = {
     'leclerc': dict(song=song('13'), drop=21.293, beat=0.6275, big=('DAD MODE.', 2),
         talk=[('r', 374.40, 377.80, 0), ('r', 410.00, 414.10, 0)],
         after=[(2, 'r', 380.50, 387.80), (2, 'r', 388.00, 390.12), (2, 'r', 405.00, 408.00), (4, 'r', 383.40, 387.80)],
-        outro=('ld', 24.35, 32.70, [('ld', 24.40, "|IT'S A VERY, VERY"), ('ld', 25.32, 'SPECIAL MOMENT,'), ('ld', 27.96, '|AND DEFINITELY A WEEK'),
+        outro=('ld', 24.35, 32.62, [('ld', 24.40, "|IT'S A VERY, VERY"), ('ld', 25.32, 'SPECIAL MOMENT,'), ('ld', 27.96, '|AND DEFINITELY A WEEK'),
                                     ('ld', 30.04, "|I'LL FOREVER REMEMBER"), ('ld', 31.20, '|FOR ALL THE'), ('ld', 31.78, 'POSITIVE REASONS.')],
                [('r', 395.50, 1.2), ('ld', 25.55, 5.75), ('r', 410.90, 99)])),
 }
