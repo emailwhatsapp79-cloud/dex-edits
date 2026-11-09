@@ -118,6 +118,8 @@ TikTok's API has no native scheduling (Zernio holds the post and fires it on tim
 From the Nov 9 batch Desmond schedules TikTok himself in TikTok Studio (web, up to 10 days ahead, trending sound attached
 in-app). Claude schedules YouTube in Zernio and gives Desmond ONE list: file link, date/time, caption, poll question per post.
 Compare that week's TikTok views with the ~250-290 cap of Zernio/API posts. If no better -> back to fully automatic Zernio.
+RESULT (Nov 9): the TikTok Studio post (Norris win) got the same ~250 views, 0% from the sound -> hand scheduling is NOT the cause.
+Back to fully automatic Zernio for TikTok too. TikTok stays capped ~250/post while YouTube grows (62 subs, 126k views).
 
 ## Trend 48 (Desmond's app, repo emailwhatsapp79-cloud/trend-48, Nov 6)
 Shows named songs moving on TikTok + YouTube Shorts (tokchart.com sounds/songs by country NG/US/UK/BR/PH, kabo.sh,
