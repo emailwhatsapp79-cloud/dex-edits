@@ -348,3 +348,7 @@ grain, a cut on every beat after a short commentary line. Desmond REJECTED the p
 A race-winner edit is not "only the winner's car". After the drop: the race story on the beat (start, the big moves, the
 lead change, the charge from the back - other teams' cars and onboards INCLUDED), then the finish line, the team going wild,
 the podium, and the winner's own emotional words to close. Never cut a strong shot just because it isn't the winner.
+
+## NEVER CUT A SPEAKER MID-THOUGHT (Desmond, Nov 9 - "looks incomplete, he was saying something")
+An outro/quote ends where the speaker's sentence or thought ends, even if the edit runs past 16 s. Short is the target,
+but a cut-off voice feels broken. If the full thought is too long, pick a different quote that ends cleanly.
