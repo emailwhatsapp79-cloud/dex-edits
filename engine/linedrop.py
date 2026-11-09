@@ -38,6 +38,47 @@ def glow_png(text, W, H, out, size=48, cy=0.6):
     img = Image.new('RGBA', (W, H), (255, 255, 255, 0)); img.putalpha(a); img.save(out); return out
 
 
+def build_song(cfg, pre, post, out):
+    """Desmond, Nov 9: the song's BEGINNING (the build-up before the drop) loops softly under the voice for as long as the
+    voice needs, cut on whole beats so the repeat is not heard; the drop lands on the payoff; if the edit runs past the end of
+    the song, the main beat loops (again on whole bars) to the end. Returns a wav whose drop is at t = pre."""
+    import soundfile as sf
+    raw = out.replace('.wav', '_raw.wav')
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['song'], '-ar', '44100', '-ac', '2', raw], check=True, stdin=subprocess.DEVNULL)
+    y, sr = sf.read(raw); os.remove(raw)
+    D, SF, b = cfg['drop'], cfg.get('song_from', 0.0), cfg['beat']
+    xf = int(0.02 * sr)
+
+    def tile(seg, need):                       # repeat seg (with 20 ms crossfades) until it is `need` samples long
+        seg = seg.copy(); ramp = np.linspace(0, 1, xf)[:, None]
+        out_ = seg
+        while len(out_) < need:
+            nxt = seg.copy(); mix = out_[-xf:] * (1 - ramp) + nxt[:xf] * ramp
+            out_ = np.concatenate([out_[:-xf], mix, nxt[xf:]])
+        return out_
+
+    # BEFORE the drop
+    have = D - SF
+    if have >= pre:
+        a = y[int((D - pre) * sr):int(D * sr)]
+    else:
+        unit_beats = max(1, int(have / b) // 4 * 4) if have >= 4 * b else max(1, int(have / b))
+        U = unit_beats * b
+        loop = y[int((D - U) * sr):int(D * sr)]
+        a = tile(loop, int(pre * sr) + len(loop))[-int(pre * sr):]
+        a[-len(loop):] = loop[-len(a[-len(loop):]):]          # the last pass is the untouched lead-in to the drop
+    # AFTER the drop
+    left = len(y) / sr - D
+    if left >= post:
+        c = y[int(D * sr):int((D + post) * sr)]
+    else:
+        bars = max(1, int(left / (4 * b)) // 2 * 2) * 4      # loop an even number of bars of the main beat
+        body = y[int(D * sr):int((D + bars * b) * sr)]
+        c = tile(body, int(post * sr) + 1)[:int(post * sr)]
+    sf.write(out, np.concatenate([a, c]), sr)
+    return out
+
+
 def render(cfg, scratch, out):
     W, H = cfg['size']; FPS = cfg.get('fps', 30); F = cfg['files']; talk = cfg['talk']
     drop_e = sum(x[2] - x[1] for x in talk)
@@ -49,6 +90,9 @@ def render(cfg, scratch, out):
     HOLD = cfg.get('hold', 1.8) if outro else 0.0          # picture + song keep going after the last word (never end ON it)
     END = end_beats + ((outro[2] - outro[1]) if outro else 0) + HOLD
     tmp = os.path.join(scratch, 'tmp_' + cfg['name']); os.makedirs(tmp, exist_ok=True)
+    if cfg.get('song_loop', True):            # song laid out for THIS edit: looped intro under the voice, drop on the payoff
+        cfg = dict(cfg, song=build_song(cfg, drop_e, END - drop_e + 0.2, os.path.join(tmp, 'song.wav')), drop=drop_e, song_from=0.0)
+        off = 0.0; SF = 0.0
     parts, t = [], 0.0
 
     def clip(k, s, d, name, speed=1.0):
