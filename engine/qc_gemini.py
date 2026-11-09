@@ -5,7 +5,8 @@ The key is a network secret injected by the proxy (header x-goog-api-key) - neve
 usage: python3 qc_gemini.py <video.mp4> [...]   -> prints Gemini's verdict per video (VERDICT: PASS/FAIL)"""
 import sys, os, json, base64, subprocess, tempfile, time
 
-URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent'
+MODELS = ['gemini-3-flash-preview', 'gemini-2.5-flash', 'gemini-2.5-flash-lite']   # free tier: ~20 requests/day EACH -> fall back
+URL = 'https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent'
 PROMPT = """You are a strict, experienced short-form editor reviewing an F1 fan edit (TikTok / YouTube Short) BEFORE it is
 posted. Watch and LISTEN to the whole video, second by second. Give a FULL analysis, briefly, with timestamps:
 1) HOOK (0-2 s): is the first frame action or the most dramatic moment? Would a scroller stop? What would make it stronger?
@@ -35,11 +36,12 @@ def ask(path):
     req = tempfile.mktemp(suffix='.json'); open(req, 'w').write(json.dumps(body))
     try:
         for i in range(6):
-            r = subprocess.run(['curl', '-s', '-X', 'POST', '-H', 'Content-Type: application/json', '--data-binary', '@' + req, URL],
-                               capture_output=True, text=True)
-            try: j = json.loads(r.stdout)
-            except Exception: j = {}
-            if 'candidates' in j: return j['candidates'][0]['content']['parts'][0]['text']
+            for m in MODELS:
+                r = subprocess.run(['curl', '-s', '-X', 'POST', '-H', 'Content-Type: application/json', '--data-binary', '@' + req,
+                                    URL.format(m)], capture_output=True, text=True)
+                try: j = json.loads(r.stdout)
+                except Exception: j = {}
+                if 'candidates' in j: return f'[{m}] ' + j['candidates'][0]['content']['parts'][0]['text']
             time.sleep(30 * (i + 1))
         return 'Gemini unavailable: ' + r.stdout[:200]
     finally:
