@@ -18,14 +18,13 @@ CFG = dict(name='norriswin', song=glob.glob(os.path.join(SONGS, '162_*.mp3'))[0]
            ('fin', 4.42, '|IN THE WET,'), ('fin', 5.28, 'IN THE DRY.'), ('fin', 6.20, "|HE'S")],
     big=('P1.', 2), big_size=0.2,
     after=[(2, 'r', 2.00, 6.84), (2, 'r', 18.00, 22.24), (2, 'r', 228.60, 230.04), (2, 'r', 149.00, 164.00),
-           (2, 'r', 438.10, 442.96), (2, 'r', 410.00, 413.36), (2, 'fin', 4.45, 6.40), (4, 'fin', 6.50, 10.45),
-           (4, 'fin', 8.50, 10.50), (5, 'r', 461.05, 463.62)], fade=1.0,
-    # v2 (Desmond: "missing passion... where's the celebration... why remove the Red Bull footage"): the whole race on the
-    # beat - start, Lawson's lap-1 move, Kimi spinning out of the lead, Max's charge, Hadjar's Red Bull - then Lando
-    # crossing the line, the crew going crazy, the podium, and his own words to close.
+           (2, 'r', 438.10, 442.96), (2, 'r', 410.00, 413.36)], fade=1.2,
+    # v5 (Desmond: "the celebration was still cut off"): Lando's own words now play OVER the celebration - the crew going
+    # wild, the hugs, the podium held to the end - instead of cutting from the party to a talking head.
     outro=('ni', 49.82, 57.75, [('ni', 49.86, '|PROBABLY ONE OF THE BEST WINS'), ('ni', 50.98, "|I'VE HAD."),
                                  ('ni', 51.74, '|IT WAS ENJOYABLE,'), ('ni', 53.98, '|A CONSTANT CHALLENGE,'),
-                                 ('ni', 55.28, '|BUT PROBABLY ONE OF'), ('ni', 56.56, '|THE MOST REWARDING.')]))
+                                 ('ni', 55.28, '|BUT PROBABLY ONE OF'), ('ni', 56.56, '|THE MOST REWARDING.')],
+           [('fin', 4.45, 1.9), ('fin', 6.45, 3.95), ('r', 461.05, 2.5)]))
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 30))

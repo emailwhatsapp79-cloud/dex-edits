@@ -8,7 +8,8 @@ render(cfg) - cfg keys:
   words [(key, t, 'WORD')]       spoken words (source times); '|WORD' starts a new line
   big   ('TEXT', beats)          see-through watermark word on the drop (big_size: height share, default 0.13)
   after [(beats, key, in, take_end)]
-  outro (key, a, b, words) | None  a last spoken line after the beats, song dipped to 0.3
+  outro (key, a, b, words[, pics]) | None  a last spoken line after the beats, song dipped to 0.3; pics [(key, in, dur)]
+                                 = the shots under that voice (last one fills the rest)
   cap (size, cy)                 spoken-word text size and height (0.6 = 40 % up from the bottom)
   hits [(after_index, offset)]   that shot's own sound laid on the song at the cut (+offset)
   intro_song                     song level before the drop (0.3 = under the voice; 0 = the moment plays raw, no music)
@@ -64,7 +65,12 @@ def render(cfg, scratch, out):
         assert s + d <= e + 0.03, f"{cfg['name']} after #{i} runs past its take ({s + d:.2f} > {e})"
         clip(k, s, d, f'b{i:02d}.mp4'); t += d
     if outro:
-        k, a, b, _ = outro; spans.append((t, k, a, b)); clip(k, a, b - a, 'z.mp4'); t += b - a
+        k, a, b = outro[:3]; spans.append((t, k, a, b))
+        pics = outro[4] if len(outro) > 4 else [(k, a, b - a)]       # outro voice can play OVER other shots (the celebration)
+        rest = b - a
+        for j, (pk, ps, pd) in enumerate(pics):
+            d = rest if j == len(pics) - 1 else pd
+            clip(pk, ps, d, f'z{j}.mp4'); t += d; rest -= d
     lst = os.path.join(tmp, 'list.txt'); open(lst, 'w').write(''.join(f"file '{x}'\n" for x in parts))
     vid = os.path.join(tmp, 'video.mp4')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', vid], check=True)
