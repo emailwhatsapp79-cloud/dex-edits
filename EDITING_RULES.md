@@ -375,3 +375,8 @@ Every closing quote (outro) is built like the approved Norris win (edit_bm, v5):
   shot is what the story says, the first frame is action.
 - Listen check of the last 6 s: the last word is complete, nothing starts and gets cut, the song fades.
 - Only then send / schedule.
+
+## WRITE-UPS LIKE @f1edits.ae (Desmond, Nov 9, ref Z2)
+On-screen words: ONE word or short phrase per cut, big bold caps, white with a soft dark shadow, centred on the subject,
+fading in/out on the cut; key words (place names, the payoff) in colour (country colours / gold glow). Not long 3-6 word
+subtitle lines. Post captions: one short hype line + " // " + 3-4 hashtags (e.g. "LANDO DOES IT AGAIN🏆🔥 // #f1 #norris #f1edit #fyp").

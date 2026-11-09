@@ -481,3 +481,12 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
 
 | auto | https://www.tiktok.com/@nguyenvantu2k10605/video/7701893807050198280?_r=1&_t=ZN-9BEL73ECiX8 | @nguyenvantu2k10605: #xuhuong #dij #mini3  | sound saved as library #167 (98 BPM, drop ≈ 1.0s) |
 | auto | https://www.tiktok.com/@koyap6/video/7705786019534212372?_r=1&_t=ZN-9BG5rYXfAdq | @koyap6: действия выполненные на видео опасны и выполнены профессионалами #wec #imsa #monza #gt3 #m | sound saved as library #168 (149 BPM, drop ≈ 49.5s) |
+**Z2 - "F1 IS BACK IN BRAZIL" (@f1edits.ae again - same account as Y1 Monza; Desmond Nov 9: "look how the write-ups are"):**
+- WRITE-UPS: the commentary/story is shown ONE WORD (or one short phrase) PER CUT - "IS" / "BACK" / "BEGINS" / "WELCOME" /
+  "AN" / "ICONIC VENUE" / "SAO PAULO Grand Prix" / "UNDER" / "WAY" - big bold rounded sans (Archivo/Gotham-like) caps, white
+  with a soft dark shadow/glow so it reads on any picture, centred on the subject slightly above middle, quick fade in/out
+  exactly on the cut. KEY words in colour: place names in the country's colours (SAO PAULO green, Grand Prix gold), the
+  payoff word gold with glow. Small words (IS, AN, IN) are as big as the key words - the rhythm is the point.
+- FRAME: 4:3 (1440x1080), cinematic soft grade + vignette, crowd/flags/legends (Senna banner, Lewis in a Brazil flag) before
+  the cars - the PLACE and the PEOPLE first, then racing.
+- POST CAPTION: very short hype line + " // " + 3-4 hashtags: "F1 IS BACK IN BRAZILLL🇧🇷🔥 // #f1 #brazil #f1edit #fyp".
