@@ -91,7 +91,7 @@ def render(cfg, scratch, out):
     beat = lambda k: drop_e + k * cfg['beat']
     after = cfg['after']; outro = cfg.get('outro')
     end_beats = beat(sum(n for n, *_ in after))
-    HOLD = cfg.get('hold', 1.8) if outro else 0.0          # picture + song keep going after the last word (never end ON it)
+    HOLD = cfg.get('hold', 1.8) if outro else cfg.get('hold', 0.0)   # picture + song keep going after the last word (never end ON it); without an outro it is opt-in (hold=1.8: the last 'after' shot is stretched, give it a slow-mo speed)
     END = end_beats + ((outro[2] - outro[1]) if outro else 0) + HOLD
     tmp = os.path.join(scratch, 'tmp_' + cfg['name']); os.makedirs(tmp, exist_ok=True)
     if cfg.get('song_loop', True):            # song laid out for THIS edit: looped intro under the voice, drop on the payoff
@@ -111,10 +111,11 @@ def render(cfg, scratch, out):
     spans = []                                   # (edit start, key, a, b) of every voiced span
     for i, (k, a, b, lead, *pic) in enumerate(talk):
         spans.append((t, k, a, b)); clip(pic[0] if pic else k, pic[1] if pic else a + lead, b - a, f'a{i}.mp4'); t += b - a
-    for i, (n, k, s, e) in enumerate(after):
-        d = beat(sum(x for x, *_ in after[:i + 1])) - t
-        assert s + d <= e + 0.03, f"{cfg['name']} after #{i} runs past its take ({s + d:.2f} > {e})"
-        clip(k, s, d, f'b{i:02d}.mp4'); t += d
+    for i, (n, k, s, e, *sp) in enumerate(after):          # optional 5th value = speed (0.5 = slow motion, the take is consumed slower)
+        d = beat(sum(x for x, *_ in after[:i + 1])) - t + (HOLD if (not outro and i == len(after) - 1) else 0.0)
+        spd = sp[0] if sp else 1.0
+        assert s + d * spd <= e + 0.03, f"{cfg['name']} after #{i} runs past its take ({s + d * spd:.2f} > {e})"
+        clip(k, s, d, f'b{i:02d}.mp4', spd); t += d
     if outro:
         k, a, b = outro[:3]; spans.append((t, k, a, b))
         pics = outro[4] if len(outro) > 4 else [(k, a, b - a)]       # outro voice can play OVER other shots (the celebration)
@@ -173,7 +174,7 @@ def render(cfg, scratch, out):
     if cfg.get('shake'): chain = src + chain
     n0 = 2 + len(pngs); fx, labels = '', []
     for i, (e0, k, a, b) in enumerate(spans):        # the voices, in sync; the last talk span runs on through the drop word
-        tail = 0.55 if i == len(talk) - 1 else (cfg.get('otail', 0.12) if i >= len(talk) else 0.2)   # a breath after every span: no clipped last word
+        tail = cfg.get('ttail', 0.55) if i == len(talk) - 1 else (cfg.get('otail', 0.12) if i >= len(talk) else 0.2)   # a breath after every span: no clipped last word
         cmd += ['-ss', f'{a:.3f}', '-t', f'{b - a + tail:.3f}', '-i', F[k]]
         fx += (f"[{n0 + i}:a]aformat=channel_layouts=stereo,highpass=f=90,afade=t=in:d=0.03,afade=t=out:st={b - a + tail - 0.12:.3f}:d=0.12,"
                f"volume={cfg.get('outro_voice', 2.6) if i >= len(talk) else cfg.get('voice', 1.8)},adelay={int(e0 * 1000)}|{int(e0 * 1000)}[v{i}];")
@@ -187,7 +188,7 @@ def render(cfg, scratch, out):
     o_start = end_beats if outro else END + 1
     pre = f"adelay={int((SF - off) * 1000)}|{int((SF - off) * 1000)}," if off < SF else ''   # song starts AT the drop (its bar 1 = the drop)
     fx += (f"[1:a]{pre}atrim=0:{END:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t,{drop_e - 0.04:.3f}),{cfg.get("intro_song", 0.3)},if(gt(t,{END - HOLD + 0.3:.3f}),0.7,if(gt(t,{o_start:.3f}),{cfg.get('outro_song', 0.18)},1.0)))':eval=frame,"
-           f"afade=t=out:st={END - cfg.get('fade', 2.0):.3f}:d={cfg.get('fade', 2.0)}:curve=qsin[song];[song]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0,alimiter=limit=0.85[a]")
+           f"afade=t=out:st={END - cfg.get('fade', 2.0):.3f}:d={cfg.get('fade', 2.0)}:curve={cfg.get('fade_curve', 'qsin')}[song];[song]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0,alimiter=limit=0.85[a]")
     vf = cfg.get('vfade', 0.6)                                   # the picture fades out with the music: a finished ending
     chain += f"{last}{look.SHARPEN},fade=t=out:st={END - vf:.3f}:d={vf}[vend];"; last = '[vend]'
     subprocess.run(cmd + ['-filter_complex', chain + fx, '-map', last, '-map', '[a]', '-t', f'{END:.3f}', '-r', str(FPS),
