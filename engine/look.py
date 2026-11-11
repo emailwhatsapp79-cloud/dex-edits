@@ -25,7 +25,9 @@ GRADES = {
     # AA5/AA6 "[4K]" look (Desmond, Nov 11: "this type and not dark" - clorix.kw Neymar 4.4M, agoftbl Yamal 12.6M): bright,
     # very saturated (ref sat ~39 = 3x ours), lifted mids, 'clarity' (large-radius unsharp = local contrast), no vignette.
     # THE DEFAULT. Grey rainy F1 footage needs the strong vibrance to get there.
-    'bright': ("eq=contrast=1.12:brightness=0.02:saturation=1.45:gamma=1.06,vibrance=intensity=0.45,"
+    # Greens/yellows held back (huesaturation): F1 grass and kerbs went radioactive neon with the full boost (Overtakes v1).
+    'bright': ("eq=contrast=1.12:brightness=0.02:saturation=1.35:gamma=1.06,vibrance=intensity=0.3,"
+               "huesaturation=colors=g+y:saturation=-0.35:strength=1,"
                "curves=all='0/0 0.25/0.22 0.75/0.82 1/1',unsharp=13:13:0.45:13:13:0"),
     # light touch for footage that is already graded (press films, trailers)
     'clean': "eq=contrast=1.06:saturation=1.12",
