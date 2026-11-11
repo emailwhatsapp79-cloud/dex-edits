@@ -565,3 +565,34 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
   caption "RUN" (correct) but labelled the captions with the wrong words in several places.
 
 | auto | https://www.tiktok.com/@fikramfrancisco/video/7705811207936052500?_r=1&_t=ZN-9BJPN5bL72s | @fikramfrancisco: VAI SEM PARAR lyrics / #trending #mytypemusic #slowedsongs #slowed #lyrics  | sound saved as library #170 (117 BPM, drop ≈ 19.0s) |
+| auto | https://www.tiktok.com/@zkmuttaqin/video/7706200891480706311?_r=1&_t=ZN-9BJRCAZXew2 | @zkmuttaqin: love me x Max Verstappen  #loveme #maxverstappen #f1  | sound saved as library #171 (117 BPM, drop ≈ 7.5s) |
+
+## AC - the "LOVE" tribute: text BEHIND the driver (Nov 11) - FULL STUDY
+- **AC1** @zkmuttaqin "love me x Max Verstappen" - https://vm.tiktok.com/ZN8PaE1Gq/ (posted Nov 9, the day after Max's P21 -> P2).
+  550.4k views, 201.7k likes (36.6 % of views!), 19.4k shares (3.5 %), 443 comments in 2 days. 25 s, 1280x720 16:9 HEVC 30 fps
+  (the copy TikTok serves; HORIZONTAL, full frame - not letterboxed in a 9:16 canvas as Gemini claimed). Sound "suara asli -
+  Zkmuttaqin" = library #171 (their own slowed-pop mix with a "love me" vocal; 80.7 bpm measured). Raw Gemini passes: refs/AC1/.
+- **THE IDEA**: ONE word, LOVE, on screen for ~90 % of the video, in huge bold serif (Times/Bodoni-like), gold-yellow fill with a warm glow
+  and a dark offset shadow, centred in the upper-middle. The driver is in FRONT of the letters (subject mask / rotoscope): a raised
+  finger hides the L (frames read "OVE"), his helmet/glove/torso hides the V ("LO.E"), his arms are "L" and "O". You watch to see which
+  letter he covers next. Tiny "edited by (c) Zkmuttaqin" watermark, white, bottom-centre, first ~5 s.
+- **STRUCTURE (measured)**: 13 hard cuts, avg shot ~2.1 s, FOUR BLACK GAPS (3.33-4.23, 6.6-7.2, 9.6-10.2, 12.17-13.2 = 3.1 s of black in 25 s)
+  used as breaths between beats, and the music ducks on each (RMS dips at 3, 6, 9 s). Order: 0-3.3 hook = Max smiling INTO THE LENS, one
+  finger up (eye contact, slow-mo, "OVE") -> black -> 4.2-6.6 Max in the Vegas night, glove over his visor -> black -> 7.2-9.6 podium with
+  the trophy (ETIHAD boards, glowing F1 logo) -> black -> 10.2-12.2 hazy smoke, Max standing, back to camera -> black -> 13.2-14.7 helmet
+  wave -> 14.7-16.3 arms-up at the pit garages -> 16.3-17.7 trophy on a podium -> 17.7-19.1 ceremony wave -> 19.1-20.8 arms-up over a
+  Dutch crowd -> 20.8-25 CANDID paddock walk, desaturated, bokeh, photographers, fade out (the "human" ending).
+  Footage = old celebrations/podiums (2023-2025) - NOT Sao Paulo race action. The peg is the NEWS (P21 -> P2), the footage is a tribute.
+- **PACE**: slow. Cuts do NOT lock to the beat (cut-to-beat errors -7 ... +256 ms on an 80.7 bpm grid); they land on musical
+  phrases. Emotion over rhythm. Gemini's "every cut perfectly on the beat" and "128 bpm" are wrong.
+- **LOOK (measured)**: dark, cinematic, desaturated: luma 68-92, saturation 5-14 (our 'cine' grade is luma ~75 / sat ~13 = the same
+  look); only the paddock outro and the Dutch crowd are brighter (luma 87-123). Film grain/bloom on the outro.
+- **WHY IT WORKED (evidence)**: (1) a news peg 1 day old (P21 -> P2) with an emotional, not statistical, take; (2) hook = eye contact
+  + a game ("which letter is hidden?"); (3) one repeated word = instantly readable with the sound off; (4) it loops (fade to black ->
+  "LOVE" again); (5) 36.6 % like rate and 3.5 % shares = a TRIBUTE people send to friends / other fans. Compare ours: Max P21->P2
+  (Mon 18:00) = 1,046 TikTok views / 61 likes: a 26 s STORY with commentary; theirs = a 25 s FEELING with no voice at all.
+- **WHAT WE TAKE** (EDITING_RULES "TRIBUTE EDIT"): the one-word-anchor tribute with text behind the subject; 2 s shots; black
+  breaths with a music duck; eye-contact hook; a candid human last shot; dark cine grade is RIGHT for a tribute.
+- **NEEDS A TEST FIRST**: the subject mask (rembg / U2-Net or a video matting model) on F1 footage - helmets, overalls and
+  motion blur make masks flicker. Do a 5 s test on 3 clips before promising it.
+- **DO NOT COPY**: their watermark, their exact layout, their sound; do not claim facts the footage does not show.

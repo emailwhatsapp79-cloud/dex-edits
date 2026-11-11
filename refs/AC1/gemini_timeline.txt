@@ -1,0 +1,33 @@
+[gemini-3-flash-preview]
+This is a shot-by-shot analysis of the viral Max Verstappen TikTok edit by @zkmuttaqin.
+
+### **Shot-by-Shot Timeline**
+
+| Start (m:ss.s) | Duration | Subject/Content | Shot Type | Era/Driver | Camera Motion | Speed/Effects | On-Screen Text | Transition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0:00.0 | 0:01.3 | Max Verstappen smiling, holding up one finger. | Close-up | Current (Red Bull) | Static | Standard | "OVE" (Yellow) | Hard Cut |
+| 0:01.3 | 0:01.7 | Black screen / Musical pause. | N/A | N/A | N/A | N/A | None | Hard Cut |
+| 0:03.0 | 0:01.3 | Max in helmet, holding up four fingers. | Close-up | Current (Red Bull) | Pulse Zoom | Zoom pump on beat | "LO E" (Hand is 'V') | Hard Cut |
+| 0:04.3 | 0:01.8 | Max on podium holding Abu Dhabi trophy. | Medium-Wide | Current (Red Bull) | Static | White flash on beat | "LOVE" | Hard Cut |
+| 0:06.1 | 0:02.4 | Max celebrating on track, arms raised. | Medium-Wide | Current (Red Bull) | Slight handheld | Speed ramp (slow) | "LOVE" | Hard Cut |
+| 0:08.5 | 0:02.5 | Black screen / transition sequence. | N/A | N/A | N/A | N/A | None | Hard Cut |
+| 0:11.0 | 0:01.7 | Max punching the air in a race suit. | Medium | Current (Red Bull) | Static | Standard | "VE" | Hard Cut |
+| 0:12.7 | 0:01.6 | Max with arms raised, back to camera. | Wide | Current (Red Bull) | Static | Pulse zoom | "LOVE" | Hard Cut |
+| 0:14.3 | 0:01.6 | Max on podium holding a trophy. | Medium-Wide | Current (Red Bull) | Static | Standard | "LOVE" | Hard Cut |
+| 0:15.9 | 0:01.7 | Max waving to the crowd on the podium. | Medium-Wide | Current (Red Bull) | Static | Standard | "VE" | Hard Cut |
+| 0:17.6 | 0:01.7 | Max celebrating with fists up, back to camera. | Wide | Current (Red Bull) | Static | Pulse zoom | "LOVE" | Hard Cut |
+| 0:19.3 | 0:04.7 | Max walking through paddock, smiling. | Close-up | Current (Red Bull) | Tracking | Slow-mo; desaturated | None | Fade to black |
+
+***
+
+### **Technical Summary**
+
+*   **Total Number of Cuts:** 11
+*   **Average Shot Length (ASL):**
+    *   **0:00 - 0:10:** 1.83 seconds (Includes 2 black screen intervals)
+    *   **0:10 - 0:16:** 1.63 seconds
+    *   **0:16 - 0:24 (End):** 2.70 seconds
+*   **Archive vs. Current Footage:**
+    *   **Archive/Older Era:** 0% (All footage is from the ground-effect "Oracle Red Bull" era, 2022-2026).
+    *   **Current/Modern Era:** 100% (Features "Visa," "Oracle," and "1Password" sponsors consistently).
+*   **Audio-Visual Sync:** The edit uses a "pulse" or "pump" transition where the frame slightly scales up on the heavy bass kicks of the "Love Me" remix. The word "LOVE" is used as a graphic anchor, occasionally dropping letters (like "VE" or "LO E") to sync with Max's physical gestures.

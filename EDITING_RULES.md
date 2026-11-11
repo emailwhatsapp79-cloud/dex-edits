@@ -444,3 +444,13 @@ Use for PREVIEW / hype edits (the week BEFORE a race, "it's time for X"), 30-40 
 5. **Do not copy**: Whiplash, their watermark, archive-only footage (we use the NEWEST footage), a 40 s length for ordinary posts.
 Tool: `python3 engine/ref_study.py <video> <out_dir> [context]` runs four Gemini passes on any reference; ALWAYS check its numbers
 against ffmpeg scene cuts + librosa tempo + a whisper slice + a 4 fps frame sheet (Gemini mis-times and invents effects).
+
+
+## TRIBUTE EDIT - ONE WORD, TEXT BEHIND THE DRIVER (Desmond, Nov 11, ref AC1: 550k views, 36.6 % like rate, 3.5 % shares)
+Different from our story edits: a FEELING, no commentary, 22-28 s. Use after a big human moment (a comeback drive, a win, a
+retirement). 1) One word tied to the lyric/mood, huge bold serif in gold with a soft glow, centred upper-middle, on screen the whole
+time; the driver (finger, helmet, arms) sits IN FRONT of 1-2 letters (subject mask) - test the mask on the real clips first.
+2) Frame 1 = the driver's face looking into the lens (slow-mo). 3) Shots ~2 s, hard cuts with 0.6-1 s BLACK breaths between the big
+beats and the music ducked on each. 4) Slowed-pop/reverb bed with a vocal hook; cuts on phrases, not on every beat. 5) Dark cine
+grade (our 'cine'). 6) Last shot = a candid, human, desaturated moment, fade out so it loops. 7) Fresh peg, any footage that fits the
+feeling - the freshness rule applies to the NEWS, not the clips.
