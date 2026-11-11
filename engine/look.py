@@ -6,7 +6,7 @@ Those edits are only 720p files, but they READ as 4K because of four things, all
   4. solid, bold captions that look designed (caption_png), not faded see-through text
 Also: turned(src, dst) = the "turn your phone" 9:16 (16:9 picture rotated 90 deg, fills the screen at native size) for
 the odd day - not the default.
-usage: python3 look.py <in.mp4> <out.mp4> [cine|pop|clean]     (grades a finished horizontal file, e.g. to test)"""
+usage: python3 look.py <in.mp4> <out.mp4> [bright|cine|pop|clean]     (grades a finished horizontal file, e.g. to test)"""
 import os, subprocess, sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np
@@ -22,13 +22,18 @@ GRADES = {
     # AA2/AA3 "4k" look: bright, punchy, saturated, crisp (measured: avg luma ~108, sat ~29 - twice ours)
     'pop': ("curves=all='0/0 0.20/0.13 0.80/0.88 1/1',"
             "eq=contrast=1.14:saturation=1.50:gamma=1.03"),
+    # AA5/AA6 "[4K]" look (Desmond, Nov 11: "this type and not dark" - clorix.kw Neymar 4.4M, agoftbl Yamal 12.6M): bright,
+    # very saturated (ref sat ~39 = 3x ours), lifted mids, 'clarity' (large-radius unsharp = local contrast), no vignette.
+    # THE DEFAULT. Grey rainy F1 footage needs the strong vibrance to get there.
+    'bright': ("eq=contrast=1.12:brightness=0.02:saturation=1.45:gamma=1.06,vibrance=intensity=0.45,"
+               "curves=all='0/0 0.25/0.22 0.75/0.82 1/1',unsharp=13:13:0.45:13:13:0"),
     # light touch for footage that is already graded (press films, trailers)
     'clean': "eq=contrast=1.06:saturation=1.12",
 }
-SHARPEN = 'cas=0.55'          # run after the LAST resize; 0.4-0.7 (higher = crunchier)
+SHARPEN = 'cas=0.7'           # run after the LAST resize; 0.4-0.8 (higher = crunchier; the [4K] refs are very crisp)
 
 
-def vf(grade='cine'):
+def vf(grade='bright'):
     """Grade + sharpen, ready to append to a filter chain after scaling."""
     return f"{GRADES[grade]},{SHARPEN}"
 
@@ -90,4 +95,4 @@ def turned(src, dst, fps=30):
 
 
 if __name__ == '__main__':
-    print(grade_file(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else 'cine'))
+    print(grade_file(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else 'bright'))

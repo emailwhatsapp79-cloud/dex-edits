@@ -15,7 +15,7 @@ render(cfg) - cfg keys:
   intro_song                     song level before the drop (0.3 = under the voice; 0 = the moment plays raw, no music)
   shake                          True: a short mild camera shake on the drop and every cut after it (ref X1/Y1) - only
                                  during the 0.28 s hit; the rest of the edit keeps its native pixels (no 0.94 crop upscale)
-  grade                          look.GRADES key: 'cine' (default, AA1 dark F1 look), 'pop' (AA2/AA3 bright "4k"), 'clean'
+  grade                          look.GRADES key: 'bright' (default, AA5/AA6 [4K] look), 'cine' (dark, on request), 'pop', 'clean'
   caps                           'solid' (default, AA1 bold italic white) | 'glow' (the old see-through text)"""
 import os, subprocess
 import wmtext, look
@@ -104,7 +104,7 @@ def render(cfg, scratch, out):
         slow = f'setpts=PTS/{speed},' if speed != 1.0 else ''   # slow motion (50 fps sources): a moment plays out longer
         crop = cfg.get('crop', '') if k in cfg.get('crop_keys', [k]) else ''
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{s:.3f}', '-i', F[k], '-frames:v', str(n), '-an', '-vf',
-                        f'{slow}fps={FPS},{crop + "," if crop else ""}{look.scale(W, H)},{look.GRADES[cfg.get("grade", "cine")]},setsar=1', '-c:v', 'libx264', '-crf', '12',
+                        f'{slow}fps={FPS},{crop + "," if crop else ""}{look.scale(W, H)},{look.GRADES[cfg.get("grade", "bright")]},setsar=1', '-c:v', 'libx264', '-crf', '12',
                         '-preset', 'fast', '-pix_fmt', 'yuv420p', p], check=True)
         parts.append(p)
 
