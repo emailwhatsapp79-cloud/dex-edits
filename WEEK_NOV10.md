@@ -15,3 +15,11 @@ YouTube scheduled in Zernio (videos/*-final-50.mp4, all passed Gemini QC). TikTo
 4K-LOOK TEST (Desmond, Nov 9): Tue's two posts were swapped to the new look - Kimi = soft cine (lighter vignette), Mercedes
 = pop, solid captions, crop 1024x576 at x232 (hides the timing tower). All four Tue posts (YouTube + TikTok) use the new files.
 Compare Tue's numbers before making the look the default.
+
+## MORNING SLOT 08:00 Lagos (Desmond, Nov 10: 3 posts a day test - morning 08:00 = 07:00 UTC, the best-looking morning slot: Europe's morning, YouTube Sat 07 UTC = 43 avg, TikTok 74; 09 UTC (10:00 Lagos) tested worst)
+Poll check-in fires 08:08 too. Files: engine/edit_bp_morning_week.py (clips in $SCRATCH/n via Brightcove ids in that file's history).
+| Slot (Lagos) | File | YouTube id / TikTok id | Poll (question only) |
+|---|---|---|---|
+| Wed 11 08:00 | 2026-11-11-alonso-400club-v3-(30/50).mp4 | 6af3e9519549991063af6cab / TikTok 6af3ee7ae63190884ba69176 | Quick poll 👇 Who's the better wheel-to-wheel racer, Alonso or Hamilton? |
+| Thu 12 08:00 | 2026-11-12-verstappen-piastri-v3-(30/50).mp4 | 6af3ee82e63190884ba691c2 / TikTok 6af3ee85e63190884ba691d2 | Quick poll 👇 Who wins this fight more often, Max or Oscar? |
+| Fri 13 08:00 | 2026-11-13-ferrari-on-ferrari-v3-(30/50).mp4 | 6af3ee87e3c628075144703a / TikTok 6af3ee89e3c6280751447041 | Quick poll 👇 Should Ferrari let Hamilton and Leclerc race? |
