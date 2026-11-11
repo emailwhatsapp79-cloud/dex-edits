@@ -563,3 +563,5 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
   saturated" (measured: moderate); claimed RSMB motion blur, twixtor speed ramps and vertical shakes - NOT verified in the frames;
   mis-timed the Whiplash lines (real timings above, from whisper on the 9.5-20.5 s slice); said Max is in the 0:04.8 shot for the
   caption "RUN" (correct) but labelled the captions with the wrong words in several places.
+
+| auto | https://www.tiktok.com/@fikramfrancisco/video/7705811207936052500?_r=1&_t=ZN-9BJPN5bL72s | @fikramfrancisco: VAI SEM PARAR lyrics / #trending #mytypemusic #slowedsongs #slowed #lyrics  | sound saved as library #170 (117 BPM, drop ≈ 19.0s) |
