@@ -36,6 +36,9 @@ edit is never scheduled.
    strongest hits, lyrics with word timings) and adds it to `songs/LIBRARY.md` (+ a stub in `REFERENCES.md`).
 2. Study the edit (cuts vs hits, effects, text, story) and write what it teaches into `REFERENCES.md` /
    `EDITING_RULES.md`. Keep the link, not the video.
+   Full study of a reference: `python3 engine/ref_study.py <video> <out_dir>` (4 Gemini passes) + ffmpeg scene cuts, librosa tempo,
+   a whisper slice and a 4 fps frame sheet to verify Gemini (it invents effects/timings). Example: refs/AB1 (REFERENCES.md "AB").
+   NEW CONTAINER? `pip install yt-dlp librosa soundfile faster-whisper pillow numpy` first (the python libs vanish on a reset).
 3. If the sound has speech or lyrics, the picture must show what is being said (EDITING_RULES §3).
 
 ## Posting

@@ -503,3 +503,63 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
   look.turned() for the odd day.
 - **Not useful for editing:** @kallaway.marketing "Claude as a viral content machine" (https://vm.tiktok.com/ZN8PLFUrq/) -
   an ad for prompt packs for talking-head creators.
+
+| auto | https://www.tiktok.com/@simply_boah/video/7703954916426960180?_r=1&_t=ZN-9BJP4PGczFz | @simply_boah: IT'S TIME FOR THE SÃO PAULO GRAND PRIX!! 🇧🇷 🤩 interlagos always delivers an amazing race.. | sound saved as library #169 (129 BPM, drop ≈ 16.5s) |
+
+## AB - the "tempo pivot" intro edit (Nov 11) - FULL STUDY
+- **AB1** @simply_boah "IT'S TIME FOR THE SAO PAULO GRAND PRIX!!" - https://vm.tiktok.com/ZN8PaQJmc/ (posted Nov 3, 5 days BEFORE the race).
+  610.6k views, 150.3k likes (24.6 % of views), 12.3k shares (2.0 %), 514 comments (0.08 %) in 8 days. Sound = "original sound - Boah"
+  = library #169 (the creator's own mix). Raw Gemini passes (timeline / audio / visual / strategy) in refs/AB1/ - Gemini was WRONG on
+  several details (see "Gemini errors" below), the numbers here are measured (ffmpeg scene cuts + librosa + whisper + frame sheets).
+- **FORMAT**: HORIZONTAL 16:9, 1920x1080, 60 fps, HEVC ~3.1 Mbit/s, 39.5 s, AAC 64 kbit/s. Hard cuts only. Same 16:9 on TikTok that
+  killed OUR retention on Nov 6 - so 16:9 itself is not the killer: giant captions + a cut every ~0.9 s + a hook are what hold it.
+- **ACT I 0-9.6 s, the broadcast prologue (words ARE the edit).** The broadcast commentary "This is Brazil and it's time for the next
+  chapter of this relentless World Championship run. Welcome back. The Sao Paulo Grand Prix is underway." over a 136 bpm intro bed.
+  EVERY spoken word appears on screen, in order, at the moment it is said, centred slightly below the middle, ~14 % of frame height:
+  heavy italic white capitals with a soft shadow, each word scales/pops in; LONG words type in progressively
+  (CHAP -> CHAPTER, RE -> RELENT -> RELENTLESS, CHAM -> CHAMPIONSHIP, WEL -> WELCOME, UN -> UNDER -> UNDERWAY!). The proper nouns get the
+  flag treatment: BRAZIL (0.75-1.4 s) and SAO PAULO GRAND PRIX (6.5-8.0 s, two lines, bigger) are filled green/yellow/blue like the
+  Brazilian flag (a cyan glitch flash on BRAZIL's first frame). UNDERWAY! fades to a grey ghost at 9.5 s then a hard cut.
+  Cuts land on WORD ONSETS (+-0.1 s): 1.45 (end of "Brazil"), 2.47 ("chapter"), 3.17 ("relentless"), 4.33 ("championship"),
+  4.87, 5.50 ("welcome"), 6.52 ("the Sao Paulo"), 7.40, 9.67. Shots (9 in 9.6 s, avg ~0.9 s): Brazil + Sao Paulo flags over the grandstand
+  (frame 1 = place + flag, NOT a car) -> aerial of the track -> fans holding paper-cut driver faces -> three DRIVER CLOSE-UPS (faces
+  looking down/aside, 0.6 s each) -> Max's Brazil-colours helmet, eyes only -> the huge Senna flag held over the crowd -> the grid
+  from above -> the start straight, low. Driver faces and the crowd come BEFORE any racing: the place and the people first.
+- **ACT II 9.6-16.0 s, the TEMPO PIVOT (the boldest move).** At 9.6 s the music AND the picture are cut dead (RMS 0.53 -> 0.02) to the
+  *Whiplash* scene: Fletcher (J.K. Simmons) in a warm, dark, sepia grade (luma 44 vs 127-134 elsewhere). Sounds: room tone, then
+  "Not quite my tempo." (11.3-13.0), a cutaway to the drummer (13.0-14.0), "Here we go." (14.1-14.6, a click/snap at 14.6),
+  the count-in "Five, six, ... here we go" (15.9-17.2). At ~16.0 tiny CGI F1 cars fly across Fletcher's frame (the F1 world
+  breaking into the film). The music re-enters low at 16.0 and DROPS at ~16.8-17.0 on "here we go".
+  Why it works: a 6.4 s "interruption" resets the viewer, makes the drop feel earned, adds the editor's personality, and film
+  fans share it. It also costs the first 16 s of F1 content - fine because Act I already carries the prologue.
+- **ACT III 17.0-35.2 s, the montage on a 95.7 bpm samba/funk-style beat** (beat grid 17.06, 17.68, 18.31 ... period 0.627 s,
+  so the bed is HALF the intro's 136). Cuts every 1-2 beats (0.6-1.3 s, avg ~0.9 s), landing on the beat grid within ~40 ms.
+  ~30 real hard cuts in the whole video (ffmpeg flagged 36; six at 28.2-28.6 s are a handheld selfie pan, not cuts). Content =
+  Interlagos NOSTALGIA + local pride, not this year's race: two Ferraris side by side (17.0), Hamilton fist-pump (18.0), a Mercedes
+  through the esses (19.0), Max arms-wide celebration (20-21), Brazilian fans/flags (22), a Haas doing donuts and spinning (24-26),
+  crowds cheering to camera and a girl in a blue cap giving a peace sign selfie (27-28.6), wide race shots (29-32, two cars side by
+  side at 30-31), the pit-wall/team party (33), a Williams (34), then FELIPE MASSA waving on the Heineken podium (35-36.5) - the Brazilian hero.
+  Music dips at 35.2-36.5 (RMS 0.27 -> 0.09) on the Massa shots, an emotional breath, then lifts for the finale.
+- **ENDING 37.0-39.5 s**: a Mercedes team champagne spray, sun flare, with a ghost "Edit By Boah" watermark (white, semi-transparent,
+  glow) across the last shots; audio fades out over ~1 s; no loop, no hold. A small "@simply_boah" tag sits bottom-centre, low opacity,
+  from ~0.8 s to the end.
+- **LOOK (measured, signalstats)**: NOT dark/teal. Intro avg luma 134, saturation 22; montage luma 127 then 105, sat 16-18; very
+  bright, natural, sunny colours (Brazil greens/yellows). The only dark section is the movie clip. Sharp 1080p60.
+- **AUDIO**: intro bed 136 bpm (unidentified), commentary clean and loud on top; hard silence + film audio; montage bed 95.7 bpm,
+  brass/percussion feel (Gemini guesses a "Mas Que Nada" style remix - NOT verified, and no match in our library by onset correlation).
+  Saved as #169. The mix is loud and compressed, bass punchy, dialogue clear.
+- **WHY IT PERFORMED (my read, evidence-based)**: (1) frame 1 = a flag over a stadium + a giant word, instantly "about Brazil" for a
+  huge local audience; (2) every word on screen = readable with sound OFF and rewarding with sound ON; (3) a genuine pattern break
+  (movie) at the 10-second mark, when scrollers usually leave; (4) a payoff drop with a new tempo; (5) national pride (flags, Senna,
+  Massa) -> the 2.0 % SHARE rate is the tell (12.3k shares), likes 24.6 %; (6) posted 5 days before the race = demand peak; (7) the
+  creator's account is established ("original sound - Boah"), so reach was higher than ours - not all of this is copyable.
+- **WHAT WE TAKE (see EDITING_RULES "TEMPO PIVOT + EVERY-WORD CAPTIONS")**: every-word captions with word-by-word typing for long
+  words and flag/team-colour gradient on the proper nouns; cut on word onsets in the voice part and on the beat grid in the music
+  part; a 5-6 s "interruption" clip (movie/meme/radio) before the drop; place + people before cars; local-hero beat near the end.
+- **WHAT WE DO NOT TAKE**: the Whiplash clip itself (done, and film/broadcast copyright risk), their watermark style, using only
+  archive footage for our race-week content (our edge is FRESH footage), a 40 s run time for every post (our best retention is 13-15 s).
+- **Gemini errors found (do not trust Gemini for exact numbers)**: it invented a uniform 0.6 s shot grid and an "11.3 s final slow-mo"
+  (real: ~0.9 s shots, final shot ~2.5 s); put the tempo at 90-100 -> 135 (real: 136 -> 95.7, reversed); claimed "extremely
+  saturated" (measured: moderate); claimed RSMB motion blur, twixtor speed ramps and vertical shakes - NOT verified in the frames;
+  mis-timed the Whiplash lines (real timings above, from whisper on the 9.5-20.5 s slice); said Max is in the 0:04.8 shot for the
+  caption "RUN" (correct) but labelled the captions with the wrong words in several places.

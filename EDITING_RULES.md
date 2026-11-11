@@ -426,3 +426,21 @@ subtitle lines. Post captions: one short hype line + " // " + 3-4 hashtags (e.g.
   cropped back to 16:9, 720p50), "<RACE> GP <YEAR> / EVERY MOMENT" title card for 3 s, chapters in the description
   (0:00 first, each >= 10 s), audio limited to -1.5 dBTP, file under ~95 MB (2-pass ~2.8 Mbit/s) for the GitHub raw URL.
   Post Sunday 18:00 (or the Monday after a race weekend). First one: Brazil GP, Sun Nov 15.
+
+
+## TEMPO PIVOT + EVERY-WORD CAPTIONS (Desmond, Nov 11, ref AB1 610k views / 150k likes / 2.0 % shares)
+Use for PREVIEW / hype edits (the week BEFORE a race, "it's time for X"), 30-40 s, once or twice a week - not every post.
+1. **Act I, 0-9 s: the voice IS the edit.** A short broadcast/commentary intro line; EVERY word on screen when it is spoken (big heavy
+   italic caps, centred just below the middle, ~14 % of frame height; long words type in: CHAP -> CHAPTER). Proper nouns (the
+   place, the race name) get a colour-gradient fill (flag colours / team colours). Cut on word onsets (+-0.1 s). Frame 1 = the place
+   (flag, stadium, aerial), then driver close-ups (0.6 s, faces only), then the crowd, then the grid. Cars last.
+2. **Act II, ~6 s: the interruption.** A hard cut of picture AND music to a known clip (movie/meme/radio) in a different, warm,
+   dark grade; one spoken line that stops the show, a count-in, then the music returns and DROPS on the last word. (Not Whiplash
+   again - pick a new one; check rights; keep it <= 6.5 s.)
+3. **Act III: the montage on the beat grid** of the second track (half-time of the intro bed is fine): a cut every 1-2 beats; a
+   local-hero beat near the end (Massa for Brazil, a home driver elsewhere) with the music dipping for a breath, then a team
+   celebration to finish and a fade (our end-well rules still apply: hold, smooth fade, no chopped word).
+4. **Look**: bright and natural for the montage (luma 105-130, saturation 16-22) - the dark grade belongs only to the interruption clip.
+5. **Do not copy**: Whiplash, their watermark, archive-only footage (we use the NEWEST footage), a 40 s length for ordinary posts.
+Tool: `python3 engine/ref_study.py <video> <out_dir> [context]` runs four Gemini passes on any reference; ALWAYS check its numbers
+against ffmpeg scene cuts + librosa tempo + a whisper slice + a 4 fps frame sheet (Gemini mis-times and invents effects).
