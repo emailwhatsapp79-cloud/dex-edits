@@ -94,5 +94,5 @@ def render(cfg, scratch, out):
               f"volume='if(lt(t,{body_d - 0.3:.3f}),{under},{under}+(1-{under})*min(1,(t-{body_d - 0.3:.3f})/0.6))':eval=frame,"
               f"afade=t=out:st={total - 2.5:.3f}:d=2.5[so];[vo][so]amix=inputs=2:normalize=0,alimiter=limit=0.9[aout]")
     run(cmd + ['-filter_complex', chain, '-map', '[vout]', '-map', '[aout]', '-t', f'{total:.3f}', '-r', str(fps)]
-        + look.encode_args(total, 14) + ['-c:a', 'aac', '-b:a', '256k', out])
+        + look.encode_args(total, min(14, 92 * 8 / total)) + ['-c:a', 'aac', '-b:a', '256k', out])
     return out, body_d, total
