@@ -98,3 +98,33 @@ def turned(src, dst, fps=30):
 
 if __name__ == '__main__':
     print(grade_file(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else 'bright'))
+
+
+def banner_png(title, out, height=128):
+    """Desmond, Nov 12: the title is a WHITE banner INSIDE the picture that slides out, holds a few seconds and slides back
+    (not text in the black bar). Line 1 big (the name), line 2 smaller. Black text on white, square left edge, rounded right."""
+    lines = [l for l in title.split('|') if l]
+    anton = os.path.join(ROOT, 'fonts', 'Anton.ttf')
+    f1, f2 = ImageFont.truetype(anton, int(height * 0.46)), ImageFont.truetype(anton, int(height * 0.30))
+    w = int(max(f1.getlength(lines[0]), f2.getlength(lines[1]) if len(lines) > 1 else 0)) + 70
+    img = Image.new('RGBA', (w, height), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
+    d.rounded_rectangle([-30, 0, w - 1, height - 1], radius=22, fill=(255, 255, 255, 240))
+    d.rectangle([0, int(height * 0.08), 10, int(height * 0.92)], fill=(225, 6, 0, 255))      # thin red accent on the edge
+    d.text((32, int(height * 0.06)), lines[0], font=f1, fill=(10, 10, 10, 255))
+    if len(lines) > 1: d.text((34, int(height * 0.58)), lines[1], font=f2, fill=(60, 60, 60, 255))
+    img.save(out); return out
+
+
+def brand_filter(cur, banner_input, total, top=420, t_in=0.4, hold=3.2, slide=0.35):
+    """Branding INSIDE the picture (Desmond, Nov 12): the white title banner slides in from the left at t_in, holds, slides
+    back out; then the DEX EDITS mark fades in at the top-middle of the picture - big, see-through (~45 %). `top` = the
+    picture's y in the 1080x1920 frame. Returns (filter text ending in [br], label)."""
+    a, b = t_in, t_in + slide; c, e = b + hold, b + hold + slide
+    x = (f"if(lt(t,{a}),-w,if(lt(t,{b}),-w+(40+w)*(t-{a})/{slide},if(lt(t,{c}),40,"
+         f"if(lt(t,{e}),40-(40+w)*(t-{c})/{slide},-w))))")
+    anton = os.path.join(ROOT, 'fonts', 'Anton.ttf')
+    flt = (f"{cur}[{banner_input}:v]overlay=x='{x}':y={top + 70}:eval=frame[bn];"
+           f"[bn]drawtext=fontfile={anton}:text='DEX EDITS':fontsize=76:fontcolor=white:"
+           f"alpha='0.45*min(1,max(0,(t-{e})/0.5))':shadowcolor=black@0.25:shadowx=2:shadowy=2:"
+           f"x=(w-text_w)/2:y={top + 34}[br];")
+    return flt, '[br]'

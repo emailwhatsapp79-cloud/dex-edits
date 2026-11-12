@@ -78,16 +78,11 @@ def render(cfg, scratch, out):
            '-f', 'concat', '-safe', '0', '-i', capl]
     chain = f'[0:v][1:v]concat=n=2:v=1:a=0[cat];[3:v]fps={fps},format=rgba[caps];[cat][caps]overlay=0:0:eof_action=pass[capd];'
     cur = '[capd]'
-    font = os.path.join(os.path.dirname(look.FONT), 'Anton.ttf')
-    title = ''
-    for j, line in enumerate(l for l in cfg.get('title', '').split('|') if l):
-        n = len([l for l in cfg['title'].split('|') if l])
-        line = line.replace("'", '’').replace(':', '\\:')
-        title += (f",drawtext=fontfile={font}:text='{line}':fontsize=78:fontcolor=white:x=(w-text_w)/2:"
-                  f"y=420-{40 + 95 * (n - 1 - j)}-text_h")
-    mark = f",drawtext=fontfile={font}:text='DEX EDITS':fontsize=40:fontcolor=white@0.55:x=(w-text_w)/2:y=1530"
-    chain += (f"{cur}{look.SHARPEN},pad=1080:1920:0:420:black{title}{mark},"
-              f"fade=t=in:d=0.15,fade=t=out:st={total - 1.2:.3f}:d=1.2[vout];")
+    # branding INSIDE the picture: sliding white title banner, then the see-through DEX EDITS mark (Desmond, Nov 12)
+    cmd += ['-loop', '1', '-framerate', str(fps), '-t', f'{total:.3f}', '-i', look.banner_png(cfg.get('title', 'DEX EDITS'), os.path.join(tmp, 'banner.png'))]
+    chain += f"{cur}{look.SHARPEN if cfg.get('grade') else 'null'},pad=1080:1920:0:420:black[pd];"
+    flt, cur = look.brand_filter('[pd]', 4, total)
+    chain += flt + f"{cur}fade=t=in:d=0.15,fade=t=out:st={total - 1.2:.3f}:d=1.2[vout];"
     under = cfg.get('song_under', 0.22)
     chain += (f"[0:a]aformat=channel_layouts=stereo,volume={cfg.get('voice_gain', 1.6)},apad=whole_dur={total:.3f}[vo];"
               f"[2:a]aformat=channel_layouts=stereo,atrim=0:{total:.3f},asetpts=PTS-STARTPTS,"
