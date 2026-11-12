@@ -596,3 +596,18 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
 - **NEEDS A TEST FIRST**: the subject mask (rembg / U2-Net or a video matting model) on F1 footage - helmets, overalls and
   motion blur make masks flicker. Do a 5 s test on 3 clips before promising it.
 - **DO NOT COPY**: their watermark, their exact layout, their sound; do not claim facts the footage does not show.
+
+## AD - story edits that go viral (Nov 12, Desmond: "what do they have in common that we're missing")
+- **AD1** @buzzz3rr "THE LAST LAP, THE LAST RACE, THE LAST HOPES [ABU DHABI 2021]" - 1.1M views, 233k likes, 914 comments, 1:53,
+  https://vm.tiktok.com/ZN8Pbtsmx/ . The last lap told by the TV commentator in ONE continuous run (hook: "is it going to be a
+  first world championship for Verstappen? an eighth for Lewis Hamilton?"), every sentence finished, 77 cuts that follow his
+  words, subtle word captions, then a 15 s ENDING: black-and-white high-contrast montage of Max as champion. 1024x576 upload.
+- **AD2** @o.automobilista "11 overtakes in the rain" - 61k views, 38 s, https://vm.tiktok.com/ZN8Pbq9Dt/ . ONE continuous
+  Hamilton onboard from the Brazil start, a position counter P20 > P9 updating with every pass, song throughout, ending card
+  "P20>P9" + follow. One idea, nothing else.
+- **AD3** @f1edits.ae "F1 IS BACK IN MEXICO" - 640k views, 146k likes, 24 s, https://vm.tiktok.com/ZN8Pgubk2/ . Hook = the
+  F1 promo voice "It is high speed. It is high intensity. This is Mexico City.", then race shots cut on the beat, bright warm
+  grade, 768x576 (4:3) upload.
+- **MrDinchaak** YouTube Short "MAX VERSTAPPEN - UNDRESS REHEARSAL" (screenshot): square 1:1 picture centred in the 9:16
+  frame, one caption word at a time inside the picture ("BUT..."), interview close-up.
+- In common: a real story with a stake, the voice never chopped, music under all of it, a proper ending. -> EDITING_RULES top.

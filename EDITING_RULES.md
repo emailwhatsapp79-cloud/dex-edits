@@ -1,5 +1,29 @@
 # Editing rules (TikTok edits)
 
+## STORY FIRST - THE NEW STANDARD (Desmond, Nov 12 - refs AD1-AD3 + MrDinchaak screenshot, REFERENCES "AD")
+Our 11-29 s edits stall: TikTok ~250 views each (completion 3-16%), YouTube back to ~1-2k after the Nov 5-8 peak. The edits
+that go viral do these things - every new edit must too:
+1. **One meaningful story, start to finish.** Write it in one sentence before cutting (e.g. "Max chases Lewis on the last lap
+   of 2021 - and becomes champion"). Every shot serves that sentence.
+2. **The hook is the stake, said in the first 2 s** - a question or claim the viewer needs answered ("Is it going to be a first
+   world championship for Verstappen?" AD1; "It is high speed. It is high intensity. This is Mexico City." AD3).
+3. **NEVER CHOP THE COMMENTATOR.** The commentary (or radio/interview) plays as ONE continuous run, in its real order, every
+   sentence finished - never a line cut off and another piece of the same moment glued after it (Desmond: Russell BQ talked
+   about the crash, cut, then re-added more crash talk = not fluent, people scroll). The picture follows the voice, shot by
+   shot, inside that run. Pick a span where the commentator tells the whole moment by himself.
+4. **The song covers the WHOLE video** - pick a track (or a full-song section) at least as long as the edit; no song that
+   stops, loops or fades out half-way. Song under the voice (~0.3), up full when the voice ends.
+5. **Every edit has an ENDING** - a distinct closing section after the payoff: a slow, stylised hero montage (AD1: black-and-
+   white high-contrast shots of the champion, 15 s) or a stat card ("P20 > P9", AD2), the music resolving, then out.
+6. **Length follows the story, not a target.** AD1 = 1:53 (1.1M views), AD3 = 24 s (640k), AD2 = 38 s. Long is fine when the
+   voice keeps the tension; a 12 s clip with no story is not.
+7. **Format: a square (1:1) picture in the middle of a 1080x1920 frame** (MrDinchaak Short; AD1-AD3 were posted as 16:9/4:3
+   bands). From 1080p sources a 1080x1080 crop is native - no upscale. Same file for TikTok and YouTube Shorts. Words sit
+   inside the picture, lower third; nothing in the black bars except an optional small title.
+8. One race weekend = fewer, bigger edits. Do not post 8 stories from the same highlights over 5 days - the audience has seen
+   the footage by day 2 (YouTube fell from 33k/16k/9.7k to ~1-2k per post once the Brazil week repeated).
+
+
 ## THE 4K LOOK - DEFAULT FOR EVERY EDIT (Desmond, Nov 9 - refs AA1-AA3 in REFERENCES.md)
 The "4k" edits with millions of views (@agoftbl France 9.4M, Lamine Yamal 12.4M) are only 720x1280 files. They look 4K
 because of how they are made, not the file size. Every edit now does all of this (engine/look.py, built into linedrop):
