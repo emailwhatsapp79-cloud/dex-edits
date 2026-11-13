@@ -58,7 +58,7 @@ CFG = dict(name='motogp_marc_marco', files=FILES, song=os.path.join(ASSETS, 'son
                      dict(type='beats', cuts=CUTS, end=84.96, shots=B_SHOTS),
                      dict(type='voice', k='m', a=87.0, b=91.9, words=lines(87.0, 91.9)),
                      dict(type='voice', k='m', a=128.3, b=136.2, words=lines(128.3, 136.2),
-                          hero=dict(start=0.75, text='RACING INCIDENT?', dur=4.3))   # only while Rivola is on screen])
+                          hero=dict(start=0.75, text='RACING INCIDENT?', dur=4.3))])   # cutout only while Rivola is on screen
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
