@@ -22,6 +22,11 @@ that go viral do these things - every new edit must too:
    inside the picture, lower third; nothing in the black bars except an optional small title.
 8. One race weekend = fewer, bigger edits. Do not post 8 stories from the same highlights over 5 days - the audience has seen
    the footage by day 2 (YouTube fell from 33k/16k/9.7k to ~1-2k per post once the Brazil week repeated).
+9. **Camera angles vary (Desmond, Nov 13).** Mix helicopter/aerial, wide trackside, tight telephoto, onboard, pit/garage,
+   faces, crowd. Onboard/tyre cams at most ~1/3 of the shots and never the same angle twice in a row.
+10. **Cutouts are LIVE (Desmond, Nov 13).** When a person is cut out with text behind them, they keep talking and moving
+   (mask every frame - master.py hero) - never a frozen still of someone who is speaking.
+11. **No remakes.** Don't rebuild a story that is already posted or scheduled; each new edit is a new story or a new series.
 
 
 ## THE 4K LOOK - DEFAULT FOR EVERY EDIT (Desmond, Nov 9 - refs AA1-AA3 in REFERENCES.md)

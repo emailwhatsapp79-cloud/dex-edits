@@ -57,18 +57,18 @@ def render(cfg, scratch, out):
             k, a, b = seg['k'], seg['a'], seg['b']; d = b - a; n = round(d * fps)
             path, vf = F[k]; src = stream(path, vf, a, d, fps)
             hero = seg.get('hero'); hv = None
-            if hero:
-                hi = Image.fromarray(read(path, vf, hero['at'], 0.05, fps)[0])
-                hv = fx.hero(hi, hero['text']); hd = fx.depth(hv)
+            if hero: hv = True                     # LIVE cutout (Desmond, Nov 13): the subject keeps talking/moving, cut out every frame
             ws = seg.get('words', [])
             for j in range(n):
                 t = j / fps; ts = a + t; fr_j = next(src)
-                if hv is not None and t < hero['dur']:
-                    f = fx.parallax(hv, hd, t / hero['dur'], amount=70, zoom_k=0.14)
-                    if t < 0.12: f = hype.flash(f, 0.8 * (1 - t / 0.12))
+                h0 = hero.get('start', 0.0) if hv is not None else 0
+                if hv is not None and h0 <= t < h0 + hero['dur']:
+                    f = np.asarray(fx.hero(Image.fromarray(fr_j), hero['text']))
+                    f = hype.zoom(f, 1 + 0.08 * t / hero['dur'])          # slow push in while he talks
+                    if t - h0 < 0.12: f = hype.flash(f, 0.8 * (1 - (t - h0) / 0.12))
                 else:
                     f = fr_j
-                    if hv is not None and t < hero['dur'] + 0.1: f = hype.flash(f, 0.6)
+                    if hv is not None and h0 + hero['dur'] <= t < h0 + hero['dur'] + 0.1: f = hype.flash(f, 0.6)
                 img = Image.fromarray(np.ascontiguousarray(f)).convert('RGBA')
                 line = [x for x in ws if x[0] <= ts]
                 if line and ts < line[-1][0] + 2.4 and ts < b - 0.05: img.alpha_composite(caption_layer(line[-1][1]))
