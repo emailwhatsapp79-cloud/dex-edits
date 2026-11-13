@@ -5,6 +5,10 @@ made with code. All Dex Edits work is committed and pushed HERE ONLY. Never push
 videos to `scamdecoded-media` – that repo belongs to a different channel (@scamdecoded).
 
 Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every edit needs a clear direction.
+YOUTUBE MAX 60 SECONDS (Desmond, Nov 13): no YouTube post longer than 60 s - no weekly long video either (the Sun 15 Brazil
+long video was deleted). The 2:14 Max story got 2 views on YouTube vs 1,417 for the 59 s Norris story. Longer cuts are TikTok-only.
+MULTI-SERIES (Desmond, Nov 12): F1 stays ~2 of every 3 posts; the rest come from whatever raced that week (MotoGP, WEC,
+Formula E, NASCAR, Dakar), sourced from their official YouTube highlights like F1.
 THE 4K LOOK (EDITING_RULES top section, Nov 9) is the default for every edit: best source at native size (F1 = FORMULA 1
 YouTube highlights 1080p, not formula1.com 720p), close-up shots, the 'cine'/'pop' grade + CAS sharpen and solid bold
 italic captions from engine/look.py. TikTok Studio Nov 9: posts DO reach For You (98.6%) - viewers leave at 0:02, so the
