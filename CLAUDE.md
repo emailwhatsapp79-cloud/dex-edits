@@ -33,7 +33,7 @@ edit is never scheduled.
   Metricool uses when scheduling posts.
 - `fonts/` – Anton, Orbitron, Archivo (SIL Open Font License).
 - `.claude/skills/humanizer/` – blader/humanizer (MIT): rewrites text so it doesn't read as AI-written. Run every caption,
-  YouTube title and poll question through it before scheduling (short, plain, like a fan wrote it).
+  YouTube title through it before scheduling (short, plain, like a fan wrote it).
 
 ## Every link or video Desmond sends
 1. Save its sound: `python3 engine/add_sound.py <link or file[::Title]>` – downloads, analyses (tempo, drop,
@@ -54,18 +54,13 @@ CAPTION CALL TO ACTION (Desmond, Nov 9 - subs are the weakest goal): every capti
 "subscribe for an F1 edit every day 🏁" (YouTube) / "follow for an F1 edit every day 🏁" (TikTok), before the hashtags.
 STATS: when reporting likes/views use the LIFETIME channel totals from analytics (source=all, all posts) - not only the
 Zernio-posted ones (Nov 9 Desmond caught "2,851 likes" when the channel had 4,430).
-POLL COMMENT FORMAT (Desmond, Nov 7): the QUESTION ONLY, e.g. "Quick poll 👇 Does Lewis win another race before he retires?" - no "Reply ✅ YES or ❌ NO" options typed after it.
+NO POLL COMMENTS (Desmond, Nov 14): do NOT post a "Quick poll" comment on posts, and do not give Desmond poll questions with new edits. The polls were stopped Nov 14.
 REPLY WITH A QUESTION BACK (Desmond, Nov 9): where it fits, end a reply with a short question to the viewer ("who takes Vegas?",
 "Lando or Max?") so the thread keeps going. Not on every reply, never on insults or corrections - there just thank them.
-REPLY TO COMMENTS (Desmond, Nov 8): after every post (at the poll-comment check-in, and again at the next check-in) list new
+REPLY TO COMMENTS (Desmond, Nov 8): when Desmond asks (no automatic check-in any more) list new
 viewer comments on the last few posts (comments_list_inbox_comments + comments_get_inbox_post_comments) and reply to each one
 not yet answered: short, fun, like a fan (1 line, an emoji at most two), never argue, never fake facts. Liked comments first.
 Zernio cannot LIKE comments - Desmond does that in the app.
-COMMENTS (Desmond, Nov 3 - posts stall with likes but no comments): Desmond adds a TikTok comment POLL by hand when each post
-goes live (app-only feature) and pins it. On YOUTUBE Claude posts a "Quick poll 👇 ... Reply 🔴 X or 🔵 Y" text comment ~7 min
-after each post goes live on TikTok AND YouTube (Zernio comments_reply_to_inbox_post) - it worked (replies within the hour, Nov 3).
-With every new edit, give Desmond a poll question + 2-3 options that make people take a side. FACT-CHECK the question: the
-Nov 3 one called Max a "youngest champion" and a viewer corrected it (Vettel held the record until Kimi).
 Daily slots (Desmond, Oct 23): TWO posts a day - 12:00 and 18:00 (was 3/day at 10/12/18 until Oct 23). Fewer, bigger edits:
 the strongest edit of the day at 18:00. Mix football / F1 / cars / movies across the week, not one of each per day.
 FRESHNESS (Desmond, Oct 18): the three edits of a day are made together, close to the post date, from the newest material
