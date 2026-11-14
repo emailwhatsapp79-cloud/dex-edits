@@ -26,13 +26,13 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Tue 17 12:00 | E6 NASCAR 2026 Championship (2026-11-17-nascar-championship-blaney-larson-30.mp4); WEC skipped - only 2025 Bahrain footage online | YT 6af7fe6ec0ce029c2522ff21 / TT 6af7fe70c0ce029c2522ff33 |
 | Tue 17 18:00 | E7 Vegas 2025: Max wins, McLarens DSQ (2026-11-17-vegas25-max-wins-mclaren-dsq-25.mp4) | YT 6af8026325f72f87e598508f / TT 6af8026425f72f87e5985098 |
 | Wed 18 08:00 | E8 Vegas 2023 lead swaps hype (2026-11-18-vegas23-lead-swaps-25.mp4, Ramalama) | YT 6af805201bb7166756c5d517 / TT 6af8052269b2e89bc01cd310 |
-| Wed 18 12:00 | E9 MotoGP Portimao 2025 race story (vP51RMuSUsk) - transcript ready in bra/portimao25.json (Bezzecchi start-to-finish win 632-663; Ogura/Di Giannantonio passes 599-629); 3rd Bezzecchi post - consider Acosta/Marquez angle | NEXT: render |
-| Wed 18 18:00 | E10 Abu Dhabi 2025: Norris crowned (emotional) or Vegas 2024 Russell wins | to make |
-| Thu 19 08:00 | E11 MotoGP Portimao 2025 best moments (rollercoaster track) | to make |
-| Thu 19 12:00 | E12 Every Vegas winner 2023-2025 (countdown/graphics style) | to make |
+| Wed 18 12:00 | E9 Last time at Portimão (2026-11-18-portimao-last-time-25.mp4) | YT 6af82a6fe3abac0c5c203f15 / TT 6af82a71b4dae361cbd3cd7a |
+| Wed 18 18:00 | E10 Vegas 2024 Mercedes one-two (2026-11-18-mercedes-one-two-vegas24-25.mp4) | YT 6af82cd934a49330dafb93b8 / TT 6af82cdc34a49330dafb93e3 |
+| Thu 19 08:00 | E11 Vegas: 3 years, 3 winners (2026-11-19-vegas-three-winners-25.mp4, Housewife) | YT 6af8311bf75dfd6f75fec4d0 / TT 6af8311df75dfd6f75fec4e1 |
+| Thu 19 12:00 | E12 Norris world champion, Abu Dhabi 2025 (2026-11-19-norris-world-champion-ad25-25.mp4) | YT 6af835f2e96f212179c66432 / TT 6af835f43b470f88577ae728 |
 | Thu 19 18:00 | E13 Vegas week: practice starts tonight (hype) | to make |
-| Fri 20 08:00 | E14 Vegas 2024: Russell wins (story-first) | to make |
-| Fri 20 12:00 | E15 NEXT UP: MotoGP Portimao this weekend (lyric/title card) | to make |
+| Fri 20 08:00 | E14 Vegas 2023 first-corner clash + Max's penalty (story-first, bra/vegas23.json 0-106 s) | to make |
+| Fri 20 12:00 | E15 MotoGP Portimão weekend: Pecco's 2025 crash (EbJMANarkcQ 114-153, serif lyric) | to make |
 | Fri 20 18:00 | E16 Vegas qualifying tonight (rain 2025 crashes, hype) | to make |
 | Sat 21 08:00 | E17 pre-made (Desmond, Nov 14: the last pre-made post) | to make |
 | Sat 21 12:00 + 18:00, Sun 22 all | FRESH Vegas quali/race + Portimao sprint/race clips - no Sunday backup needed | made on the day |
