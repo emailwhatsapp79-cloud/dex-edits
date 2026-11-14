@@ -30,11 +30,11 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Wed 18 18:00 | E10 Vegas 2024 Mercedes one-two (2026-11-18-mercedes-one-two-vegas24-25.mp4) | YT 6af82cd934a49330dafb93b8 / TT 6af82cdc34a49330dafb93e3 |
 | Thu 19 08:00 | E11 Vegas: 3 years, 3 winners (2026-11-19-vegas-three-winners-25.mp4, Housewife) | YT 6af8311bf75dfd6f75fec4d0 / TT 6af8311df75dfd6f75fec4e1 |
 | Thu 19 12:00 | E12 Norris world champion, Abu Dhabi 2025 (2026-11-19-norris-world-champion-ad25-25.mp4) | YT 6af835f2e96f212179c66432 / TT 6af835f43b470f88577ae728 |
-| Thu 19 18:00 | E13 Vegas week: practice starts tonight (hype) | to make |
-| Fri 20 08:00 | E14 Vegas 2023 first-corner clash + Max's penalty (story-first, bra/vegas23.json 0-106 s) | to make |
-| Fri 20 12:00 | E15 MotoGP Portimão weekend: Pecco's 2025 crash (EbJMANarkcQ 114-153, serif lyric) | to make |
-| Fri 20 18:00 | E16 Vegas qualifying tonight (rain 2025 crashes, hype) | to make |
-| Sat 21 08:00 | E17 pre-made (Desmond, Nov 14: the last pre-made post) | to make |
+| Thu 19 18:00 | E13 VEGAS WEEK practice tonight (2026-11-19-vegas-week-practice-tonight-25.mp4, Bow Bow Bow) | YT 6af8542df4bbf20311aacb63 / TT 6af85430468e0fd807ee8bf9 |
+| Fri 20 08:00 | E14 Vegas 2023 turn one + penalty (2026-11-20-vegas23-turn-one-penalty-25.mp4) | YT 6af85279f4c7e922f555c309 / TT 6af8527a18f69440a413869f |
+| Fri 20 12:00 | E15 Pecco Portimão redemption? (2026-11-20-pecco-portimao-redemption-25.mp4, Panchiko) | YT 6af8571baeacb8d1a9a92879 / TT 6af8571d1caadffb1a5dde0c |
+| Fri 20 18:00 | E16 QUALIFYING TONIGHT hype (2026-11-20-vegas-qualifying-tonight-25.mp4, Can I Ride) | YT 6af858488ea5514c3dbf21f9 / TT 6af8584a8ea5514c3dbf2208 |
+| Sat 21 08:00 | E17 SUPER SATURDAY MotoGP + F1 (2026-11-21-super-saturday-25.mp4) - last pre-made post | YT 6af85bc0798f4923c8f9bcee / TT 6af85bc241380675ccf97788 |
 | Sat 21 12:00 + 18:00, Sun 22 all | FRESH Vegas quali/race + Portimao sprint/race clips - no Sunday backup needed | made on the day |
 
 Sources: sources/2026-11-vegas-week/ (Vegas 2023/24/25 race, Vegas 2025 quali, Abu Dhabi 2025, MotoGP Portimao 2025,
