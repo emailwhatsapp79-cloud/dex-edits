@@ -25,9 +25,9 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Tue 17 08:00 | E5 Norris pole in the Purple Rain (2026-11-17-norris-purple-rain-pole-25.mp4) | YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d |
 | Tue 17 12:00 | E6 NASCAR 2026 Championship (2026-11-17-nascar-championship-blaney-larson-30.mp4); WEC skipped - only 2025 Bahrain footage online | YT 6af7fe6ec0ce029c2522ff21 / TT 6af7fe70c0ce029c2522ff33 |
 | Tue 17 18:00 | E7 Vegas 2025: Max wins, McLarens DSQ (2026-11-17-vegas25-max-wins-mclaren-dsq-25.mp4) | YT 6af8026325f72f87e598508f / TT 6af8026425f72f87e5985098 |
-| Wed 18 08:00 | E8 Abu Dhabi 2025: Norris crowned (emotional) | to make |
-| Wed 18 12:00 | E9 MotoGP Portimao 2025 race story (vP51RMuSUsk) | to make |
-| Wed 18 18:00 | E10 Vegas 2023 Max vs Leclerc lead swaps (hype, every hit animated) | to make |
+| Wed 18 08:00 | E8 Vegas 2023 lead swaps hype (2026-11-18-vegas23-lead-swaps-25.mp4, Ramalama) | YT 6af805201bb7166756c5d517 / TT 6af8052269b2e89bc01cd310 |
+| Wed 18 12:00 | E9 MotoGP Portimao 2025 race story (vP51RMuSUsk) - transcript ready in bra/portimao25.json (Bezzecchi start-to-finish win 632-663; Ogura/Di Giannantonio passes 599-629); 3rd Bezzecchi post - consider Acosta/Marquez angle | NEXT: render |
+| Wed 18 18:00 | E10 Abu Dhabi 2025: Norris crowned (emotional) or Vegas 2024 Russell wins | to make |
 | Thu 19 08:00 | E11 MotoGP Portimao 2025 best moments (rollercoaster track) | to make |
 | Thu 19 12:00 | E12 Every Vegas winner 2023-2025 (countdown/graphics style) | to make |
 | Thu 19 18:00 | E13 Vegas week: practice starts tonight (hype) | to make |
