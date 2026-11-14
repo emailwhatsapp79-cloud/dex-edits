@@ -17,16 +17,16 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Sat 14 12:00 | E1 NEXT RACE: LAS VEGAS (2026-11-14-next-race-las-vegas-25.mp4, Flashing Lights) | YT 6af7868c2342cab69add535a / TT 6af7868e2342cab69add536a |
 | Sat 14 18:00 | Max P21 hype (2026-11-12-max-p21-to-podium-hype-50.mp4) | YT 6af5b23b83f14f29f88b4456 / TT 6af5b23d83f14f29f88b447b |
 | Sun 15 08:00 | Bezzecchi down Sat / winner Sun (2026-11-13-bezzecchi-sat-sun-25.mp4) | YT 6af77629b3a1b6803563f23e / TT 6af7762cb3a1b6803563f264 |
-| Sun 15 12:00 | E2 Leclerc's last-chance move, Vegas 2023 (story-first, 59.9 s) | rendering |
+| Sun 15 12:00 | E2 Leclerc's last-chance move, Vegas 2023 (2026-11-15-leclerc-last-chance-vegas23-25.mp4) | YT 6af7a34442e7eeb3cf4f18ed / TT 6af7a3461d408ec47841577e |
 | Sun 15 18:00 | Hamilton Race 400 master (2026-11-12-hamilton-race-400-master-50.mp4) | YT 6af7762eb3a1b6803563f26f / TT 6af77630d6232609796d08c9 |
 | Mon 16 08:00 | Russell v7 (moved from Sat 14) | YT 6af1de612f7b795c4bf9b2b7 / TT 6af1df64b1f84f3776c3b1fe |
-| Mon 16 12:00 | E3 MotoGP Qatar leftovers or Portimao 2025 (new style: split screen / speed ramps) | to make |
-| Mon 16 18:00 | E4 Vegas 2024: Max crowned on the Strip (radio + emotional lyric style) | to make |
-| Tue 17 08:00 | E5 Vegas 2025 rain qualifying (beat edit, spray and sparks) | to make |
-| Tue 17 12:00 | E6 WEC Bahrain finale (first WEC edit) | to make |
-| Tue 17 18:00 | E7 Vegas 2025 race story (Max wins; check facts) | to make |
+| Mon 16 12:00 | E3 NEXT STOP: PORTIMÃO (2026-11-16-next-stop-portimao-25.mp4, Can I Ride) | YT 6af7f4bdb639bf3f7e082f69 / TT 6af7f4beb639bf3f7e082f7d |
+| Mon 16 18:00 | E4 Max four in a row, Vegas 2024 (2026-11-16-max-four-in-a-row-vegas24-25.mp4) | YT 6af7f308c9a10a0d59dfdb48 / TT 6af7f30a44735e3eac4df854 |
+| Tue 17 08:00 | E5 Norris pole in the Purple Rain (2026-11-17-norris-purple-rain-pole-25.mp4) | YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d |
+| Tue 17 12:00 | E6 NASCAR 2026 Championship (2026-11-17-nascar-championship-blaney-larson-30.mp4); WEC skipped - only 2025 Bahrain footage online | YT 6af7fe6ec0ce029c2522ff21 / TT 6af7fe70c0ce029c2522ff33 |
+| Tue 17 18:00 | E7 Vegas 2025: Max wins, McLarens DSQ (2026-11-17-vegas25-max-wins-mclaren-dsq-25.mp4) | YT 6af8026325f72f87e598508f / TT 6af8026425f72f87e5985098 |
 | Wed 18 08:00 | E8 Abu Dhabi 2025: Norris crowned (emotional) | to make |
-| Wed 18 12:00 | E9 NASCAR 2026 championship (first NASCAR edit) | to make |
+| Wed 18 12:00 | E9 MotoGP Portimao 2025 race story (vP51RMuSUsk) | to make |
 | Wed 18 18:00 | E10 Vegas 2023 Max vs Leclerc lead swaps (hype, every hit animated) | to make |
 | Thu 19 08:00 | E11 MotoGP Portimao 2025 best moments (rollercoaster track) | to make |
 | Thu 19 12:00 | E12 Every Vegas winner 2023-2025 (countdown/graphics style) | to make |
