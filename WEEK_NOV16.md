@@ -34,8 +34,8 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Fri 20 08:00 | E14 Vegas 2024: Russell wins (story-first) | to make |
 | Fri 20 12:00 | E15 NEXT UP: MotoGP Portimao this weekend (lyric/title card) | to make |
 | Fri 20 18:00 | E16 Vegas qualifying tonight (rain 2025 crashes, hype) | to make |
-| Sat 21 08:00 | E17 (backup in case qualifying highlights are late) | to make |
-| Sun 22 08:00 | E18 (backup: race highlights ~08:00) | to make |
+| Sat 21 08:00 | E17 pre-made (Desmond, Nov 14: the last pre-made post) | to make |
+| Sat 21 12:00 + 18:00, Sun 22 all | FRESH Vegas quali/race + Portimao sprint/race clips - no Sunday backup needed | made on the day |
 
 Sources: sources/2026-11-vegas-week/ (Vegas 2023/24/25 race, Vegas 2025 quali, Abu Dhabi 2025, MotoGP Portimao 2025,
 WEC Bahrain, NASCAR 2026 championship Homestead) + sources/2026-11-motogp-qatar/.
