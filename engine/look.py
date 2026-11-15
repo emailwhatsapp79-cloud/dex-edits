@@ -128,3 +128,13 @@ def brand_filter(cur, banner_input, total, top=420, t_in=0.4, hold=3.2, slide=0.
            f"alpha='0.45*min(1,max(0,(t-{e})/0.5))':shadowcolor=black@0.25:shadowx=2:shadowy=2:"
            f"x=(w-text_w)/2:y={top + 34}[br];")
     return flt, '[br]'
+
+
+def yt1440(src, dst):
+    """YouTube copy at 1440x2560 (Desmond, Nov 15: Shorts looked soft - YouTube encodes 1440p uploads in its better
+    VP9/AV1 tier, which also lifts the 1080p it serves). Bitrate kept under GitHub's 100 MB file limit."""
+    d = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src],
+                             capture_output=True, text=True).stdout)
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', 'scale=1440:2560:flags=lanczos', '-c:a', 'copy']
+                   + encode_args(d, min(20, 90 * 8 / d)) + [dst], check=True)
+    return dst

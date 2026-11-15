@@ -38,10 +38,11 @@ def lines(a, b):
 
 CFG = dict(name='leclerc_vegas23', files=FILES, song=os.path.join(ASSETS, 'songs', 'full', '22_just_keep_watching_f1_cover.mp3'),
            song_in=0.0, title='LECLERC|LAST CHANCE IN VEGAS', banner_in=0.6,
-           segments=[dict(type='voice', k='v', a=413.2, b=471.35, words=lines(413.2, 471.35)),
-                     dict(type='end', k='v', at=477.5, dur=1.7, text='WHAT A MOVE.')])
+           segments=[dict(type='voice', k='v', a=425.9, b=448.1, words=lines(425.9, 448.1)),   # Nov 15: <= 30 s, real ending
+                     dict(type='outro', shots=[('v', 449.0), ('v', 441.5), ('v', 432.5), ('v', 459.5)]),])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
     out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cb_leclerc_vegas23_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))

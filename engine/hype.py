@@ -100,6 +100,32 @@ def stamp(img, text, u):
     img.alpha_composite(lay)
 
 
+def endcard(u):
+    """Closing card (Desmond, Nov 15 - every reference edit ends on a branded card): black, DEX EDITS + FOLLOW FOR MORE,
+    fading/settling in over the first 0.35 of its life (u = seconds into the card)."""
+    a = min(1.0, u / 0.35); k = 1.06 - 0.06 * a
+    img = Image.new('RGB', (S, S), (0, 0, 0)); lay = Image.new('RGBA', (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    f1, f2 = font(int(190 * k)), font(int(54 * k))
+    for txt, f, y in (('DEX EDITS', f1, S // 2 - 120), ('FOLLOW FOR MORE', f2, S // 2 + 95)):
+        b = f.getbbox(txt); d.text(((S - (b[2] - b[0])) // 2 - b[0], y), txt, font=f, fill=(255, 255, 255, int(255 * a)))
+    img.paste(lay, (0, 0), lay)
+    return np.asarray(img)
+
+
+_beat_cache = {}
+
+
+def song_beats(song, t0, span=20.0, every=2):
+    """Beat times (song seconds) from t0 on, every `every`-th beat - for cutting an outro on the music."""
+    import librosa
+    key = (song, round(t0, 2), span)
+    if key not in _beat_cache:
+        y, sr = librosa.load(song, sr=22050, offset=max(0.0, t0), duration=span)
+        _, b = librosa.beat.beat_track(y=y, sr=sr, units='time')
+        _beat_cache[key] = [t0 + x for x in b]
+    return _beat_cache[key][::every]
+
+
 def render(cfg, scratch, out):
     fps, F, crop = cfg.get('fps', 50), cfg['files'], cfg.get('crop', 420)
     cuts, s0, end = cfg['cuts'], cfg['song_in'], cfg['end']

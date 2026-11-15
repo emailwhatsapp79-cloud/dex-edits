@@ -101,6 +101,23 @@ def render(cfg, scratch, out):
                     put(img)
                 if sh.get('count') is not None: pos_prev = sh['count']
                 t_edit += d
+        elif seg['type'] == 'outro':
+            # Desmond, Nov 15: after the last words, 4-5 s of driving/overtakes cut on the music, then the end card
+            st = s0 + t_edit
+            hits = [h for h in hype.song_beats(cfg['song'], st, 20.0, seg.get('every', 2)) if h > st + 0.25]
+            cuts = [st] + hits[:len(seg['shots']) - 1]
+            for i, (k, t0, *sp) in enumerate(seg['shots']):
+                a = cuts[i]; b = cuts[i + 1] if i + 1 < len(cuts) else a + seg.get('last', 1.2)
+                n = round((b - s0) * fps) - round((a - s0) * fps); d = n / fps; slow = sp[0] if sp else 1.0
+                path, vf = F[k]; src = read(path, vf, t0, d * slow + 0.2, fps)
+                for j in range(n):
+                    f = src[min(int(j * slow), len(src) - 1)]
+                    if j / fps < 0.22: f = hype.entry(f, 'punch' if i % 2 else 'flash', (j / fps) / 0.22, i)
+                    put(Image.fromarray(np.ascontiguousarray(f)).convert('RGBA'))
+                t_edit += d
+            n = round(seg.get('card', 1.6) * fps)
+            for j in range(n): put(Image.fromarray(hype.endcard(j / fps)).convert('RGBA'))
+            t_edit += n / fps
         elif seg['type'] == 'end':
             path, vf = F[seg['k']]; fr = read(path, vf, seg['at'], 0.1, fps)[0]
             hv = fx.hero(Image.fromarray(fr), None, dark=0.35)
@@ -118,7 +135,7 @@ def render(cfg, scratch, out):
     for k, a, b, at in voices: cmd += ['-ss', f'{a:.3f}', '-t', f'{b - a + 0.05:.3f}', '-i', F[k][0]]
     chain = '[0:v]pad=1080:1920:0:420:black[pd];'
     flt, cur = look.brand_filter('[pd]', 2, total, t_in=cfg.get('banner_in', 0.4))
-    chain += flt + f"{cur}fade=t=out:st={total - 0.8:.3f}:d=0.8[v];"
+    chain += flt + f"{cur}fade=t=out:st={total - 0.3:.3f}:d=0.3[v];"
     under = cfg.get('song_under', 0.22)
     vol = '1'
     for a, b in reversed(duck): vol = f"if(between(t,{a:.3f},{b - 0.1:.3f}),{under},{vol})"
