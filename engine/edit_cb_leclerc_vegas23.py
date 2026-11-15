@@ -37,7 +37,7 @@ def lines(a, b):
 
 
 CFG = dict(name='leclerc_vegas23', files=FILES, song=os.path.join(ASSETS, 'songs', 'full', '22_just_keep_watching_f1_cover.mp3'),
-           song_in=0.0, title='LECLERC|LAST CHANCE IN VEGAS', banner_in=0.6,
+           song_in=37.0, title='LECLERC|LAST CHANCE IN VEGAS', banner_in=0.6,
            segments=[dict(type='voice', k='v', a=425.9, b=448.1, words=lines(425.9, 448.1)),   # Nov 15: <= 30 s, real ending
                      dict(type='outro', shots=[('v', 449.0), ('v', 441.5), ('v', 432.5), ('v', 459.5)]),])
 

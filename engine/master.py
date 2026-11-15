@@ -130,13 +130,13 @@ def render(cfg, scratch, out):
             t_edit += seg['dur']
     enc.stdin.close(); enc.wait()
     total = t_edit
-    cmd = ['ffmpeg', '-v', 'error', '-y', '-i', body, '-ss', f'{s0:.3f}', '-t', f'{total:.3f}', '-i', cfg['song'],
+    cmd = ['ffmpeg', '-v', 'error', '-y', '-i', body, '-stream_loop', '-1', '-ss', f'{s0:.3f}', '-t', f'{total:.3f}', '-i', cfg['song'],
            '-loop', '1', '-framerate', str(fps), '-t', f'{total:.3f}', '-i', look.banner_png(cfg['title'], os.path.join(tmp, 'banner.png'))]
     for k, a, b, at in voices: cmd += ['-ss', f'{a:.3f}', '-t', f'{b - a + 0.05:.3f}', '-i', F[k][0]]
     chain = '[0:v]pad=1080:1920:0:420:black[pd];'
     flt, cur = look.brand_filter('[pd]', 2, total, t_in=cfg.get('banner_in', 0.4))
     chain += flt + f"{cur}fade=t=out:st={total - 0.3:.3f}:d=0.3[v];"
-    under = cfg.get('song_under', 0.22)
+    under = cfg.get('song_under', 0.35)          # Nov 15: the song must be heard under the voice the whole way
     vol = '1'
     for a, b in reversed(duck): vol = f"if(between(t,{a:.3f},{b - 0.1:.3f}),{under},{vol})"
     chain += f"[1:a]volume='{vol}':eval=frame,afade=t=out:st={total - 2.0:.3f}:d=2.0[song];"
