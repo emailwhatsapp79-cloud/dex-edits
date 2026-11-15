@@ -496,3 +496,9 @@ time; the driver (finger, helmet, arms) sits IN FRONT of 1-2 letters (subject ma
 beats and the music ducked on each. 4) Slowed-pop/reverb bed with a vocal hook; cuts on phrases, not on every beat. 5) Dark cine
 grade (our 'cine'). 6) Last shot = a candid, human, desaturated moment, fade out so it loops. 7) Fresh peg, any footage that fits the
 feeling - the freshness rule applies to the NEWS, not the clips.
+
+
+OUTRO = HYPE MONTAGE (Desmond, Nov 15 night): the ending must not look like the main part. After the last words, a NEW clip on
+EVERY beat (8-10 clips: drifts, smoke, burnouts, crashes, overtakes, side-by-side), each landing with a different move
+(flash, whip, zoom, shake, spin, glitch), played fast with a push-in; the last shot can be slow motion; then the end card.
+master.py 'outro' does this by default (every=1, speed 1.5). Check each clip's source for camera cuts inside it.
