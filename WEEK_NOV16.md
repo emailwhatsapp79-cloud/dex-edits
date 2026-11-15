@@ -41,3 +41,15 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 
 Sources: sources/2026-11-vegas-week/ (Vegas 2023/24/25 race, Vegas 2025 quali, Abu Dhabi 2025, MotoGP Portimao 2025,
 WEC Bahrain, NASCAR 2026 championship Homestead) + sources/2026-11-motogp-qatar/.
+
+## TODO when work resumes (written Sun 15 Nov, 23:40)
+Transcripts ready in work/bra/: radio_rewind.json, sandown.json, bathurst_last_lap.json. Downloads done: Sandown,
+DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-other-series/).
+1. Mon 08:00 - engine/edit_cu_sandown_seven_tenths.py: pick OUTRO clips from a Sandown contact sheet (8-10 action clips,
+   check camera cuts), render, swap Russell (YT 6afa169500f06493b9275375 / TT 6afa1699722cce6e5cd8b548).
+   If it misses 08:00, the Russell post goes out as is.
+2. Mon 18:00 - DTM decider: transcribe, write, render, swap Max four (YT 6afa16a3866c247f3fa9bb49 / TT 6afa16a6722cce6e5cd8b5d3).
+3. Tue 08:00 - engine/edit_ct_antonelli_loses_lead.py: replace the guessed outro clips (1007-1077 s) with real action
+   from a Radio Rewind contact sheet, render, swap Norris Purple Rain (YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d).
+4. Re-cut under 30 s with the new outro: Tue 18 Vegas25 DSQ, Wed 18 Mercedes 1-2, Thu 12 Norris champion.
+5. Brazil shorts: Wed 12 Hamilton recreates Verstappen moment, Thu 08 Toto hype man, Fri 08 drivers' parade.
