@@ -27,7 +27,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Tue 17 08:00 | E5 Norris pole in the Purple Rain (2026-11-17-norris-purple-rain-pole-25.mp4) | YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d |
 | Tue 17 12:00 | E6 NASCAR 2026 Championship (2026-11-17-nascar-championship-blaney-larson-30.mp4); WEC skipped - only 2025 Bahrain footage online | YT 6af7fe6ec0ce029c2522ff21 / TT 6af7fe70c0ce029c2522ff33 |
 | Tue 17 18:00 | E7 Vegas 2025: Max wins, McLarens DSQ (2026-11-17-vegas25-max-wins-mclaren-dsq-25.mp4) | YT 6af8026325f72f87e598508f / TT 6af8026425f72f87e5985098 |
-| Wed 18 08:00 | E8 Vegas 2023 lead swaps hype (2026-11-18-vegas23-lead-swaps-25.mp4, Ramalama) | YT 6af805201bb7166756c5d517 / TT 6af8052269b2e89bc01cd310 |
+| Wed 18 08:00 | NEW: Supercars Bathurst 1000, out of fuel on the last lap, Ramalama, 27.5 s (2026-11-18-bathurst-out-of-fuel-25 / -yt1440); replaced Vegas 2023 lead swaps | YT 6afa2881e7b982a56d77ead7 / TT 6afa2882e7b982a56d77eae0 |
 | Wed 18 12:00 | E9 Last time at Portimão (2026-11-18-portimao-last-time-25.mp4) | YT 6af82a6fe3abac0c5c203f15 / TT 6af82a71b4dae361cbd3cd7a |
 | Wed 18 18:00 | E10 Vegas 2024 Mercedes one-two (2026-11-18-mercedes-one-two-vegas24-25.mp4) | YT 6af82cd934a49330dafb93b8 / TT 6af82cdc34a49330dafb93e3 |
 | Thu 19 08:00 | E11 Vegas: 3 years, 3 winners (2026-11-19-vegas-three-winners-25.mp4, Housewife) | YT 6af8311bf75dfd6f75fec4d0 / TT 6af8311df75dfd6f75fec4e1 |
