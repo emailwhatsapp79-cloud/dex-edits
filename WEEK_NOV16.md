@@ -19,8 +19,8 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Sat 14 12:00 | E1 NEXT RACE: LAS VEGAS (2026-11-14-next-race-las-vegas-25.mp4, Flashing Lights) | YT 6af7868c2342cab69add535a / TT 6af7868e2342cab69add536a |
 | Sat 14 18:00 | Max P21 hype (2026-11-12-max-p21-to-podium-hype-50.mp4) | YT 6af5b23b83f14f29f88b4456 / TT 6af5b23d83f14f29f88b447b |
 | Sun 15 08:00 | Bezzecchi down Sat / winner Sun (2026-11-13-bezzecchi-sat-sun-25.mp4) | YT 6af77629b3a1b6803563f23e / TT 6af7762cb3a1b6803563f264 |
-| Sun 15 12:00 | E2 Leclerc v2, 26.6 s + outro (2026-11-15-leclerc-last-chance-v2-25.mp4 / -yt1440) | YT 6af9607215ca002f55ba634c / TT 6af9607415ca002f55ba6359 |
-| Sun 15 18:00 | Hamilton Race 400 v2, 33.5 s + outro (2026-11-15-hamilton-race-400-v2-50.mp4 / -yt1440; TODO swap the LAP 3 card shot in the outro) | YT 6af967855b18242d3051efa3 / TT 6af967875b18242d3051efbc |
+| Sun 15 12:00 | E2 Leclerc v3, song from 0:37 under the voice (2026-11-15-leclerc-last-chance-v3-25.mp4 / -yt1440) | YT 6af96ace720c4225d3b42e02 / TT 6af96ad0720c4225d3b42e14 |
+| Sun 15 18:00 | Hamilton Race 400 v2, 33.5 s + outro (2026-11-15-hamilton-race-400-v2-50.mp4 / -yt1440; TODO: swap the LAP 3 card shot + mix other angles into the P20-P10 onboard run (Desmond: looks like the same footage repeating)) | YT 6af967855b18242d3051efa3 / TT 6af967875b18242d3051efbc |
 | Mon 16 08:00 | Russell v7 (moved from Sat 14) | YT 6af1de612f7b795c4bf9b2b7 / TT 6af1df64b1f84f3776c3b1fe |
 | Mon 16 12:00 | E3 NEXT STOP: PORTIMÃO (2026-11-16-next-stop-portimao-25.mp4, Can I Ride) | YT 6af7f4bdb639bf3f7e082f69 / TT 6af7f4beb639bf3f7e082f7d |
 | Mon 16 18:00 | E4 Max four in a row, Vegas 2024 (2026-11-16-max-four-in-a-row-vegas24-25.mp4) | YT 6af7f308c9a10a0d59dfdb48 / TT 6af7f30a44735e3eac4df854 |
