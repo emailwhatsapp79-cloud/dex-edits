@@ -34,12 +34,15 @@ B_SHOTS = [dict(k='y', t=t, fx=FXS[i], count=c, **({'slow': 0.5} if i == 7 else 
 B_SHOTS[0]['stamp'] = 'RACE 400.'
 CFG = dict(name='hamilton_400', files=FILES, song=os.path.join(ASSETS, 'songs', 'full', '19_destroy_it_all_yuji_slowed.mp3'),
            song_in=55.9 - 17.45, title='LEWIS HAMILTON|RACE 400', banner_in=3.0,
-           segments=[dict(type='voice', k='z', a=0.0, b=17.45, words=A_WORDS, hero=dict(at=0.6, text='400', dur=2.6)),
+           # Nov 15 v2: <= ~30 s - Lewis' line from 'the narrative...', live cutout, outro montage + end card
+           segments=[dict(type='voice', k='z', a=8.6, b=17.45, words=[w for w in A_WORDS if w[0] >= 8.6],
+                          hero=dict(start=0.2, text='400', dur=2.4)),
                      dict(type='beats', cuts=B_CUTS, end=65.93, shots=B_SHOTS),
                      dict(type='voice', k='r', a=44.55, b=51.6, words=C_WORDS, count=10, count_to=(51.0, 9)),
-                     dict(type='end', k='z', at=12.0, text='RACE 400.', dur=4.0)])
+                     dict(type='outro', shots=[('y', 24.0), ('r', 51.8), ('y', 27.0), ('r', 53.5)])])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 50))
     out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'bw_hamilton_400_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))
