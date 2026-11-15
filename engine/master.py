@@ -102,18 +102,26 @@ def render(cfg, scratch, out):
                 if sh.get('count') is not None: pos_prev = sh['count']
                 t_edit += d
         elif seg['type'] == 'outro':
-            # Desmond, Nov 15: after the last words, 4-5 s of driving/overtakes cut on the music, then the end card
+            # Desmond, Nov 15: after the last words, 4-5 s of action cut on the music, then the end card.
+            # Nov 15 (2): a NEW clip on EVERY beat (drifts, smoke, burnouts, overtakes), each landing with a different
+            # move, played fast with a push-in - a hype montage, not calm shots. Last shot may be slow (speed < 1).
             st = s0 + t_edit
-            hits = [h for h in hype.song_beats(cfg['song'], st, 20.0, seg.get('every', 2)) if h > st + 0.25]
+            hits = [h for h in hype.song_beats(cfg['song'], st, 20.0, seg.get('every', 1)) if h > st + 0.2]
             cuts = [st] + hits[:len(seg['shots']) - 1]
-            while len(cuts) < len(seg['shots']): cuts.append(cuts[-1] + 1.0)   # song ran out of beats: even 1 s cuts
+            while len(cuts) < len(seg['shots']): cuts.append(cuts[-1] + 0.5)   # song ran out of beats: even 0.5 s cuts
+            moves = seg.get('fx', ['flash', 'whip_l', 'zoom', 'shake', 'whip_r', 'spin', 'glitch', 'punch', 'whip_u'])
             for i, (k, t0, *sp) in enumerate(seg['shots']):
                 a = cuts[i]; b = cuts[i + 1] if i + 1 < len(cuts) else a + seg.get('last', 1.2)
-                n = round((b - s0) * fps) - round((a - s0) * fps); d = n / fps; slow = sp[0] if sp else 1.0
-                path, vf = F[k]; src = read(path, vf, t0, d * slow + 0.2, fps)
+                n = round((b - s0) * fps) - round((a - s0) * fps); d = n / fps; speed = sp[0] if sp else 1.5
+                path, vf = F[k]; src = read(path, vf, t0, d * speed + 0.2, fps)
                 for j in range(n):
-                    f = src[min(int(j * slow), len(src) - 1)]
-                    if j / fps < 0.22: f = hype.entry(f, 'punch' if i % 2 else 'flash', (j / fps) / 0.22, i)
+                    if speed < 1.0:                          # slow-motion last shot: RIFE in-betweens
+                        x = j * speed; i0 = min(int(x), len(src) - 2); fr = x - int(x)
+                        f = src[i0] if fr < 0.05 else fx.tween(src[i0], src[i0 + 1], fr)
+                    else:
+                        f = src[min(int(j * speed), len(src) - 1)]
+                    f = hype.zoom(f, 1.02 + 0.08 * j / max(n, 1))            # push in through the shot
+                    if j / fps < 0.22: f = hype.entry(f, moves[i % len(moves)], (j / fps) / 0.22, i)
                     put(Image.fromarray(np.ascontiguousarray(f)).convert('RGBA'))
                 t_edit += d
             n = round(seg.get('card', 1.6) * fps)
