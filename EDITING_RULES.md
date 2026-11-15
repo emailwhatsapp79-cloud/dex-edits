@@ -1,5 +1,18 @@
 # Editing rules (TikTok edits)
 
+## NOV 15 RULES (Desmond + channel data) - read first
+1. LENGTH: 15-30 s. YouTube Nov data: the 11-23 s posts did 7k-33k (Lindblad 33k, Kimi 16.5k, Norris pole 9.8k); the
+   37-59 s square stories since Nov 12 did 0.9k-3.8k. Story edits = the core 15-25 s of commentary only.
+2. ENDING: after the last spoken line, 4-5 s of driving / overtakes cut on the music (master.py segment type 'outro'),
+   then the DEX EDITS / FOLLOW FOR MORE end card on black (hype.endcard). Every reference edit ends on a payoff + card.
+3. YOUTUBE FILE: always the 1440x2560 copy (look.yt1440) - YouTube encodes 1440p uploads in its better tier.
+4. QUALITY: TikTok only serves our posts at 540p (it makes HD only once a post takes off); in square-in-vertical the
+   picture is then 576x576. The viral F1 edits post LANDSCAPE 16:9 (1024x576 at the same tier). Next: a 16:9 TikTok
+   export. No slow zoom push on top of 1080 sources (upscaling = softer); F1 sources are 50 fps - render at 50.
+5. MUSIC CLAIMS: claims with 'no impact' are fine (owner takes ad money). The TikTok guitar 'Let the World Burn' sound is
+   really 'Watch It Burn' (PayGotti) and got the Bezzecchi Short blocked in some countries - do not use it again.
+
+
 ## STORY FIRST - THE NEW STANDARD (Desmond, Nov 12 - refs AD1-AD3 + MrDinchaak screenshot, REFERENCES "AD")
 Our 11-29 s edits stall: TikTok ~250 views each (completion 3-16%), YouTube back to ~1-2k after the Nov 5-8 peak. The edits
 that go viral do these things - every new edit must too:
