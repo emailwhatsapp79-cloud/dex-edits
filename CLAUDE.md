@@ -4,7 +4,9 @@ This repo is the home of **DEX EDITS** (TikTok "Dex Edits"; YouTube coming): car
 made with code. All Dex Edits work is committed and pushed HERE ONLY. Never push edits, code, rules or
 videos to `scamdecoded-media` – that repo belongs to a different channel (@scamdecoded).
 
-Before making or reviewing any edit, read and follow `EDITING_RULES.md`. Every edit needs a clear direction.
+Before making or reviewing any edit, read and follow `EDITING_RULES.md`.
+POSTED.md (Desmond, Nov 15): the full history of every published post (date/time, caption, length, views per platform). READ IT BEFORE PLANNING ANY EDIT - no repeated stories, drivers moments or footage. Refresh it from Zernio analytics every week and after each batch.
+ Every edit needs a clear direction.
 YOUTUBE MAX 60 SECONDS (Desmond, Nov 13): no YouTube post longer than 60 s - no weekly long video either (the Sun 15 Brazil
 long video was deleted). The 2:14 Max story got 2 views on YouTube vs 1,417 for the 59 s Norris story. Longer cuts are TikTok-only.
 MULTI-SERIES (Desmond, Nov 12): F1 stays ~2 of every 3 posts; the rest come from whatever raced that week (MotoGP, WEC,
