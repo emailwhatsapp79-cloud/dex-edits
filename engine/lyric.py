@@ -85,13 +85,15 @@ def render(cfg, scratch, out):
                 hold = hd[0] if hd else 1.4
                 if T < (nxt[0] if nxt else wt + hold) and T < wt + hold: img.alpha_composite(word_layer(word, size, T - wt))
             enc.stdin.write(np.asarray(img.convert('RGB')).tobytes())
+    card = cfg.get('endcard', 1.6)                     # Nov 15: every edit ends on the DEX EDITS card
+    for j in range(round(card * fps)): enc.stdin.write(np.ascontiguousarray(hype.endcard(j / fps)).tobytes())
     enc.stdin.close(); enc.wait()
-    total = end
+    total = end + round(card * fps) / fps
     cmd = ['ffmpeg', '-v', 'error', '-y', '-i', body, '-i', cfg['song'], '-loop', '1', '-framerate', str(fps), '-t', f'{total:.3f}',
            '-i', look.banner_png(cfg['title'], os.path.join(tmp, 'banner.png'))]
     chain = '[0:v]pad=1080:1920:0:420:black[pd];'
     flt, cur = look.brand_filter('[pd]', 2, total, t_in=cfg.get('banner_in', 7.0), hold=2.6)
-    chain += flt + f"{cur}fade=t=out:st={total - 0.8:.3f}:d=0.8[v];[1:a]atrim={cfg.get('song_in', 0):.3f}:{cfg.get('song_in', 0) + total:.3f},asetpts=PTS-STARTPTS,afade=t=out:st={total - 1.0:.3f}:d=1.0[a]"
+    chain += flt + f"{cur}fade=t=out:st={total - 0.3:.3f}:d=0.3[v];[1:a]atrim={cfg.get('song_in', 0):.3f}:{cfg.get('song_in', 0) + total:.3f},asetpts=PTS-STARTPTS,afade=t=out:st={total - 1.0:.3f}:d=1.0[a]"
     subprocess.run(cmd + ['-filter_complex', chain, '-map', '[v]', '-map', '[a]', '-t', f'{total:.3f}', '-r', str(fps)]
                    + look.encode_args(total, 14) + ['-c:a', 'aac', '-b:a', '256k', out], check=True)
     return out, total

@@ -33,3 +33,4 @@ if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
     out, total = lyric.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cd_next_stop_portimao_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))

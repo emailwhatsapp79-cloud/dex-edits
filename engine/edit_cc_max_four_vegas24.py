@@ -38,11 +38,13 @@ def lines(a, b):
 
 
 CFG = dict(name='max_four_vegas24', files=FILES, song=os.path.join(ASSETS, 'songs', 'full', '19_destroy_it_all_yuji_slowed.mp3'),
-           song_in=0.0, title='MAX VERSTAPPEN|FOUR IN A ROW', banner_in=0.6,
-           segments=[dict(type='voice', k='v', a=417.4, b=464.4, words=lines(417.4, 464.4)),   # no cutout: Max on the car plays clean (the 'FOUR.' cutout text overfilled the frame)
-                     dict(type='end', k='v', at=461.6, dur=1.8, text='FOUR IN A ROW.')])
+           song_in=5.0, title='MAX VERSTAPPEN|FOUR IN A ROW', banner_in=0.6,      # Nov 15 v2: ~25 s, song from its loud part
+           segments=[dict(type='voice', k='v', a=422.9, b=431.3, words=lines(422.9, 431.3)),
+                     dict(type='voice', k='v', a=446.5, b=457.3, words=lines(446.5, 457.3)),
+                     dict(type='outro', shots=[('v', 458.5), ('v', 461.5), ('v', 450.0), ('v', 476.3)])])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
     out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cc_max_four_vegas24_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))

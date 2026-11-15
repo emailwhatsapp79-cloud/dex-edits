@@ -106,6 +106,7 @@ def render(cfg, scratch, out):
             st = s0 + t_edit
             hits = [h for h in hype.song_beats(cfg['song'], st, 20.0, seg.get('every', 2)) if h > st + 0.25]
             cuts = [st] + hits[:len(seg['shots']) - 1]
+            while len(cuts) < len(seg['shots']): cuts.append(cuts[-1] + 1.0)   # song ran out of beats: even 1 s cuts
             for i, (k, t0, *sp) in enumerate(seg['shots']):
                 a = cuts[i]; b = cuts[i + 1] if i + 1 < len(cuts) else a + seg.get('last', 1.2)
                 n = round((b - s0) * fps) - round((a - s0) * fps); d = n / fps; slow = sp[0] if sp else 1.0
