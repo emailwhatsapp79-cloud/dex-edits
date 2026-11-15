@@ -10,7 +10,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 - MotoGP Portimao race: Sun 22 ~14:00 local = **~15:00** -> fresh edit for Sun 18:00
 - Next after that: F1 Qatar + MotoGP Valencia finale (27-29 Nov), F1 Abu Dhabi (4-6 Dec), Formula E opens Jeddah (18-19 Dec)
 
-## NOV 15: re-cut every post below Sun 15 to 15-30 s + outro + end card + 1440p YouTube (EDITING_RULES 'NOV 15'). Done: Sun 12:00, Sun 18:00.
+## NOV 15: re-cut every post below Sun 15 to 15-30 s + outro + end card + 1440p YouTube (EDITING_RULES 'NOV 15'). Done: Sun 12:00, Sun 18:00, Mon all three. YouTube BLOCKS (F1 Content ID): Leclerc v3 (2023 Vegas, 22 s unbroken) - replace Wed 08:00 + Fri 08:00 (2023 footage).
 
 ## Pre-made slots
 | Slot (Lagos) | Edit | Status |
@@ -21,9 +21,9 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Sun 15 08:00 | Bezzecchi down Sat / winner Sun (2026-11-13-bezzecchi-sat-sun-25.mp4) | YT 6af77629b3a1b6803563f23e / TT 6af7762cb3a1b6803563f264 |
 | Sun 15 12:00 | E2 Leclerc v3, song from 0:37 under the voice (2026-11-15-leclerc-last-chance-v3-25.mp4 / -yt1440) | YT 6af96ace720c4225d3b42e02 / TT 6af96ad0720c4225d3b42e14 |
 | Sun 15 18:00 | Hamilton Race 400 v2, 33.5 s + outro (2026-11-15-hamilton-race-400-v2-50.mp4 / -yt1440; TODO: swap the LAP 3 card shot + mix other angles into the P20-P10 onboard run (Desmond: looks like the same footage repeating)) | YT 6af967855b18242d3051efa3 / TT 6af967875b18242d3051efbc |
-| Mon 16 08:00 | Russell v7 (moved from Sat 14) | YT 6af1de612f7b795c4bf9b2b7 / TT 6af1df64b1f84f3776c3b1fe |
-| Mon 16 12:00 | E3 NEXT STOP: PORTIMÃO (2026-11-16-next-stop-portimao-25.mp4, Can I Ride) | YT 6af7f4bdb639bf3f7e082f69 / TT 6af7f4beb639bf3f7e082f7d |
-| Mon 16 18:00 | E4 Max four in a row, Vegas 2024 (2026-11-16-max-four-in-a-row-vegas24-25.mp4) | YT 6af7f308c9a10a0d59dfdb48 / TT 6af7f30a44735e3eac4df854 |
+| Mon 16 08:00 | Russell one moment, new style 30 s (2026-11-16-russell-one-moment-25 / -yt1440) | YT 6afa169500f06493b9275375 / TT 6afa1699722cce6e5cd8b548 |
+| Mon 16 12:00 | E3 NEXT STOP: PORTIMÃO v2 + end card (2026-11-16-next-stop-portimao-v2-25 / -yt1440) | YT 6afa169d722cce6e5cd8b55b / TT 6afa16a0722cce6e5cd8b57c |
+| Mon 16 18:00 | E4 Max four v2, 25.6 s + outro (2026-11-16-max-four-v2-25 / -yt1440) | YT 6afa16a3866c247f3fa9bb49 / TT 6afa16a6722cce6e5cd8b5d3 |
 | Tue 17 08:00 | E5 Norris pole in the Purple Rain (2026-11-17-norris-purple-rain-pole-25.mp4) | YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d |
 | Tue 17 12:00 | E6 NASCAR 2026 Championship (2026-11-17-nascar-championship-blaney-larson-30.mp4); WEC skipped - only 2025 Bahrain footage online | YT 6af7fe6ec0ce029c2522ff21 / TT 6af7fe70c0ce029c2522ff33 |
 | Tue 17 18:00 | E7 Vegas 2025: Max wins, McLarens DSQ (2026-11-17-vegas25-max-wins-mclaren-dsq-25.mp4) | YT 6af8026325f72f87e598508f / TT 6af8026425f72f87e5985098 |
