@@ -36,13 +36,26 @@ def lines(a, b):
     return out
 
 
+# Nov 16 v2: hand-written lines (the auto splitter broke 'RED / BULL' and 'HANGS / ON')
+P1 = [(324.42, 'INTERESTING INFORMATION'), (325.54, 'THAT RED BULL HAVE HEARD'), (326.76, 'THAT WE HAVE NOT HEARD,'),
+      (327.82, 'WHICH IS LANDO NORRIS'), (329.8, 'NURSING A PROBLEM.')]
+P2 = [(344.7, 'MY INFORMATION IS'), (345.78, 'THAT LANDO NORRIS'), (346.38, 'HAS BEEN ASKED'), (346.86, 'TO LIFT AND COAST'),
+      (347.88, 'ALL THE WAY TO THE FLAG.')]
+P3 = [(387.1, 'MAX VERSTAPPEN WINS'), (388.6, 'THE LAS VEGAS GRAND PRIX.')]
+P4 = [(407.98, 'LANDO NORRIS'), (409.14, 'HANGS ON.')]
 CFG = dict(name='vegas25_dsq', files=FILES, song=os.path.join(ASSETS, 'songs', 'trend', 'flashing_lights_kanye.mp3'),
            song_in=21.0, title='LAS VEGAS 2025|THE TWIST', banner_in=0.6,
-           segments=[dict(type='voice', k='v', a=324.4, b=349.0, words=lines(324.4, 349.0)),
-                     dict(type='voice', k='v', a=379.2, b=410.25, words=lines(379.2, 410.25)),
-                     dict(type='end', k='v', at=436.5, dur=2.6, text='BOTH McLARENS: DISQUALIFIED.')])
+           # Nov 16 v2: <= 30 s, every F1 commentary run under ~7 s (Content ID), beat-montage outro + end card
+           segments=[dict(type='voice', k='v', a=324.4, b=330.95, words=P1),
+                     dict(type='voice', k='v', a=344.65, b=349.1, words=P2),
+                     dict(type='voice', k='v', a=387.05, b=390.4, words=P3),
+                     dict(type='voice', k='v', a=407.9, b=410.25, words=P4),
+                     dict(type='end', k='v', at=147.0, dur=2.6, text='BOTH McLARENS: DISQUALIFIED.'),
+                     dict(type='outro', shots=[('v', 7.0), ('v', 98.0), ('v', 133.0), ('v', 49.0), ('v', 168.0),
+                                               ('v', 231.0), ('v', 294.0), ('v', 371.0, 0.6)])])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
-    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cg_vegas25_dsq_{fps}.mp4'))
+    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cg_vegas25_dsq_v2_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))
