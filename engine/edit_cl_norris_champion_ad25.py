@@ -57,7 +57,7 @@ def hand_lines(a, b, phrases):
     return out
 
 
-OUTRO = []   # set after the contact sheet
+OUTRO = [('v', 49.0), ('v', 182.0), ('v', 189.0), ('v', 224.0), ('v', 280.0), ('v', 357.0), ('v', 119.0), ('v', 441.0, 0.6)]
 # Nov 16 v2: <= 30 s - four short runs (Content ID), hand-timed lines, the Purple Rain chorus (112 s) on the beat outro
 P1 = [(361.98, 'BUT THIS WILL BE'), (363.52, 'A VICTORY LAP'), (365.0, 'FOR LANDO NORRIS.')]
 P2 = [(378.58, 'AND AFTER 24 ROUNDS,'), (380.82, 'LANDO NORRIS'), (382.3, 'IS THE FORMULA ONE'), (383.92, 'WORLD CHAMPION.')]
