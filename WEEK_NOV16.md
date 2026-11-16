@@ -28,7 +28,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Tue 17 12:00 | E6 NASCAR 2026 Championship (2026-11-17-nascar-championship-blaney-larson-30.mp4); WEC skipped - only 2025 Bahrain footage online | YT 6af7fe6ec0ce029c2522ff21 / TT 6af7fe70c0ce029c2522ff33 |
 | Tue 17 18:00 | E7 v2 Vegas 2025: Max wins, McLarens DSQ, re-cut 26.8 s + beat outro (2026-11-17-vegas25-dsq-v2-25 / -yt1440) | YT 6afa9f294db0ecf09fcc0750 / TT 6afa9f2a4db0ecf09fcc0766 |
 | Wed 18 08:00 | NEW: Supercars Bathurst 1000, out of fuel on the last lap, Ramalama, 27.5 s v2 with the beat-montage ending, 29.1 s (2026-11-18-bathurst-out-of-fuel-v2-25 / -yt1440); replaced Vegas 2023 lead swaps | YT 6afa32deea8ff7cacb17fd45 / TT 6afa32dff98cbf0726b46895 |
-| Wed 18 12:00 | E9 Last time at Portimão (2026-11-18-portimao-last-time-25.mp4) | YT 6af82a6fe3abac0c5c203f15 / TT 6af82a71b4dae361cbd3cd7a |
+| Wed 18 12:00 | NEW: Two spins, one decade apart - Max 2016 / Hamilton 2026 at Interlagos, 18.6 s (2026-11-18-two-spins-decade-25 / -yt1440); replaced Last time at Portimao | YT 6afb716c3d83e2b95d394825 / TT 6afb716e3d83e2b95d394830 |
 | Wed 18 18:00 | E10 v2 Vegas 2024 Mercedes one-two, re-cut 29.4 s + beat outro (2026-11-18-mercedes-one-two-v2-25 / -yt1440) | YT 6afb6834eea32896d35f1d83 / TT 6afb6836547d0168ec9caffb |
 | Thu 19 08:00 | E11 Vegas: 3 years, 3 winners (2026-11-19-vegas-three-winners-25.mp4, Housewife) | YT 6af8311bf75dfd6f75fec4d0 / TT 6af8311df75dfd6f75fec4e1 |
 | Thu 19 12:00 | E12 v2 Norris world champion, re-cut 28 s + beat outro (2026-11-19-norris-champion-v2-25 / -yt1440) | YT 6afb6ce25b4661e1a2020efa / TT 6afb6ce31d9b155674b3448f |
@@ -53,4 +53,4 @@ DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-oth
    from a Radio Rewind contact sheet, render, swap Norris Purple Rain (YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d).
 4. Re-cut under 30 s with the new outro: (DONE Tue 18 Vegas25 DSQ). DONE Wed 18 Mercedes 1-2 (was: script v2 READY (freeze at 413,
    last clip 427) - just render edit_cj_mercedes_one_two_vegas24.py, check, swap posts. Wed 18 Mercedes 1-2, DONE Thu 12 Norris champion.
-5. Brazil shorts: Wed 12 Hamilton recreates Verstappen moment, Thu 08 Toto hype man, Fri 08 drivers' parade.
+5. Brazil shorts: DONE Wed 12 Hamilton recreates Verstappen moment, Thu 08 Toto hype man, Fri 08 drivers' parade.
