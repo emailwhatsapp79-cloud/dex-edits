@@ -24,7 +24,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Mon 16 08:00 | NEW: Supercars Sandown, De Pasquale misses the finals by 0.7 s, Funk Unico, 28.1 s (2026-11-16-sandown-seven-tenths-25 / -yt1440); replaced Russell | YT 6afa8e546bf83d90011e515d / TT 6afa8e56c555741e9e68201a |
 | Mon 16 12:00 | E3 NEXT STOP: PORTIMÃO v2 + end card (2026-11-16-next-stop-portimao-v2-25 / -yt1440) | YT 6afa169d722cce6e5cd8b55b / TT 6afa16a0722cce6e5cd8b57c |
 | Mon 16 18:00 | NEW: DTM title decider, Preining two-time champion, Bow Bow Bow, 30 s (2026-11-16-dtm-decider-25 / -yt1440); replaced Max four | YT 6afa92e8c195d196caf3f915 / TT 6afa92e9c195d196caf3f920 |
-| Tue 17 08:00 | E5 Norris pole in the Purple Rain (2026-11-17-norris-purple-rain-pole-25.mp4) | YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d |
+| Tue 17 08:00 | NEW: Antonelli loses the lead, Brazil radio, Housewife, 28 s (2026-11-17-antonelli-loses-lead-25 / -yt1440); replaced Norris Purple Rain | YT 6afa9742966f71e3e8024c39 / TT 6afa9744966f71e3e8024c4a |
 | Tue 17 12:00 | E6 NASCAR 2026 Championship (2026-11-17-nascar-championship-blaney-larson-30.mp4); WEC skipped - only 2025 Bahrain footage online | YT 6af7fe6ec0ce029c2522ff21 / TT 6af7fe70c0ce029c2522ff33 |
 | Tue 17 18:00 | E7 Vegas 2025: Max wins, McLarens DSQ (2026-11-17-vegas25-max-wins-mclaren-dsq-25.mp4) | YT 6af8026325f72f87e598508f / TT 6af8026425f72f87e5985098 |
 | Wed 18 08:00 | NEW: Supercars Bathurst 1000, out of fuel on the last lap, Ramalama, 27.5 s v2 with the beat-montage ending, 29.1 s (2026-11-18-bathurst-out-of-fuel-v2-25 / -yt1440); replaced Vegas 2023 lead swaps | YT 6afa32deea8ff7cacb17fd45 / TT 6afa32dff98cbf0726b46895 |
@@ -49,7 +49,7 @@ DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-oth
    check camera cuts), render, swap Russell (YT 6afa169500f06493b9275375 / TT 6afa1699722cce6e5cd8b548).
    If it misses 08:00, the Russell post goes out as is.
 2. DONE Mon 18:00 - DTM decider: transcribe, write, render, swap Max four (YT 6afa16a3866c247f3fa9bb49 / TT 6afa16a6722cce6e5cd8b5d3).
-3. Tue 08:00 - engine/edit_ct_antonelli_loses_lead.py: replace the guessed outro clips (1007-1077 s) with real action
+3. DONE Tue 08:00 - engine/edit_ct_antonelli_loses_lead.py: replace the guessed outro clips (1007-1077 s) with real action
    from a Radio Rewind contact sheet, render, swap Norris Purple Rain (YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d).
 4. Re-cut under 30 s with the new outro: Tue 18 Vegas25 DSQ, Wed 18 Mercedes 1-2, Thu 12 Norris champion.
 5. Brazil shorts: Wed 12 Hamilton recreates Verstappen moment, Thu 08 Toto hype man, Fri 08 drivers' parade.
