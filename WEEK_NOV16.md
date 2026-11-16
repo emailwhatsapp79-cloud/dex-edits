@@ -33,7 +33,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Thu 19 08:00 | NEW: Neymar in the F1 paddock, 16.1 s (2026-11-19-neymar-paddock-25 / -yt1440); replaced 3 winners (Toto short dropped: repeats the Nov 10 Mercedes title post) | YT 6afb737b8fab9d9e9f6386e4 / TT 6afb737e78a03bf7183980a9 |
 | Thu 19 12:00 | E12 v2 Norris world champion, re-cut 28 s + beat outro (2026-11-19-norris-champion-v2-25 / -yt1440) | YT 6afb6ce25b4661e1a2020efa / TT 6afb6ce31d9b155674b3448f |
 | Thu 19 18:00 | E13 VEGAS WEEK practice tonight (2026-11-19-vegas-week-practice-tonight-25.mp4, Bow Bow Bow) | YT 6af8542df4bbf20311aacb63 / TT 6af85430468e0fd807ee8bf9 |
-| Fri 20 08:00 | E14 Vegas 2023 turn one + penalty (2026-11-20-vegas23-turn-one-penalty-25.mp4) | YT 6af85279f4c7e922f555c309 / TT 6af8527a18f69440a413869f |
+| Fri 20 08:00 | NEW: The most chaotic drivers' parade, Interlagos 2026, 23.9 s (2026-11-20-drivers-parade-25 / -yt1440); replaced Vegas 2023 turn one | YT 6afb77e16990c60015573d16 / TT 6afb77e309573803d6c92428 |
 | Fri 20 12:00 | E15 Pecco Portimão redemption? (2026-11-20-pecco-portimao-redemption-25.mp4, Panchiko) | YT 6af8571baeacb8d1a9a92879 / TT 6af8571d1caadffb1a5dde0c |
 | Fri 20 18:00 | E16 QUALIFYING TONIGHT hype (2026-11-20-vegas-qualifying-tonight-25.mp4, Can I Ride) | YT 6af858488ea5514c3dbf21f9 / TT 6af8584a8ea5514c3dbf2208 |
 | Sat 21 08:00 | E17 SUPER SATURDAY MotoGP + F1 (2026-11-21-super-saturday-25.mp4) - last pre-made post | YT 6af85bc0798f4923c8f9bcee / TT 6af85bc241380675ccf97788 |
@@ -53,4 +53,4 @@ DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-oth
    from a Radio Rewind contact sheet, render, swap Norris Purple Rain (YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d).
 4. Re-cut under 30 s with the new outro: (DONE Tue 18 Vegas25 DSQ). DONE Wed 18 Mercedes 1-2 (was: script v2 READY (freeze at 413,
    last clip 427) - just render edit_cj_mercedes_one_two_vegas24.py, check, swap posts. Wed 18 Mercedes 1-2, DONE Thu 12 Norris champion.
-5. Brazil shorts: DONE Wed 12 Hamilton recreates Verstappen moment, DONE Thu 08 -> Neymar (Toto dropped, repeat), Fri 08 drivers' parade.
+5. Brazil shorts: DONE Wed 12 Hamilton recreates Verstappen moment, DONE Thu 08 -> Neymar (Toto dropped, repeat), DONE Fri 08 drivers' parade. ALL TODO ITEMS DONE (Nov 16 22:35).
