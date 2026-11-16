@@ -55,7 +55,8 @@ def render(cfg, scratch, out):
     for seg in cfg['segments']:
         if seg['type'] == 'voice':
             k, a, b = seg['k'], seg['a'], seg['b']; d = b - a; n = round(d * fps)
-            path, vf = F[k]; src = stream(path, vf, a, d, fps)
+            # 'pic' = (key, t): show other footage under the voice when the source shows a graphic there
+            pk, pt = seg.get('pic', (k, a)); path, vf = F[pk]; src = stream(path, vf, pt, d, fps)
             hero = seg.get('hero'); hv = None
             if hero: hv = True                     # LIVE cutout (Desmond, Nov 13): the subject keeps talking/moving, cut out every frame
             ws = seg.get('words', [])
@@ -107,7 +108,11 @@ def render(cfg, scratch, out):
             # move, played fast with a push-in - a hype montage, not calm shots. Last shot may be slow (speed < 1).
             st = s0 + t_edit
             hits = [h for h in hype.song_beats(cfg['song'], st, 20.0, seg.get('every', 1)) if h > st + 0.2]
-            cuts = [st] + hits[:len(seg['shots']) - 1]
+            cuts = [st]                                    # one cut per beat, but never a clip longer than 0.8 s
+            for h in hits:
+                if len(cuts) >= len(seg['shots']): break
+                while h - cuts[-1] > 0.8 and len(cuts) < len(seg['shots']): cuts.append(cuts[-1] + 0.5)
+                if len(cuts) < len(seg['shots']) and h - cuts[-1] >= 0.3: cuts.append(h)
             while len(cuts) < len(seg['shots']): cuts.append(cuts[-1] + 0.5)   # song ran out of beats: even 0.5 s cuts
             moves = seg.get('fx', ['flash', 'whip_l', 'zoom', 'shake', 'whip_r', 'spin', 'glitch', 'punch', 'whip_u'])
             for i, (k, t0, *sp) in enumerate(seg['shots']):

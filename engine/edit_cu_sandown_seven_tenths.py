@@ -6,7 +6,8 @@ running dry one lap from a Bathurst win. "The almost year."
   3 "And Anton De Pasquale missed the finals by seven tenths of a second."
   4 "And fell one lap short of a win at Bathurst. What a tough year for Anton De Pasquale. The almost year."
   outro: a new clip on every beat (Desmond Nov 15), then the end card.
-Song: Funk Unico (super slowed) from 42.4 s: the build runs under the voice, the drop at 64 s lands on the outro.
+Line 4 plays over his #18 at Bathurst (the source shows the results board there).
+Song: Funk Unico (super slowed) from 42.95 s: the build runs under the voice, the drop at 64 s lands on the outro.
 Source: Supercars 'Race Highlights: Race 34 | 2026 Penrite Oil Sandown 500' (YTaXWh9o9Eg); whisper hears 'Antoine
 Deepuswali' - the commentators say Anton De Pasquale.
 Usage: SRC=<sources folder> SCRATCH=<dir> python3 edit_cu_sandown_seven_tenths.py"""
@@ -18,21 +19,23 @@ S = os.environ.get('SCRATCH', '/tmp')
 SRC = os.environ['SRC']
 ASSETS = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'dex-edits-assets')
 src = lambda vid: glob.glob(os.path.join(SRC, '**', f'*{vid}*.mp4'), recursive=True)[0]
-FILES = {'s': (src('YTaXWh9o9Eg'), 'crop=1080:1080:420:0')}
+FILES = {'s': (src('YTaXWh9o9Eg'), 'crop=1080:1080:420:0'),
+         'b': (src('_7gBKGd2qzU'), 'crop=1080:1080:420:0')}   # Bathurst last lap: his #18 under line 4
 W1 = [(686.18, 'ANTON DE PASQUALE'), (687.18, 'MUST, MUST WIN THIS RACE'), (689.18, 'TO FIGHT FOR A CHAMPIONSHIP.')]
 W2 = [(813.42, 'FINAL FEW CORNERS.'), (815.6, 'ANTON HAS THROWN'), (816.28, 'EVERYTHING HE POSSIBLY CAN.'),
       (818.3, "BUT IT'S NOT GOING"), (818.94, 'TO BE ENOUGH.')]
 W3 = [(833.24, 'AND ANTON DE PASQUALE'), (834.68, 'MISSED THE FINALS'), (835.64, 'BY SEVEN TENTHS OF A SECOND.')]
 W4 = [(869.68, 'AND FELL ONE LAP SHORT'), (871.14, 'OF A WIN AT BATHURST.'), (872.34, 'WHAT A TOUGH YEAR'),
       (873.14, 'FOR ANTON DE PASQUALE.'), (874.46, 'THE ALMOST YEAR.')]
-OUTRO = []   # filled after the contact sheet check
+OUTRO = [('s', 143.0), ('s', 390.0), ('s', 442.0), ('s', 481.0), ('s', 494.0), ('s', 663.0), ('s', 793.0),
+         ('s', 637.0), ('s', 806.0, 0.6)]
 CFG = dict(name='sandown_seven_tenths', files=FILES,
-           song=os.path.join(ASSETS, 'songs', 'full', '13_funk_unico_super_slowed.mp3'), song_in=42.4,
+           song=os.path.join(ASSETS, 'songs', 'full', '13_funk_unico_super_slowed.mp3'), song_in=42.95,
            title='SANDOWN|SEVEN TENTHS', banner_in=0.4,
            segments=[dict(type='voice', k='s', a=686.1, b=690.95, words=W1),
                      dict(type='voice', k='s', a=813.35, b=819.6, words=W2),
                      dict(type='voice', k='s', a=833.2, b=837.4, words=W3),
-                     dict(type='voice', k='s', a=869.6, b=875.35, words=W4),
+                     dict(type='voice', k='s', a=869.6, b=875.35, words=W4, pic=('b', 5.0)),
                      dict(type='outro', shots=OUTRO)])
 
 if __name__ == '__main__':
