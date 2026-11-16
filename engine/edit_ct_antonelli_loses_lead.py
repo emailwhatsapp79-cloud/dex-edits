@@ -28,7 +28,8 @@ CFG = dict(name='antonelli_loses_lead', files=FILES,
                      dict(type='voice', k='r', a=498.5, b=502.4, words=W3),
                      dict(type='voice', k='r', a=503.5, b=505.9, words=W4),
                      dict(type='voice', k='r', a=523.7, b=531.2, words=W5),
-                     dict(type='outro', shots=[('r', 1007.0), ('r', 1010.5), ('r', 1060.5), ('r', 1077.0)])])
+                     dict(type='outro', shots=[('r', 210.0), ('r', 255.0), ('r', 615.0), ('r', 630.0), ('r', 990.0),
+                                               ('r', 165.0), ('r', 1005.0), ('r', 1008.5, 0.6)])])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
