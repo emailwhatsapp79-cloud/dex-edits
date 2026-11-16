@@ -21,7 +21,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Sun 15 08:00 | Bezzecchi down Sat / winner Sun (2026-11-13-bezzecchi-sat-sun-25.mp4) | YT 6af77629b3a1b6803563f23e / TT 6af7762cb3a1b6803563f264 |
 | Sun 15 12:00 | E2 Leclerc v3, song from 0:37 under the voice (2026-11-15-leclerc-last-chance-v3-25.mp4 / -yt1440) | YT 6af96ace720c4225d3b42e02 / TT 6af96ad0720c4225d3b42e14 |
 | Sun 15 18:00 | Hamilton Race 400 v2, 33.5 s + outro (2026-11-15-hamilton-race-400-v2-50.mp4 / -yt1440; TODO: swap the LAP 3 card shot + mix other angles into the P20-P10 onboard run (Desmond: looks like the same footage repeating)) | YT 6af967855b18242d3051efa3 / TT 6af967875b18242d3051efbc |
-| Mon 16 08:00 | Russell one moment, new style 30 s (2026-11-16-russell-one-moment-25 / -yt1440) | YT 6afa169500f06493b9275375 / TT 6afa1699722cce6e5cd8b548 |
+| Mon 16 08:00 | NEW: Supercars Sandown, De Pasquale misses the finals by 0.7 s, Funk Unico, 28.1 s (2026-11-16-sandown-seven-tenths-25 / -yt1440); replaced Russell | YT 6afa8e546bf83d90011e515d / TT 6afa8e56c555741e9e68201a |
 | Mon 16 12:00 | E3 NEXT STOP: PORTIMÃO v2 + end card (2026-11-16-next-stop-portimao-v2-25 / -yt1440) | YT 6afa169d722cce6e5cd8b55b / TT 6afa16a0722cce6e5cd8b57c |
 | Mon 16 18:00 | E4 Max four v2, 25.6 s + outro (2026-11-16-max-four-v2-25 / -yt1440) | YT 6afa16a3866c247f3fa9bb49 / TT 6afa16a6722cce6e5cd8b5d3 |
 | Tue 17 08:00 | E5 Norris pole in the Purple Rain (2026-11-17-norris-purple-rain-pole-25.mp4) | YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d |
@@ -45,7 +45,7 @@ WEC Bahrain, NASCAR 2026 championship Homestead) + sources/2026-11-motogp-qatar/
 ## TODO when work resumes (written Sun 15 Nov, 23:40)
 Transcripts ready in work/bra/: radio_rewind.json, sandown.json, bathurst_last_lap.json. Downloads done: Sandown,
 DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-other-series/).
-1. Mon 08:00 - engine/edit_cu_sandown_seven_tenths.py: pick OUTRO clips from a Sandown contact sheet (8-10 action clips,
+1. DONE Mon 08:00 - engine/edit_cu_sandown_seven_tenths.py: pick OUTRO clips from a Sandown contact sheet (8-10 action clips,
    check camera cuts), render, swap Russell (YT 6afa169500f06493b9275375 / TT 6afa1699722cce6e5cd8b548).
    If it misses 08:00, the Russell post goes out as is.
 2. Mon 18:00 - DTM decider: transcribe, write, render, swap Max four (YT 6afa16a3866c247f3fa9bb49 / TT 6afa16a6722cce6e5cd8b5d3).
