@@ -38,13 +38,27 @@ def lines(a, b):
     return [(t, LINES.get(x, x)) for t, x in out if LINES.get(x, x)]
 
 
+# Nov 16 v2: <= 30 s - short commentary runs (Content ID), hand-written lines, beat-montage outro + end card
+P1 = [(282.32, "LEWIS HAMILTON'S GOT THE SPEED."), (283.92, 'LOOK AT THE SPEED.'), (285.02, 'HE HAS GOT'),
+      (285.5, '260 MILES PER HOUR.')]
+P2 = [(290.5, 'AND IT WILL SHAKE OUT'), (291.46, 'TO BE A MERCEDES ONE-TWO.'), (293.24, 'NO CONTEST'),
+      (294.16, 'BETWEEN THE TWO GREATS,'), (295.88, 'VERSTAPPEN AND HAMILTON.')]
+P3 = [(392.64, 'OUT OF THE PENULTIMATE CORNER,'), (394.96, "HE'S LEFT THE ENTIRE FIELD BEHIND.")]
+P4 = [(404.72, 'HE PUNCHES THE AIR'), (406.32, 'AS GEORGE RUSSELL WINS.')]
+P5 = [(413.84, "IT'S SECOND PLACE"), (414.74, 'FOR LEWIS HAMILTON.')]
 CFG = dict(name='mercedes_one_two_vegas24', files=FILES, song=os.path.join(ASSETS, 'songs', 'full', '05_montagem_kali_slowed.mp3'),
-           song_in=0.0, title='VEGAS 2024|MERCEDES ONE-TWO', banner_in=0.6,
-           segments=[dict(type='voice', k='v', a=280.1, b=297.6, words=lines(280.1, 297.6)),
-                     dict(type='voice', k='v', a=392.5, b=417.4, words=lines(392.5, 417.4)),
-                     dict(type='end', k='v', at=409.5, dur=2.0, text='MERCEDES 1-2.')])
+           song_in=10.0, title='VEGAS 2024|MERCEDES ONE-TWO', banner_in=0.6,
+           segments=[dict(type='voice', k='v', a=282.25, b=287.3, words=P1),
+                     dict(type='voice', k='v', a=290.45, b=297.0, words=P2),
+                     dict(type='voice', k='v', a=392.55, b=397.1, words=P3, pic=('v', 398.5)),   # 392 = LAP 50 card
+                     dict(type='voice', k='v', a=404.65, b=407.75, words=P4),
+                     dict(type='voice', k='v', a=413.8, b=415.45, words=P5),
+                     dict(type='end', k='v', at=413.0, dur=2.0, text='MERCEDES 1-2.'),
+                     dict(type='outro', shots=[('v', 70.0), ('v', 126.0), ('v', 154.0), ('v', 224.0), ('v', 245.0),
+                                               ('v', 49.0), ('v', 315.0), ('v', 182.0), ('v', 427.0, 0.6)])])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
-    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cj_mercedes_one_two_vegas24_{fps}.mp4'))
+    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cj_mercedes_one_two_vegas24_v2_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))

@@ -51,5 +51,6 @@ DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-oth
 2. DONE Mon 18:00 - DTM decider: transcribe, write, render, swap Max four (YT 6afa16a3866c247f3fa9bb49 / TT 6afa16a6722cce6e5cd8b5d3).
 3. DONE Tue 08:00 - engine/edit_ct_antonelli_loses_lead.py: replace the guessed outro clips (1007-1077 s) with real action
    from a Radio Rewind contact sheet, render, swap Norris Purple Rain (YT 6af7f87173dc1b306f0df02d / TT 6af7f8738552c89d5d783c9d).
-4. Re-cut under 30 s with the new outro: (DONE Tue 18 Vegas25 DSQ), Wed 18 Mercedes 1-2, Thu 12 Norris champion.
+4. Re-cut under 30 s with the new outro: (DONE Tue 18 Vegas25 DSQ). Wed 18 Mercedes 1-2: script v2 READY (freeze at 413,
+   last clip 427) - just render edit_cj_mercedes_one_two_vegas24.py, check, swap posts. Wed 18 Mercedes 1-2, Thu 12 Norris champion.
 5. Brazil shorts: Wed 12 Hamilton recreates Verstappen moment, Thu 08 Toto hype man, Fri 08 drivers' parade.
