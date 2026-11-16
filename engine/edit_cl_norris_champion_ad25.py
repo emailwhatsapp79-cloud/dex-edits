@@ -57,13 +57,23 @@ def hand_lines(a, b, phrases):
     return out
 
 
+OUTRO = []   # set after the contact sheet
+# Nov 16 v2: <= 30 s - four short runs (Content ID), hand-timed lines, the Purple Rain chorus (112 s) on the beat outro
+P1 = [(361.98, 'BUT THIS WILL BE'), (363.52, 'A VICTORY LAP'), (365.0, 'FOR LANDO NORRIS.')]
+P2 = [(378.58, 'AND AFTER 24 ROUNDS,'), (380.82, 'LANDO NORRIS'), (382.3, 'IS THE FORMULA ONE'), (383.92, 'WORLD CHAMPION.')]
+P3 = [(406.4, "IT'S THE PROMISED LAND"), (408.64, 'FOR LANDO.')]
+P4 = [(410.42, 'LANDO, THIS IS ZAK'), (411.96, 'FROM McLAREN.'), (412.82, 'IS THIS THE WORLD'), (413.98, 'CHAMPION HOTLINE?'),
+      (415.06, 'THANK YOU...')]
 CFG = dict(name='norris_champion_ad25', files=FILES, song=os.path.join(ASSETS, 'songs', 'trend', 'purple_rain_prince.mp3'),
-           song_in=0.0, title='LANDO NORRIS|WORLD CHAMPION', banner_in=0.6,
-           segments=[dict(type='voice', k='v', a=361.95, b=386.0, words=hand_lines(361.95, 386.0, PHRASES[:15])),
-                     dict(type='voice', k='v', a=406.35, b=424.2, words=hand_lines(406.35, 424.2, PHRASES[15:])),
-                     dict(type='end', k='v', at=486.5, dur=2.2, text='WORLD CHAMPION.')])
+           song_in=90.45, title='LANDO NORRIS|WORLD CHAMPION', banner_in=0.6,
+           segments=[dict(type='voice', k='v', a=361.9, b=366.3, words=P1),
+                     dict(type='voice', k='v', a=378.5, b=385.75, words=P2),
+                     dict(type='voice', k='v', a=406.3, b=409.9, words=P3),
+                     dict(type='voice', k='v', a=410.35, b=416.9, words=P4),
+                     dict(type='outro', shots=OUTRO)])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
-    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cl_norris_champion_ad25_{fps}.mp4'))
+    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cl_norris_champion_ad25_v2_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))
