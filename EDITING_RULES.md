@@ -1,6 +1,21 @@
 # Editing rules (TikTok edits)
 
-## NOV 15 RULES (Desmond + channel data) - read first
+## NOV 17 RULES (Desmond approved, from YouTube Studio + TikTok Studio data, ANALYSIS.md) - read first, they override Nov 15
+1. LENGTH: 15-20 s (25 s hard max, ending + card included). The 5 biggest Shorts of the month are 13-23 s (33.2K, 16.6K,
+   9.9K, 7.0K, 5.9K); the 25-59 s story cuts sit at 0.9-2.6K. A story keeps ONE or two commentary lines, not four.
+2. COLD OPEN ON THE PAYOFF: frame 1 is the most dramatic moment (the spin, the contact, the DSQ stamp, the flag) with a big
+   text hook on it. Viewers leave at 0:01-0:02 on both platforms (TikTok DSQ avg 11.4 s, Kimi 8.0 s, Sandown 4.6 s).
+   No commentary build-up first ("Interesting information that..."). Then the voice explains, then a short beat outro
+   (2-3 s, 4-5 clips) + end card.
+3. CAPTION = hook line + question + 👇, then the CTA, then hashtags - the format of every top post
+   ("The rookie wouldn't give it up. 💥 Lindblad or Piastri - whose fault? 👇"). Name the drivers (TikTok search brings
+   'Alonso passing Hamilton', 'Marquez', 'Quartararo vs Bezzecchi'). CTA: "an F1 edit every day" on F1 posts ONLY, "a race
+   edit every day" on everything else.
+4. PICK CONTROVERSY AND TWISTS: whose fault, was it fair, DSQ, last-lap twist. Recaps and build-ups do worst.
+5. SERIES: F1 first, MotoGP second. Supercars / DTM did worst (Sandown TikTok avg watch 4.6 s, 1.2% to the end) - only for a
+   huge headline. NO NASCAR on YouTube: its Content ID claim stops the Shorts feed (Larson post: 0 feed impressions).
+
+## NOV 15 RULES (Desmond + channel data) - item 1 replaced by NOV 17 rule 1
 1. LENGTH: 15-30 s. YouTube Nov data: the 11-23 s posts did 7k-33k (Lindblad 33k, Kimi 16.5k, Norris pole 9.8k); the
    37-59 s square stories since Nov 12 did 0.9k-3.8k. Story edits = the core 15-25 s of commentary only.
 2. ENDING: after the last spoken line, 4-5 s of driving / overtakes cut on the music (master.py segment type 'outro'),

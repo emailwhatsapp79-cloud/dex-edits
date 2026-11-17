@@ -56,7 +56,7 @@ TikTok read 69 views 15 min after posting and 1,566 views 3 h later).
    big headline (title decided, controversy).
 3. **Check every post 1 h after it goes live.** Two YouTube Shorts got ~0 views (Leclerc WrOoQ-kkFa4 = 3, NASCAR DWENgFgsyms = 0)
    and the 2:14 Max story got 3. Open them in YouTube Studio for a processing / visibility problem; re-upload if stuck.
-4. **Length:** 22-34 s Shorts are the sweet spot on YouTube; the 24 s Max hype beat the 134 s Max story (1,547 vs 3). Longer cuts only on
+4. **Length (replaced by the Studio data above + EDITING_RULES "NOV 17": 15-20 s, 25 s max).** Old note: 22-34 s Shorts are the sweet spot on YouTube; the 24 s Max hype beat the 134 s Max story (1,547 vs 3). Longer cuts only on
    TikTok (the 57 s MotoGP edit worked there). Never post >60 s to YouTube.
 5. **Call to action:** use "an F1 edit every day" ONLY on F1 posts. Non-F1 posts (DTM, Supercars, MotoGP...) must say
    "a race edit every day". DTM and Supercars captions wrongly said F1 on both platforms.
