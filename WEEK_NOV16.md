@@ -54,3 +54,6 @@ DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-oth
 4. Re-cut under 30 s with the new outro: (DONE Tue 18 Vegas25 DSQ). DONE Wed 18 Mercedes 1-2 (was: script v2 READY (freeze at 413,
    last clip 427) - just render edit_cj_mercedes_one_two_vegas24.py, check, swap posts. Wed 18 Mercedes 1-2, DONE Thu 12 Norris champion.
 5. Brazil shorts: DONE Wed 12 Hamilton recreates Verstappen moment, DONE Thu 08 -> Neymar (Toto dropped, repeat), DONE Fri 08 drivers' parade. ALL TODO ITEMS DONE (Nov 16 22:35).
+6. NOV 17 re-cuts to 15-20 s (stopped at 18% battery, Nov 17 23:20): DONE Bathurst v3 (swapped). Mercedes v3 RENDERED
+   (work/out/cj_mercedes_one_two_vegas24_v3_25*.mp4, 17.2 s, checked) - push + swap Wed 18:00. Still to render: Norris v3
+   (Thu 12), Vegas week v2 (Thu 18), Super Saturday v2 (Sat 08) - scripts ready in engine/.
