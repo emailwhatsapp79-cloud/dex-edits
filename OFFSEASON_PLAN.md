@@ -30,6 +30,22 @@ NASCAR gets no YouTube reach (Content ID).
 - "On this day" moments from older seasons (careful: long F1 commentary = Content ID risk; keep runs under ~8 s).
 - MotoGP 2026 best moments (Marc vs Marco did 2.7K YouTube / 1.1K TikTok - controversy works there too).
 
+## Week by week - the days with NO F1, Formula E or MotoGP (3 posts a day: 08:00 / 12:00 / 18:00)
+| Dates | 08:00 | 12:00 | 18:00 (strongest) |
+|---|---|---|---|
+| Dec 7-17 (11 days) | F1 2026 top-10 overtakes countdown, #10 -> #1 | MotoGP 2026 best moments (Marc vs Marco, crashes, saves) | F1 "most controversial moment of 2026 - whose fault? 👇", one a day |
+| Dec 20-31 (12 days) | F1 driver-of-the-year cases, one driver a day ("who's yours? 👇") | 2026 best radio messages (funny + angry), short | F1 "biggest moment of 2026" countdown, #1 on Dec 31 |
+| Jan 1-8 | "2026 in 15 seconds" per team (one team a day, 10 teams) | Dakar preview: last year's best rolls, crashes, stories | F1 2027 rookies + new driver line-ups |
+| Jan 9-15 | Dakar stage of the day (crash / roll / stuck in dunes) | Race of Champions Jan 9-10 (Vettel, Bottas), then Dakar | Dakar story of the day (leader changes, heartbreak) |
+| Jan 17-27 | Dakar to the finish (Jan 23: winner + heartbreak), then F1 car launch countdown | F1 2026 "what if" moments (lost wins, last laps) | Dakar finish / F1 2027 launch teasers |
+| Jan 28-31 | Rolex 24 at Daytona: start, crashes, night laps | F1 controversy series (continued) | Rolex 24 finish |
+| Feb 1-5, 7-19, 21-23 | F1 2027 car launches and liveries (each team as it launches) | Bathurst 12 Hour Feb 11-14 / MotoGP pre-season tests if held | F1 launch of the day or the best 2026 moment |
+| Feb 24-27 | F1 testing day by day | F1 testing | F1 testing: fastest lap, first problems |
+| Mar 5-14 | MotoGP Thailand (Mar 5-7), F1 Bahrain (Mar 12-14) - back to race weekends | | |
+
+Formula E weekends inside the gap (Dec 18-19 Jeddah, Jan 16 Mexico, Feb 6 COTA, Feb 20 Miami): 1 post each, only if
+Desmond wants Formula E.
+
 ## Mix per week in the gap (3 posts a day)
 - 2 F1 posts a day (season review, controversy, launches/testing when they start).
 - 1 other post a day from whatever is live that week (Dakar daily in January, Formula E weekends, Rolex 24, Bathurst 12 h).
