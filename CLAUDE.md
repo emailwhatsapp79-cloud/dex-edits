@@ -4,6 +4,7 @@ This repo is the home of **DEX EDITS** (TikTok "Dex Edits"; YouTube coming): car
 made with code. All Dex Edits work is committed and pushed HERE ONLY. Never push edits, code, rules or
 videos to `scamdecoded-media` – that repo belongs to a different channel (@scamdecoded).
 
+ANALYSIS.md (Desmond, Nov 17): what the analytics say about what works (best posts, series, lengths, slots, mistakes to avoid). READ IT FIRST, before making or scheduling ANY edit, and update it after every analysis.
 Before making or reviewing any edit, read and follow `EDITING_RULES.md`.
 POSTED.md (Desmond, Nov 15): the full history of every published post (date/time, caption, length, views per platform). READ IT BEFORE PLANNING ANY EDIT - no repeated stories, drivers moments or footage. Refresh it from Zernio analytics every week and after each batch.
  Every edit needs a clear direction.
