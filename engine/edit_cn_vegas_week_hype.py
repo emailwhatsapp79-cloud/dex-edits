@@ -22,15 +22,17 @@ SHOTS = [('a', 144.0), ('q', 66.0), ('p', 84.0), ('a', 168.0), ('q', 104.0), ('p
          ('p', 288.0), ('r', 40.0), ('a', 51.0), ('q', 285.0), ('p', 162.0), ('a', 141.0), ('q', 72.0), ('p', 252.0),
          ('a', 186.0), ('r', 46.0), ('p', 291.0), ('q', 120.0), ('a', 132.0), ('p', 444.0), ('q', 375.0), ('r', 404.0),
          ('a', 459.0), ('p', 450.0), ('r', 440.0, 0.7)]
+SHOTS = SHOTS[:16] + [SHOTS[-1]]                                                    # Nov 17 v2: ~19 s (NOV 17 rules)
 CUTS = [(round(BEATS[i] - SONG_IN, 2), k, t, *sp) for i, (k, t, *sp) in enumerate(SHOTS)]
-END = round(BEATS[len(SHOTS) + 3] - SONG_IN, 2)                                       # last shot holds 4 beats
-WORDS = [(0.0, 'VEGAS WEEK.', 230, 1.8), (CUTS[8][0], 'PRACTICE|THURSDAY NIGHT', 230, 2.7),
-         (CUTS[16][0], 'QUALIFYING|FRIDAY NIGHT', 230, 2.7), (CUTS[24][0], 'LIGHTS OUT|SATURDAY NIGHT', 220, END - CUTS[24][0])]
-CFG = dict(name='vegas_week_hype', files=FILES, cuts=CUTS, end=END, words=WORDS, flash=[CUTS[8][0], CUTS[16][0], CUTS[24][0]],
+END = round(BEATS[len(SHOTS) + 2] - SONG_IN, 2)                                       # last shot holds 4 beats
+WORDS = [(0.0, 'VEGAS WEEK.', 230, 1.8), (CUTS[4][0], 'PRACTICE|THURSDAY NIGHT', 230, 2.7),
+         (CUTS[8][0], 'QUALIFYING|FRIDAY NIGHT', 230, 2.7), (CUTS[12][0], 'LIGHTS OUT|SATURDAY NIGHT', 220, END - CUTS[12][0])]
+CFG = dict(name='vegas_week_hype', files=FILES, cuts=CUTS, end=END, words=WORDS, flash=[CUTS[4][0], CUTS[8][0], CUTS[12][0]],
            font='anton', grade=False, song=os.path.join(ASSETS, 'songs', 'trend', 'bow_bow_bow_zeddy_will.mp3'), song_in=SONG_IN,
            title='VEGAS WEEK|PRACTICE STARTS TONIGHT', banner_in=0.6)
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
-    out, total = lyric.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cn_vegas_week_hype_{fps}.mp4'))
+    out, total = lyric.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cn_vegas_week_hype_v2_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))

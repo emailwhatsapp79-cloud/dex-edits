@@ -27,16 +27,16 @@ W2 = [(37.66, "IT'S DONE, IT'S DONE."), (39.2, "HE'S RUN OUT OF FUEL."), (40.62,
       (45.78, 'HAS RUN OUT OF FUEL.'), (47.54, "IT'S A MOUNTAIN"), (48.54, 'BOIL OVER.'), (50.26, 'EXTRAORDINARY SCENES.')]
 W3 = [(52.9, 'FROM AGONY'), (53.84, 'TO ECSTASY.')]
 CFG = dict(name='bathurst_out_of_fuel', files=FILES,
-           song=os.path.join(ASSETS, 'songs', 'trend', 'ramalama_roisin_murphy.mp3'), song_in=105.5,
-           title='BATHURST 1000|OUT OF FUEL', banner_in=0.4,
-           segments=[dict(type='voice', k='b', a=9.45, b=14.45, words=W1),
-                     dict(type='voice', k='b', a=37.6, b=51.25, words=W2),
+           # Nov 17 v3 (NOV 17 rules): ~17 s, cold open on the payoff ("It's done... he's run out of fuel"), drop on "agony"
+           song=os.path.join(ASSETS, 'songs', 'trend', 'ramalama_roisin_murphy.mp3'), song_in=113.0,
+           title='BATHURST 1000|OUT OF FUEL', banner_in=0.2,
+           segments=[dict(type='voice', k='b', a=37.6, b=43.7, words=W2[:5]),
+                     dict(type='voice', k='b', a=44.2, b=49.15, words=W2[5:9]),
                      dict(type='voice', k='b', a=52.85, b=54.75, words=W3),
-                     dict(type='outro', shots=[('f', 38.0), ('f', 140.0), ('f', 334.5), ('f', 448.0), ('f', 588.0), ('f', 672.0),
-                                               ('f', 700.0), ('b', 132.0), ('b', 179.5, 0.6)])])
+                     dict(type='outro', shots=[('f', 38.0), ('f', 334.5), ('f', 672.0), ('b', 132.0), ('b', 179.5, 0.6)])])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
-    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cs_bathurst_out_of_fuel_{fps}.mp4'))
+    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cs_bathurst_out_of_fuel_v3_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
     import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))

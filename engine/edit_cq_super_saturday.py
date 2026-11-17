@@ -23,15 +23,20 @@ SHOTS = [('b', 9.0), ('b', 30.0), ('b', 87.0), ('b', 165.0), ('b', 201.0),      
          ('p', 12.0), ('r', 62.0), ('a', 27.0), ('p', 252.0), ('r', 200.0),                    # F1
          ('b', 63.0), ('q', 64.0), ('b', 99.0), ('a', 337.0), ('b', 186.0), ('p', 186.0),      # alternating
          ('b', 243.0), ('p', 459.0), ('b', 228.0), ('r', 440.0, 0.6)]
+# Nov 17 v2 (NOV 17 rules): ~17 s - straight into the drop, 4 MotoGP + 4 F1 + 3 alternating cuts, slow-mo Bellagio last
+SONG_IN = round(HITS[0] - 0.6, 2)
+SHOTS = [('b', 9.0), ('b', 30.0), ('b', 87.0), ('b', 165.0), ('p', 12.0), ('r', 62.0), ('a', 27.0), ('p', 252.0),
+         ('b', 63.0), ('q', 64.0), ('b', 186.0), ('r', 440.0, 0.6)]
 CUTS = [(0.0, 'b', 15.0, 0.6)] + [(round(h - SONG_IN, 2), *sh) for h, sh in zip(HITS, SHOTS)]
-END = round(HITS[-1] - SONG_IN + 2.4, 2)
-WORDS = [(0.2, 'SUPER SATURDAY.', 190, 3.3), (CUTS[1][0], 'MOTOGP SPRINT|PORTIMÃO', 210, 2.2),
-         (CUTS[6][0], 'F1 RACE|LAS VEGAS · SATURDAY NIGHT', 230, 2.2), (CUTS[20][0], 'SUPER SATURDAY.|SPRINT + RACE', 190, 2.4)]
-CFG = dict(name='super_saturday', files=FILES, cuts=CUTS, end=END, words=WORDS, flash=[CUTS[1][0], CUTS[6][0], CUTS[11][0]],
+END = round(HITS[len(SHOTS) - 1] - SONG_IN + 2.0, 2)
+WORDS = [(0.0, 'SUPER SATURDAY.', 190, 0.6), (CUTS[1][0], 'MOTOGP SPRINT|PORTIMÃO', 210, 2.2),
+         (CUTS[5][0], 'F1 RACE|LAS VEGAS · SATURDAY NIGHT', 230, 2.2), (CUTS[12][0], 'SUPER SATURDAY.|SPRINT + RACE', 190, 2.0)]
+CFG = dict(name='super_saturday', files=FILES, cuts=CUTS, end=END, words=WORDS, flash=[CUTS[1][0], CUTS[5][0], CUTS[9][0]],
            font='anton', grade=False, song=os.path.join(ASSETS, 'songs', 'full', '05_montagem_kali_slowed.mp3'), song_in=SONG_IN,
            title='SUPER SATURDAY|MOTOGP + F1', banner_in=0.6)
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
-    out, total = lyric.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cq_super_saturday_{fps}.mp4'))
+    out, total = lyric.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cq_super_saturday_v2_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
+    import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))

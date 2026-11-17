@@ -65,15 +65,14 @@ P3 = [(406.4, "IT'S THE PROMISED LAND"), (408.64, 'FOR LANDO.')]
 P4 = [(410.42, 'LANDO, THIS IS ZAK'), (411.96, 'FROM McLAREN.'), (412.82, 'IS THIS THE WORLD'), (413.98, 'CHAMPION HOTLINE?'),
       (415.06, 'THANK YOU...')]
 CFG = dict(name='norris_champion_ad25', files=FILES, song=os.path.join(ASSETS, 'songs', 'trend', 'purple_rain_prince.mp3'),
-           song_in=90.45, title='LANDO NORRIS|WORLD CHAMPION', banner_in=0.6,
-           segments=[dict(type='voice', k='v', a=361.9, b=366.3, words=P1),
-                     dict(type='voice', k='v', a=378.5, b=385.75, words=P2),
-                     dict(type='voice', k='v', a=406.3, b=409.9, words=P3),
+           song_in=98.2, title='LANDO NORRIS|WORLD CHAMPION', banner_in=0.6,
+           # Nov 17 v3 (NOV 17 rules): ~18 s, cold open on the title call over the family, then Zak's radio
+           segments=[dict(type='voice', k='v', a=378.5, b=385.75, words=P2),
                      dict(type='voice', k='v', a=410.35, b=416.9, words=P4),
-                     dict(type='outro', shots=OUTRO)])
+                     dict(type='outro', shots=[('v', 49.0), ('v', 189.0), ('v', 224.0), ('v', 280.0), ('v', 441.0, 0.6)])])
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
-    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cl_norris_champion_ad25_v2_{fps}.mp4'))
+    out, total = master.render(dict(CFG, fps=fps), S, os.path.join(S, 'out', f'cl_norris_champion_ad25_v3_{fps}.mp4'))
     print(out, f'total {total:.1f}s', flush=True)
     import look; look.yt1440(out, out.replace('.mp4', '_yt1440.mp4'))
