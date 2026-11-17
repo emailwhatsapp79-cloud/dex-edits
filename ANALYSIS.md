@@ -5,6 +5,24 @@ Update this file after every analysis (newest section on top). Full per-post his
 Rule for the numbers: a post's views are only final after ~24 h. Re-pull before quoting a fresh post (Nov 17: the Vegas 2025
 TikTok read 69 views 15 min after posting and 1,566 views 3 h later).
 
+## Nov 17 ~21:30 - read DIRECTLY in YouTube Studio + TikTok Studio (adds what Zernio can't show)
+- **YouTube, last 28 days:** 156.5K views, 56.9% stayed to watch / 43.1% swiped, 94.1% from the Shorts feed, 97% new viewers.
+- **The 5 biggest Shorts of the month are all 13-23 s, with a one-line hook + a question + 👇 caption:**
+  Lindblad/Piastri "whose fault? 👇" 13 s 33.2K, Kimi "Is Kimi the next legend? 👇" 17 s 16.6K, Lando pole 15 s 9.9K,
+  Hamilton pole "Has Lewis still got it? 👇" 23 s 7.0K, "they said nobody wins after 300" 15 s 5.9K.
+  The 34-59 s story cuts sit at 1.8-2.6K. So the sweet spot is **15-20 s** (25 s max), shorter than the 22-34 s above.
+- **Drop-off is in the first second on both platforms.** TikTok Vegas DSQ: avg watch 11.4 s of 26 s, 5.1% watched to the end,
+  "most viewers stopped at 0:01". Kimi loses the lead: avg 8.0 s of 28 s, 3.7% full, stopped at 0:02. -> Open on the payoff
+  (the spin, the DSQ stamp, the contact) with a big text hook in frame 1, not on a commentary build-up ("Interesting
+  information that...").
+- **NASCAR Short (DWENgFgsyms):** Studio shows "Claimed content found - doesn't affect visibility", but 0 impressions from the
+  Shorts feed (2 views, both from the channel page). A NASCAR Content ID claim kills feed reach -> no NASCAR on YouTube.
+- **TikTok, last 7 days:** 8K views (+52.8%), 921 likes, 31 comments, 96.5% For You. Search terms bringing viewers: Alonso
+  passing Hamilton, Marquez, Quartararo vs Bezzecchi -> name the drivers in captions.
+- **Do next:** cut new edits to 15-20 s, cold-open on the payoff, caption = hook line + question + 👇 (CTA after it), controversy
+  and "whose fault?" stories first, F1 + MotoGP only (no NASCAR on YouTube).
+- Memory note: keep Studio pages in the in-app browser short - the big analytics table pushed the Claude app to 5.7 GB and froze it.
+
 ## Nov 17 summary
 - **Subscribers:** YouTube 85 (Nov 14: 74, Nov 10: 66, Nov 4: 46). Last 3 days +11, the fastest stretch since the Nov 5-8 spike.
   TikTok 10 followers (Nov 14: 8). YouTube lifetime views 184,721 (68 videos). TikTok lifetime likes 2,963.
