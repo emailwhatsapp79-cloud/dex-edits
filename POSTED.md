@@ -98,3 +98,13 @@ Update it every week (and after each batch of posts): same story / same driver m
 | Sun 15 Nov 2026 11:58 | The last real corner of the race. Leclerc goes for it on Perez for P2 - "What a move, Charles Lecler | 28 s | 2 **BLOCKED** | - |
 | Sun 15 Nov 2026 11:59 | the last real corner. leclerc goes for it 😮🔴 "what a move, charles leclerc!" vegas is back this week. | 27 s | - | 368 |
 | Sun 15 Nov 2026 17:58 | "No one's won after 300. I proved that wrong." Race 400, from the back at Interlagos: "he cannot be | 34 s | 767 | 274 |
+
+## Nov 16-17 posts (read from YouTube Studio / TikTok Studio, Tue 17 Nov ~21:30 Lagos)
+| Posted (Lagos) | Story | Length | YouTube views | TikTok views |
+|---|---|---|---|---|
+| Mon 16 08:00 | Supercars Sandown: De Pasquale misses the finals by 0.7 s | 28 s | 860 | 243 |
+| Mon 16 12:00 | Next stop Portimao (MotoGP) | 32 s | 1,000 | 276 |
+| Mon 16 18:00 | DTM title decider, Preining champion | 30 s | 975 | 243 |
+| Tue 17 08:00 | Antonelli loses the lead in Brazil (radio) | 28 s | 1,300 | 274 |
+| Tue 17 12:00 | NASCAR Homestead, Larson champion | 52 s | 2 (never in Shorts feed, NASCAR claim) | 279 |
+| Tue 17 18:00 | Vegas 2025: Max wins, both McLarens DSQ | 26 s | 843 after 3.5 h | 1,906 after 4 h |
