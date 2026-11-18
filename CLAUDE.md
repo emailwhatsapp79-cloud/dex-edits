@@ -160,3 +160,11 @@ read it through Playwright or use Desmond's deployed app. Use it to pick trendin
 - Reminders set: Thu Nov 19 (plan Vegas week, check the calendar, pick trending sounds), Sat Nov 21 08:00 (quali edit),
   Sun Nov 22 08:00 (race edit).
 - Weekly long video: Brazil GP "every moment" scheduled Sun Nov 15 18:00 (YouTube 6af1ecea03f9ad0dfff03e48).
+
+## PAID CLIPPING - Whop Content Rewards (Desmond, Nov 18)
+- F1 and MotoGP campaigns are handled by THIS repo's sessions and posted on the F1 accounts (TikTok @dex_edit0, YouTube
+  "Dex Edits"); every other campaign is the clipping session's (TikTok @dexedits62, YouTube @dexedits-y3y).
+- All accounts are linked once in Content Rewards (profile > Linked Accounts > Add Account; public accounts only). You join a
+  campaign as the Whop user, post from the right account, then submit THAT post's link - the link decides the account.
+- BEFORE POSTING ANY CAMPAIGN CLIP: read the campaign's rules and check which platforms it accepts (TikTok / YouTube /
+  Instagram / X). Only post and submit on the platforms it lists. Ask Desmond before joining a campaign or linking an account.
