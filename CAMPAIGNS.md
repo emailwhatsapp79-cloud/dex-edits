@@ -18,3 +18,10 @@
 
 ## Searched Nov 18 - nothing else for us
 F1 -> Aston Martin x Coinbase, ZHU & HNTR (music promo), YOGEV Sabaku (cars/anime, TikTok only). MotoGP / motorsport: none.
+
+### Footage hunt (Nov 18)
+- Joined the ClipHaus Discord (invite discord.com/invite/9yg4TPW6Pj via ClipHaus profile "Join Discord"), got the Clipper role.
+- #active-campaigns lists "COINBASE" (manager Discord id 1167997219648045157) but there is no Coinbase channel or folder
+  link visible; searches for coinbase/aston martin/footage/drive found none. Other clippers in #chathaus refer to "the
+  approved footage" and ask about approvals, so it exists somewhere (probably a private channel or given on request).
+- The Content Rewards Discord needs AltShield "Verify" (privacy policy) - left for Desmond.
