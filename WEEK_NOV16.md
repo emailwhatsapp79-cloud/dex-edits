@@ -32,7 +32,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Wed 18 18:00 | Vegas 2024 Mercedes one-two v3, 17.2 s payoff-first (2026-11-18-mercedes-one-two-v3-25 / -yt1440) | YT 6afd2e42641b207274584c64 / TT 6afd2e43641b207274584c6a |
 | Thu 19 08:00 | NEW: Neymar in the F1 paddock, 16.1 s (2026-11-19-neymar-paddock-25 / -yt1440); replaced 3 winners (Toto short dropped: repeats the Nov 10 Mercedes title post) | YT 6afb737b8fab9d9e9f6386e4 / TT 6afb737e78a03bf7183980a9 |
 | Thu 19 12:00 | Norris world champion v3, 18.7 s payoff-first (2026-11-19-norris-champion-v3-25 / -yt1440) | YT 6afd30242889487d02df34ab / TT 6afd3025a0f026ece41a14f4 |
-| Thu 19 18:00 | E13 VEGAS WEEK practice tonight (2026-11-19-vegas-week-practice-tonight-25.mp4, Bow Bow Bow) | YT 6af8542df4bbf20311aacb63 / TT 6af85430468e0fd807ee8bf9 |
+| Thu 19 18:00 | VEGAS WEEK hype v2, 19.1 s (2026-11-19-vegas-week-v2-25 / -yt1440) | YT 6afd3b6027a69640ba641780 / TT 6afd3b6227a69640ba641787 |
 | Fri 20 08:00 | NEW: The most chaotic drivers' parade, Interlagos 2026, 23.9 s (2026-11-20-drivers-parade-25 / -yt1440); replaced Vegas 2023 turn one | YT 6afb77e16990c60015573d16 / TT 6afb77e309573803d6c92428 |
 | Fri 20 12:00 | E15 Pecco Portimão redemption? (2026-11-20-pecco-portimao-redemption-25.mp4, Panchiko) | YT 6af8571baeacb8d1a9a92879 / TT 6af8571d1caadffb1a5dde0c |
 | Fri 20 18:00 | E16 QUALIFYING TONIGHT hype (2026-11-20-vegas-qualifying-tonight-25.mp4, Can I Ride) | YT 6af858488ea5514c3dbf21f9 / TT 6af8584a8ea5514c3dbf2208 |
