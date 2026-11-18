@@ -29,7 +29,7 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Tue 17 18:00 | E7 v2 Vegas 2025: Max wins, McLarens DSQ, re-cut 26.8 s + beat outro (2026-11-17-vegas25-dsq-v2-25 / -yt1440) | YT 6afa9f294db0ecf09fcc0750 / TT 6afa9f2a4db0ecf09fcc0766 |
 | Wed 18 08:00 | Supercars Bathurst out of fuel v3, 18.2 s payoff-first (NOV 17 rules) (2026-11-18-bathurst-out-of-fuel-v3-25 / -yt1440) | YT 6afccf65eb6eca9fc36f06dc / TT 6afccf6761bca4f2d49c560d |
 | Wed 18 12:00 | NEW: Two spins, one decade apart - Max 2016 / Hamilton 2026 at Interlagos, 18.6 s (2026-11-18-two-spins-decade-25 / -yt1440); replaced Last time at Portimao | YT 6afb716c3d83e2b95d394825 / TT 6afb716e3d83e2b95d394830 |
-| Wed 18 18:00 | E10 v2 Vegas 2024 Mercedes one-two, re-cut 29.4 s + beat outro (2026-11-18-mercedes-one-two-v2-25 / -yt1440) | YT 6afb6834eea32896d35f1d83 / TT 6afb6836547d0168ec9caffb |
+| Wed 18 18:00 | Vegas 2024 Mercedes one-two v3, 17.2 s payoff-first (2026-11-18-mercedes-one-two-v3-25 / -yt1440) | YT 6afd2e42641b207274584c64 / TT 6afd2e43641b207274584c6a |
 | Thu 19 08:00 | NEW: Neymar in the F1 paddock, 16.1 s (2026-11-19-neymar-paddock-25 / -yt1440); replaced 3 winners (Toto short dropped: repeats the Nov 10 Mercedes title post) | YT 6afb737b8fab9d9e9f6386e4 / TT 6afb737e78a03bf7183980a9 |
 | Thu 19 12:00 | E12 v2 Norris world champion, re-cut 28 s + beat outro (2026-11-19-norris-champion-v2-25 / -yt1440) | YT 6afb6ce25b4661e1a2020efa / TT 6afb6ce31d9b155674b3448f |
 | Thu 19 18:00 | E13 VEGAS WEEK practice tonight (2026-11-19-vegas-week-practice-tonight-25.mp4, Bow Bow Bow) | YT 6af8542df4bbf20311aacb63 / TT 6af85430468e0fd807ee8bf9 |
@@ -54,6 +54,6 @@ DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-oth
 4. Re-cut under 30 s with the new outro: (DONE Tue 18 Vegas25 DSQ). DONE Wed 18 Mercedes 1-2 (was: script v2 READY (freeze at 413,
    last clip 427) - just render edit_cj_mercedes_one_two_vegas24.py, check, swap posts. Wed 18 Mercedes 1-2, DONE Thu 12 Norris champion.
 5. Brazil shorts: DONE Wed 12 Hamilton recreates Verstappen moment, DONE Thu 08 -> Neymar (Toto dropped, repeat), DONE Fri 08 drivers' parade. ALL TODO ITEMS DONE (Nov 16 22:35).
-6. NOV 17 re-cuts to 15-20 s (stopped at 18% battery, Nov 17 23:20): DONE Bathurst v3 (swapped). Mercedes v3 RENDERED
+6. NOV 17 re-cuts to 15-20 s (stopped at 18% battery, Nov 17 23:20): DONE Bathurst v3 (swapped). DONE Mercedes v3 (swapped Nov 18 06:00). Was: RENDERED
    (work/out/cj_mercedes_one_two_vegas24_v3_25*.mp4, 17.2 s, checked) - push + swap Wed 18:00. Still to render: Norris v3
    (Thu 12), Vegas week v2 (Thu 18), Super Saturday v2 (Sat 08) - scripts ready in engine/.
