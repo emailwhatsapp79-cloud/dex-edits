@@ -18,6 +18,14 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 21:40 Lagos (PC session)
+- 20:45 Desmond sent 5 'mood' trackside TikToks (100-200K views) -> studied, saved as REFERENCES AE1-AE5 + EDITING_RULES "MOOD EDIT".
+- 21:00 Desmond: "change tomorrow's edit to this type". NEW engine/mood.py: full-screen 9:16 at 720x1280, slow motion (RIFE),
+  one cut per 2 beats, no text/commentary/banner, small DEX EDITS mark, end card.
+- 21:30 RENDERED engine/edit_dc_portimao_mood.py (17.2 s, Purple Rain intro, 2025 Portimao footage).
+- 21:38 DELETED the Sun 08:00 card hype (YT 6b01ef66dc03baa3505850c0 / TT 6b01ef68a6f03a00ca2f7dac) and SCHEDULED the mood edit
+  Sun 22 08:00: YT 6b0200a4308ecb7edb59fb8f / TT 6b0200a643fb56d79b263199. Caption: "race day at portimao. who takes it? 👇".
+
 ### Sat 21 Nov 20:25 Lagos (PC session) - PC back online
 - 20:10 Read the cloud's lines: Bezzecchi lap-record edit posted Sat 18:50; POST DIRECTLY rule noted.
 - 20:12 Sun 08:00 plan changed: NO F1 race-day hype (the Vegas race ends ~07:00, before 08:00) -> MotoGP race-day hype instead.
