@@ -611,3 +611,22 @@ segment (an AI animation app) - not for us. Lessons in EDITING_RULES "GROWTH LES
 - **MrDinchaak** YouTube Short "MAX VERSTAPPEN - UNDRESS REHEARSAL" (screenshot): square 1:1 picture centred in the 9:16
   frame, one caption word at a time inside the picture ("BUT..."), interview close-up.
 - In common: a real story with a stake, the voice never chopped, music under all of it, a proper ending. -> EDITING_RULES top.
+
+## AE - "MOOD" TRACKSIDE EDITS (Desmond, Nov 21: "why can't we make edits like this? most of our edits feel like they
+## don't have a meaning") - 5 TikToks, 100K-200K views each, 20-30% like rate
+| # | Creator | Len | Views / likes | What it is |
+|---|---|---|---|---|
+| AE1 | @myturn9311 (vm.tiktok.com/ZN8maX9oC) | 11 s | 198K / 58.9K | GT3 cars at night, one long-lens corner shot, cars pass, then a red-lit night train of cars |
+| AE2 | @myturn9311 (ZN8mafnYq) | 13 s | 193K / 55.2K | Petit Le Mans-style yellow/blue kerb, day -> sunset -> night, same corner, 3 shots |
+| AE3 | @myturn9311 (ZN8maCQjj) | 14 s | 110K / 32.3K | Nordschleife at night onboard/trackside, then the Manthey 911 in the pit at night |
+| AE4 | @fonzicaars.edits (ZN8magEY2) | 23 s | 103K / 27.6K | Porsche GT3 Cup at sunset: aerial pit straight, wheel, wing, logo, garage - one shot per bar |
+| AE5 | @bigredmediaa (ZN8maSUpR) | 21 s | 108K / 22K | WEC pit lane in the rain, slow motion, one car per bar (Alpine, McLaren, Lexus, Porsche, Ferrari, Peugeot) |
+What they share (measured: frame sheets, scene cuts, audio):
+- NO text, NO commentary, NO story told in words. The meaning is a FEELING: night, rain, sunset, the sound of a place.
+- Full-screen 9:16, shot by the creator (long lens / slow motion / shallow depth), cinematic grade, no TV graphics or tower.
+- Very few cuts: AE1-AE3 1-3 shots in 11-14 s; AE4/AE5 exactly one cut per musical bar (every 2.37 s at 104 BPM, every
+  2.56 s at ~94 BPM) - calm, not a hit on every beat.
+- One mood per edit (night / rain / golden hour), one place, one series. Music is a slow, emotional track (tonal, not hype).
+- Short: 11-23 s. The caption is 1 line ("wet in wec.", "Sunset + Racecar = Combo made in heaven").
+Why ours feel "without meaning": we stack commentary lines, captions, banners, counters and 1-beat cuts on TV footage
+cropped square - lots of information, no single feeling. These references pick ONE image idea and let it breathe.

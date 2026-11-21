@@ -1,5 +1,11 @@
 # Editing rules (TikTok edits)
 
+## MOOD EDIT - a second format next to the story edits (Desmond, Nov 21, refs AE1-AE5 in REFERENCES.md)
+For when there is no strong spoken story: ONE feeling (night, rain, sunset, a place), 10-20 s, full-screen 9:16 (no square,
+no banner, no captions, no commentary), 3-8 shots only, one cut per musical bar (~2.3-2.6 s), slow motion (0.5x) on every
+shot, a calm emotional song, a cinematic grade, the DEX EDITS mark small. Caption = one short line. Sources must stay sharp
+when cropped to 9:16 (<=1.4x upscale): onboards, pit-lane / garage cameras, team 4K social clips - not wide TV shots.
+
 ## NOV 17 RULES (Desmond approved, from YouTube Studio + TikTok Studio data, ANALYSIS.md) - read first, they override Nov 15
 1. LENGTH: 15-20 s (25 s hard max, ending + card included). The 5 biggest Shorts of the month are 13-23 s (33.2K, 16.6K,
    9.9K, 7.0K, 5.9K); the 25-59 s story cuts sit at 0.9-2.6K. A story keeps ONE or two commentary lines, not four.
