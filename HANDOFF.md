@@ -12,6 +12,11 @@ stopping, then commit + push. A cloud session cannot message the PC session back
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 08:30 Lagos (PC session)
+- DONE: Vegas quali edit scheduled Sat 12:00 (YT 6b0147277fe923bccaec0fdb / TT 6b01472848ac025f65748ec4).
+- NEXT: MotoGP Portimao sprint edit for ~18:00 (highlights ~17:00); Sunday 08:00 race-day hype tonight.
+- Note: the Claude app froze ~08:20 (app restart, not the PC); battery 41% discharging.
+
 ### Sat 21 Nov ~08:45 Lagos (cloud session)
 - Read HANDOFF + rules. Zernio state at 08:45: Super Saturday v2 PUBLISHED on both platforms (08:00). NOTHING else is scheduled:
   Sat 12:00 / 18:00, all of Sunday and Monday are empty. The quali edit is not in videos/ yet (latest file = super-saturday-v2).
