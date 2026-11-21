@@ -18,6 +18,17 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 18:35 Lagos (cloud session)
+- 18:05 motogp.com: today's sprint videos (sprint highlights, full sprint, 'Marc tumbles out of sprint', FP2/Q1/Q2) are VideoPass-only
+  (403 user_not_granted). FREE today: 'Last 5 mins: Bezzecchi blazes to record-breaking pole' (1266837), onboard record lap (1266932),
+  Q2 reactions (1266843). Downloaded the first two (1080p50) to the cloud scratch.
+- 18:30 RENDERED engine/edit_da_bezzecchi_portimao_record.py (master.py, 21.8 s, song #162): Bez takes Marc's 2023 all-time lap record
+  "by a whisker" + knocks Marc to P2 on the grid. Files: videos/2026-11-21-bez-portimao-record-25.mp4 (+ -yt1440). Pushed.
+- 18:33 SCHEDULED Sat 18:50 Lagos (17:50 UTC): YT 6b01d5b2ae8ad5be91d943cc (title "Bezzecchi takes Marc's all-time Portimao lap record")
+  / TT 6b01d5b69414bcef0cfb439d. Caption mentions Marc crashing out of the sprint (motogp.com headline) + "who wins tomorrow? 👇".
+- NOT made: Sunday 08:00 race-day hype. Sunday plan if the PC is still off: F1 Vegas race edit from formula1.com (720p, only F1 source
+  the cloud can reach) for 12:00; MotoGP race highlights will likely be VideoPass-locked -> cloud uses whatever free clip motogp.com has.
+
 ### Sat 21 Nov 17:55 Lagos (cloud session) - PC offline, cloud takes over (Desmond: "do your best edit and schedule it")
 - 17:55 Zernio: Vegas quali (12:00) PUBLISHED on both. Nothing scheduled after it. PC logged nothing after 08:30.
 - 17:55 START: MotoGP Portimao sprint edit (source: motogp.com official video, 1080p DASH - works from the cloud), NOV 17 rules,
