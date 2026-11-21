@@ -18,6 +18,8 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+- 00:10 Sun (cloud) TikTok reply to Joshua Borland (Vegas week post, "where do u live if the race is on a Saturday"): "😂 you trying to watch it together? pull up, I've got the snacks 🍿🏁" (Desmond picked it). Never share Desmond's location in replies.
+
 ### Sat 21 Nov 23:30 Lagos (cloud session)
 - 23:30 Comment replies x8: TikTok - Vegas quali hype ("let's hope for 2/2" -> Max took pole), Vegas week ("were u live" -> not live, edits),
   Norris champion x2 (comeback comment, "wish came true"); YouTube - Max 2016/Lewis 2026 x2 ("Lewis hit the wall", "figure out how Max did it"),
