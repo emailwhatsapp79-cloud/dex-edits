@@ -18,6 +18,9 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 18:40 Lagos (cloud session)
+- 18:40 NEW RULE (Desmond): once an edit passes QC (picture + audio), PUBLISH IT DIRECTLY on both platforms (publish_now), then just tell Desmond it is live - no file to send. Added to CLAUDE.md (Posting).
+
 ### Sat 21 Nov 18:35 Lagos (cloud session)
 - 18:05 motogp.com: today's sprint videos (sprint highlights, full sprint, 'Marc tumbles out of sprint', FP2/Q1/Q2) are VideoPass-only
   (403 user_not_granted). FREE today: 'Last 5 mins: Bezzecchi blazes to record-breaking pole' (1266837), onboard record lap (1266932),

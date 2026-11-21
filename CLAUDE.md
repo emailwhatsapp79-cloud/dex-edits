@@ -58,6 +58,7 @@ CAPTION CALL TO ACTION (Desmond, Nov 9 - subs are the weakest goal): every capti
 "subscribe for an F1 edit every day 🏁" (YouTube) / "follow for an F1 edit every day 🏁" (TikTok), before the hashtags.
 STATS: when reporting likes/views use the LIFETIME channel totals from analytics (source=all, all posts) - not only the
 Zernio-posted ones (Nov 9 Desmond caught "2,851 likes" when the channel had 4,430).
+POST DIRECTLY (Desmond, Nov 21): when an edit is done and the picture + audio check out (QC passed), publish it right away on TikTok + YouTube (posts_create publish_now) instead of waiting for a slot, then just TELL Desmond it is live (no need to send him the file).
 NO POLL COMMENTS (Desmond, Nov 14): do NOT post a "Quick poll" comment on posts, and do not give Desmond poll questions with new edits. The polls were stopped Nov 14.
 REPLY WITH A QUESTION BACK (Desmond, Nov 9): where it fits, end a reply with a short question to the viewer ("who takes Vegas?",
 "Lando or Max?") so the thread keeps going. Not on every reply, never on insults or corrections - there just thank them.
