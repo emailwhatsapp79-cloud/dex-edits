@@ -3,7 +3,8 @@
 ## MOOD EDIT - a second format next to the story edits (Desmond, Nov 21, refs AE1-AE5 in REFERENCES.md)
 For when there is no strong spoken story: ONE feeling (night, rain, sunset, a place), 10-20 s, full-screen 9:16 (no square,
 no banner, no captions, no commentary), 3-8 shots only, one cut per musical bar (~2.3-2.6 s), slow motion (0.5x) on every
-shot, a calm emotional song, a cinematic grade, the DEX EDITS mark small. Caption = one short line. Sources must stay sharp
+shot, SEVERAL cars/bikes in every shot (packs, battles - never one rider, no faces, no celebrations), a BASS-HEAVY
+instrumental 90-125 BPM (Desmond Nov 21: Purple Rain was 'too moody'), a cinematic grade, the DEX EDITS mark small. Caption = one short line. Sources must stay sharp
 when cropped to 9:16 (<=1.4x upscale): onboards, pit-lane / garage cameras, team 4K social clips - not wide TV shots.
 
 ## NOV 17 RULES (Desmond approved, from YouTube Studio + TikTok Studio data, ANALYSIS.md) - read first, they override Nov 15

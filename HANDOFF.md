@@ -18,6 +18,15 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 22:35 Lagos (PC session)
+- 21:50 Desmond: v1 mood edit "not the same as the references, song too moody, they have MULTIPLE bikes". Measured the refs' music:
+  bass-heavy instrumentals 89-125 BPM, loud - not a sad ballad.
+- 22:26 RENDERED mood v2: packs/battles only (start funnel, pack through corners, three-wide, two-bike battles), no faces, no
+  celebrations, no text; Montagem Kali (slowed), cut every 4 beats (~2.35 s), slow-mo, 16.2 s. (First try at every=6 ran 25 min -> stopped.)
+- 22:33 DELETED v1 Sun 08:00 posts (YT 6b0200a4308ecb7edb59fb8f / TT 6b0200a643fb56d79b263199), SCHEDULED v2 Sun 22 08:00:
+  YT 6b020ce19c9046eb10fce9eb / TT 6b020ce3e7cfa6d2603f9c95 (videos/2026-11-22-portimao-mood-v2-25.mp4).
+- Mood renders are slow on the PC (AI slow-mo at 720x1280: ~15-18 min for 16 s) - start them early.
+
 ### Sat 21 Nov 21:40 Lagos (PC session)
 - 20:45 Desmond sent 5 'mood' trackside TikToks (100-200K views) -> studied, saved as REFERENCES AE1-AE5 + EDITING_RULES "MOOD EDIT".
 - 21:00 Desmond: "change tomorrow's edit to this type". NEW engine/mood.py: full-screen 9:16 at 720x1280, slow motion (RIFE),
