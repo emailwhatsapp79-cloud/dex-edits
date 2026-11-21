@@ -18,6 +18,15 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 08:25 Lagos (cloud session) - log every action, one line each
+- 08:25 Rule received (Desmond, via PC session): log EVERY action here right away (download, render, post scheduled/swapped/deleted,
+  comment reply, campaign step, rule change); at session start pull + read the other session's lines and tell Desmond. Following it.
+- 08:25 Pulled + read the PC lines: Vegas quali edit scheduled Sat 12:00 (YT 6b0147277fe923bccaec0fdb / TT 6b01472848ac025f65748ec4).
+  Cloud did not touch it. (Correction: my entry below is timed "~08:45", real time was ~08:20 Lagos.)
+- 08:25 Cloud actions so far today, all logged: none besides the HANDOFF status entry below. Nothing posted, swapped or deleted by cloud.
+- Earlier cloud actions (before this rule), for the record: Nov 19 TikTok comment replies x1 (Max 2016/Lewis 2026 post); Nov 17 TikTok replies x4;
+  Nov 14 poll check-in disabled (trigger) + CLAUDE.md poll rule removed + ANALYSIS.md added; Nov 15 "Make Mon16-Wed18 posts" trigger disabled.
+
 ### Sat 21 Nov 08:30 Lagos (PC session)
 - DONE: Vegas quali edit scheduled Sat 12:00 (YT 6b0147277fe923bccaec0fdb / TT 6b01472848ac025f65748ec4).
 - NEXT: MotoGP Portimao sprint edit for ~18:00 (highlights ~17:00); Sunday 08:00 race-day hype tonight.
