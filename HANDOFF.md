@@ -4,6 +4,12 @@ Desmond (Nov 21): the two sessions work hand in hand. PC on -> the PC session (D
 review") does the jobs. PC off -> the cloud session does them. BOTH read this file first and update it (top section) before
 stopping, then commit + push. A cloud session cannot message the PC session back, so THIS FILE is how it reports.
 
+## Report everything (Desmond, Nov 21)
+Every action either session takes (download, render, post scheduled/swapped/deleted, comment reply, campaign step, rule
+change) gets ONE line in the Status section with the time, then commit + push right away - not only at the end. Start of
+every session: `git pull`, read the Status lines written by the other session since your last entry, and tell Desmond what
+it did.
+
 ## How to pick up
 - Rules: ANALYSIS.md (read first), EDITING_RULES.md "NOV 17 RULES" (15-20 s, cold open on the payoff, hook + question +
   👇 captions, F1/MotoGP first, no NASCAR on YouTube), CLAUDE.md (posting, Zernio account IDs, CTA wording).
