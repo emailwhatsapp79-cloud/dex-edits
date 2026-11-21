@@ -12,10 +12,10 @@ SRC = os.environ['SRC']
 ASSETS = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'dex-edits-assets')
 src = lambda vid: glob.glob(os.path.join(SRC, '**', f'*{vid}*.mp4'), recursive=True)[0]
 A, B = src('vP51RMuSUsk'), src('EbJMANarkcQ')
-SHOTS = [(A, 120.0, 1040), (A, 500.0, 1320), (A, 550.0, 880), (B, 171.0, 880), (A, 640.0, 1120), (B, 213.0, 1600),
-         (B, 222.0, 840), (B, 243.0, 1080)]
-CFG = dict(name='portimao_mood', shots=SHOTS, song=os.path.join(ASSETS, 'songs', 'trend', 'purple_rain_prince.mp3'),
-           song_in=4.0, every=2, slow=0.5)
+# v2 (Desmond: "multiple bikes, not one person", "the song is too moody"): packs and battles only, no faces/celebrations
+SHOTS = [(B, 9.0, 980), (A, 10.0, 1400), (A, 170.0, 980), (B, 63.0, 920), (A, 420.0, 960), (A, 620.0, 860)]
+CFG = dict(name='portimao_mood', shots=SHOTS, song=os.path.join(ASSETS, 'songs', 'full', '05_montagem_kali_slowed.mp3'),
+           song_in=13.0, every=4, slow=0.5)   # bass-heavy instrumental ~136 BPM like AE1-AE5
 
 if __name__ == '__main__':
     fps = int(os.environ.get('DEX_FPS', 25))
