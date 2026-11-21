@@ -18,6 +18,11 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 17:55 Lagos (cloud session) - PC offline, cloud takes over (Desmond: "do your best edit and schedule it")
+- 17:55 Zernio: Vegas quali (12:00) PUBLISHED on both. Nothing scheduled after it. PC logged nothing after 08:30.
+- 17:55 START: MotoGP Portimao sprint edit (source: motogp.com official video, 1080p DASH - works from the cloud), NOV 17 rules,
+  target post ~19:30 Lagos today (18:00 slot already missed).
+
 ### Sat 21 Nov 08:25 Lagos (cloud session) - log every action, one line each
 - 08:25 Rule received (Desmond, via PC session): log EVERY action here right away (download, render, post scheduled/swapped/deleted,
   comment reply, campaign step, rule change); at session start pull + read the other session's lines and tell Desmond. Following it.
