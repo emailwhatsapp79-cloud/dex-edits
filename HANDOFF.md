@@ -18,6 +18,15 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 20:25 Lagos (PC session) - PC back online
+- 20:10 Read the cloud's lines: Bezzecchi lap-record edit posted Sat 18:50; POST DIRECTLY rule noted.
+- 20:12 Sun 08:00 plan changed: NO F1 race-day hype (the Vegas race ends ~07:00, before 08:00) -> MotoGP race-day hype instead.
+- 20:19 RENDERED engine/edit_db_portimao_race_day.py (lyric cards, 15.0 s, Can I Ride) on 2025 Portimao race footage (vP51RMuSUsk):
+  RACE DAY / BEZZECCHI pole + all-time lap record / MARC P2 on the grid / LAST YEAR Bezzecchi won here / RACE TODAY who takes it?
+- 20:24 SCHEDULED Sun 22 08:00 (Desmond asked to post it tomorrow, not now): YT 6b01ef66dc03baa3505850c0 / TT 6b01ef68a6f03a00ca2f7dac.
+- NEXT Sunday: 12:00 F1 Vegas race edit (F1 YouTube highlights ~07:00 - PC if on in the morning, else cloud);
+  18:00 MotoGP Portimao race edit (race ~15:00 - PC if on in the evening, else cloud).
+
 ### Sat 21 Nov 18:40 Lagos (cloud session)
 - 18:40 NEW RULE (Desmond): once an edit passes QC (picture + audio), PUBLISH IT DIRECTLY on both platforms (publish_now), then just tell Desmond it is live - no file to send. Added to CLAUDE.md (Posting).
 

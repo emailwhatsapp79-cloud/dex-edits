@@ -38,7 +38,9 @@ YouTube <= 60 s every post. F1 ~2/3, other series fill the rest. Every edit a di
 | Fri 20 18:00 | E16 QUALIFYING TONIGHT hype (2026-11-20-vegas-qualifying-tonight-25.mp4, Can I Ride) | YT 6af858488ea5514c3dbf21f9 / TT 6af8584a8ea5514c3dbf2208 |
 | Sat 21 08:00 | SUPER SATURDAY v2, 17.1 s (2026-11-21-super-saturday-v2-25 / -yt1440) - last pre-made post | YT 6afd3e9fc4b360eaaf5a7070 / TT 6afd3ea0c4b360eaaf5a7082 |
 | Sat 21 12:00 | FRESH: Vegas 2026 qualifying - Kimi fastest, Max on pole, 22.1 s (2026-11-21-vegas26-quali-25 / -yt1440) | YT 6b0147277fe923bccaec0fdb / TT 6b01472848ac025f65748ec4 |
-| Sat 21 18:00, Sun 22 all | FRESH Vegas quali/race + Portimao sprint/race clips - no Sunday backup needed | made on the day |
+| Sat 21 18:50 | (cloud) MotoGP: Bezzecchi takes Marc's all-time Portimao lap record, 21.8 s | YT 6b01d5b2ae8ad5be91d943cc / TT 6b01d5b69414bcef0cfb439d |
+| Sun 22 08:00 | MotoGP Portimao race-day hype, 15 s (2026-11-22-portimao-race-day-25 / -yt1440) | YT 6b01ef66dc03baa3505850c0 / TT 6b01ef68a6f03a00ca2f7dac |
+| Sun 22 12:00 + 18:00 | FRESH Vegas quali/race + Portimao sprint/race clips - no Sunday backup needed | made on the day |
 
 Sources: sources/2026-11-vegas-week/ (Vegas 2023/24/25 race, Vegas 2025 quali, Abu Dhabi 2025, MotoGP Portimao 2025,
 WEC Bahrain, NASCAR 2026 championship Homestead) + sources/2026-11-motogp-qatar/.
