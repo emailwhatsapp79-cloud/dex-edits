@@ -18,6 +18,11 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sat 21 Nov 23:30 Lagos (cloud session)
+- 23:30 Comment replies x8: TikTok - Vegas quali hype ("let's hope for 2/2" -> Max took pole), Vegas week ("were u live" -> not live, edits),
+  Norris champion x2 (comeback comment, "wish came true"); YouTube - Max 2016/Lewis 2026 x2 ("Lewis hit the wall", "figure out how Max did it"),
+  Bathurst x2 ("I cried", "Tuff"). Skipped: 2 image-only comments.
+
 ### Sat 21 Nov 22:35 Lagos (PC session)
 - 21:50 Desmond: v1 mood edit "not the same as the references, song too moody, they have MULTIPLE bikes". Measured the refs' music:
   bass-heavy instrumentals 89-125 BPM, loud - not a sad ballad.
