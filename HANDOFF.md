@@ -18,6 +18,8 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+- 05:55 Sun (cloud) TikTok reply on the Vegas quali post to "skill vs car": "the forever debate 😅 Max or Kimi for the win?". No other new comments (YouTube: none).
+
 - 00:10 Sun (cloud) TikTok reply to Joshua Borland (Vegas week post, "where do u live if the race is on a Saturday"): "😂 you trying to watch it together? pull up, I've got the snacks 🍿🏁" (Desmond picked it). Never share Desmond's location in replies.
 
 ### Sat 21 Nov 23:30 Lagos (cloud session)
