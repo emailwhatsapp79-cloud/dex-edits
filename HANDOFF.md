@@ -18,6 +18,9 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sun 22 Nov 08:00 Lagos (cloud session)
+- 08:00 PC silent since Sat 22:35 -> cloud STARTS the F1 Las Vegas race edit (formula1.com highlights, 720p - only F1 source the cloud can reach). Will post directly once QC passes.
+
 - 05:55 Sun (cloud) TikTok reply on the Vegas quali post to "skill vs car": "the forever debate 😅 Max or Kimi for the win?". No other new comments (YouTube: none).
 
 - 00:10 Sun (cloud) TikTok reply to Joshua Borland (Vegas week post, "where do u live if the race is on a Saturday"): "😂 you trying to watch it together? pull up, I've got the snacks 🍿🏁" (Desmond picked it). Never share Desmond's location in replies.
