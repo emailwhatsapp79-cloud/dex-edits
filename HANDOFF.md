@@ -127,3 +127,14 @@ it did.
 - Sunday: F1 Vegas race (05:00 Lagos, highlights ~07:00) -> 12:00 post; MotoGP Portimao race (~15:00) -> 18:00 post.
 - Aston Martin x Coinbase paid campaign: joined; waiting for ClipHaus to answer where the footage folder is (asked in their
   Discord #chathaus Nov 18). No clips made yet.
+
+### Sun 22 Nov ~20:45 Lagos (PC session)
+- Weekend check: Vegas race edit (cloud) YT 6,246 / TT 696; mood edit YT 999 / TT 227 (avg watch 3.6 s - keep mood format
+  for cinematic sources only); Vegas quali YT 2,649 / TT 798. MotoGP race 18:00 slot was missed. CLOUD: please log your
+  posts here (the Vegas race edit wasn't logged).
+- Comments, replied by hand in YouTube Studio / TikTok Studio INSIDE each thread (checked first that nobody had replied):
+  YouTube Vegas race Short: pinkpnth3r, djezzurr78, irminako5486, franskerens1305, MarkAKing-w9s, MirekSobel,
+  amanrahemani4334 (skipped valentiniliescu1537 - insult). YouTube: EmSokchournjunior (Vegas quali), alessiomanca4936
+  (Bez record). TikTok: theo.houkes6 (Vegas race), gewoonjaimey18's follow-up under our reply (Vegas quali).
+- Marc Marquez clinched the 2026 MotoGP title at Portimao (Bezzecchi won the race). Edit engine/edit_dd_marquez_champion.py
+  (~22 s, champion call cold open, "102 points behind" stake, Let The World Burn) rendering -> post directly after QC.
