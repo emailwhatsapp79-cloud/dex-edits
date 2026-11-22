@@ -18,6 +18,8 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+- 09:25 Sun (cloud) YouTube replies x2 on the Vegas race edit: "nothing Verstappen can do" -> "that line aged fast 😂🦁"; "Russell bottle job" -> "that late lock-up hurt 😬 tough end to a great fight". Stopped the race-highlights watcher (Desmond: usage high).
+
 ### Sun 22 Nov ~08:15 Lagos (cloud session)
 - 08:05 Result (formula1.com race report): Max wins Vegas from pole; Russell swapped the lead with him many times; Russell locked up -> P9,
   Antonelli issue -> P4; Norris P2, Piastri P3. Full race highlights NOT up yet at 08:05 (a background check keeps watching).
