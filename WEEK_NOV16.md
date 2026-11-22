@@ -61,3 +61,4 @@ DTM decider (NifV8pPz8Ec), Bathurst last lap + final 6 laps (sources/2026-11-oth
    (work/out/cj_mercedes_one_two_vegas24_v3_25*.mp4, 17.2 s, checked) - push + swap Wed 18:00. ALL 5 RE-CUTS DONE Nov 18 (Bathurst, Mercedes, Norris, Vegas week, Super Saturday). Was: still to render: Norris v3
    (Thu 12), Vegas week v2 (Thu 18), Super Saturday v2 (Sat 08) - scripts ready in engine/.
 | Sat 21 18:50 (cloud, fresh) | Bezzecchi breaks Marc's all-time Portimao lap record, 21.8 s (2026-11-21-bez-portimao-record-25 / -yt1440) | YT 6b01d5b2ae8ad5be91d943cc / TT 6b01d5b69414bcef0cfb439d |
+| Sun 22 ~08:15 (cloud, posted directly) | Las Vegas GP race: Russell takes the lead, Max takes it back, 21.2 s (2026-11-22-vegas26-race-max-wins-25 / -yt1440) | YT 6b0294821177e81d14b6c467 / TT 6b02948d1177e81d14b6c49f |

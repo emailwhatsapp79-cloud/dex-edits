@@ -18,6 +18,18 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+### Sun 22 Nov ~08:15 Lagos (cloud session)
+- 08:05 Result (formula1.com race report): Max wins Vegas from pole; Russell swapped the lead with him many times; Russell locked up -> P9,
+  Antonelli issue -> P4; Norris P2, Piastri P3. Full race highlights NOT up yet at 08:05 (a background check keeps watching).
+- 08:05 Downloaded formula1.com clips (720p50): 'Russell and Verstappen trade lead' (1882531463419115202), 'Verstappen leads off the grid'
+  (1882530768537215948).
+- 08:10 RENDERED engine/edit_dd_vegas26_race.py (21.2 s, song #04 Legacy phonk): commentary "warp speed for Russell... George Russell leads
+  in Las Vegas" + "here comes back Max Verstappen, round turn 17, sparks flying, retaking the lead"; banner LAS VEGAS GP | MAX WINS IT.
+  720p shown as a DOWNSCALED 16:9 band (1080x608) inside the frame - no upscale. QC: commentary clear over the music (whisper check), levels ok.
+- 08:15 PUBLISHED NOW (POST DIRECTLY rule): YT 6b0294821177e81d14b6c467 ("Las Vegas GP | Russell takes the lead, Max takes it back")
+  / TT 6b02948d1177e81d14b6c49f. Files videos/2026-11-22-vegas26-race-max-wins-25(-yt1440).mp4.
+- NEXT: 18:00 MotoGP Portimao race (~15:00 Lagos) - motogp.com race videos are probably VideoPass-locked; cloud will use any free clip.
+
 ### Sun 22 Nov 08:00 Lagos (cloud session)
 - 08:00 PC silent since Sat 22:35 -> cloud STARTS the F1 Las Vegas race edit (formula1.com highlights, 720p - only F1 source the cloud can reach). Will post directly once QC passes.
 
