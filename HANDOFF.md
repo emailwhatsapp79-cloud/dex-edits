@@ -140,3 +140,11 @@ it did.
   (~22 s, champion call cold open, "102 points behind" stake, Let The World Burn) rendering -> post directly after QC.
 - 20:55 Sun: Marquez champion edit (22.8 s) PUBLISHED directly: TikTok 6b03484dccdb5bbe1122a664, YouTube (1440p)
   6b034860799b72e361510eef. Files videos/2026-11-22-marquez-champion(.mp4|-yt1440.mp4).
+- 21:20 Sun: Desmond approved WEEK_NOV23.md (read it - exact Qatar/Valencia session times in Lagos time are there).
+  Mon 08:00 scheduled: Bezzecchi won everything, still lost the title (18.6 s). Making Mon 12:00 + 18:00 from the F1 Vegas
+  race highlights (Vyk_6bNm7lo) tonight.
+- TIKTOK TAKEDOWN: the Sat 21 18:00 post "bezzecchi just took marc's all-time portimao record" is now "Only me" / "Video
+  currently unavailable" (85 views). The reason only shows in the TikTok app inbox (System notifications) - Desmond to check.
+- CLOUD: if the PC is off this weekend, you make + post the same-day edits (Sat MotoGP quali 11:30 / sprint 15:00, Sun MotoGP
+  race 14:00, F1 Qatar quali Sat 19:00 + race Sun 17:00, all Lagos time). Friday has only practice: its 3 posts get made
+  and scheduled on Thursday.
