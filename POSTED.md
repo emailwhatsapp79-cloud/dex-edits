@@ -108,3 +108,7 @@ Update it every week (and after each batch of posts): same story / same driver m
 | Tue 17 08:00 | Antonelli loses the lead in Brazil (radio) | 28 s | 1,300 | 274 |
 | Tue 17 12:00 | NASCAR Homestead, Larson champion | 52 s | 2 (never in Shorts feed, NASCAR claim) | 279 |
 | Tue 17 18:00 | Vegas 2025: Max wins, both McLarens DSQ | 26 s | 843 after 3.5 h | 1,906 after 4 h |
+| Sat 21 12:00 | Vegas quali: Kimi fastest, Max on pole ("take a P2") | 22 s | 2,649 | 798 |
+| Sun 22 08:00 | Portimao mood edit (MotoGP, no text) | 16 s | 999 | 227 |
+| Sun 22 ~08:00 | Vegas race: Russell leads, Max takes it back (cloud) | 21 s | 6,246 | 696 |
+| Sun 22 20:55 | Marc Marquez 2026 MotoGP champion ("102 points behind") | 23 s | new | new |

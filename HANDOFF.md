@@ -138,3 +138,5 @@ it did.
   (Bez record). TikTok: theo.houkes6 (Vegas race), gewoonjaimey18's follow-up under our reply (Vegas quali).
 - Marc Marquez clinched the 2026 MotoGP title at Portimao (Bezzecchi won the race). Edit engine/edit_dd_marquez_champion.py
   (~22 s, champion call cold open, "102 points behind" stake, Let The World Burn) rendering -> post directly after QC.
+- 20:55 Sun: Marquez champion edit (22.8 s) PUBLISHED directly: TikTok 6b03484dccdb5bbe1122a664, YouTube (1440p)
+  6b034860799b72e361510eef. Files videos/2026-11-22-marquez-champion(.mp4|-yt1440.mp4).
