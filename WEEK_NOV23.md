@@ -2,8 +2,8 @@
 
 Rules: NOV 17 (15-20 s, 25 max, cold open on the payoff, caption = hook + question + 👇 then CTA), F1 + MotoGP first,
 3 posts a day 08:00 / 12:00 / 18:00 Lagos, strongest at 18:00, post directly after QC. Mood format only for cinematic sources.
-Next races: F1 Qatar (sprint weekend) + MotoGP Valencia finale, Fri 27 - Sun 29 Nov. Then F1 Abu Dhabi finale Dec 4-6.
-Session times: check the official calendars on Thursday before planning the weekend.
+Next races: F1 Qatar (normal weekend, no sprint) + MotoGP Valencia finale, Fri 27 - Sun 29 Nov. Then F1 Abu Dhabi finale Dec 4-6.
+Session times: below (re-check MotoGP on Thursday).
 
 ## Mon 23 - Thu 26 (fresh first, then Qatar/Valencia build-up)
 | Day | 08:00 | 12:00 | 18:00 |
@@ -11,7 +11,7 @@ Session times: check the official calendars on Thursday before planning the week
 | Mon 23 | DONE, scheduled 08:00: Bezzecchi won everything, still lost the title (YT 6b034e00c8eddf9c0df96d32 / TT 6b034dfe734d903ab976ddc0) | F1 Vegas: the moment it turned (Russell's late lock-up) - "whose fault? 👇" | F1 Vegas: best team radio of the race |
 | Tue 24 | MotoGP: Marc's reaction (parc ferme / interview) - "greatest of all time? 👇" | F1 Vegas start + turn 1 | Qatar flashback: 2025 safety car, McLaren don't pit, Max wins - "whose fault? 👇" |
 | Wed 25 | MotoGP Valencia preview: last race of 2026, what is still at stake | F1 Vegas fresh moment (overtake / pit-stop drama) | Qatar flashback: 2024 Norris stop-go penalty / Max vs Russell grid row |
-| Thu 26 | F1 Qatar week hype (sprint weekend, night race) - "who wins? 👇" | MotoGP 2026 season in 20 s (Marc vs Marco) | strongest Qatar flashback still unused |
+| Thu 26 | F1 Qatar week hype (night race) - "who wins? 👇" | MotoGP 2026 season in 20 s (Marc vs Marco) | strongest Qatar flashback still unused |
 
 ## Fri 27 - Sun 29 - EXACT TIMES (Lagos, WAT). Qatar = Lagos +2 h, Valencia = same time as Lagos. NO F1 sprint in Qatar.
 Sources: formula1.com official timetable (Qatar), paddocknews24 / global-tickets (Valencia, re-check motogp.com Thu).
