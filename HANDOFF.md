@@ -148,3 +148,27 @@ it did.
 - CLOUD: if the PC is off this weekend, you make + post the same-day edits (Sat MotoGP quali 11:30 / sprint 15:00, Sun MotoGP
   race 14:00, F1 Qatar quali Sat 19:00 + race Sun 17:00, all Lagos time). Friday has only practice: its 3 posts get made
   and scheduled on Thursday.
+
+### Mon 23 Nov ~06:45 Lagos (PC session) - WHOLE WEEK MON-FRI IS SCHEDULED (15 posts, TikTok + YouTube 1440p each)
+| Slot | Post | file (videos/) |
+|---|---|---|
+| Mon 08 | Bezzecchi won everything, still lost the title (MotoGP) | 2026-11-23-bezzecchi-wins-loses-title |
+| Mon 12 | Ferrari vs Ferrari, Leclerc + Hamilton collide (Vegas) | 2026-11-23-ferrari-collide-vegas |
+| Mon 18 | Russell's win chance gone in one corner (Vegas) | 2026-11-23-russell-wall-vegas |
+| Tue 08 | Norris goes past both of them (Vegas) | 2026-11-24-norris-past-both-vegas |
+| Tue 12 | Hadjar P2 in a Red Bull 1-2, then the sparks (Vegas) | 2026-11-24-hadjar-sparks-vegas |
+| Tue 18 | Qatar 2025: McLaren didn't pit, Max won | 2026-11-24-qatar25-mclaren-no-stop |
+| Wed 08 | Valencia 2025: Bez wins, "watch out in 2026" (MotoGP) | 2026-11-25-valencia25-bez-watch-out |
+| Wed 12 | Antonelli falls away on the last lap (Vegas) | 2026-11-25-antonelli-falls-away-vegas |
+| Wed 18 | Qatar 2024: Norris stop-go, didn't lift | 2026-11-25-qatar24-norris-stop-go |
+| Thu 08 | Qatar week hype (2025 start, 3 title contenders) | 2026-11-26-qatar-week-hype |
+| Thu 12 | Qatar 2024: one mirror, two punctures | 2026-11-26-qatar24-mirror-punctures |
+| Thu 18 | Qatar 2024: Lando vs Max into turn 1 | 2026-11-26-qatar24-lando-max-turn1 |
+| Fri 08 | Valencia 2025: Pecco's year ends in the gravel (MotoGP) | 2026-11-27-valencia25-pecco-gravel |
+| Fri 12 | Qatar 2025: millimetres from losing the title | 2026-11-27-qatar25-millimetres |
+| Fri 18 | Leclerc "I was at fault" / Hamilton "for the team" | 2026-11-27-leclerc-hamilton-react |
+- Comments Mon 06:00: YouTube replies to paulsmith, BartSoprano, RinusBakker, nielsklarenberg, DirkBerghmans; TikTok yeahhhboyjrjr.
+  Skipped: insults, the fanan29 Dorna accusation thread, emoji-only.
+- NEXT fresh work (Lagos): Fri ~20:00 F1 FP2 -> Sat 08:00; Sat ~12:15 MotoGP quali -> post ~13:00; Sat ~16:15 sprint -> 18:00;
+  Sat ~21:00 F1 quali -> Sun 08:00; Sun ~15:30 MotoGP race -> 18:00; Sun ~20:30 F1 race -> post that night + Mon 08:00.
+  PC session if the PC is on, CLOUD if it is off.
