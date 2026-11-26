@@ -18,6 +18,8 @@ it did.
   YouTube highlights. Finished videos go in videos/ (GitHub raw URL = the Zernio media URL).
 
 ## Status - newest on top
+- 05:10 Thu 26 Nov (cloud) Comment replies x8: YT Marquez champion x3 (8th for the 8th, GOAT, gladiator), YT Valencia (102 points comeback), YT Lando move (Russell again), YT Ferrari clash (Lewis retire -> tough night for Ferrari); TikTok Qatar penalty (too harsh -> would 5 s have been fair?), TikTok Lando move (world champion moves). Skipped: emoji-only, image-only, the Italian/Dorna flame threads under the Marquez post.
+
 - 09:25 Sun (cloud) YouTube replies x2 on the Vegas race edit: "nothing Verstappen can do" -> "that line aged fast 😂🦁"; "Russell bottle job" -> "that late lock-up hurt 😬 tough end to a great fight". Stopped the race-highlights watcher (Desmond: usage high).
 
 ### Sun 22 Nov ~08:15 Lagos (cloud session)
