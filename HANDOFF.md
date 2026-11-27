@@ -174,3 +174,16 @@ it did.
 - NEXT fresh work (Lagos): Fri ~20:00 F1 FP2 -> Sat 08:00; Sat ~12:15 MotoGP quali -> post ~13:00; Sat ~16:15 sprint -> 18:00;
   Sat ~21:00 F1 quali -> Sun 08:00; Sun ~15:30 MotoGP race -> 18:00; Sun ~20:30 F1 race -> post that night + Mon 08:00.
   PC session if the PC is on, CLOUD if it is off.
+
+### Fri 27 Nov ~22:10 Lagos (PC session)
+- Weekly analysis in ANALYSIS.md (YouTube +151% views, subs 91 -> 136; TikTok flat). Content ID: Qatar week hype (FqDTOUgkMQk)
+  blocked worldwide by F1 (16 s unbroken race start); rule = no F1 run > ~8-10 s, no Purple Rain / PayGotti.
+- NEW FOOTBALL CHANNEL: TikTok @dexedits62 + YouTube @dexedits-y3y, on a SEPARATE Zernio account. The key is on the PC only
+  (~/.config/dex-football/zernio.key), so the cloud session cannot post football. Plan: FOOTBALL_PLAN.md. First post
+  LIVE: FB01 Arsenal v City "come for the king" (TikTok 7712952828079394068, YouTube j4c8TIHzI38).
+  Script: engine/zernio_post.py.
+- F1 channel Sat 08:00 scheduled: Marquez retires (TT 6b09f1608da39b784661d251 / YT 6b09f1668fc85a387c6d715a). The MotoGP
+  retirement video is frozen 0:46-2:12 on YouTube; use the -cfr copy.
+- Reminders (scheduled tasks): football check daily at 08:30, F1 weekly on Monday 09:00, plus one before each off-season event.
+- Still to make this weekend: Sat ~12:15 MotoGP quali, ~16:15 sprint -> 18:00, Sat ~21:00 F1 quali -> Sun 08:00, Sun MotoGP race
+  -> 18:00, Sun F1 race ~20:30. F1 FP2 highlights were not up yet at 21:00.
