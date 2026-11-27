@@ -18,6 +18,8 @@ youtube 6b09daa8630ef5302d694105. The F1 channel (@dex_edit0 / Dex Edits) keeps 
 - DAILY (Desmond Nov 27: football plays every day, midweek too). A daily 08:30 check researches today's matches and
   stories. Slots: the same 08:00 / 12:00 / 18:00 as F1 is fine (different key and account ids, so nothing gets mixed up),
   plus a late post ~1-2 h after a big evening match ends.
+- Big evening match (Desmond Nov 27): a PRE-MATCH clip a few hours before kick-off ("how will this go? 👇" - last
+  meeting's key moment, form, the star to watch), then the result moment after full time.
 - Match days: post the big moment the same evening (highlights land ~1-2 h after full time) and post directly once QC passes.
 - Days with no matches: pressers, transfer stories, records, "on this day", rivalry stats.
 - Footage: official club and league YouTube channels (yt-dlp, 1080p), saved in sources/football-YYYY-MM/.
