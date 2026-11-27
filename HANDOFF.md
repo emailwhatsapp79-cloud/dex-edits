@@ -187,3 +187,6 @@ it did.
 - Reminders (scheduled tasks): football check daily at 08:30, F1 weekly on Monday 09:00, plus one before each off-season event.
 - Still to make this weekend: Sat ~12:15 MotoGP quali, ~16:15 sprint -> 18:00, Sat ~21:00 F1 quali -> Sun 08:00, Sun MotoGP race
   -> 18:00, Sun F1 race ~20:30. F1 FP2 highlights were not up yet at 21:00.
+- Sat 28 ~01:00: scheduled Sat 12:00 F1 Ferrari's Friday in Qatar (TT 6b0a185c619d0c3b89569389 / YT 6b0a185d0c21d5e5d6f132cb);
+  football Sat 13:00 FB02 Martinelli v City (football Zernio 6b0a134424277ccaa53670f9 / 6b0a13472689ca9cc6025433).
+  Desmond: send him EVERY video (phone copies in previews/), football edits 20-28 s with the full story.
